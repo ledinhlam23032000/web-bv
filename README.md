@@ -9,6 +9,7 @@
 
 ## Đọc trước khi làm gì
 
+- Nếu chỉ gửi 1 tài liệu cho AI kế nhiệm: [docs/SUPER-PROMPT.md](./docs/SUPER-PROMPT.md)
 - Bối cảnh dự án: [PROJECT-CONTEXT.md](./PROJECT-CONTEXT.md)
 - Handoff kỹ thuật cho AI/dev: [docs/AI-HANDOFF.md](./docs/AI-HANDOFF.md)
 - Runbook khẩn cấp: [docs/EMERGENCY-RUNBOOK.md](./docs/EMERGENCY-RUNBOOK.md)

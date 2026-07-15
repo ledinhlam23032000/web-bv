@@ -2,6 +2,8 @@
 
 Tài liệu này dành cho AI coding agent, đội dev hoặc người tiếp quản cần hiểu nhanh website hiện tại.
 
+Nếu chỉ được gửi một file duy nhất cho AI mới, hãy gửi [SUPER-PROMPT.md](./SUPER-PROMPT.md) trước.
+
 ## 1. Repo này là gì
 
 Đây là website demo cho **Bệnh viện Đa khoa Hồng Phúc** với giao diện public bằng Next.js và lớp CMS nội dung bằng WordPress headless.
