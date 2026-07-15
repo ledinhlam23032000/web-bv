@@ -16,13 +16,13 @@ export default function PackagesPage() {
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Gói khám" }]} />
       <PageHero
         eyebrow="Gói khám và chương trình chăm sóc"
-        title="Lộ trình kiểm tra sức khỏe được xây dựng theo từng nhóm nhu cầu."
-        description="Hồng Phúc tổ chức các gói khám cho cá nhân, phụ nữ, nhóm nguy cơ ung bướu, người bận rộn và doanh nghiệp, với tư vấn trước khám và hướng dẫn sau khi có kết quả."
+        title="Chọn gói khám phù hợp với độ tuổi, sức khỏe và thời gian của bạn."
+        description="Hồng Phúc có các gói khám dành cho cá nhân, phụ nữ, người có nguy cơ ung thư, người bận rộn và doanh nghiệp. Trước khi đăng ký, người bệnh được tư vấn để tránh làm những hạng mục chưa cần thiết."
         imageSrc="/images/consultation.webp"
         imageAlt="Tư vấn về gói khám sức khỏe"
         actions={[
           { href: "/dat-lich", label: "Đặt lịch theo gói khám" },
-          { href: "/lien-he", label: "Nhận tư vấn riêng", variant: "secondary" },
+          { href: "/lien-he", label: "Được tư vấn chọn gói", variant: "secondary" },
         ]}
       />
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">

@@ -15,7 +15,7 @@ const valuePoints = [
   {
     title: "Phối hợp liên chuyên khoa",
     description:
-      "Người bệnh được đánh giá theo cùng một mạch lâm sàng, nhất là khi triệu chứng liên quan đến nhiều chuyên khoa.",
+      "Các bác sĩ cùng trao đổi trong một kế hoạch chăm sóc, nhất là khi triệu chứng liên quan đến nhiều chuyên khoa.",
     icon: BrainCircuit,
   },
   {
@@ -40,13 +40,13 @@ export default function DoctorsPage() {
       />
       <PageHero
         eyebrow="Đội ngũ bác sĩ"
-        title="Chuyên gia theo từng lĩnh vực, kết nối trong một hệ thống đa khoa."
-        description="Hồng Phúc giới thiệu đội ngũ bác sĩ theo chuyên khoa, thế mạnh lâm sàng, lịch tiếp nhận và dịch vụ liên quan để người bệnh có thêm cơ sở lựa chọn trước khi đặt lịch."
+        title="Bác sĩ chuyên sâu từng lĩnh vực, phối hợp khi người bệnh cần nhiều chuyên khoa."
+        description="Xem lĩnh vực chuyên môn, kinh nghiệm, lịch khám và các dịch vụ liên quan của từng bác sĩ để lựa chọn người phù hợp trước khi đặt lịch."
         imageSrc="/images/doctor-team-premium.webp"
         imageAlt="Đội ngũ bác sĩ Bệnh viện Đa khoa Hồng Phúc"
         actions={[
           { href: "/dat-lich", label: "Đặt lịch với bác sĩ" },
-          { href: "/chuyen-khoa", label: "Xem theo chuyên khoa", variant: "secondary" },
+          { href: "/chuyen-khoa", label: "Xem theo khoa", variant: "secondary" },
         ]}
       />
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">

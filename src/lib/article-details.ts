@@ -18,13 +18,13 @@ export const articleDetails: Record<string, ArticleDetail> = {
     "excerpt": "Được thành lập từ năm 2011, Bệnh viện Đa khoa Hồng Phúc đã trải qua hơn một thập kỷ xây dựng và phát triển, từng bước trở thành địa chỉ chăm sóc sức khỏe được đông đảo người dân Hải Phòng và các tỉnh thành lân cận tin tưởng lựa chọn.",
     "intro": [
       "Được thành lập từ năm 2011, Bệnh viện Đa khoa Hồng Phúc đã trải qua hơn một thập kỷ xây dựng và phát triển, từng bước trở thành địa chỉ chăm sóc sức khỏe được đông đảo người dân Hải Phòng và các tỉnh thành lân cận tin tưởng lựa chọn.",
-      "Tọa lạc tại số 5 Hồ Xuân Hương, Hồng Bàng, Hải Phòng, bệnh viện sở hữu vị trí thuận tiện, đáp ứng nhu cầu thăm khám, chẩn đoán, điều trị và chăm sóc sức khỏe của người dân trong khu vực, người bệnh từ các địa phương khác cũng như khách hàng quốc tế đang sinh sống và làm việc tại Việt Nam."
+      "Tọa lạc tại số 5 Hồ Xuân Hương, Hồng Bàng, Hải Phòng, bệnh viện có vị trí thuận tiện để phục vụ người dân trong khu vực, người bệnh từ các địa phương khác và người nước ngoài đang sinh sống, làm việc tại Việt Nam."
     ],
     "sections": [
       {
         "heading": "Nội dung chính",
         "paragraphs": [
-          "Với định hướng phát triển theo mô hình bệnh viện đa khoa quốc tế, Hồng Phúc không chỉ chú trọng nâng cao chất lượng chuyên môn mà còn hướng đến một trải nghiệm khám chữa bệnh chuyên nghiệp, thuận tiện và thân thiện. Mỗi người bệnh khi đến Hồng Phúc đều được tiếp đón, tư vấn và chăm sóc dựa trên tình trạng sức khỏe cụ thể, thay vì áp dụng một quy trình cứng nhắc cho tất cả mọi người.",
+          "Với định hướng phát triển thành bệnh viện đa khoa quy mô lớn, có nhiều chuyên khoa và tăng cường hợp tác chuyên môn trong khu vực, Hồng Phúc chú trọng đồng thời chất lượng điều trị, sự thuận tiện và thái độ phục vụ. Mỗi người bệnh được tiếp đón, tư vấn và chăm sóc dựa trên tình trạng sức khỏe cụ thể, thay vì áp dụng một quy trình cứng nhắc cho tất cả mọi người.",
           "Trong suốt hành trình hoạt động, Bệnh viện Đa khoa Hồng Phúc đã đồng hành cùng hàng triệu lượt người bệnh và gia đình trong việc kiểm tra, bảo vệ và phục hồi sức khỏe. Sự tin tưởng ấy không chỉ được tạo nên từ năng lực khám chữa bệnh mà còn đến từ tinh thần trách nhiệm, thái độ phục vụ tận tâm và nỗ lực cải thiện chất lượng mỗi ngày.",
           "Hồng Phúc hướng đến xây dựng một môi trường y tế nơi chuyên môn được đặt lên hàng đầu, công nghệ được ứng dụng hợp lý và người bệnh luôn là trung tâm của mọi hoạt động. Từ khâu tiếp đón, thăm khám đến chẩn đoán, điều trị và theo dõi sau điều trị, bệnh viện không ngừng hoàn thiện quy trình nhằm mang lại sự an tâm và thuận tiện cho người bệnh.",
           "Không dừng lại ở nhiệm vụ điều trị khi bệnh đã xuất hiện, Bệnh viện Đa khoa Hồng Phúc còn mong muốn trở thành người bạn đồng hành lâu dài của mỗi gia đình trong chăm sóc sức khỏe chủ động, tầm soát bệnh sớm và duy trì chất lượng cuộc sống.",
@@ -191,7 +191,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "hop-tac-quoc-te-trong-y-te-nguoi-benh-duoc-huong-loi-gi": {
     "sourceFile": "3.Hợp tác quốc tế trong y tế Người bệnh được hưởng lợi gì.docx",
-    "title": "Hợp tác quốc tế trong y tế: Người bệnh được hưởng lợi gì?",
+    "title": "Hợp tác quốc tế trong y tế: người bệnh được hưởng lợi gì?",
     "excerpt": "Nhắc đến hợp tác quốc tế trong y tế, nhiều người thường hình dung đến những bản ký kết trang trọng, bác sĩ nước ngoài đến thăm bệnh viện hoặc các thiết bị hiện đại được nhập khẩu từ nước ngoài. Tuy nhiên, giá trị thực sự của hợp tác quốc tế không nằm ở một buổi lễ hay một cái tên nổi tiếng xuất hiện trên bảng giới thiệu.",
     "intro": [
       "Nhắc đến hợp tác quốc tế trong y tế, nhiều người thường hình dung đến những bản ký kết trang trọng, bác sĩ nước ngoài đến thăm bệnh viện hoặc các thiết bị hiện đại được nhập khẩu từ nước ngoài. Tuy nhiên, giá trị thực sự của hợp tác quốc tế không nằm ở một buổi lễ hay một cái tên nổi tiếng xuất hiện trên bảng giới thiệu.",
@@ -290,7 +290,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "paragraphs": [
           "Kiến thức y khoa luôn thay đổi. Những hướng dẫn chẩn đoán, phương pháp điều trị, công nghệ và tiêu chuẩn an toàn có thể được cập nhật khi có thêm bằng chứng mới.",
           "Vì vậy, bằng cấp ban đầu là nền tảng nhưng không phải điểm kết thúc của quá trình học tập. Bác sĩ, điều dưỡng, kỹ thuật viên và các bộ phận liên quan đều cần được đào tạo liên tục.",
-          "WHO cho rằng phát triển đội ngũ y tế không chỉ cần đủ về số lượng mà còn phải bảo đảm chất lượng, năng lực và mức độ phù hợp với nhu cầu chăm sóc. Các hình thức cố vấn lâm sàng, đào tạo thực hành và hỗ trợ sau đào tạo có thể giúp nhân viên duy trì kỹ năng và xử lý những khó khăn phát sinh trong quá trình áp dụng."
+          "Tổ chức Y tế Thế giới cho rằng phát triển đội ngũ y tế không chỉ cần đủ về số lượng mà còn phải bảo đảm chất lượng, năng lực và mức độ phù hợp với nhu cầu chăm sóc. Các hình thức cố vấn lâm sàng, đào tạo thực hành và hỗ trợ sau đào tạo có thể giúp nhân viên duy trì kỹ năng và xử lý những khó khăn phát sinh trong quá trình áp dụng."
         ]
       },
       {
@@ -305,7 +305,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Kỹ thuật viên xét nghiệm và thiết bị y tế.",
           "Nhân viên kiểm soát nhiễm khuẩn.",
           "Bộ phận quản lý chất lượng.",
-          "Nhân viên tiếp nhận và chăm sóc khách hàng.",
+          "Nhân viên tiếp nhận và hỗ trợ người bệnh.",
           "Khi các vị trí cùng hiểu quy trình, phối hợp giữa các bộ phận sẽ liền mạch hơn. Người bệnh không chỉ được hưởng lợi ở phòng khám hay phòng mổ mà còn từ những khâu tưởng như rất nhỏ: xác nhận thông tin, dùng thuốc, bàn giao, vệ sinh tay và hướng dẫn sau khi ra viện."
         ]
       },
@@ -330,7 +330,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Nâng cao an toàn người bệnh",
         "paragraphs": [
           "Thông qua trao đổi kinh nghiệm, bệnh viện có thể học hỏi cách kiểm soát nhiễm khuẩn, phòng ngừa sai sót, quản lý thuốc, xác định đúng người bệnh và cải thiện quy trình phẫu thuật.",
-          "Các chương trình hợp tác về an toàn người bệnh do WHO ghi nhận đã hỗ trợ bệnh viện xây dựng hoạt động đào tạo, nâng cao tuân thủ quy trình và thúc đẩy việc học hỏi từ các sự cố.",
+          "Các chương trình hợp tác về an toàn người bệnh do Tổ chức Y tế Thế giới ghi nhận đã hỗ trợ bệnh viện xây dựng hoạt động đào tạo, nâng cao tuân thủ quy trình và thúc đẩy việc học hỏi từ các sự cố.",
           "Mục tiêu không phải là khẳng định môi trường y tế có thể hoàn toàn không xảy ra rủi ro. Điều quan trọng là rủi ro được nhận diện, báo cáo, phân tích và có biện pháp hạn chế tái diễn."
         ]
       },
@@ -390,7 +390,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "quy-trinh-kham-tai-hong-phuc-tu-dat-lich-den-nhan-ket-qua": {
     "sourceFile": "4.Quy trình khám tại Bệnh viện Đa khoa Hồng Phúc Từ đặt lịch đến nhận kết quả.docx",
-    "title": "Quy trình khám tại Bệnh viện Đa khoa Hồng Phúc: Từ đặt lịch đến nhận kết quả",
+    "title": "Quy trình khám tại Bệnh viện Đa khoa Hồng Phúc: từ đặt lịch đến nhận kết quả",
     "excerpt": "Đi khám bệnh đôi khi khiến nhiều người cảm thấy bối rối: nên đăng ký ở đâu, cần mang theo giấy tờ gì, khám xong có phải tự tìm phòng xét nghiệm hay kết quả sẽ được hướng dẫn như thế nào? Với người lớn tuổi, người lần đầu đến bệnh viện hoặc gia đình đưa trẻ nhỏ đi khám, những câu hỏi tưởng chừng đơn giản này lại có thể tạo ra không ít áp lực.",
     "intro": [
       "Đi khám bệnh đôi khi khiến nhiều người cảm thấy bối rối: nên đăng ký ở đâu, cần mang theo giấy tờ gì, khám xong có phải tự tìm phòng xét nghiệm hay kết quả sẽ được hướng dẫn như thế nào? Với người lớn tuổi, người lần đầu đến bệnh viện hoặc gia đình đưa trẻ nhỏ đi khám, những câu hỏi tưởng chừng đơn giản này lại có thể tạo ra không ít áp lực.",
@@ -878,7 +878,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "kham-suc-khoe-dinh-ky-cho-doanh-nghiep-doanh-nghiep-nen-chuan-bi-gi": {
     "sourceFile": "6.Khám sức khỏe định kỳ cho doanh nghiệp.docx",
-    "title": "Khám sức khỏe định kỳ cho doanh nghiệp: Doanh nghiệp cần chuẩn bị những gì?",
+    "title": "Khám sức khỏe định kỳ cho doanh nghiệp: doanh nghiệp cần chuẩn bị những gì?",
     "excerpt": "Tổ chức khám sức khỏe định kỳ cho người lao động không đơn giản là chọn một gói khám, gửi danh sách nhân sự rồi chờ ngày triển khai. Với doanh nghiệp có vài chục người, quy trình có thể tương đối gọn. Nhưng khi số lượng nhân sự lên đến hàng trăm, làm việc theo ca hoặc phân bố tại nhiều bộ phận, chỉ một khâu chuẩn bị thiếu rõ ràng cũng có thể dẫn đến ùn tắc, bỏ sót người khám, nhầm thông tin hoặc ảnh hưởng đến hoạt động sản xuất.",
     "intro": [
       "Tổ chức khám sức khỏe định kỳ cho người lao động không đơn giản là chọn một gói khám, gửi danh sách nhân sự rồi chờ ngày triển khai. Với doanh nghiệp có vài chục người, quy trình có thể tương đối gọn. Nhưng khi số lượng nhân sự lên đến hàng trăm, làm việc theo ca hoặc phân bố tại nhiều bộ phận, chỉ một khâu chuẩn bị thiếu rõ ràng cũng có thể dẫn đến ùn tắc, bỏ sót người khám, nhầm thông tin hoặc ảnh hưởng đến hoạt động sản xuất.",
@@ -1264,7 +1264,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "tam-soat-tim-mach-ai-nen-thuc-hien-va-nen-kiem-tra-nhung-gi": {
     "sourceFile": "7.Tầm soát tim mạch ai nên thực hiện và nên kiểm tra những gì.docx",
-    "title": "Tầm soát tim mạch: Ai nên thực hiện và nên kiểm tra những gì?",
+    "title": "Tầm soát tim mạch: ai nên thực hiện và nên kiểm tra những gì?",
     "excerpt": "Tim vẫn đập đều, cơ thể vẫn sinh hoạt bình thường nên nhiều người cho rằng mình chưa cần kiểm tra tim mạch. Tuy nhiên, một số yếu tố nguy cơ như tăng huyết áp, rối loạn mỡ máu hoặc đường huyết cao có thể tồn tại trong thời gian dài mà chưa tạo ra biểu hiện rõ ràng.",
     "intro": [
       "Tim vẫn đập đều, cơ thể vẫn sinh hoạt bình thường nên nhiều người cho rằng mình chưa cần kiểm tra tim mạch. Tuy nhiên, một số yếu tố nguy cơ như tăng huyết áp, rối loạn mỡ máu hoặc đường huyết cao có thể tồn tại trong thời gian dài mà chưa tạo ra biểu hiện rõ ràng.",
@@ -1296,7 +1296,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Sự phân biệt này rất quan trọng. Một gói tầm soát dành cho người khỏe mạnh không thể thay thế quá trình khám chuyên khoa ở người đang đau ngực, khó thở hoặc có biểu hiện nghi ngờ bệnh tim.",
       "Vì sao cần tầm soát khi chưa có triệu chứng?",
       "Một số yếu tố nguy cơ tim mạch không tạo ra cảm giác đau hay khó chịu trong giai đoạn đầu. Tăng huyết áp là ví dụ điển hình: người bệnh có thể vẫn cảm thấy bình thường và chỉ phát hiện khi được đo huyết áp.",
-      "USPSTF khuyến nghị người trưởng thành từ 18 tuổi trở lên nên được kiểm tra huyết áp. Khi kết quả tại cơ sở y tế tăng, huyết áp tại nhà hoặc huyết áp lưu động có thể được sử dụng để xác nhận trước khi bác sĩ đưa ra chẩn đoán và kế hoạch điều trị.",
+      "Nhóm chuyên gia về phòng bệnh của Hoa Kỳ khuyến nghị người trưởng thành từ 18 tuổi trở lên nên được kiểm tra huyết áp. Khi kết quả tại cơ sở y tế tăng, huyết áp tại nhà hoặc huyết áp lưu động có thể được sử dụng để xác nhận trước khi bác sĩ đưa ra chẩn đoán và kế hoạch điều trị.",
       "Cholesterol và đường huyết cũng thường được đánh giá trong chương trình chăm sóc dự phòng. Kết quả chưa tối ưu không có nghĩa người được khám chắc chắn sẽ mắc bệnh tim, nhưng đó là cơ sở để điều chỉnh chế độ ăn, vận động, cân nặng hoặc điều trị khi cần thiết.",
       "Phát hiện sớm một yếu tố nguy cơ thường dễ xử lý hơn so với chờ đến khi cơ thể xuất hiện biến chứng. Tuy nhiên, tầm soát chỉ mang lại giá trị khi kết quả được bác sĩ giải thích và chuyển thành kế hoạch chăm sóc cụ thể.",
       "Ai nên thực hiện tầm soát tim mạch?",
@@ -1340,7 +1340,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Không nên tự ý ngừng thuốc khi huyết áp trở về mức ổn định. Kết quả tốt có thể chính là dấu hiệu cho thấy thuốc và thay đổi lối sống đang phát huy tác dụng.",
       "5. Người mắc tiểu đường hoặc tiền tiểu đường",
       "Đường huyết cao thường đi cùng các vấn đề như thừa cân, tăng huyết áp và rối loạn mỡ máu. Sự kết hợp này làm nguy cơ tim mạch tăng lên.",
-      "USPSTF khuyến nghị tầm soát tiền tiểu đường và tiểu đường type 2 ở người trưởng thành 35–70 tuổi có thừa cân hoặc béo phì. Xét nghiệm có thể sử dụng đường huyết lúc đói, HbA1c hoặc nghiệm pháp dung nạp glucose tùy tình huống.",
+      "Nhóm chuyên gia về phòng bệnh của Hoa Kỳ khuyến nghị tầm soát tiền đái tháo đường và đái tháo đường típ 2 ở người trưởng thành 35–70 tuổi có thừa cân hoặc béo phì. Xét nghiệm có thể sử dụng đường huyết lúc đói, HbA1c hoặc nghiệm pháp dung nạp glucose tùy tình huống.",
       "Người đã mắc tiểu đường cần theo dõi các chỉ số tim mạch theo kế hoạch riêng, không chỉ tập trung vào đường huyết.",
       "6. Người có rối loạn mỡ máu",
       "Cholesterol LDL và một số thành phần lipid có liên quan đến quá trình hình thành mảng xơ vữa trong động mạch.",
@@ -1351,7 +1351,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Triglyceride.",
       "Non-HDL cholesterol trong một số trường hợp.",
       "Kết quả không nên được đánh giá bằng cách nhìn riêng một con số. Bác sĩ cần đặt chỉ số mỡ máu trong bức tranh chung gồm tuổi, huyết áp, hút thuốc, tiểu đường, bệnh thận và tiền sử gia đình.",
-      "Hướng dẫn ACC/AHA năm 2026 tiếp tục nhấn mạnh việc cá nhân hóa mục tiêu kiểm soát LDL theo mức nguy cơ của từng người thay vì sử dụng một mục tiêu duy nhất cho tất cả.",
+      "Hướng dẫn của các hội tim mạch Hoa Kỳ năm 2026 tiếp tục nhấn mạnh việc cá nhân hóa mục tiêu kiểm soát LDL theo mức nguy cơ của từng người thay vì sử dụng một mục tiêu duy nhất cho tất cả.",
       "7. Người thừa cân, béo phì hoặc vòng eo tăng",
       "Cân nặng không trực tiếp cho biết tim có khỏe hay không, nhưng thừa cân và béo phì thường đi cùng:",
       "Huyết áp cao.",
@@ -1452,7 +1452,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Biểu hiện gợi ý tim to hoặc thiếu máu cơ tim.",
           "Thay đổi liên quan đến thuốc hoặc điện giải.",
           "Tuy nhiên, điện tâm đồ bình thường không loại trừ mọi bệnh tim. Ngược lại, một thay đổi nhỏ cũng chưa chắc là bệnh nghiêm trọng.",
-          "USPSTF không khuyến nghị sử dụng điện tâm đồ lúc nghỉ hoặc điện tâm đồ gắng sức để sàng lọc đại trà cho người không triệu chứng và có nguy cơ tim mạch thấp. Việc làm rộng rãi có thể dẫn đến kiểm tra tiếp theo không cần thiết, can thiệp quá mức và lo lắng không đáng có.",
+          "Nhóm chuyên gia về phòng bệnh của Hoa Kỳ không khuyến nghị sử dụng điện tâm đồ lúc nghỉ hoặc điện tâm đồ gắng sức để sàng lọc đại trà cho người không triệu chứng và có nguy cơ tim mạch thấp. Việc làm rộng rãi có thể dẫn đến kiểm tra tiếp theo không cần thiết, can thiệp quá mức và lo lắng không đáng có.",
           "Điện tâm đồ nên được chỉ định dựa trên tuổi, triệu chứng, bệnh nền và đánh giá của bác sĩ.",
           "2. Siêu âm tim",
           "Siêu âm tim sử dụng sóng âm để tạo hình ảnh của tim, giúp bác sĩ đánh giá:",
@@ -1486,7 +1486,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Do sử dụng tia X, người mang thai hoặc nghi ngờ mang thai cần thông báo trước cho nhân viên y tế.",
           "6. Xét nghiệm Lipoprotein(a) và ApoB",
           "Đây là những xét nghiệm mỡ máu mở rộng, không phải lúc nào cũng có trong gói tầm soát cơ bản.",
-          "Lipoprotein(a), viết tắt là Lp(a), chịu ảnh hưởng nhiều bởi yếu tố di truyền. Hướng dẫn ACC/AHA năm 2026 khuyến nghị cân nhắc đo Lp(a) ít nhất một lần ở tuổi trưởng thành, đặc biệt hữu ích khi có tiền sử gia đình mắc bệnh tim mạch sớm hoặc mức nguy cơ chưa được giải thích đầy đủ bằng các chỉ số thông thường.",
+          "Lipoprotein(a), viết tắt là Lp(a), chịu ảnh hưởng nhiều bởi yếu tố di truyền. Hướng dẫn của các hội tim mạch Hoa Kỳ năm 2026 khuyến nghị cân nhắc đo Lp(a) ít nhất một lần ở tuổi trưởng thành, đặc biệt khi có tiền sử gia đình mắc bệnh tim mạch sớm hoặc mức nguy cơ chưa được giải thích đầy đủ bằng các chỉ số thông thường.",
           "ApoB có thể được xem xét ở một số người có triglyceride cao, tiểu đường, bệnh tim mạch hoặc hội chứng tim mạch–thận–chuyển hóa. Việc có cần xét nghiệm hay không nên do bác sĩ quyết định.",
           "Có phải càng làm nhiều xét nghiệm càng yên tâm?",
           "Không.",
@@ -1927,7 +1927,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Chụp cắt lớp vi tính.",
           "Nghiệm pháp gắng sức.",
           "Chụp động mạch vành hoặc kiểm tra chuyên sâu khác.",
-          "Hướng dẫn AHA/ACC khuyến nghị việc đánh giá đau ngực cần dựa trên quy trình phân tầng nguy cơ thay vì chỉ dựa vào cảm giác đau. Người nguy cơ thấp, trung bình và cao sẽ có chiến lược kiểm tra khác nhau.",
+          "Hướng dẫn của các hội tim mạch Hoa Kỳ khuyến nghị đánh giá đau ngực theo mức độ nguy cơ thay vì chỉ dựa vào cảm giác đau. Người có nguy cơ thấp, trung bình và cao sẽ được lựa chọn cách kiểm tra khác nhau.",
           "Không phải ai đau ngực cũng cần thực hiện toàn bộ danh mục trên. Bác sĩ lựa chọn kiểm tra dựa trên triệu chứng, kết quả khám và mức độ nguy cơ.",
           "Điện tâm đồ bình thường có loại trừ bệnh tim không?",
           "Không hoàn toàn.",
@@ -1993,7 +1993,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Huyết áp tâm thu là số phía trên, thể hiện áp lực khi tim co bóp.",
       "Huyết áp tâm trương là số phía dưới, thể hiện áp lực khi tim nghỉ giữa hai nhịp đập.",
       "Ví dụ, kết quả 120/80 mmHg được đọc là huyết áp tâm thu 120 và huyết áp tâm trương 80.",
-      "Tăng huyết áp xảy ra khi áp lực trong mạch máu duy trì ở mức cao trong thời gian dài. Theo WHO, tăng huyết áp lâm sàng ở người trưởng thành được xác định khi huyết áp tâm thu từ 140 mmHg trở lên và/hoặc huyết áp tâm trương từ 90 mmHg trở lên trong các lần đo vào hai ngày khác nhau. Một số hướng dẫn hiện hành sử dụng ngưỡng thấp hơn để phân loại nguy cơ, vì vậy người bệnh không nên tự chẩn đoán chỉ dựa trên một con số đơn lẻ.",
+      "Tăng huyết áp xảy ra khi áp lực trong mạch máu duy trì ở mức cao trong thời gian dài. Theo Tổ chức Y tế Thế giới, tăng huyết áp lâm sàng ở người trưởng thành được xác định khi huyết áp tâm thu từ 140 mmHg trở lên và/hoặc huyết áp tâm trương từ 90 mmHg trở lên trong các lần đo vào hai ngày khác nhau. Một số hướng dẫn hiện hành sử dụng ngưỡng thấp hơn để phân loại nguy cơ, vì vậy người bệnh không nên tự chẩn đoán chỉ dựa trên một con số đơn lẻ.",
       "Vì sao tăng huyết áp thường không có triệu chứng?",
       "Cơ thể có khả năng thích nghi với những thay đổi diễn ra từ từ. Khi huyết áp tăng dần theo thời gian, người bệnh có thể không cảm thấy đau hoặc khó chịu, dù thành mạch và các cơ quan đang phải chịu áp lực lớn hơn bình thường.",
       "Phần lớn người mắc tăng huyết áp không có triệu chứng. Cách đáng tin cậy nhất để phát hiện là đo huyết áp đúng kỹ thuật, không phải chờ đến khi cơ thể xuất hiện đau đầu, chóng mặt hay chảy máu cam.",
@@ -2022,7 +2022,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Suy tim.",
           "Rối loạn nhịp tim.",
           "Phì đại cơ tim.",
-          "Hướng dẫn tăng huyết áp năm 2025 của AHA và ACC xác định huyết áp cao là một trong những yếu tố nguy cơ phổ biến và có thể điều chỉnh quan trọng nhất đối với bệnh động mạch vành, suy tim, rung nhĩ và nhiều biến cố tim mạch khác.",
+          "Hướng dẫn tim mạch Hoa Kỳ năm 2025 xác định huyết áp cao là một trong những yếu tố nguy cơ phổ biến và có thể điều chỉnh quan trọng nhất đối với bệnh động mạch vành, suy tim, rung nhĩ và nhiều biến cố tim mạch khác.",
           "Đáng chú ý, người bệnh không nhất thiết phải cảm thấy đau ngực trong giai đoạn tim đang chịu áp lực. Một số trường hợp chỉ phát hiện tổn thương khi siêu âm tim, điện tâm đồ hoặc khi khả năng vận động bắt đầu giảm."
         ]
       },
@@ -2045,7 +2045,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Huyết áp cao gây tổn thương thận.",
           "Thận suy giảm chức năng khiến việc kiểm soát huyết áp khó khăn hơn.",
           "Huyết áp tiếp tục tăng và làm tổn thương thận nặng thêm.",
-          "Người bệnh thường không cảm thấy đau thận trong giai đoạn đầu. Bất thường có thể chỉ được phát hiện qua xét nghiệm creatinine, mức lọc cầu thận hoặc protein trong nước tiểu. WHO xác định bệnh thận là một trong những biến chứng quan trọng của tăng huyết áp không được điều trị."
+          "Người bệnh thường không cảm thấy đau thận trong giai đoạn đầu. Bất thường có thể chỉ được phát hiện qua xét nghiệm creatinine, mức lọc cầu thận hoặc protein trong nước tiểu. Tổ chức Y tế Thế giới xác định bệnh thận là một trong những biến chứng quan trọng của tăng huyết áp không được điều trị."
         ]
       },
       {
@@ -2100,7 +2100,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Có bệnh thận.",
           "Có rối loạn mỡ máu.",
           "Đang sử dụng một số loại thuốc có thể ảnh hưởng đến huyết áp.",
-          "WHO xác định tuổi cao, yếu tố di truyền, thừa cân, ít vận động, chế độ ăn nhiều muối, uống nhiều rượu, tiểu đường và bệnh thận là những yếu tố nguy cơ đáng chú ý.",
+          "Tổ chức Y tế Thế giới xác định tuổi cao, yếu tố di truyền, thừa cân, ít vận động, chế độ ăn nhiều muối, uống nhiều rượu, tiểu đường và bệnh thận là những yếu tố nguy cơ đáng chú ý.",
           "Người không thuộc nhóm trên vẫn nên biết chỉ số huyết áp của mình. Không ít trường hợp tăng huyết áp xuất hiện mà không có một yếu tố nguy cơ nổi bật nào.",
           "Người trẻ có bị tăng huyết áp không?",
           "Có. Tăng huyết áp không chỉ là bệnh của người lớn tuổi.",
@@ -2119,7 +2119,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Người được phát hiện tăng huyết áp khi còn trẻ, đặc biệt trước tuổi 40 hoặc có mức huyết áp cao rõ rệt, có thể được bác sĩ đánh giá thêm để tìm nguyên nhân phía sau.",
           "Bao nhiêu là huyết áp cao?",
           "Ngưỡng phân loại huyết áp có thể khác nhau giữa các hướng dẫn.",
-          "WHO định nghĩa tăng huyết áp lâm sàng khi kết quả từ 140/90 mmHg trở lên trong các lần đo vào hai ngày khác nhau. Trong khi đó, hướng dẫn AHA/ACC năm 2025 phân loại huyết áp từ 130–139 mmHg hoặc 80–89 mmHg là tăng huyết áp giai đoạn 1.",
+          "Tổ chức Y tế Thế giới định nghĩa tăng huyết áp lâm sàng khi kết quả từ 140/90 mmHg trở lên trong các lần đo vào hai ngày khác nhau. Một số hướng dẫn tim mạch Hoa Kỳ sử dụng ngưỡng thấp hơn để phân loại nguy cơ, vì vậy người bệnh cần được bác sĩ đánh giá thay vì tự kết luận từ một lần đo.",
           "Sự khác biệt này không có nghĩa một hướng dẫn đúng còn hướng dẫn kia sai. Các hệ thống có thể sử dụng ngưỡng khác nhau để phân loại nguy cơ, quyết định thời điểm thay đổi lối sống hoặc cân nhắc điều trị.",
           "Vì vậy:",
           "Không nên tự mua thuốc chỉ vì một lần đo cao.",
@@ -2132,7 +2132,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Huyết áp thay đổi trong ngày và chịu ảnh hưởng của nhiều yếu tố.",
           "Một người có thể đo cao tại bệnh viện vì hồi hộp nhưng kết quả tại nhà bình thường. Hiện tượng này thường được gọi là tăng huyết áp áo choàng trắng.",
           "Ngược lại, có người đo bình thường tại phòng khám nhưng huyết áp lại cao khi sinh hoạt hằng ngày. Đây có thể là tăng huyết áp ẩn giấu.",
-          "USPSTF khuyến nghị người trưởng thành được sàng lọc huyết áp tại cơ sở y tế và sử dụng kết quả đo ngoài phòng khám để hỗ trợ xác nhận chẩn đoán trước khi bắt đầu điều trị.",
+          "Nhóm chuyên gia về phòng bệnh của Hoa Kỳ khuyến nghị người trưởng thành được sàng lọc huyết áp tại cơ sở y tế và sử dụng kết quả đo ngoài phòng khám để hỗ trợ xác nhận chẩn đoán trước khi bắt đầu điều trị.",
           "Các phương pháp có thể gồm:",
           "Tự đo huyết áp tại nhà.",
           "Đeo máy theo dõi huyết áp lưu động trong 24 giờ.",
@@ -2157,11 +2157,11 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Không nói chuyện trong lúc đo.",
           "Đo ít nhất hai lần, cách nhau khoảng 1–2 phút.",
           "Ghi lại ngày, giờ và kết quả.",
-          "CDC khuyến nghị đo vào những thời điểm tương đối ổn định, ghi nhật ký và thực hiện ít nhất hai lần đo cách nhau 1–2 phút. Tư thế ngồi, cà phê, thuốc lá, vận động và cảm giác lo lắng đều có thể làm thay đổi kết quả.",
+          "Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ khuyến nghị đo vào những thời điểm tương đối ổn định, ghi nhật ký và thực hiện ít nhất hai lần đo cách nhau 1–2 phút. Tư thế ngồi, cà phê, thuốc lá, vận động và cảm giác lo lắng đều có thể làm thay đổi kết quả.",
           "Không nên đo liên tục nhiều lần chỉ vì lo lắng. Việc càng căng thẳng càng có thể làm kết quả tăng thêm.",
           "Khi nào người trưởng thành nên kiểm tra huyết áp?",
           "Mọi người trưởng thành nên biết huyết áp của mình, kể cả khi không có triệu chứng.",
-          "USPSTF khuyến nghị sàng lọc tăng huyết áp ở tất cả người từ 18 tuổi trở lên. Người từ 40 tuổi, người thừa cân hoặc có nguy cơ tăng huyết áp thường nên được kiểm tra ít nhất hằng năm. Người từ 18–39 tuổi, nguy cơ thấp và kết quả trước đó bình thường có thể được kiểm tra với khoảng cách dài hơn theo tư vấn của nhân viên y tế.",
+          "Nhóm chuyên gia về phòng bệnh của Hoa Kỳ khuyến nghị sàng lọc tăng huyết áp ở tất cả người từ 18 tuổi trở lên. Người từ 40 tuổi, người thừa cân hoặc có nguy cơ tăng huyết áp thường nên được kiểm tra ít nhất hằng năm. Người từ 18–39 tuổi, nguy cơ thấp và kết quả trước đó bình thường có thể được kiểm tra với khoảng cách dài hơn theo tư vấn của nhân viên y tế.",
           "Nên chủ động kiểm tra thường xuyên hơn nếu:",
           "Từng có kết quả sát ngưỡng cao.",
           "Đang mang thai.",
@@ -2182,7 +2182,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Vận động đều đặn hơn.",
           "Hạn chế rượu bia.",
           "Theo dõi và tái khám đúng lịch.",
-          "WHO và AHA đều nhấn mạnh thay đổi lối sống là nền tảng quan trọng, nhưng nhiều người vẫn cần sử dụng thuốc để kiểm soát huyết áp và giảm nguy cơ biến chứng.",
+          "Tổ chức Y tế Thế giới và Hội Tim mạch Hoa Kỳ đều nhấn mạnh thay đổi lối sống là nền tảng quan trọng, nhưng nhiều người vẫn cần sử dụng thuốc để kiểm soát huyết áp và giảm nguy cơ biến chứng.",
           "Có nên tự ngừng thuốc khi huyết áp đã bình thường?",
           "Không.",
           "Một trong những sai lầm thường gặp là ngừng thuốc sau vài tuần vì thấy huyết áp đã ổn định hoặc cơ thể không còn khó chịu. Việc ngừng thuốc đột ngột có thể khiến huyết áp tăng trở lại, đôi khi tăng nhanh và khó kiểm soát.",
@@ -2250,7 +2250,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Quản lý căng thẳng",
         "paragraphs": [
           "Căng thẳng không phải nguyên nhân duy nhất của tăng huyết áp, nhưng có thể khiến người bệnh ngủ kém, ăn uống thất thường, hút thuốc hoặc sử dụng rượu bia nhiều hơn.",
-          "WHO và AHA khuyến nghị chế độ ăn cân bằng, vận động, kiểm soát cân nặng, tránh thuốc lá, giảm rượu bia và dùng thuốc đúng hướng dẫn để phòng ngừa và kiểm soát huyết áp cao."
+          "Tổ chức Y tế Thế giới và Hội Tim mạch Hoa Kỳ khuyến nghị chế độ ăn cân bằng, vận động, kiểm soát cân nặng, tránh thuốc lá, giảm rượu bia và dùng thuốc đúng hướng dẫn để phòng ngừa và kiểm soát huyết áp cao."
         ]
       },
       {
@@ -2341,7 +2341,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "roi-loan-mo-mau-nguyen-nhan-xet-nghiem-va-huong-dieu-tri": {
     "sourceFile": "10. Rối loạn mỡ máu nguyên nhân, xét nghiệm và hướng điều trị.docx",
-    "title": "Rối loạn mỡ máu: Nguyên nhân, xét nghiệm và hướng điều trị",
+    "title": "Rối loạn mỡ máu: nguyên nhân, xét nghiệm và hướng điều trị",
     "excerpt": "Rối loạn mỡ máu thường không gây đau, không làm người bệnh sốt và cũng hiếm khi tạo ra biểu hiện rõ ràng trong giai đoạn đầu. Nhiều người chỉ phát hiện cholesterol hoặc triglyceride tăng khi khám sức khỏe định kỳ, xét nghiệm trước phẫu thuật hoặc kiểm tra một bệnh lý khác.",
     "intro": [
       "Rối loạn mỡ máu thường không gây đau, không làm người bệnh sốt và cũng hiếm khi tạo ra biểu hiện rõ ràng trong giai đoạn đầu. Nhiều người chỉ phát hiện cholesterol hoặc triglyceride tăng khi khám sức khỏe định kỳ, xét nghiệm trước phẫu thuật hoặc kiểm tra một bệnh lý khác.",
@@ -2355,7 +2355,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "HDL cholesterol thấp.",
       "Cholesterol toàn phần tăng.",
       "Nhiều chỉ số bất thường cùng lúc.",
-      "Cholesterol không hoàn toàn là chất có hại. Cơ thể cần cholesterol để xây dựng tế bào và tạo ra một số hormone. Vấn đề xuất hiện khi lượng cholesterol được vận chuyển trong máu, đặc biệt là LDL cholesterol, tăng quá cao trong thời gian dài.",
+      "Cholesterol không hoàn toàn là chất có hại. Cơ thể cần cholesterol để xây dựng tế bào và tạo ra một số nội tiết tố. Vấn đề xuất hiện khi lượng cholesterol được vận chuyển trong máu, đặc biệt là LDL cholesterol, tăng quá cao trong thời gian dài.",
       "Triglyceride cũng là một dạng chất béo bình thường của cơ thể. Khi lượng năng lượng đưa vào nhiều hơn nhu cầu sử dụng, cơ thể có thể chuyển phần dư thành triglyceride và dự trữ trong mô mỡ. Triglyceride tăng quá cao không chỉ liên quan đến nguy cơ tim mạch mà còn có thể làm tăng nguy cơ viêm tụy cấp.",
       "Rối loạn mỡ máu có giống gan nhiễm mỡ không?",
       "Không hoàn toàn.",
@@ -2426,7 +2426,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Hướng dẫn năm 2026 nhấn mạnh ApoB có thể giúp đánh giá rõ hơn nguy cơ ở một số nhóm người bệnh, nhưng đây chưa phải xét nghiệm bắt buộc cho mọi người.",
           "Lipoprotein(a)",
           "Lipoprotein(a), hay Lp(a), là một loại hạt lipid chịu ảnh hưởng nhiều bởi di truyền. Lp(a) cao có thể làm tăng nguy cơ nhồi máu cơ tim và đột quỵ, ngay cả khi các chỉ số thông thường không quá cao.",
-          "Hướng dẫn ACC/AHA năm 2026 khuyến nghị cân nhắc đo Lp(a) ít nhất một lần trong tuổi trưởng thành để hỗ trợ đánh giá nguy cơ. Xét nghiệm đặc biệt hữu ích với người có tiền sử gia đình mắc bệnh tim sớm, LDL tăng cao hoặc biến cố tim mạch chưa rõ nguyên nhân.",
+          "Hướng dẫn của các hội tim mạch Hoa Kỳ năm 2026 khuyến nghị cân nhắc đo Lp(a) ít nhất một lần trong tuổi trưởng thành để hỗ trợ đánh giá nguy cơ. Xét nghiệm đặc biệt hữu ích với người có tiền sử gia đình mắc bệnh tim sớm, LDL tăng cao hoặc biến cố tim mạch chưa rõ nguyên nhân.",
           "Do Lp(a) chủ yếu chịu ảnh hưởng của gene, thay đổi ăn uống thường không làm chỉ số này giảm đáng kể. Nếu Lp(a) cao, bác sĩ có thể tập trung kiểm soát chặt hơn các yếu tố nguy cơ còn lại.",
           "Các chỉ số mỡ máu bao nhiêu là bình thường?",
           "Ở người trưởng thành khỏe mạnh, một số mức thường được sử dụng để tham khảo gồm:",
@@ -2477,7 +2477,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Tiểu đường và đường huyết chưa kiểm soát",
         "paragraphs": [
-          "Tiểu đường type 2 thường đi kèm triglyceride cao, HDL thấp và sự gia tăng của các hạt lipid có khả năng gây xơ vữa.",
+          "Đái tháo đường típ 2 thường đi kèm triglyceride cao, HDL thấp và sự gia tăng của các hạt mỡ có khả năng gây xơ vữa.",
           "Do đó, điều trị rối loạn mỡ máu ở người tiểu đường cần kết hợp với kiểm soát đường huyết, huyết áp, cân nặng và chức năng thận.",
           "Suy giáp",
           "Suy giáp có thể làm cholesterol toàn phần và LDL tăng.",
@@ -2510,7 +2510,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Rối loạn mỡ máu do di truyền",
         "paragraphs": [
           "Một số người có LDL rất cao từ khi còn trẻ do tăng cholesterol máu gia đình, còn gọi là familial hypercholesterolemia.",
-          "Đây là tình trạng di truyền làm LDL tăng cao từ sớm, khiến nguy cơ bệnh động mạch vành hoặc nhồi máu cơ tim xuất hiện ở độ tuổi trẻ hơn. CDC ước tính tình trạng này gặp ở khoảng 1 trên 311 người.",
+          "Đây là tình trạng di truyền làm LDL tăng cao từ sớm, khiến nguy cơ bệnh động mạch vành hoặc nhồi máu cơ tim xuất hiện ở độ tuổi trẻ hơn. Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ ước tính tình trạng này gặp ở khoảng 1 trên 311 người.",
           "Bác sĩ có thể nghĩ đến yếu tố di truyền khi:",
           "LDL từ 190 mg/dL trở lên.",
           "Cholesterol tăng cao từ khi còn trẻ.",
@@ -3327,7 +3327,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Tầm soát ung thư cổ tử cung",
         "paragraphs": [
           "Các hướng dẫn hiện hành có sự khác nhau nhỏ về thời điểm bắt đầu:",
-          "Một số hướng dẫn khuyến nghị xét nghiệm tế bào cổ tử cung, thường gọi là Pap test, từ 21 tuổi.",
+          "Một số hướng dẫn khuyến nghị xét nghiệm tế bào cổ tử cung, thường gọi là xét nghiệm Pap, từ 21 tuổi.",
           "Hướng dẫn của Hiệp hội Ung thư Hoa Kỳ khuyến nghị bắt đầu từ 25 tuổi, ưu tiên xét nghiệm HPV định kỳ.",
           "Nhìn chung, phụ nữ hoặc người có cổ tử cung nên trao đổi với bác sĩ về tầm soát trong khoảng 21–25 tuổi, tùy phương pháp xét nghiệm, tiền sử sức khỏe và hướng dẫn đang được áp dụng. Việc đã kết hôn hay chưa không phải là yếu tố duy nhất quyết định có cần tầm soát hay không.",
           "Người đã cắt toàn bộ tử cung và cổ tử cung vì nguyên nhân lành tính hoặc người trên 65 tuổi đã được tầm soát đầy đủ trước đó có thể không cần tiếp tục. Tuy nhiên, quyết định này cần dựa trên hồ sơ khám và đánh giá của bác sĩ."
@@ -3337,9 +3337,9 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Từ 30 đến 39 tuổi: tiếp tục tầm soát theo nguy cơ",
         "paragraphs": [
           "Trong độ tuổi này, tầm soát ung thư cổ tử cung vẫn cần được duy trì đúng lịch. Tùy phương pháp, bác sĩ có thể chỉ định:",
-          "Pap test định kỳ.",
+          "xét nghiệm Pap định kỳ.",
           "Xét nghiệm HPV nguy cơ cao.",
-          "Kết hợp HPV và Pap test.",
+          "Kết hợp HPV và xét nghiệm Pap.",
           "Khoảng cách giữa các lần kiểm tra có thể từ 3 đến 5 năm nếu kết quả bình thường, tùy loại xét nghiệm. Không nên tự quyết định kéo dài lịch kiểm tra khi từng có HPV nguy cơ cao, tổn thương tiền ung thư hoặc kết quả xét nghiệm bất thường.",
           "Phụ nữ dưới 40 tuổi có nguy cơ ung thư vú trung bình thường chưa cần chụp nhũ ảnh định kỳ. Tuy nhiên, người có mẹ, chị em gái hoặc con gái mắc ung thư vú khi còn trẻ, mang đột biến gene liên quan ung thư hoặc từng chiếu xạ vùng ngực có thể cần được theo dõi sớm hơn bằng phương pháp chuyên biệt."
         ]
@@ -3630,7 +3630,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Nôn kèm đau đầu kéo dài.",
       "Những triệu chứng này có thể xuất phát từ nhiều bệnh thần kinh không phải ung thư. Tuy nhiên, yếu liệt đột ngột, méo miệng, nói khó, mất ý thức hoặc cơn co giật đầu tiên cần được xử trí như một tình trạng cấp cứu.",
       "Nên theo dõi triệu chứng trong bao lâu?",
-      "Không có một khoảng thời gian áp dụng cho mọi dấu hiệu. Một số triệu chứng nhẹ do nhiễm virus hoặc rối loạn tiêu hóa có thể cải thiện sau vài ngày. Nhưng nếu một thay đổi kéo dài vài tuần, thường xuyên tái phát, ngày càng nặng hoặc khác rõ rệt so với bình thường, người bệnh nên đi khám.",
+      "Không có một khoảng thời gian áp dụng cho mọi dấu hiệu. Một số triệu chứng nhẹ do nhiễm vi rút hoặc rối loạn tiêu hóa có thể cải thiện sau vài ngày. Nhưng nếu một thay đổi kéo dài vài tuần, thường xuyên tái phát, ngày càng nặng hoặc khác rõ rệt so với bình thường, người bệnh nên đi khám.",
       "Không cần chờ đủ vài tuần trong những trường hợp sau:",
       "Có khối u mới xuất hiện hoặc lớn nhanh.",
       "Có máu trong đờm, nước tiểu, phân hoặc dịch âm đạo.",
@@ -3914,7 +3914,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "ung-thu-vu-khi-nao-can-sieu-am-chup-nhu-anh-hoac-sinh-thiet": {
     "sourceFile": "16.Ung thư vú khi nào cần siêu âm, chụp chiếu hoặc sinh thiết.docx",
-    "title": "Ung thư vú: Khi nào cần siêu âm, chụp chiếu hoặc sinh thiết?",
+    "title": "Ung thư vú: khi nào cần siêu âm, chụp nhũ ảnh hoặc sinh thiết?",
     "excerpt": "Phát hiện một khối ở vú thường khiến nhiều phụ nữ lo lắng và muốn làm ngay “tất cả các xét nghiệm”. Tuy nhiên, không phải ai cũng cần siêu âm, chụp nhũ ảnh, cộng hưởng từ và sinh thiết cùng một lúc.",
     "intro": [
       "Phát hiện một khối ở vú thường khiến nhiều phụ nữ lo lắng và muốn làm ngay “tất cả các xét nghiệm”. Tuy nhiên, không phải ai cũng cần siêu âm, chụp nhũ ảnh, cộng hưởng từ và sinh thiết cùng một lúc.",
@@ -4164,19 +4164,19 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "ung-thu-co-tu-cung-va-vai-tro-cua-xet-nghiem-hpv": {
     "sourceFile": "17.Ung thư cổ tử cung và vai trò của xét nghiệm HPV.docx",
-    "title": "Ung thư cổ tử cung và vai trò của xét nghiệm HPV: Phụ nữ cần biết gì?",
+    "title": "Ung thư cổ tử cung và vai trò của xét nghiệm HPV: phụ nữ cần biết gì?",
     "excerpt": "Ung thư cổ tử cung là một trong những bệnh ung thư ở nữ giới có khả năng phòng ngừa và phát hiện sớm khá hiệu quả. Tuy nhiên, bệnh thường tiến triển âm thầm trong giai đoạn đầu nên nhiều phụ nữ chỉ đi khám khi đã xuất hiện chảy máu bất thường, đau vùng chậu hoặc các biểu hiện kéo dài.",
     "intro": [
       "Ung thư cổ tử cung là một trong những bệnh ung thư ở nữ giới có khả năng phòng ngừa và phát hiện sớm khá hiệu quả. Tuy nhiên, bệnh thường tiến triển âm thầm trong giai đoạn đầu nên nhiều phụ nữ chỉ đi khám khi đã xuất hiện chảy máu bất thường, đau vùng chậu hoặc các biểu hiện kéo dài.",
-      "Một trong những công cụ quan trọng giúp phòng ngừa ung thư cổ tử cung là xét nghiệm HPV. Xét nghiệm này không trực tiếp khẳng định một người mắc ung thư, mà giúp phát hiện các chủng virus HPV nguy cơ cao có khả năng gây biến đổi tế bào cổ tử cung theo thời gian.",
+      "Một trong những công cụ quan trọng giúp phòng ngừa ung thư cổ tử cung là xét nghiệm HPV. Xét nghiệm này không trực tiếp khẳng định một người mắc ung thư, mà giúp phát hiện các chủng vi rút HPV nguy cơ cao có khả năng gây biến đổi tế bào cổ tử cung theo thời gian.",
       "Ung thư cổ tử cung là gì?",
       "Cổ tử cung là phần thấp của tử cung, nằm ở vị trí tiếp nối với âm đạo. Ung thư cổ tử cung xảy ra khi các tế bào tại khu vực này phát triển bất thường, mất kiểm soát và có thể xâm lấn sang các mô xung quanh.",
       "Bệnh thường không xuất hiện ngay lập tức. Ở nhiều trường hợp, quá trình phát triển diễn ra theo trình tự:",
       "Nhiễm HPV nguy cơ cao kéo dài → tế bào cổ tử cung biến đổi bất thường → tổn thương tiền ung thư → ung thư xâm lấn.",
       "Quá trình này thường kéo dài nhiều năm. Đây chính là khoảng thời gian quan trọng để xét nghiệm HPV và các phương pháp tầm soát khác phát hiện nguy cơ trước khi ung thư hình thành.",
-      "Gần như tất cả các trường hợp ung thư cổ tử cung đều có liên quan đến nhiễm các chủng HPV gây ung thư. Tuy nhiên, không phải người nhiễm HPV nào cũng sẽ mắc ung thư. Phần lớn trường hợp nhiễm virus được hệ miễn dịch kiểm soát và tự trở về trạng thái không còn phát hiện được. Nguy cơ chủ yếu xuất hiện khi HPV nguy cơ cao tồn tại kéo dài và gây thay đổi tế bào.",
-      "HPV là virus gì?",
-      "HPV là tên viết tắt của Human Papillomavirus, hay virus gây u nhú ở người. Đây là một nhóm gồm nhiều loại virus khác nhau, có thể lây truyền qua tiếp xúc da và niêm mạc, phổ biến nhất là qua hoạt động tình dục.",
+      "Gần như tất cả các trường hợp ung thư cổ tử cung đều có liên quan đến nhiễm các chủng HPV gây ung thư. Tuy nhiên, không phải người nhiễm HPV nào cũng sẽ mắc ung thư. Phần lớn trường hợp nhiễm vi rút được hệ miễn dịch kiểm soát và tự trở về trạng thái không còn phát hiện được. Nguy cơ chủ yếu xuất hiện khi HPV nguy cơ cao tồn tại kéo dài và gây thay đổi tế bào.",
+      "HPV là vi rút gì?",
+      "HPV là tên viết tắt của Human Papillomavi rút, hay vi rút gây u nhú ở người. Đây là một nhóm gồm nhiều loại vi rút khác nhau, có thể lây truyền qua tiếp xúc da và niêm mạc, phổ biến nhất là qua hoạt động tình dục.",
       "HPV thường được chia thành hai nhóm chính:"
     ],
     "sections": [
@@ -4189,17 +4189,17 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "HPV nguy cơ cao",
         "paragraphs": [
-          "Một số chủng HPV nguy cơ cao có thể làm tế bào cổ tử cung biến đổi nếu virus tồn tại lâu trong cơ thể. HPV 16 và HPV 18 là hai chủng đặc biệt được quan tâm vì liên quan đến nhiều trường hợp ung thư cổ tử cung.",
+          "Một số chủng HPV nguy cơ cao có thể làm tế bào cổ tử cung biến đổi nếu vi rút tồn tại lâu trong cơ thể. HPV 16 và HPV 18 là hai chủng đặc biệt được quan tâm vì liên quan đến nhiều trường hợp ung thư cổ tử cung.",
           "Một người có thể nhiễm HPV mà hoàn toàn không có triệu chứng. Vì vậy, không thể dựa vào cảm giác cơ thể, khí hư hay việc có mụn cóc sinh dục để biết mình có nhiễm HPV nguy cơ cao hay không.",
           "Nhiễm HPV có phổ biến không?",
-          "HPV rất phổ biến. Phần lớn người đã có quan hệ tình dục có thể tiếp xúc với virus vào một thời điểm nào đó trong đời. Đa số trường hợp không gây triệu chứng và có thể tự được cơ thể kiểm soát trong khoảng một đến hai năm.",
+          "HPV rất phổ biến. Phần lớn người đã có quan hệ tình dục có thể tiếp xúc với vi rút vào một thời điểm nào đó trong đời. Đa số trường hợp không gây triệu chứng và có thể tự được cơ thể kiểm soát trong khoảng một đến hai năm.",
           "Do đó, một kết quả HPV dương tính không đồng nghĩa với:",
           "Đã mắc ung thư cổ tử cung.",
           "Chắc chắn sẽ phát triển thành ung thư.",
           "Vừa mới bị lây nhiễm.",
           "Bạn đời hiện tại không chung thủy.",
           "Người bệnh đã có hành vi tình dục “không an toàn” theo một cách cụ thể nào đó.",
-          "HPV có thể tồn tại ở trạng thái không hoạt động trong nhiều năm rồi được phát hiện trở lại. Xét nghiệm không thể xác định chính xác virus xuất hiện từ khi nào hoặc được truyền từ ai.",
+          "HPV có thể tồn tại ở trạng thái không hoạt động trong nhiều năm rồi được phát hiện trở lại. Xét nghiệm không thể xác định chính xác vi rút xuất hiện từ khi nào hoặc được truyền từ ai.",
           "Xét nghiệm HPV là gì?",
           "Xét nghiệm HPV kiểm tra sự hiện diện của vật liệu di truyền, thường là DNA hoặc RNA, từ các chủng HPV có nguy cơ gây ung thư trong mẫu tế bào lấy ở cổ tử cung.",
           "Xét nghiệm này trả lời câu hỏi:",
@@ -4230,29 +4230,29 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Hỗ trợ theo dõi sau điều trị tổn thương tiền ung thư",
         "paragraphs": [
-          "Sau khi điều trị tổn thương cổ tử cung mức độ cao, xét nghiệm HPV có thể được sử dụng để đánh giá nguy cơ virus còn tồn tại và hướng dẫn lịch tái khám.",
+          "Sau khi điều trị tổn thương cổ tử cung mức độ cao, xét nghiệm HPV có thể được sử dụng để đánh giá nguy cơ vi rút còn tồn tại và hướng dẫn lịch tái khám.",
           "Người từng có tổn thương tiền ung thư mức độ cao thường cần theo dõi lâu dài hơn người có kết quả tầm soát bình thường.",
-          "Xét nghiệm HPV và Pap test khác nhau thế nào?",
+          "Xét nghiệm HPV và xét nghiệm Pap khác nhau thế nào?",
           "Hai xét nghiệm này đều liên quan đến phòng ngừa ung thư cổ tử cung nhưng tìm kiếm những vấn đề khác nhau."
         ]
       },
       {
         "heading": "Xét nghiệm HPV",
         "paragraphs": [
-          "Xét nghiệm HPV tìm các chủng virus nguy cơ cao có khả năng gây biến đổi tế bào cổ tử cung.",
+          "Xét nghiệm HPV tìm các chủng vi rút nguy cơ cao có khả năng gây biến đổi tế bào cổ tử cung.",
           "Có thể hình dung đây là xét nghiệm tìm yếu tố nguy cơ gây bệnh.",
-          "Pap test",
-          "Pap test, còn gọi là xét nghiệm tế bào cổ tử cung hoặc phết tế bào cổ tử cung, kiểm tra các tế bào được lấy từ cổ tử cung để phát hiện:",
+          "xét nghiệm Pap",
+          "xét nghiệm Pap, còn gọi là xét nghiệm tế bào cổ tử cung hoặc phết tế bào cổ tử cung, kiểm tra các tế bào được lấy từ cổ tử cung để phát hiện:",
           "Tế bào bất thường.",
           "Tổn thương tiền ung thư.",
           "Một số thay đổi gợi ý ung thư.",
-          "Có thể hình dung Pap test là xét nghiệm tìm hậu quả mà virus hoặc những yếu tố khác đã gây ra trên tế bào."
+          "Có thể hình dung xét nghiệm Pap là xét nghiệm tìm hậu quả mà vi rút hoặc những yếu tố khác đã gây ra trên tế bào."
         ]
       },
       {
         "heading": "Xét nghiệm phối hợp HPV và Pap",
         "paragraphs": [
-          "Khi xét nghiệm HPV và Pap được thực hiện cùng lúc trên mẫu tế bào cổ tử cung, phương pháp này được gọi là xét nghiệm phối hợp hoặc co-test.",
+          "Khi xét nghiệm HPV và xét nghiệm Pap được thực hiện cùng lúc trên một mẫu tế bào cổ tử cung, phương pháp này được gọi là xét nghiệm phối hợp.",
           "Việc lựa chọn xét nghiệm HPV đơn thuần, Pap đơn thuần hay phối hợp hai xét nghiệm phụ thuộc vào tuổi, tiền sử tầm soát, nguy cơ cá nhân và hướng dẫn chuyên môn đang được áp dụng.",
           "Phụ nữ nên xét nghiệm HPV từ bao nhiêu tuổi?",
           "Không có một lịch duy nhất được áp dụng giống nhau tại mọi quốc gia. Các chương trình tầm soát có thể khác nhau tùy điều kiện y tế và hướng dẫn chuyên môn.",
@@ -4271,7 +4271,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "paragraphs": [
           "Xét nghiệm HPV nguy cơ cao thường đóng vai trò quan trọng hơn trong tầm soát. Tùy hướng dẫn và phương tiện hiện có, phụ nữ có thể được tư vấn một trong các phương án:",
           "Xét nghiệm HPV nguy cơ cao định kỳ.",
-          "Pap test định kỳ.",
+          "xét nghiệm Pap định kỳ.",
           "Xét nghiệm phối hợp HPV và Pap.",
           "Một số hướng dẫn chuyên môn sử dụng xét nghiệm HPV nguy cơ cao khoảng năm năm một lần cho người có nguy cơ trung bình. Tổ chức Y tế Thế giới khuyến nghị các chương trình dân số sử dụng xét nghiệm hiệu năng cao, ưu tiên xét nghiệm HPV, bắt đầu từ khoảng 30 tuổi với khoảng cách phù hợp theo chương trình quốc gia."
         ]
@@ -4292,7 +4292,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Tiền sử ung thư cổ tử cung.",
           "Tiếp xúc với một số thuốc nội tiết đặc biệt từ trong thai kỳ theo đánh giá của bác sĩ.",
           "Chưa từng hoặc rất ít khi được tầm soát.",
-          "Theo khuyến nghị của WHO, phụ nữ sống chung với HIV thường bắt đầu tầm soát sớm hơn, từ khoảng 25 tuổi, và có khoảng cách kiểm tra ngắn hơn nhóm dân số chung.",
+          "Theo khuyến nghị của Tổ chức Y tế Thế giới, phụ nữ sống chung với HIV thường bắt đầu tầm soát sớm hơn, từ khoảng 25 tuổi, và có khoảng cách kiểm tra ngắn hơn nhóm dân số chung.",
           "Xét nghiệm HPV được thực hiện như thế nào?",
           "Quá trình lấy mẫu HPV thường tương tự lấy mẫu Pap.",
           "Người bệnh nằm trên bàn khám phụ khoa. Bác sĩ hoặc nhân viên y tế sử dụng dụng cụ chuyên dụng để quan sát cổ tử cung, sau đó dùng một bàn chải nhỏ lấy tế bào tại bề mặt và ống cổ tử cung.",
@@ -4326,7 +4326,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Kết quả dương tính chỉ cho thấy đã phát hiện một hoặc nhiều chủng HPV nguy cơ cao. Phần lớn phụ nữ có HPV dương tính sẽ không phát triển thành ung thư.",
           "Bước tiếp theo phụ thuộc vào:",
           "Chủng HPV được phát hiện.",
-          "Kết quả Pap test.",
+          "Kết quả xét nghiệm Pap.",
           "Tuổi của người bệnh.",
           "Kết quả tầm soát trước đây.",
           "Tiền sử điều trị tổn thương cổ tử cung.",
@@ -4337,7 +4337,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "HPV 16 và HPV 18 là những chủng nguy cơ cao liên quan mạnh đến ung thư cổ tử cung. Khi phát hiện một trong hai chủng này, bác sĩ thường đánh giá kỹ hơn, ngay cả khi xét nghiệm tế bào chưa ghi nhận bất thường rõ.",
           "Tuy nhiên, kết quả dương tính với HPV 16 hoặc HPV 18 vẫn chưa phải chẩn đoán ung thư. Người bệnh cần thực hiện đúng bước kiểm tra tiếp theo thay vì tự tìm thuốc uống hoặc quá hoang mang.",
           "Tùy trường hợp, bác sĩ có thể đề nghị:",
-          "Pap test.",
+          "xét nghiệm Pap.",
           "Soi cổ tử cung.",
           "Sinh thiết vùng nghi ngờ.",
           "Theo dõi lại theo lịch cụ thể.",
@@ -4347,13 +4347,13 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Soi cổ tử cung thường được cân nhắc khi:",
           "Dương tính với một số chủng HPV nguy cơ cao.",
           "HPV dương tính kéo dài.",
-          "Pap test có tế bào bất thường.",
+          "xét nghiệm Pap có tế bào bất thường.",
           "Kết quả HPV và tế bào học cho thấy nguy cơ cao.",
           "Cổ tử cung có tổn thương nghi ngờ khi khám.",
           "Việc được chỉ định soi cổ tử cung không đồng nghĩa người bệnh chắc chắn mắc ung thư.",
           "Sinh thiết cổ tử cung có vai trò gì?",
           "Sinh thiết là bước lấy một mẫu mô nhỏ từ vùng bất thường để kiểm tra dưới kính hiển vi.",
-          "Nếu xét nghiệm HPV tìm virus và Pap test tìm tế bào bất thường, sinh thiết giúp bác sĩ xác định rõ:",
+          "Nếu xét nghiệm HPV tìm vi rút và xét nghiệm Pap tìm tế bào bất thường, sinh thiết giúp bác sĩ xác định rõ:",
           "Có tổn thương tiền ung thư hay không.",
           "Tổn thương ở mức độ nhẹ hay nặng.",
           "Đã xuất hiện ung thư xâm lấn hay chưa.",
@@ -4368,15 +4368,15 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Ngừng hút thuốc.",
           "Kiểm soát các bệnh ảnh hưởng đến miễn dịch.",
           "Duy trì sức khỏe tổng thể.",
-          "Không nên tự mua thuốc, thực phẩm bổ sung hoặc sản phẩm đặt âm đạo được quảng cáo là “đào thải HPV”. Việc xét nghiệm âm tính trở lại thường liên quan đến khả năng kiểm soát virus của hệ miễn dịch, không phải do một sản phẩm đơn lẻ.",
-          "Tiêm vaccine HPV rồi có cần xét nghiệm HPV không?",
+          "Không nên tự mua thuốc, thực phẩm bổ sung hoặc sản phẩm đặt âm đạo được quảng cáo là “đào thải HPV”. Việc xét nghiệm âm tính trở lại thường liên quan đến khả năng kiểm soát vi rút của hệ miễn dịch, không phải do một sản phẩm đơn lẻ.",
+          "Tiêm vắc xin HPV rồi có cần xét nghiệm HPV không?",
           "Có.",
-          "Vaccine HPV giúp bảo vệ trước những chủng HPV quan trọng, đặc biệt khi được tiêm trước khi tiếp xúc với virus. Tuy nhiên:",
-          "Vaccine không bao phủ tuyệt đối mọi chủng HPV nguy cơ cao.",
-          "Vaccine không điều trị nhiễm HPV đã có.",
+          "Vắc xin HPV giúp bảo vệ trước những chủng HPV quan trọng, đặc biệt khi được tiêm trước khi tiếp xúc với vi rút. Tuy nhiên:",
+          "Vắc xin không bao phủ tuyệt đối mọi chủng HPV nguy cơ cao.",
+          "Vắc xin không điều trị nhiễm HPV đã có.",
           "Không phải ai cũng hoàn thành đủ lịch tiêm.",
           "Hiệu quả bảo vệ có thể khác tùy độ tuổi và thời điểm tiêm.",
-          "Vì vậy, phụ nữ đã tiêm vaccine vẫn cần tầm soát ung thư cổ tử cung theo độ tuổi và hướng dẫn của bác sĩ. WHO cũng nhấn mạnh rằng tiêm chủng, tầm soát và điều trị tổn thương tiền ung thư cần được thực hiện song song để phòng ngừa bệnh hiệu quả.",
+          "Vì vậy, phụ nữ đã tiêm vắc xin vẫn cần tầm soát ung thư cổ tử cung theo độ tuổi và hướng dẫn của bác sĩ. Tổ chức Y tế Thế giới cũng nhấn mạnh rằng tiêm chủng, tầm soát và điều trị tổn thương tiền ung thư cần được thực hiện song song để phòng ngừa bệnh hiệu quả.",
           "Đã cắt tử cung có cần xét nghiệm HPV không?",
           "Điều này phụ thuộc vào loại phẫu thuật và lý do thực hiện.",
           "Nếu chỉ cắt thân tử cung nhưng vẫn còn cổ tử cung, người bệnh vẫn cần tầm soát cổ tử cung.",
@@ -4424,7 +4424,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Chỉ người có nhiều bạn tình mới nhiễm HPV",
         "paragraphs": [
-          "Không đúng. HPV có thể lây ngay cả khi một người chỉ có một bạn tình. Số bạn tình có thể ảnh hưởng đến nguy cơ tiếp xúc, nhưng không quyết định tuyệt đối việc nhiễm virus."
+          "Không đúng. HPV có thể lây ngay cả khi một người chỉ có một bạn tình. Số bạn tình có thể ảnh hưởng đến nguy cơ tiếp xúc, nhưng không quyết định tuyệt đối việc nhiễm vi rút."
         ]
       },
       {
@@ -4436,7 +4436,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "HPV dương tính phải dùng kháng sinh",
         "paragraphs": [
-          "Không đúng. HPV là virus, trong khi kháng sinh được sử dụng cho một số bệnh do vi khuẩn. Tự dùng kháng sinh không giúp làm HPV âm tính và có thể gây tác dụng không mong muốn."
+          "Không đúng. HPV là vi rút, trong khi kháng sinh được sử dụng cho một số bệnh do vi khuẩn. Tự dùng kháng sinh không giúp làm HPV âm tính và có thể gây tác dụng không mong muốn."
         ]
       },
       {
@@ -4451,7 +4451,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Phụ nữ có nhu cầu tầm soát hoặc đang gặp triệu chứng bất thường có thể đến Bệnh viện Đa khoa Hồng Phúc để được bác sĩ chuyên khoa Sản phụ khoa thăm khám.",
           "Tùy tuổi, tiền sử sức khỏe và kết quả kiểm tra trước đây, bác sĩ có thể tư vấn:",
           "Xét nghiệm HPV nguy cơ cao.",
-          "Pap test.",
+          "xét nghiệm Pap.",
           "Xét nghiệm phối hợp HPV và Pap.",
           "Khám và soi cổ tử cung.",
           "Sinh thiết khi có tổn thương nghi ngờ.",
@@ -4466,7 +4466,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "HPV dương tính nhưng Pap bình thường có đáng lo không?",
           "Điều này có nghĩa là đã phát hiện HPV nguy cơ cao nhưng tế bào cổ tử cung chưa ghi nhận thay đổi bất thường rõ. Bác sĩ sẽ dựa vào chủng HPV và tiền sử để quyết định theo dõi lại hay soi cổ tử cung.",
           "HPV âm tính nhưng Pap bất thường thì sao?",
-          "Tế bào cổ tử cung có thể thay đổi do nhiều nguyên nhân. Người bệnh vẫn cần được đánh giá theo mức độ bất thường của Pap test, dù HPV âm tính.",
+          "Tế bào cổ tử cung có thể thay đổi do nhiều nguyên nhân. Người bệnh vẫn cần được đánh giá theo mức độ bất thường của xét nghiệm Pap, dù HPV âm tính.",
           "Có cần xét nghiệm HPV mỗi năm không?",
           "Phần lớn phụ nữ có nguy cơ trung bình không cần xét nghiệm HPV hằng năm. Khoảng cách kiểm tra phụ thuộc vào tuổi, loại xét nghiệm và kết quả trước đó. Kiểm tra quá thường xuyên không nhất thiết mang lại thêm lợi ích.",
           "Xét nghiệm HPV dương tính có ảnh hưởng đến khả năng mang thai không?",
@@ -4474,9 +4474,9 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Sau bao lâu HPV có thể âm tính trở lại?",
           "Không có mốc thời gian giống nhau cho tất cả mọi người. Phần lớn nhiễm HPV được cơ thể kiểm soát trong khoảng một đến hai năm, nhưng một số trường hợp có thể kéo dài hơn. Điều quan trọng là tái khám đúng lịch, không chỉ chờ kết quả âm tính.",
           "Kết luận",
-          "Xét nghiệm HPV giữ vai trò quan trọng trong phòng ngừa ung thư cổ tử cung vì giúp phát hiện các chủng virus nguy cơ cao trước khi bệnh tiến triển đến giai đoạn ung thư.",
-          "Tuy nhiên, HPV dương tính không đồng nghĩa với ung thư. Kết quả cần được đánh giá cùng tuổi, chủng virus, Pap test, tiền sử tầm soát và tình trạng sức khỏe của từng người.",
-          "Phụ nữ nên chủ động tầm soát đúng lịch, tiêm vaccine HPV khi phù hợp và đi khám sớm nếu có chảy máu âm đạo hoặc khí hư bất thường. Với ung thư cổ tử cung, phát hiện tổn thương từ giai đoạn tiền ung thư có thể tạo ra khác biệt rất lớn trong việc điều trị và bảo vệ sức khỏe sinh sản.",
+          "Xét nghiệm HPV giữ vai trò quan trọng trong phòng ngừa ung thư cổ tử cung vì giúp phát hiện các chủng vi rút nguy cơ cao trước khi bệnh tiến triển đến giai đoạn ung thư.",
+          "Tuy nhiên, HPV dương tính không đồng nghĩa với ung thư. Kết quả cần được đánh giá cùng tuổi, chủng vi rút, xét nghiệm Pap, tiền sử tầm soát và tình trạng sức khỏe của từng người.",
+          "Phụ nữ nên chủ động tầm soát đúng lịch, tiêm vắc xin HPV khi phù hợp và đi khám sớm nếu có chảy máu âm đạo hoặc khí hư bất thường. Với ung thư cổ tử cung, phát hiện tổn thương từ giai đoạn tiền ung thư có thể tạo ra khác biệt rất lớn trong việc điều trị và bảo vệ sức khỏe sinh sản.",
           "Thông tin trong bài viết mang tính chất tham khảo, không thay thế việc thăm khám, chẩn đoán hoặc điều trị trực tiếp từ bác sĩ."
         ]
       }
@@ -4484,7 +4484,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "cham-soc-giam-nhe-trong-ung-thu-hieu-dung-de-nguoi-benh-bot-so-hai": {
     "sourceFile": "18.Chăm sóc giảm nhẹ trong ung thư.docx",
-    "title": "Chăm sóc giảm nhẹ trong ung thư: Hiểu đúng để người bệnh bớt sợ hãi",
+    "title": "Chăm sóc giảm nhẹ trong ung thư: hiểu đúng để người bệnh bớt sợ hãi",
     "excerpt": "Khi bác sĩ nhắc đến “chăm sóc giảm nhẹ”, nhiều người bệnh và gia đình lập tức nghĩ đến giai đoạn cuối, ngừng điều trị hoặc chuẩn bị cho tình huống xấu nhất. Chính cách hiểu này khiến không ít người từ chối một hình thức chăm sóc có thể giúp họ giảm đau, ăn ngủ tốt hơn và bớt căng thẳng trong suốt hành trình điều trị ung thư.",
     "intro": [
       "Khi bác sĩ nhắc đến “chăm sóc giảm nhẹ”, nhiều người bệnh và gia đình lập tức nghĩ đến giai đoạn cuối, ngừng điều trị hoặc chuẩn bị cho tình huống xấu nhất. Chính cách hiểu này khiến không ít người từ chối một hình thức chăm sóc có thể giúp họ giảm đau, ăn ngủ tốt hơn và bớt căng thẳng trong suốt hành trình điều trị ung thư.",
@@ -4588,7 +4588,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Yếu tố nào làm đau tăng hoặc giảm?",
           "Đau có ảnh hưởng đến ăn, ngủ và vận động không?",
           "Tùy nguyên nhân, hướng xử trí có thể bao gồm thuốc giảm đau, thuốc hỗ trợ, vật lý trị liệu, xạ trị giảm đau, can thiệp thần kinh hoặc một số thủ thuật khác.",
-          "Mục tiêu kiểm soát đau không nhất thiết là đưa cảm giác đau về mức bằng không trong mọi trường hợp, mà là giảm đau đến mức người bệnh có thể nghỉ ngơi, giao tiếp và sinh hoạt dễ chịu hơn. WHO khuyến nghị việc lựa chọn và quản lý thuốc giảm đau ung thư cần được cá nhân hóa, theo dõi hiệu quả và bảo đảm sử dụng an toàn."
+          "Mục tiêu kiểm soát đau không nhất thiết là đưa cảm giác đau về mức bằng không trong mọi trường hợp, mà là giảm đau đến mức người bệnh có thể nghỉ ngơi, giao tiếp và sinh hoạt dễ chịu hơn. Tổ chức Y tế Thế giới khuyến nghị việc lựa chọn và quản lý thuốc giảm đau ung thư cần được cá nhân hóa, theo dõi hiệu quả và bảo đảm sử dụng an toàn."
         ]
       },
       {
@@ -4671,7 +4671,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Giấu thông tin hoàn toàn đôi khi khiến người bệnh cảm nhận có điều bất thường nhưng không được giải thích, từ đó càng thêm lo lắng và cô đơn.",
           "Chăm sóc giảm nhẹ có sử dụng morphine không?",
           "Có thể, nhưng không phải người bệnh nào cũng cần morphine.",
-          "Morphine và các thuốc opioid khác có vai trò trong kiểm soát một số cơn đau từ trung bình đến nặng, đồng thời có thể được sử dụng trong một số tình huống khó thở theo chỉ định chuyên môn. WHO xác định opioid là nhóm thuốc thiết yếu trong điều trị đau ung thư nhưng cần được kê đơn, theo dõi và quản lý an toàn.",
+          "Morphine và các thuốc opioid khác có vai trò trong kiểm soát một số cơn đau từ trung bình đến nặng, đồng thời có thể được sử dụng trong một số tình huống khó thở theo chỉ định chuyên môn. Tổ chức Y tế Thế giới xác định opioid là nhóm thuốc thiết yếu trong điều trị đau ung thư nhưng cần được kê đơn, theo dõi và quản lý an toàn.",
           "Người bệnh và gia đình không nên:",
           "Tự mua hoặc tự tăng liều.",
           "Chia sẻ thuốc với người khác.",
@@ -4832,14 +4832,14 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Khí hư và vệ sinh vùng kín.",
       "Đời sống tình dục.",
       "Các phương pháp tránh thai.",
-      "Tiêm vaccine HPV.",
+      "Tiêm vắc xin HPV.",
       "Kế hoạch mang thai.",
       "Sức khỏe giai đoạn tiền mãn kinh và mãn kinh.",
       "Nguy cơ mắc bệnh lây truyền qua đường tình dục.",
       "Tiền sử ung thư phụ khoa trong gia đình.",
-      "Theo chuyên môn sản phụ khoa, một lần kiểm tra sức khỏe phụ nữ không chỉ giới hạn ở Pap test, khám vùng chậu hay siêu âm. Từng nội dung được lựa chọn dựa trên tuổi, triệu chứng, tiền sử và nguy cơ của mỗi người; không phải kỹ thuật nào cũng cần lặp lại hằng năm.",
+      "Theo chuyên môn sản phụ khoa, một lần kiểm tra sức khỏe phụ nữ không chỉ giới hạn ở xét nghiệm Pap, khám vùng chậu hay siêu âm. Từng nội dung được lựa chọn dựa trên tuổi, triệu chứng, tiền sử và nguy cơ của mỗi người; không phải kỹ thuật nào cũng cần lặp lại hằng năm.",
       "Bao lâu nên khám phụ khoa một lần?",
-      "Phụ nữ có thể chủ động kiểm tra sức khỏe phụ khoa định kỳ khoảng mỗi năm một lần, ngay cả khi chưa có triệu chứng. Tuy nhiên, đây là khoảng thời gian dành cho một lần đánh giá sức khỏe tổng thể, không có nghĩa tất cả mọi người đều cần siêu âm, xét nghiệm HPV hoặc Pap test mỗi năm.",
+      "Phụ nữ có thể chủ động kiểm tra sức khỏe phụ khoa định kỳ khoảng mỗi năm một lần, ngay cả khi chưa có triệu chứng. Tuy nhiên, đây là khoảng thời gian dành cho một lần đánh giá sức khỏe tổng thể, không có nghĩa tất cả mọi người đều cần siêu âm, xét nghiệm HPV hoặc xét nghiệm Pap mỗi năm.",
       "Lịch khám có thể ngắn hơn nếu người bệnh:",
       "Từng có kết quả Pap hoặc HPV bất thường.",
       "Đang theo dõi u xơ tử cung, u nang buồng trứng hoặc lạc nội mạc tử cung.",
@@ -4909,7 +4909,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Polyp cổ tử cung.",
       "Vùng chảy máu.",
       "Dấu hiệu nghi ngờ tổn thương tiền ung thư hoặc ung thư.",
-      "Nếu cần làm Pap test, xét nghiệm HPV hoặc lấy mẫu khí hư, mẫu thường được lấy trong bước này.",
+      "Nếu cần làm xét nghiệm Pap, xét nghiệm HPV hoặc lấy mẫu khí hư, mẫu thường được lấy trong bước này.",
       "Khám bằng van âm đạo có thể gây cảm giác căng hoặc khó chịu nhẹ nhưng không nên gây đau dữ dội. Người bệnh nên báo ngay nếu cảm thấy đau để bác sĩ điều chỉnh kích thước dụng cụ, tư thế hoặc dừng thủ thuật khi cần.",
       "Không phải mọi phụ nữ không có triệu chứng đều bắt buộc phải khám vùng chậu bằng dụng cụ ở mỗi lần kiểm tra. Lợi ích của việc thực hiện khám vùng chậu thường quy ở người hoàn toàn không có triệu chứng vẫn cần được cân nhắc theo tuổi, nguy cơ, mục đích khám và mong muốn của người bệnh.",
       "6. Khám bằng tay để đánh giá tử cung và phần phụ",
@@ -4922,19 +4922,19 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Độ di động của các cơ quan vùng chậu.",
       "Dấu hiệu gợi ý viêm vùng chậu.",
       "Khám bằng tay không thể xác định chính xác loại u hay kích thước tổn thương nhỏ. Nếu phát hiện đau hoặc khối nghi ngờ, bác sĩ có thể chỉ định siêu âm hoặc phương pháp chẩn đoán hình ảnh khác.",
-      "7. Pap test và xét nghiệm HPV",
-      "Pap test và xét nghiệm HPV là những phương pháp tầm soát ung thư cổ tử cung, nhưng chúng không hoàn toàn giống nhau.",
-      "Pap test kiểm tra điều gì?",
-      "Pap test lấy một số tế bào trên bề mặt cổ tử cung để tìm những thay đổi bất thường, bao gồm tổn thương tiền ung thư.",
+      "7. Xét nghiệm Pap và xét nghiệm HPV",
+      "xét nghiệm Pap và xét nghiệm HPV là những phương pháp tầm soát ung thư cổ tử cung, nhưng chúng không hoàn toàn giống nhau.",
+      "xét nghiệm Pap kiểm tra điều gì?",
+      "xét nghiệm Pap lấy một số tế bào trên bề mặt cổ tử cung để tìm những thay đổi bất thường, bao gồm tổn thương tiền ung thư.",
       "Xét nghiệm HPV kiểm tra điều gì?",
       "Xét nghiệm HPV tìm các chủng HPV nguy cơ cao có khả năng gây biến đổi tế bào cổ tử cung.",
-      "Một số trường hợp được thực hiện riêng Pap test, riêng xét nghiệm HPV hoặc kết hợp hai phương pháp.",
+      "Một số trường hợp được thực hiện riêng xét nghiệm Pap, riêng xét nghiệm HPV hoặc kết hợp hai phương pháp.",
       "Lịch tầm soát phụ thuộc vào tuổi, loại xét nghiệm, kết quả trước đây và hướng dẫn được áp dụng. Theo một số hướng dẫn quốc tế cập nhật:",
-      "Người từ 21–29 tuổi có nguy cơ trung bình có thể được tầm soát bằng Pap test định kỳ.",
-      "Từ 30–65 tuổi, xét nghiệm HPV nguy cơ cao thường được ưu tiên; Pap test đơn thuần hoặc xét nghiệm phối hợp vẫn có thể được sử dụng tùy điều kiện.",
+      "Người từ 21–29 tuổi có nguy cơ trung bình có thể được tầm soát bằng xét nghiệm Pap định kỳ.",
+      "Từ 30–65 tuổi, xét nghiệm HPV nguy cơ cao thường được ưu tiên; xét nghiệm Pap đơn thuần hoặc xét nghiệm phối hợp vẫn có thể được sử dụng tùy điều kiện.",
       "Người có tiền sử tổn thương tiền ung thư, suy giảm miễn dịch hoặc kết quả bất thường cần lịch riêng.",
       "Các mốc này chỉ mang tính tham khảo quốc tế. Người bệnh nên thực hiện theo hướng dẫn chuyên môn, chương trình tầm soát tại nơi sinh sống và đánh giá cá nhân của bác sĩ.",
-      "Không cần làm Pap test mỗi năm nếu người bệnh có nguy cơ trung bình và kết quả trước đây bình thường. Tuy nhiên, vẫn nên khám sức khỏe phụ khoa định kỳ để trao đổi các vấn đề khác.",
+      "Không cần làm xét nghiệm Pap mỗi năm nếu người bệnh có nguy cơ trung bình và kết quả trước đây bình thường. Tuy nhiên, vẫn nên khám sức khỏe phụ khoa định kỳ để trao đổi các vấn đề khác.",
       "8. Xét nghiệm khí hư khi có dấu hiệu viêm nhiễm",
       "Nếu người bệnh bị ngứa, rát, đau khi quan hệ, khí hư thay đổi hoặc có mùi bất thường, bác sĩ có thể lấy mẫu dịch âm đạo để kiểm tra.",
       "Mẫu dịch giúp tìm những nguyên nhân như:",
@@ -4956,7 +4956,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Tình trạng mang thai.",
       "Nguy cơ của bạn tình.",
       "Tùy trường hợp, mẫu xét nghiệm có thể là máu, nước tiểu hoặc dịch lấy từ âm đạo, cổ tử cung, họng hay trực tràng.",
-      "Theo CDC, nhiều bệnh lây truyền qua đường tình dục không gây triệu chứng. Phụ nữ đang hoạt động tình dục dưới 25 tuổi thường được khuyến nghị kiểm tra Chlamydia và lậu định kỳ; người từ 25 tuổi trở lên có nguy cơ tăng cũng có thể cần xét nghiệm. Phụ nữ mang thai cần được đánh giá thêm một số nhiễm trùng có khả năng ảnh hưởng đến thai kỳ.",
+      "Theo Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ, nhiều bệnh lây truyền qua đường tình dục không gây triệu chứng. Phụ nữ đang hoạt động tình dục dưới 25 tuổi thường được khuyến nghị kiểm tra Chlamydia và lậu định kỳ; người từ 25 tuổi trở lên có nguy cơ tăng cũng có thể cần xét nghiệm. Phụ nữ mang thai cần được đánh giá thêm một số nhiễm trùng có khả năng ảnh hưởng đến thai kỳ.",
       "10. Siêu âm phụ khoa",
       "Siêu âm sử dụng sóng âm để tạo hình ảnh của tử cung, nội mạc tử cung, buồng trứng và các cấu trúc vùng chậu.",
       "Có hai hình thức thường gặp."
@@ -4992,7 +4992,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Không.",
           "Siêu âm có thể phát hiện nhiều bất thường về cấu trúc nhưng không thể:",
           "Chẩn đoán chính xác mọi loại viêm âm đạo.",
-          "Thay thế Pap test hoặc xét nghiệm HPV.",
+          "Thay thế xét nghiệm Pap hoặc xét nghiệm HPV.",
           "Khẳng định chắc chắn một khối là lành tính hay ung thư.",
           "Phát hiện tất cả tổn thương nhỏ ở cổ tử cung.",
           "Đánh giá đầy đủ chức năng sinh sản chỉ bằng một lần chụp.",
@@ -5005,7 +5005,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Đánh giá chu kỳ kinh.",
           "Tư vấn thời điểm dễ thụ thai.",
           "Kiểm tra thuốc đang sử dụng.",
-          "Tư vấn vaccine.",
+          "Tư vấn vắc xin.",
           "Bổ sung acid folic.",
           "Đánh giá bệnh nền.",
           "Tư vấn xét nghiệm trước mang thai.",
@@ -5033,7 +5033,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Tâm trạng thay đổi.",
           "Giảm ham muốn.",
           "Tiểu gấp hoặc tiểu nhiều.",
-          "Bác sĩ sẽ đánh giá liệu đây là thay đổi sinh lý hay biểu hiện của bệnh lý khác. Không phải phụ nữ nào cũng cần xét nghiệm hormone để xác định mãn kinh.",
+          "Bác sĩ sẽ đánh giá liệu đây là thay đổi sinh lý hay biểu hiện của bệnh lý khác. Không phải phụ nữ nào cũng cần xét nghiệm nội tiết tố để xác định mãn kinh.",
           "Đặc biệt, mọi trường hợp chảy máu âm đạo sau mãn kinh đều cần được kiểm tra, kể cả khi chỉ ra máu một lần hoặc một lượng rất ít.",
           "Có cần khám vú khi đi khám phụ khoa không?",
           "Tùy cơ sở và tình trạng của người bệnh, bác sĩ có thể hỏi hoặc kiểm tra các dấu hiệu bất thường ở vú như:",
@@ -5128,7 +5128,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         ]
       },
       {
-        "heading": "Mỗi năm đều phải làm Pap test",
+        "heading": "Mỗi năm đều phải làm xét nghiệm Pap",
         "paragraphs": [
           "Không đúng. Lịch Pap và HPV phụ thuộc vào tuổi, loại xét nghiệm, nguy cơ và kết quả trước đó."
         ]
@@ -5158,7 +5158,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Tùy độ tuổi, triệu chứng và tiền sử, bác sĩ có thể tư vấn:",
           "Khám phụ khoa.",
           "Siêu âm qua đường bụng hoặc đầu dò.",
-          "Pap test.",
+          "xét nghiệm Pap.",
           "Xét nghiệm HPV.",
           "Xét nghiệm khí hư.",
           "Kiểm tra bệnh lây truyền qua đường tình dục.",
@@ -5183,8 +5183,8 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Vẫn có thể đi khám, nhưng thuốc có thể ảnh hưởng đến việc quan sát và kết quả mẫu dịch. Người bệnh cần thông báo tên thuốc, số ngày đã sử dụng và thời điểm đặt liều gần nhất.",
           "Khám phụ khoa bình thường có nghĩa là không mắc bệnh không?",
           "Kết quả bình thường giúp giảm khả năng có một số vấn đề tại thời điểm kiểm tra, nhưng không thể bảo đảm cơ thể sẽ không xuất hiện bệnh sau đó. Người bệnh vẫn cần tái khám nếu có triệu chứng mới.",
-          "Tiêm vaccine HPV rồi có cần Pap hoặc HPV test không?",
-          "Có. Vaccine giúp giảm nguy cơ nhiễm các chủng HPV quan trọng nhưng không bảo vệ tuyệt đối trước mọi chủng nguy cơ cao. Người đã tiêm vẫn cần tầm soát cổ tử cung theo lịch phù hợp.",
+          "Tiêm vắc xin HPV rồi có cần Pap hoặc xét nghiệm HPV không?",
+          "Có. Vắc xin giúp giảm nguy cơ nhiễm các chủng HPV quan trọng nhưng không bảo vệ tuyệt đối trước mọi chủng nguy cơ cao. Người đã tiêm vẫn cần tầm soát cổ tử cung theo lịch phù hợp.",
           "Kết luận",
           "Khám phụ khoa định kỳ không chỉ là siêu âm hoặc lấy mẫu Pap. Một buổi khám đầy đủ bắt đầu từ việc lắng nghe triệu chứng, khai thác tiền sử và đánh giá nguy cơ, sau đó mới lựa chọn khám, xét nghiệm hay chẩn đoán hình ảnh cần thiết.",
           "Không phải mọi phụ nữ đều cần thực hiện cùng một “gói khám”, và cũng không phải xét nghiệm nào càng làm thường xuyên càng tốt. Điều quan trọng là kiểm tra đúng theo tuổi, triệu chứng, tiền sử và kế hoạch sức khỏe của từng người.",
@@ -5196,13 +5196,14 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "dau-hieu-viem-phu-khoa-can-di-kham-som": {
     "sourceFile": "20.Dấu hiệu viêm phụ khoa cần đi khám sớm.docx",
-    "title": "Ngứa vùng kín, khí hư có mùi hoặc đau rát khi đi tiểu là những biểu hiện nhiều phụ nữ từng gặp ít nhất một lần. Một số trường hợp chỉ liên quan đến kích ứng nhẹ, nhưng cũng có trường hợp là dấu hiệu của viêm âm đạo, viêm cổ tử cung hoặc nhiễm khuẩn đường sinh dục.",
+    "title": "Dấu hiệu viêm phụ khoa cần đi khám sớm",
     "excerpt": "Điều quan trọng là không nên tự đoán bệnh chỉ dựa vào một triệu chứng. Khi các biểu hiện kéo dài, thường xuyên tái phát hoặc đi kèm đau bụng dưới, sốt, chảy máu bất thường, phụ nữ nên đi khám phụ khoa sớm để tìm đúng nguyên nhân và điều trị phù hợp.",
     "intro": [
       "Điều quan trọng là không nên tự đoán bệnh chỉ dựa vào một triệu chứng. Khi các biểu hiện kéo dài, thường xuyên tái phát hoặc đi kèm đau bụng dưới, sốt, chảy máu bất thường, phụ nữ nên đi khám phụ khoa sớm để tìm đúng nguyên nhân và điều trị phù hợp.",
       "Viêm phụ khoa là gì?",
       "“Viêm phụ khoa” là cách gọi phổ biến của nhiều tình trạng viêm hoặc nhiễm trùng xảy ra tại cơ quan sinh dục nữ, chẳng hạn như âm hộ, âm đạo, cổ tử cung, tử cung hoặc phần phụ.",
-      "Tùy vị trí và nguyên nhân, người bệnh có thể gặp các biểu hiện khác nhau. Viêm âm đạo thường gây ngứa, nóng rát, mùi khó chịu hoặc tăng tiết dịch. Trong khi đó, viêm vùng chậu có thể gây đau bụng dưới, sốt, đau khi quan hệ và chảy máu bất thường. khoa có thể xuất hiện ở nhiều độ tuổi. Bệnh không chỉ liên quan đến vệ sinh cá nhân mà còn có thể bắt nguồn từ sự mất cân bằng hệ vi sinh âm đạo, thay đổi nội tiết tố, kích ứng hóa chất hoặc các bệnh lây truyền qua đường tình dục.",
+      "Tùy vị trí và nguyên nhân, người bệnh có thể gặp các biểu hiện khác nhau. Viêm âm đạo thường gây ngứa, nóng rát, mùi khó chịu hoặc tăng tiết dịch. Trong khi đó, viêm vùng chậu có thể gây đau bụng dưới, sốt, đau khi quan hệ và chảy máu bất thường.",
+      "Viêm phụ khoa có thể xuất hiện ở nhiều độ tuổi. Bệnh không chỉ liên quan đến vệ sinh cá nhân mà còn có thể bắt nguồn từ sự mất cân bằng hệ vi sinh âm đạo, thay đổi nội tiết tố, kích ứng hóa chất hoặc các bệnh lây truyền qua đường tình dục.",
       "Khí hư như thế nào được xem là bất thường?",
       "Âm đạo tiết một lượng dịch nhất định là hiện tượng sinh lý bình thường. Dịch âm đạo thường có màu trắng trong hoặc trắng sữa, không có mùi khó chịu và có thể thay đổi về lượng theo chu kỳ kinh nguyệt.",
       "Bạn nên lưu ý khi khí hư có những thay đổi rõ rệt như:",
@@ -5211,22 +5212,30 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Có dạng đặc, vón cục hoặc nổi bọt.",
       "Xuất hiện mùi tanh, hôi hoặc mùi khác thường.",
       "Đi kèm ngứa, đau rát, sưng đỏ hoặc đau bụng dưới.",
-      "Sự thay đổi về màu sắc, mùi và độ đặc của khí hư có thể liên quan đến nhiễm trùng hoặc tình trạng viêm. Tuy nhiên, chỉ quan sát khí hư thường không đủ để xác định chính xác nguyên nhân. dấu hiệu viêm phụ khoa cần đi khám sớm",
+      "Sự thay đổi về màu sắc, mùi và độ đặc của khí hư có thể liên quan đến nhiễm trùng hoặc tình trạng viêm. Tuy nhiên, chỉ quan sát khí hư thường không đủ để xác định chính xác nguyên nhân.",
+      "Những dấu hiệu viêm phụ khoa cần đi khám sớm",
       "1. Khí hư có màu hoặc mùi bất thường",
       "Khí hư bất thường là một trong những lý do phổ biến khiến phụ nữ đi khám phụ khoa. Dịch có thể trở nên đặc hơn, loãng hơn, đổi màu hoặc có mùi tanh rõ rệt.",
-      "Chẳng hạn, viêm âm đạo do mất cân bằng vi khuẩn có thể gây dịch màu trắng hoặc xám kèm mùi tanh. Nhiễm nấm thường gây ngứa và dịch trắng đặc. Một số bệnh lây truyền qua đường tình dục cũng có thể làm tăng tiết dịch, gây mùi hoặc khiến khí hư đổi màu. Các biểu hiện có thể giống nhau nên không nên tự mua thuốc chỉ dựa vào màu sắc của dịch. gứa, nóng rát hoặc sưng đỏ vùng kín",
+      "Chẳng hạn, viêm âm đạo do mất cân bằng vi khuẩn có thể gây dịch màu trắng hoặc xám kèm mùi tanh. Nhiễm nấm thường gây ngứa và dịch trắng đặc. Một số bệnh lây truyền qua đường tình dục cũng có thể làm tăng tiết dịch, gây mùi hoặc khiến khí hư đổi màu. Các biểu hiện có thể giống nhau nên không nên tự mua thuốc chỉ dựa vào màu sắc của dịch.",
+      "2. Ngứa, nóng rát hoặc sưng đỏ vùng kín",
       "Ngứa nhẹ thoáng qua đôi khi liên quan đến mồ hôi, quần áo chật hoặc sản phẩm vệ sinh không phù hợp. Tuy nhiên, nếu cảm giác ngứa kéo dài, tăng dần hoặc đi kèm đỏ, sưng, đau rát, nứt da và khí hư bất thường, bạn nên đi khám.",
-      "Ngoài nhiễm trùng, ngứa vùng kín còn có thể liên quan đến dị ứng, bệnh da liễu hoặc sự suy giảm nội tiết tố trong giai đoạn tiền mãn kinh và mãn kinh. Vì vậy, việc dùng thuốc chống nấm khi chưa xác định nguyên nhân có thể không mang lại hiệu quả, thậm chí làm triệu chứng kéo dài hơn. au hoặc nóng rát khi đi tiểu",
+      "Ngoài nhiễm trùng, ngứa vùng kín còn có thể liên quan đến dị ứng, bệnh da liễu hoặc sự suy giảm nội tiết tố trong giai đoạn tiền mãn kinh và mãn kinh. Vì vậy, việc dùng thuốc chống nấm khi chưa xác định nguyên nhân có thể không mang lại hiệu quả, thậm chí làm triệu chứng kéo dài hơn.",
+      "3. Đau hoặc nóng rát khi đi tiểu",
       "Cảm giác buốt, rát khi tiểu có thể gặp trong viêm âm đạo, nhiễm trùng đường tiết niệu hoặc một số bệnh lây truyền qua đường tình dục.",
-      "Nếu triệu chứng xuất hiện cùng khí hư có mùi, đau bụng dưới, tiểu nhiều lần hoặc chảy máu ngoài kỳ kinh, người bệnh nên được kiểm tra sớm. Bác sĩ có thể cần xét nghiệm nước tiểu, dịch âm đạo hoặc thực hiện xét nghiệm tìm tác nhân lây truyền qua đường tình dục để phân biệt nguyên nhân. au khi quan hệ tình dục",
+      "Nếu triệu chứng xuất hiện cùng khí hư có mùi, đau bụng dưới, tiểu nhiều lần hoặc chảy máu ngoài kỳ kinh, người bệnh nên được kiểm tra sớm. Bác sĩ có thể cần xét nghiệm nước tiểu, dịch âm đạo hoặc thực hiện xét nghiệm tìm tác nhân lây truyền qua đường tình dục để phân biệt nguyên nhân.",
+      "4. Đau khi quan hệ tình dục",
       "Đau khi quan hệ không phải lúc nào cũng là viêm phụ khoa. Tình trạng này có thể liên quan đến khô âm đạo, căng thẳng, tổn thương tại chỗ hoặc một số bệnh lý phụ khoa khác.",
-      "Tuy nhiên, nếu đau thường xuyên, đau sâu trong vùng chậu hoặc kèm khí hư bất thường, chảy máu sau quan hệ và đau bụng dưới, bạn không nên tiếp tục chịu đựng hoặc tự cho rằng đây là hiện tượng bình thường. Viêm âm đạo, viêm cổ tử cung và viêm vùng chậu đều có thể gây đau khi quan hệ. au bụng dưới hoặc đau vùng chậu",
+      "Tuy nhiên, nếu đau thường xuyên, đau sâu trong vùng chậu hoặc kèm khí hư bất thường, chảy máu sau quan hệ và đau bụng dưới, bạn không nên tiếp tục chịu đựng hoặc tự cho rằng đây là hiện tượng bình thường. Viêm âm đạo, viêm cổ tử cung và viêm vùng chậu đều có thể gây đau khi quan hệ.",
+      "5. Đau bụng dưới hoặc đau vùng chậu",
       "Đau bụng dưới nhẹ có thể xuất hiện trước hoặc trong kỳ kinh. Tuy nhiên, cơn đau kéo dài ngoài kỳ kinh, đau tăng khi quan hệ hoặc đi kèm sốt và khí hư có mùi cần được thăm khám sớm.",
-      "Đây có thể là biểu hiện của viêm vùng chậu – tình trạng nhiễm trùng ảnh hưởng đến cơ quan sinh sản phía trên. Nếu không được phát hiện và điều trị phù hợp, viêm vùng chậu có thể làm tăng nguy cơ đau vùng chậu kéo dài, thai ngoài tử cung hoặc ảnh hưởng đến khả năng sinh sản. hảy máu ngoài kỳ kinh hoặc sau quan hệ",
+      "Đây có thể là biểu hiện của viêm vùng chậu - tình trạng nhiễm trùng ảnh hưởng đến cơ quan sinh sản phía trên. Nếu không được phát hiện và điều trị phù hợp, viêm vùng chậu có thể làm tăng nguy cơ đau vùng chậu kéo dài, thai ngoài tử cung hoặc ảnh hưởng đến khả năng sinh sản.",
+      "6. Chảy máu ngoài kỳ kinh hoặc sau quan hệ",
       "Một chút thay đổi trong chu kỳ đôi khi có thể liên quan đến nội tiết tố, thuốc tránh thai hoặc căng thẳng. Dù vậy, chảy máu giữa hai kỳ kinh, chảy máu sau quan hệ hoặc ra máu sau mãn kinh đều là những biểu hiện cần được kiểm tra.",
-      "Chảy máu bất thường có thể liên quan đến viêm cổ tử cung, nhiễm trùng, polyp, rối loạn nội tiết hoặc các bệnh lý khác của đường sinh dục. Đây không phải triệu chứng nên tự theo dõi kéo dài tại nhà. uất hiện mụn nước, vết loét hoặc tổn thương vùng kín",
+      "Chảy máu bất thường có thể liên quan đến viêm cổ tử cung, nhiễm trùng, polyp, rối loạn nội tiết hoặc các bệnh lý khác của đường sinh dục. Đây không phải triệu chứng nên tự theo dõi kéo dài tại nhà.",
+      "7. Xuất hiện mụn nước, vết loét hoặc tổn thương vùng kín",
       "Mụn nước, vết loét, nốt sưng đau hoặc tổn thương kéo dài ở âm hộ có thể liên quan đến nhiễm trùng, bệnh da liễu hoặc bệnh lây truyền qua đường tình dục.",
-      "Đặc biệt, các mụn nước đau rát hoặc vết loét tái phát cần được bác sĩ đánh giá. Không nên tự nặn, bôi thuốc không rõ thành phần hoặc dùng các dung dịch có tính sát khuẩn mạnh lên vùng tổn thương. riệu chứng thường xuyên tái phát",
+      "Đặc biệt, các mụn nước đau rát hoặc vết loét tái phát cần được bác sĩ đánh giá. Không nên tự nặn, bôi thuốc không rõ thành phần hoặc dùng các dung dịch có tính sát khuẩn mạnh lên vùng tổn thương.",
+      "8. Triệu chứng thường xuyên tái phát",
       "Có người cứ thấy ngứa là mua lại loại thuốc đã từng sử dụng. Tuy nhiên, triệu chứng giống nhau chưa chắc xuất phát từ cùng một nguyên nhân.",
       "Tình trạng tái phát nhiều lần có thể do điều trị chưa đúng tác nhân, sử dụng thuốc không đủ liệu trình, mất cân bằng hệ vi sinh, bệnh nền hoặc nguồn lây chưa được xử lý. Người bệnh nên đi khám thay vì tiếp tục dùng lại đơn thuốc cũ.",
       "Khi nào cần đến cơ sở y tế ngay?",
@@ -5239,7 +5248,8 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Đang mang thai hoặc nghi ngờ mang thai nhưng có đau bụng, ra máu hay khí hư bất thường.",
       "Có triệu chứng bất thường sau sinh, sau thủ thuật phụ khoa hoặc sau đặt dụng cụ tử cung.",
       "Đang sử dụng tampon và đột ngột sốt cao, phát ban, nôn, tiêu chảy, đau mỏi toàn thân hoặc lú lẫn.",
-      "Đau bụng dưới, sốt, khí hư có mùi, đau hoặc chảy máu khi quan hệ là những biểu hiện có thể gặp trong viêm vùng chậu và cần được đánh giá sớm. nguyên nhân thường gặp gây viêm phụ khoa",
+      "Đau bụng dưới, sốt, khí hư có mùi, đau hoặc chảy máu khi quan hệ là những biểu hiện có thể gặp trong viêm vùng chậu và cần được đánh giá sớm.",
+      "Nguyên nhân thường gặp gây viêm phụ khoa",
       "Các triệu chứng phụ khoa có thể bắt nguồn từ nhiều nguyên nhân, phổ biến gồm:",
       "Sự phát triển quá mức của nấm men.",
       "Mất cân bằng vi khuẩn trong âm đạo.",
@@ -5296,34 +5306,34 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "pap-smear-va-hpv-khac-nhau-the-nao-trong-tam-soat-ung-thu-co-tu-cung": {
     "sourceFile": "21.Tầm soát ung thư cổ tử cung Pap smear và HPV khác nhau thế nào.docx",
-    "title": "Tầm soát ung thư cổ tử cung: Pap smear và HPV khác nhau thế nào?",
-    "excerpt": "Pap smear và xét nghiệm HPV đều được sử dụng trong tầm soát ung thư cổ tử cung. Hai xét nghiệm thường được thực hiện bằng cách lấy mẫu tại cổ tử cung nên nhiều người nghĩ rằng chúng giống nhau. Thực tế, mỗi phương pháp lại tìm kiếm một vấn đề khác nhau.",
+    "title": "Tầm soát ung thư cổ tử cung: xét nghiệm tế bào cổ tử cung (Pap) và HPV khác nhau thế nào?",
+    "excerpt": "Xét nghiệm tế bào cổ tử cung (Pap) và xét nghiệm HPV đều được dùng để tầm soát ung thư cổ tử cung. Cả hai thường lấy mẫu tại cổ tử cung nhưng cung cấp những thông tin khác nhau.",
     "intro": [
-      "Pap smear và xét nghiệm HPV đều được sử dụng trong tầm soát ung thư cổ tử cung. Hai xét nghiệm thường được thực hiện bằng cách lấy mẫu tại cổ tử cung nên nhiều người nghĩ rằng chúng giống nhau. Thực tế, mỗi phương pháp lại tìm kiếm một vấn đề khác nhau.",
-      "Nói một cách dễ hiểu, Pap smear tìm những tế bào cổ tử cung đã có dấu hiệu biến đổi, còn xét nghiệm HPV tìm sự hiện diện của các chủng virus HPV nguy cơ cao có thể gây ra những biến đổi đó. Hiểu đúng sự khác biệt sẽ giúp phụ nữ bớt lo lắng khi nhận kết quả và lựa chọn lịch tầm soát phù hợp hơn.",
+      "Xét nghiệm tế bào cổ tử cung (thường gọi là xét nghiệm Pap) và xét nghiệm HPV đều được dùng để tầm soát ung thư cổ tử cung. Cả hai thường lấy mẫu tại cổ tử cung nhưng cung cấp những thông tin khác nhau.",
+      "Nói một cách dễ hiểu, xét nghiệm Pap tìm những tế bào cổ tử cung đã có dấu hiệu biến đổi, còn xét nghiệm HPV tìm các chủng vi rút HPV nguy cơ cao có thể gây ra những biến đổi đó. Hiểu đúng sự khác biệt sẽ giúp phụ nữ bớt lo lắng khi nhận kết quả và lựa chọn lịch tầm soát phù hợp hơn.",
       "Vì sao cần tầm soát ung thư cổ tử cung?",
       "Ung thư cổ tử cung thường phát triển qua nhiều giai đoạn. Trước khi trở thành ung thư, các tế bào ở cổ tử cung có thể trải qua những biến đổi bất thường gọi là tổn thương tiền ung thư.",
-      "Quá trình này thường diễn ra chậm. Vì vậy, tầm soát định kỳ có thể giúp phát hiện virus HPV nguy cơ cao hoặc những tế bào bất thường trước khi bệnh tiến triển thành ung thư xâm lấn. Khi tổn thương tiền ung thư được phát hiện và xử lý đúng lúc, nguy cơ phát triển thành ung thư có thể giảm đáng kể.",
-      "Phần lớn các trường hợp ung thư cổ tử cung có liên quan đến tình trạng nhiễm kéo dài một số chủng HPV nguy cơ cao. Tuy nhiên, nhiễm HPV không đồng nghĩa với mắc ung thư. Nhiều trường hợp nhiễm virus có thể tự được cơ thể kiểm soát mà không gây tổn thương nghiêm trọng.",
-      "Pap smear là gì?",
-      "Pap smear, còn gọi là xét nghiệm Pap hoặc xét nghiệm tế bào học cổ tử cung, là phương pháp kiểm tra hình thái của các tế bào được lấy từ bề mặt cổ tử cung.",
+      "Quá trình này thường diễn ra chậm. Vì vậy, tầm soát định kỳ có thể giúp phát hiện vi rút HPV nguy cơ cao hoặc những tế bào bất thường trước khi bệnh tiến triển thành ung thư xâm lấn. Khi tổn thương tiền ung thư được phát hiện và xử lý đúng lúc, nguy cơ phát triển thành ung thư có thể giảm đáng kể.",
+      "Phần lớn các trường hợp ung thư cổ tử cung có liên quan đến tình trạng nhiễm kéo dài một số chủng HPV nguy cơ cao. Tuy nhiên, nhiễm HPV không đồng nghĩa với mắc ung thư. Nhiều trường hợp nhiễm vi rút có thể tự được cơ thể kiểm soát mà không gây tổn thương nghiêm trọng.",
+      "Xét nghiệm tế bào cổ tử cung (Pap) là gì?",
+      "Xét nghiệm Pap, còn gọi là xét nghiệm tế bào học cổ tử cung, kiểm tra hình thái của các tế bào được lấy từ bề mặt cổ tử cung.",
       "Mẫu tế bào sẽ được gửi đến phòng xét nghiệm để quan sát dưới kính hiển vi. Bác sĩ giải phẫu bệnh hoặc chuyên viên xét nghiệm sẽ đánh giá xem tế bào có bình thường hay xuất hiện các biến đổi nghi ngờ tiền ung thư hoặc ung thư hay không.",
-      "Có thể hình dung Pap smear giống như việc kiểm tra xem “bề mặt tế bào” đã có dấu hiệu bất thường hay chưa.",
-      "Pap smear có thể phát hiện điều gì?",
-      "Kết quả Pap smear có thể cho thấy:",
+      "Có thể hình dung xét nghiệm Pap giống như việc kiểm tra xem “bề mặt tế bào” đã có dấu hiệu bất thường hay chưa.",
+      "Xét nghiệm Pap có thể phát hiện điều gì?",
+      "Kết quả xét nghiệm Pap có thể cho thấy:",
       "Tế bào cổ tử cung bình thường.",
       "Tế bào có biến đổi nhẹ, chưa xác định rõ nguyên nhân.",
       "Tổn thương tế bào mức độ thấp.",
       "Tổn thương tế bào mức độ cao, có nguy cơ tiến triển thành ung thư.",
       "Những tế bào nghi ngờ ung thư.",
       "Một số dấu hiệu viêm hoặc nhiễm trùng.",
-      "Pap smear là xét nghiệm tầm soát, không phải xét nghiệm khẳng định ung thư. Khi kết quả bất thường, người bệnh có thể cần xét nghiệm HPV, soi cổ tử cung, sinh thiết hoặc theo dõi lại sau một khoảng thời gian, tùy mức độ nguy cơ."
+      "Xét nghiệm Pap là xét nghiệm tầm soát, không phải xét nghiệm khẳng định ung thư. Khi kết quả bất thường, người bệnh có thể cần xét nghiệm HPV, soi cổ tử cung, sinh thiết hoặc theo dõi lại sau một khoảng thời gian, tùy mức độ nguy cơ."
     ],
     "sections": [
       {
-        "heading": "Ưu điểm của Pap smear",
+        "heading": "Ưu điểm của xét nghiệm Pap",
         "paragraphs": [
-          "Pap smear đã được sử dụng trong nhiều thập kỷ và góp phần quan trọng trong việc phát hiện sớm tổn thương tiền ung thư cổ tử cung.",
+          "Xét nghiệm Pap đã được sử dụng trong nhiều thập kỷ và góp phần quan trọng trong việc phát hiện sớm tổn thương tiền ung thư cổ tử cung.",
           "Phương pháp này có các ưu điểm như:",
           "Trực tiếp phát hiện những tế bào đã có biến đổi.",
           "Có thể thực hiện tại nhiều cơ sở y tế.",
@@ -5333,103 +5343,103 @@ export const articleDetails: Record<string, ArticleDetail> = {
         ]
       },
       {
-        "heading": "Hạn chế của Pap smear",
+        "heading": "Hạn chế của xét nghiệm Pap",
         "paragraphs": [
-          "Pap smear không phát hiện trực tiếp virus HPV. Xét nghiệm cũng có thể bỏ sót tổn thương nếu số lượng tế bào lấy được không đủ, vị trí lấy mẫu chưa phù hợp hoặc những biến đổi tế bào còn quá ít.",
-          "Do độ nhạy không tuyệt đối, Pap smear đơn thuần thường cần được thực hiện với khoảng cách ngắn hơn xét nghiệm HPV. Kết quả cũng có thể bất thường do viêm, kích ứng hoặc những biến đổi tế bào không tiến triển thành ung thư.",
+          "Xét nghiệm Pap không phát hiện trực tiếp vi rút HPV. Xét nghiệm cũng có thể bỏ sót tổn thương nếu số lượng tế bào lấy được không đủ, vị trí lấy mẫu chưa phù hợp hoặc những biến đổi tế bào còn quá ít.",
+          "Do độ nhạy không tuyệt đối, xét nghiệm Pap đơn thuần thường cần được thực hiện với khoảng cách ngắn hơn xét nghiệm HPV. Kết quả cũng có thể bất thường do viêm, kích ứng hoặc những biến đổi tế bào không tiến triển thành ung thư.",
           "Xét nghiệm HPV là gì?",
           "Xét nghiệm HPV tìm kiếm vật liệu di truyền của các chủng HPV nguy cơ cao trong mẫu tế bào cổ tử cung hoặc âm đạo.",
           "Xét nghiệm này không chủ yếu đánh giá hình dạng tế bào. Thay vào đó, nó giúp xác định người được tầm soát có đang mang loại HPV làm tăng nguy cơ xuất hiện tổn thương tiền ung thư cổ tử cung hay không.",
           "Có thể hình dung xét nghiệm HPV như việc tìm “yếu tố nguy cơ đứng phía sau”, trước cả khi tế bào xuất hiện những thay đổi rõ ràng.",
           "HPV nguy cơ cao là gì?",
-          "HPV là một nhóm gồm nhiều loại virus khác nhau. Một số chủng gây mụn cóc sinh dục nhưng ít liên quan đến ung thư. Một số chủng khác được xếp vào nhóm nguy cơ cao vì tình trạng nhiễm kéo dài có thể dẫn đến biến đổi tiền ung thư và ung thư cổ tử cung.",
+          "HPV là một nhóm gồm nhiều loại vi rút khác nhau. Một số chủng gây mụn cóc sinh dục nhưng ít liên quan đến ung thư. Một số chủng khác được xếp vào nhóm nguy cơ cao vì tình trạng nhiễm kéo dài có thể dẫn đến biến đổi tiền ung thư và ung thư cổ tử cung.",
           "Tùy loại xét nghiệm, phòng xét nghiệm có thể:",
           "Chỉ thông báo âm tính hoặc dương tính với HPV nguy cơ cao.",
-          "Xác định riêng HPV type 16 và type 18.",
+          "Xác định riêng HPV típ 16 và típ 18.",
           "Phân nhóm hoặc định type nhiều chủng HPV nguy cơ cao hơn.",
-          "Việc xác định chủng HPV giúp bác sĩ phân tầng nguy cơ và lựa chọn bước theo dõi phù hợp. WHO đã cập nhật hướng dẫn năm 2026 về vai trò của xét nghiệm và định type HPV DNA trong các chương trình phòng ngừa ung thư cổ tử cung."
+          "Việc xác định chủng HPV giúp bác sĩ phân tầng nguy cơ và lựa chọn bước theo dõi phù hợp. Tổ chức Y tế Thế giới đã cập nhật hướng dẫn năm 2026 về vai trò của xét nghiệm và định type HPV DNA trong các chương trình phòng ngừa ung thư cổ tử cung."
         ]
       },
       {
         "heading": "Ưu điểm của xét nghiệm HPV",
         "paragraphs": [
           "Xét nghiệm HPV có độ nhạy cao trong việc nhận diện những người có nguy cơ xuất hiện tổn thương tiền ung thư cổ tử cung. Kết quả HPV âm tính giúp bác sĩ đánh giá rằng nguy cơ tổn thương cổ tử cung nghiêm trọng trong những năm tiếp theo tương đối thấp.",
-          "Vì vậy, khi xét nghiệm HPV được sử dụng làm phương pháp tầm soát chính và cho kết quả âm tính, khoảng cách giữa hai lần tầm soát thường có thể dài hơn so với Pap smear đơn thuần. Nhiều hướng dẫn hiện nay ưu tiên xét nghiệm HPV nguy cơ cao làm phương pháp tầm soát chính ở nhóm tuổi phù hợp."
+          "Vì vậy, khi xét nghiệm HPV được sử dụng làm phương pháp tầm soát chính và cho kết quả âm tính, khoảng cách giữa hai lần tầm soát thường có thể dài hơn so với xét nghiệm Pap đơn thuần. Nhiều hướng dẫn hiện nay ưu tiên xét nghiệm HPV nguy cơ cao làm phương pháp tầm soát chính ở nhóm tuổi phù hợp."
         ]
       },
       {
         "heading": "Hạn chế của xét nghiệm HPV",
         "paragraphs": [
-          "Xét nghiệm HPV có thể phát hiện cả những trường hợp nhiễm virus tạm thời, vốn có khả năng tự hết và không gây tổn thương tiền ung thư.",
+          "Xét nghiệm HPV có thể phát hiện cả những trường hợp nhiễm vi rút tạm thời, vốn có khả năng tự hết và không gây tổn thương tiền ung thư.",
           "Điều này đặc biệt thường gặp ở người trẻ. Nếu thực hiện xét nghiệm HPV quá sớm hoặc không đúng chỉ định, kết quả dương tính có thể dẫn đến lo lắng và thực hiện thêm các thủ thuật chưa thực sự cần thiết.",
-          "Xét nghiệm HPV dương tính cũng không cho biết chắc chắn tế bào cổ tử cung đã biến đổi. Người bệnh có thể cần làm thêm Pap smear, định type HPV hoặc soi cổ tử cung để đánh giá chính xác hơn.",
-          "Pap smear và HPV khác nhau thế nào?",
+          "Xét nghiệm HPV dương tính cũng không cho biết chắc chắn tế bào cổ tử cung đã biến đổi. Người bệnh có thể cần làm thêm xét nghiệm Pap, xác định chủng HPV hoặc soi cổ tử cung để đánh giá chính xác hơn.",
+          "Xét nghiệm Pap và HPV khác nhau thế nào?",
           "Điểm dễ nhớ nhất là:",
-          "Pap smear kiểm tra tế bào đã thay đổi hay chưa, còn xét nghiệm HPV kiểm tra có virus nguy cơ cao hay không.",
-          "Lấy mẫu Pap smear và HPV có khác nhau không?",
+          "Xét nghiệm Pap kiểm tra tế bào đã thay đổi hay chưa, còn xét nghiệm HPV kiểm tra có vi rút nguy cơ cao hay không.",
+          "Lấy mẫu xét nghiệm Pap và HPV có khác nhau không?",
           "Khi thực hiện tại cơ sở y tế, quy trình lấy mẫu của hai xét nghiệm khá giống nhau.",
           "Người bệnh nằm trên bàn khám phụ khoa. Bác sĩ hoặc nhân viên y tế nhẹ nhàng đặt mỏ vịt vào âm đạo để quan sát cổ tử cung, sau đó sử dụng một dụng cụ nhỏ dạng chổi hoặc que để lấy tế bào.",
           "Mẫu lấy được có thể dùng để:",
-          "Làm Pap smear.",
+          "Làm xét nghiệm Pap.",
           "Làm xét nghiệm HPV.",
-          "Làm đồng thời cả Pap smear và HPV nếu phù hợp.",
+          "Làm đồng thời cả xét nghiệm Pap và HPV nếu phù hợp.",
           "Quá trình lấy mẫu thường diễn ra nhanh. Người bệnh có thể cảm thấy hơi căng tức hoặc khó chịu nhưng thường không đau nhiều. Một số người có thể ra một chút máu sau khi lấy mẫu, đặc biệt khi cổ tử cung đang viêm hoặc nhạy cảm.",
-          "Co-testing là gì?",
-          "Co-testing là phương pháp thực hiện đồng thời Pap smear và xét nghiệm HPV trên cùng một lần lấy mẫu.",
+          "Xét nghiệm phối hợp là gì?",
+          "Xét nghiệm phối hợp là phương pháp thực hiện đồng thời xét nghiệm Pap và HPV trên cùng một lần lấy mẫu.",
           "Phương pháp này cho biết cả hai thông tin:",
           "Có HPV nguy cơ cao hay không.",
           "Tế bào cổ tử cung đã biến đổi hay chưa.",
-          "Co-testing có thể được sử dụng trong một số chương trình tầm soát hoặc khi cần đánh giá nguy cơ kỹ hơn. Tuy nhiên, khi xét nghiệm HPV nguyên phát đạt tiêu chuẩn và được áp dụng đúng, việc làm đồng thời hai xét nghiệm không phải lúc nào cũng mang lại thêm lợi ích đáng kể. Lựa chọn phương pháp phụ thuộc vào độ tuổi, tiền sử tầm soát, nguy cơ cá nhân và điều kiện xét nghiệm tại cơ sở y tế.",
-          "Nên làm Pap smear hay xét nghiệm HPV?",
+          "Xét nghiệm phối hợp có thể được sử dụng trong một số chương trình tầm soát hoặc khi cần đánh giá nguy cơ kỹ hơn. Tuy nhiên, khi xét nghiệm HPV nguyên phát đạt tiêu chuẩn và được áp dụng đúng, việc làm đồng thời hai xét nghiệm không phải lúc nào cũng mang lại thêm lợi ích đáng kể. Lựa chọn phương pháp phụ thuộc vào độ tuổi, tiền sử tầm soát, nguy cơ cá nhân và điều kiện xét nghiệm tại cơ sở y tế.",
+          "Nên làm xét nghiệm Pap hay xét nghiệm HPV?",
           "Không có một xét nghiệm duy nhất phù hợp với tất cả mọi người. Lựa chọn phụ thuộc nhiều vào độ tuổi và tiền sử sức khỏe.",
           "Các hướng dẫn quốc tế hiện chưa hoàn toàn giống nhau về tuổi bắt đầu và phương pháp ưu tiên. Một số hướng dẫn khuyến nghị:",
-          "Từ 21–29 tuổi: tầm soát bằng Pap smear định kỳ.",
-          "Từ 30–65 tuổi: ưu tiên xét nghiệm HPV nguy cơ cao nguyên phát; Pap smear hoặc co-testing có thể được sử dụng tùy điều kiện và phác đồ.",
+          "Từ 21–29 tuổi: tầm soát bằng xét nghiệm Pap định kỳ.",
+          "Từ 30–65 tuổi: ưu tiên xét nghiệm HPV nguy cơ cao nguyên phát; xét nghiệm Pap hoặc xét nghiệm phối hợp có thể được sử dụng tùy điều kiện và phác đồ.",
           "Sau 65 tuổi: có thể ngừng tầm soát nếu đã được tầm soát đầy đủ trước đó, kết quả liên tiếp bình thường và không thuộc nhóm nguy cơ cao.",
-          "Hướng dẫn ACOG công bố tháng 7 năm 2026 khuyến nghị người 21–29 tuổi làm tế bào học cổ tử cung mỗi 3 năm; nhóm 30–65 tuổi ưu tiên xét nghiệm HPV nguy cơ cao nguyên phát bằng mẫu cổ tử cung do nhân viên y tế lấy mỗi 5 năm.",
+          "Lịch tầm soát phụ thuộc vào độ tuổi, loại xét nghiệm đã thực hiện, kết quả trước đây và hướng dẫn chuyên môn đang áp dụng. Phụ nữ nên trao đổi với bác sĩ để biết thời điểm phù hợp thay vì tự áp dụng một lịch chung cho mọi người.",
           "Tuy nhiên, đây là lịch tham khảo cho người có nguy cơ trung bình. Tại mỗi quốc gia hoặc cơ sở y tế, chương trình tầm soát có thể được điều chỉnh theo hướng dẫn chuyên môn, nguồn lực xét nghiệm và tình trạng của từng người.",
           "Không nên tự chọn xét nghiệm chỉ dựa vào giá hoặc tâm lý muốn “làm càng nhiều càng tốt”. Tầm soát quá dày có thể phát hiện những bất thường nhẹ vốn có khả năng tự hồi phục, dẫn đến lo lắng và can thiệp không cần thiết.",
-          "Hiểu kết quả Pap smear và HPV như thế nào?"
+          "Hiểu kết quả xét nghiệm Pap và HPV như thế nào?"
         ]
       },
       {
-        "heading": "HPV âm tính và Pap smear bình thường",
+        "heading": "HPV âm tính và xét nghiệm Pap bình thường",
         "paragraphs": [
           "Đây là kết quả có nguy cơ thấp. Người được tầm soát thường có thể tiếp tục theo lịch định kỳ do bác sĩ hướng dẫn.",
           "Tuy nhiên, kết quả âm tính không có nghĩa là không bao giờ mắc bệnh. Người bệnh vẫn cần quay lại tầm soát đúng thời gian."
         ]
       },
       {
-        "heading": "HPV dương tính nhưng Pap smear bình thường",
+        "heading": "HPV dương tính nhưng xét nghiệm Pap bình thường",
         "paragraphs": [
           "Kết quả này có nghĩa là đã phát hiện HPV nguy cơ cao nhưng tế bào cổ tử cung chưa có biến đổi rõ ràng.",
           "Tùy chủng HPV và tiền sử xét nghiệm, bác sĩ có thể đề nghị:",
           "Định type HPV 16, HPV 18 hoặc các nhóm nguy cơ cao khác.",
           "Lặp lại xét nghiệm sau một khoảng thời gian.",
-          "Làm Pap smear bổ sung.",
+          "Làm xét nghiệm Pap bổ sung.",
           "Soi cổ tử cung nếu nguy cơ được đánh giá cao.",
           "HPV dương tính không đồng nghĩa với ung thư cổ tử cung. Phần lớn kết quả bất thường không phải là ung thư, nhưng cần được theo dõi đúng hẹn để phát hiện những trường hợp nhiễm kéo dài."
         ]
       },
       {
-        "heading": "HPV âm tính nhưng Pap smear bất thường",
+        "heading": "HPV âm tính nhưng xét nghiệm Pap bất thường",
         "paragraphs": [
           "Trường hợp này có thể xuất hiện khi tế bào thay đổi do viêm, kích ứng hoặc một nguyên nhân không được xét nghiệm HPV phát hiện.",
           "Hướng xử trí phụ thuộc vào mức độ bất thường của tế bào. Một số trường hợp chỉ cần theo dõi lại, trong khi những biến đổi mức độ cao có thể cần soi cổ tử cung và sinh thiết."
         ]
       },
       {
-        "heading": "HPV dương tính và Pap smear bất thường",
+        "heading": "HPV dương tính và xét nghiệm Pap bất thường",
         "paragraphs": [
           "Khi cả hai xét nghiệm đều bất thường, nguy cơ tổn thương tiền ung thư có thể cao hơn. Người bệnh thường cần được đánh giá thêm thay vì chỉ tiếp tục tầm soát định kỳ.",
           "Bác sĩ có thể chỉ định soi cổ tử cung. Nếu nhìn thấy vùng nghi ngờ, một mẫu mô nhỏ có thể được lấy để sinh thiết. Chỉ kết quả mô bệnh học mới giúp xác định chính xác có tổn thương tiền ung thư hoặc ung thư hay không.",
           "Kết quả bất thường có phải là ung thư không?",
           "Đây là điều khiến nhiều phụ nữ lo lắng nhất, nhưng câu trả lời thường là không.",
-          "Pap smear bất thường có thể chỉ là biến đổi tế bào nhẹ. HPV dương tính chỉ cho thấy có sự hiện diện của virus nguy cơ cao. Cả hai kết quả đều cần được đặt trong bối cảnh độ tuổi, chủng HPV, mức độ biến đổi tế bào và tiền sử tầm soát.",
+          "Xét nghiệm Pap bất thường có thể chỉ là biến đổi tế bào nhẹ. HPV dương tính chỉ cho thấy có sự hiện diện của vi rút nguy cơ cao. Cả hai kết quả đều cần được đặt trong bối cảnh độ tuổi, chủng HPV, mức độ biến đổi tế bào và tiền sử tầm soát.",
           "Phần lớn người có kết quả tầm soát bất thường không mắc ung thư cổ tử cung. Giá trị của tầm soát chính là phát hiện những thay đổi sớm để theo dõi hoặc điều trị trước khi chúng trở nên nghiêm trọng.",
           "Ai cần kế hoạch tầm soát riêng?",
           "Lịch tầm soát thông thường có thể không phù hợp với người:",
-          "Từng có kết quả Pap smear hoặc HPV bất thường.",
+          "Từng có kết quả xét nghiệm Pap hoặc HPV bất thường.",
           "Từng được chẩn đoán tổn thương tiền ung thư cổ tử cung.",
           "Đã điều trị ung thư cổ tử cung.",
           "Nhiễm HIV hoặc suy giảm miễn dịch.",
@@ -5439,9 +5449,9 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Đã cắt tử cung nhưng không rõ cổ tử cung đã được cắt hay chưa.",
           "Chưa từng tầm soát hoặc tầm soát không đầy đủ.",
           "Những người thuộc nhóm này có thể cần bắt đầu sớm hơn, kiểm tra thường xuyên hơn hoặc tiếp tục tầm soát sau 65 tuổi.",
-          "Đã tiêm vaccine HPV có cần tầm soát không?",
-          "Có. Vaccine HPV giúp phòng ngừa nhiều chủng HPV nguy cơ cao nhưng không bảo vệ khỏi tất cả các chủng có khả năng gây ung thư cổ tử cung.",
-          "Người đã tiêm đủ vaccine vẫn cần tầm soát đúng độ tuổi và lịch được khuyến nghị. Vaccine HPV và tầm soát không thay thế cho nhau mà bổ sung cho nhau trong phòng ngừa ung thư cổ tử cung.",
+          "Đã tiêm vắc xin HPV có cần tầm soát không?",
+          "Có. Vắc xin HPV giúp phòng ngừa nhiều chủng HPV nguy cơ cao nhưng không bảo vệ khỏi tất cả các chủng có khả năng gây ung thư cổ tử cung.",
+          "Người đã tiêm đủ vắc xin vẫn cần tầm soát đúng độ tuổi và lịch được khuyến nghị. Vắc xin HPV và tầm soát không thay thế cho nhau mà bổ sung cho nhau trong phòng ngừa ung thư cổ tử cung.",
           "Có triệu chứng bất thường thì có nên chờ đến lịch tầm soát?",
           "Không. Tầm soát được thực hiện cho người chưa có triệu chứng nhằm phát hiện nguy cơ hoặc tổn thương sớm.",
           "Nếu xuất hiện các dấu hiệu như:",
@@ -5451,7 +5461,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Khí hư lẫn máu hoặc có mùi bất thường kéo dài.",
           "Đau vùng chậu.",
           "Đau hoặc chảy máu khi quan hệ.",
-          "Người bệnh nên đi khám sớm. Khi đó, bác sĩ sẽ thực hiện quá trình chẩn đoán, có thể bao gồm khám phụ khoa, Pap smear, xét nghiệm HPV, soi cổ tử cung, siêu âm hoặc sinh thiết tùy tình trạng. Không nên đợi đến lịch tầm soát định kỳ.",
+          "Người bệnh nên đi khám sớm. Khi đó, bác sĩ sẽ thực hiện quá trình chẩn đoán, có thể bao gồm khám phụ khoa, xét nghiệm Pap, xét nghiệm HPV, soi cổ tử cung, siêu âm hoặc sinh thiết tùy tình trạng. Không nên đợi đến lịch tầm soát định kỳ.",
           "Cần chuẩn bị gì trước khi lấy mẫu?",
           "Để mẫu xét nghiệm đạt chất lượng tốt, người bệnh nên làm theo hướng dẫn của cơ sở y tế. Thông thường, nên:",
           "Hạn chế lấy mẫu khi đang có kinh nguyệt nhiều.",
@@ -5459,15 +5469,15 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Không thụt rửa âm đạo.",
           "Không đặt thuốc, dùng kem hoặc gel âm đạo trước ngày lấy mẫu nếu bác sĩ không có chỉ định khác.",
           "Thông báo với bác sĩ nếu đang mang thai, có thể mang thai hoặc đang điều trị viêm phụ khoa.",
-          "Mang theo kết quả Pap smear, HPV hoặc soi cổ tử cung trước đây nếu có.",
+          "Mang theo kết quả xét nghiệm Pap, HPV hoặc soi cổ tử cung trước đây nếu có.",
           "Một số hướng dẫn có thể thay đổi tùy loại xét nghiệm, vì vậy người bệnh nên làm theo thông tin chuẩn bị do cơ sở lấy mẫu cung cấp."
         ]
       },
       {
         "heading": "Tầm soát ung thư cổ tử cung tại Bệnh viện Đa khoa Hồng Phúc",
         "paragraphs": [
-          "Pap smear và xét nghiệm HPV không phải hai phương pháp cạnh tranh để tìm ra xét nghiệm “tốt hơn cho tất cả mọi người”. Mỗi phương pháp cung cấp một loại thông tin khác nhau và có vai trò phù hợp trong từng độ tuổi, hoàn cảnh và mức nguy cơ.",
-          "Phụ nữ có thể đến Bệnh viện Đa khoa Hồng Phúc để được bác sĩ khai thác tiền sử, đánh giá nguy cơ và tư vấn phương pháp tầm soát phù hợp. Tùy từng trường hợp, bác sĩ có thể chỉ định Pap smear, xét nghiệm HPV, co-testing hoặc các kiểm tra chuyên sâu hơn khi kết quả bất thường.",
+          "Xét nghiệm Pap và HPV không phải hai phương pháp cạnh tranh để tìm ra xét nghiệm “tốt hơn cho tất cả mọi người”. Mỗi phương pháp cung cấp một loại thông tin khác nhau và có vai trò phù hợp trong từng độ tuổi, hoàn cảnh và mức nguy cơ.",
+          "Phụ nữ có thể đến Bệnh viện Đa khoa Hồng Phúc để được bác sĩ tìm hiểu tiền sử, đánh giá nguy cơ và tư vấn phương pháp tầm soát phù hợp. Tùy từng trường hợp, bác sĩ có thể chỉ định xét nghiệm Pap, xét nghiệm HPV, xét nghiệm phối hợp hoặc các kiểm tra chuyên sâu hơn khi kết quả bất thường.",
           "Điều quan trọng không phải là làm thật nhiều xét nghiệm trong một lần, mà là lựa chọn đúng phương pháp, đúng thời điểm và theo dõi đầy đủ sau tầm soát. Phát hiện sớm những biến đổi tại cổ tử cung giúp người bệnh có thêm cơ hội xử trí kịp thời, nhẹ nhàng và hiệu quả hơn.",
           "Thông tin trong bài viết mang tính chất tham khảo. Tuổi bắt đầu, phương pháp và khoảng cách tầm soát có thể thay đổi theo hướng dẫn chuyên môn, tiền sử sức khỏe và nguy cơ của từng người."
         ]
@@ -5476,12 +5486,12 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "theo-doi-thai-ky-chuan-quoc-te-gom-nhung-moc-nao": {
     "sourceFile": "22.Theo dõi thai kỳ chuẩn quốc tế gồm những mốc nào.docx",
-    "title": "Theo dõi thai kỳ chuẩn quốc tế gồm những mốc nào?",
+    "title": "Theo dõi thai kỳ gồm những mốc khám quan trọng nào?",
     "excerpt": "Từ lúc nhìn thấy hai vạch đến ngày em bé chào đời, mẹ bầu sẽ trải qua nhiều lần khám, xét nghiệm và siêu âm khác nhau. Có mốc giúp xác định tuổi thai, có mốc sàng lọc bất thường nhiễm sắc thể, có mốc kiểm tra cấu trúc cơ thể thai nhi và cũng có những lần khám chủ yếu để theo dõi huyết áp, sự phát triển của em bé hoặc chuẩn bị cho cuộc sinh.",
     "intro": [
       "Từ lúc nhìn thấy hai vạch đến ngày em bé chào đời, mẹ bầu sẽ trải qua nhiều lần khám, xét nghiệm và siêu âm khác nhau. Có mốc giúp xác định tuổi thai, có mốc sàng lọc bất thường nhiễm sắc thể, có mốc kiểm tra cấu trúc cơ thể thai nhi và cũng có những lần khám chủ yếu để theo dõi huyết áp, sự phát triển của em bé hoặc chuẩn bị cho cuộc sinh.",
-      "Tuy nhiên, theo dõi thai kỳ chuẩn quốc tế không có nghĩa tất cả thai phụ phải thực hiện một danh sách xét nghiệm hoàn toàn giống nhau. Lịch khám cần dựa trên tuổi thai, sức khỏe của mẹ, sự phát triển của thai nhi và những nguy cơ được phát hiện trong quá trình theo dõi.",
-      "Theo dõi thai kỳ chuẩn quốc tế được hiểu như thế nào?",
+      "Tuy nhiên, theo dõi thai kỳ bài bản không có nghĩa tất cả thai phụ phải thực hiện một danh sách xét nghiệm giống nhau. Lịch khám cần dựa trên tuổi thai, sức khỏe của mẹ, sự phát triển của thai nhi và những nguy cơ được phát hiện trong quá trình theo dõi.",
+      "Theo dõi thai kỳ bài bản gồm những gì?",
       "Theo dõi thai kỳ, còn gọi là chăm sóc trước sinh hoặc khám thai định kỳ, là quá trình theo dõi sức khỏe của mẹ và thai nhi từ khi xác định mang thai cho đến khi sinh.",
       "Mục tiêu không chỉ là “xem em bé lớn đến đâu”, mà còn bao gồm:",
       "Xác định vị trí và tuổi thai.",
@@ -5659,9 +5669,9 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Mốc 27–36 tuần: rà soát kế hoạch tiêm chủng",
         "paragraphs": [
           "Thai kỳ là thời điểm cần xem lại lịch tiêm chủng của người mẹ.",
-          "Theo CDC, vaccine Tdap phòng uốn ván, bạch hầu và ho gà được khuyến nghị trong mỗi thai kỳ, thường vào khoảng 27–36 tuần, ưu tiên phần đầu của khoảng thời gian này để tăng truyền kháng thể cho em bé.",
-          "Vaccine cúm bất hoạt có thể được sử dụng ở bất kỳ giai đoạn nào của thai kỳ trong mùa cúm. Một số vaccine khác được cân nhắc theo bệnh nền, nguy cơ tiếp xúc, dịch tễ và chương trình tại từng quốc gia. Vaccine sống như MMR và thủy đậu thường không được tiêm trong lúc mang thai.",
-          "Lịch vaccine tại Việt Nam có thể không hoàn toàn giống Hoa Kỳ hoặc các quốc gia khác. Thai phụ nên mang theo sổ tiêm và trao đổi trực tiếp với bác sĩ, không tự tiêm hoặc trì hoãn vaccine chỉ dựa trên thông tin truyền miệng."
+          "Theo Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ, vắc xin Tdap phòng uốn ván, bạch hầu và ho gà được khuyến nghị trong mỗi thai kỳ, thường vào khoảng 27–36 tuần, ưu tiên phần đầu của khoảng thời gian này để tăng truyền kháng thể cho em bé.",
+          "Vắc xin cúm bất hoạt có thể được sử dụng ở bất kỳ giai đoạn nào của thai kỳ trong mùa cúm. Một số vắc xin khác được cân nhắc theo bệnh nền, nguy cơ tiếp xúc, dịch tễ và chương trình tại từng quốc gia. Vắc xin sống như MMR và thủy đậu thường không được tiêm trong lúc mang thai.",
+          "Lịch vắc xin tại Việt Nam có thể không hoàn toàn giống Hoa Kỳ hoặc các quốc gia khác. Thai phụ nên mang theo sổ tiêm và trao đổi trực tiếp với bác sĩ, không tự tiêm hoặc trì hoãn vắc xin chỉ dựa trên thông tin truyền miệng."
         ]
       },
       {
@@ -5704,7 +5714,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Mốc 36–37 tuần: xét nghiệm liên cầu khuẩn nhóm B",
         "paragraphs": [
           "Liên cầu khuẩn nhóm B, thường viết tắt là GBS, có thể sống tự nhiên trong đường tiêu hóa hoặc đường sinh dục mà không gây triệu chứng cho người mẹ. Tuy nhiên, vi khuẩn có thể truyền sang trẻ trong khi sinh và gây nhiễm trùng nặng ở một số trẻ sơ sinh.",
-          "CDC khuyến nghị lấy mẫu GBS ở tuần 36 hoặc 37 của mỗi thai kỳ. Mẫu được lấy bằng que phết tại âm đạo và trực tràng; thủ thuật thường nhanh và không đau đáng kể.",
+          "Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ khuyến nghị lấy mẫu GBS ở tuần 36 hoặc 37 của mỗi thai kỳ. Mẫu được lấy bằng que phết tại âm đạo và trực tràng; thủ thuật thường nhanh và không đau đáng kể.",
           "Kết quả GBS dương tính không có nghĩa người mẹ mắc bệnh lây truyền qua đường tình dục hoặc vệ sinh không tốt. Trong nhiều trường hợp, kháng sinh được sử dụng trong lúc chuyển dạ để giảm nguy cơ lây sang em bé, thay vì điều trị dài ngày ngay khi nhận kết quả.",
           "Quy trình sàng lọc GBS có thể khác theo hướng dẫn tại từng quốc gia và cơ sở sản khoa."
         ]
@@ -5750,8 +5760,8 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Tư vấn ăn uống, vận động và sử dụng thuốc.",
           "Kiểm tra kết quả xét nghiệm.",
           "Cập nhật kế hoạch theo dõi và sinh.",
-          "“Chuẩn quốc tế” không nằm ở số lượng siêu âm càng nhiều càng tốt. Điều quan trọng hơn là mỗi lần khám đều có mục tiêu, kết quả được theo dõi liên tục và bất thường được xử trí đúng thời điểm.",
-          "WHO khuyến nghị ít nhất một lần siêu âm trước 24 tuần để xác định tuổi thai, hỗ trợ phát hiện đa thai và một số bất thường của thai nhi. Các lần siêu âm bổ sung cần dựa trên tình trạng thực tế.",
+          "Chất lượng theo dõi thai kỳ không nằm ở số lần siêu âm càng nhiều càng tốt. Điều quan trọng là mỗi lần khám đều có mục tiêu, kết quả được theo dõi liên tục và bất thường được xử trí đúng thời điểm.",
+          "Tổ chức Y tế Thế giới khuyến nghị ít nhất một lần siêu âm trước 24 tuần để xác định tuổi thai, hỗ trợ phát hiện đa thai và một số bất thường của thai nhi. Các lần siêu âm bổ sung cần dựa trên tình trạng thực tế.",
           "Những thai kỳ nào cần theo dõi thường xuyên hơn?",
           "Lịch tám lần tiếp xúc là khung tham khảo tối thiểu cho thai kỳ không biến chứng. Thai phụ có thể được hẹn khám dày hơn nếu:",
           "Mang song thai hoặc đa thai.",
@@ -5839,7 +5849,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Bỏ lỡ một mốc khám thai có sao không?",
           "Không nên hoảng sợ, nhưng cần liên hệ bác sĩ sớm để được sắp xếp lại. Một số xét nghiệm chỉ có giá trị tốt nhất trong một khoảng tuổi thai nhất định, trong khi những kiểm tra khác vẫn có thể thực hiện muộn hơn.",
           "Kết luận",
-          "Theo dõi thai kỳ chuẩn quốc tế không phải là một danh sách siêu âm và xét nghiệm càng nhiều càng tốt. Đó là quá trình chăm sóc liên tục, trong đó mỗi lần khám đều có mục tiêu rõ ràng và lịch theo dõi được điều chỉnh theo sức khỏe thực tế của mẹ và em bé.",
+          "Theo dõi thai kỳ bài bản không phải là thực hiện càng nhiều siêu âm và xét nghiệm càng tốt. Đó là quá trình chăm sóc liên tục, trong đó mỗi lần khám đều có mục tiêu rõ ràng và lịch theo dõi được điều chỉnh theo sức khỏe thực tế của mẹ và em bé.",
           "Với thai kỳ nguy cơ thấp, các mốc đáng chú ý thường gồm:",
           "Trước 10–12 tuần: xác định thai, tuổi thai và sức khỏe ban đầu.",
           "Khoảng 10–13 tuần: tư vấn sàng lọc bất thường nhiễm sắc thể.",
@@ -5857,10 +5867,10 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "sang-loc-truoc-sinh-nhung-xet-nghiem-quan-trong-me-bau-nen-biet": {
     "sourceFile": "23.Sàng lọc trước sinh những xét nghiệm quan trọng mẹ bầu nên biết.docx",
-    "title": "Sàng lọc trước sinh: Những xét nghiệm quan trọng mẹ bầu nên biết",
-    "excerpt": "Mang thai là hành trình nhiều niềm vui nhưng cũng đi kèm không ít băn khoăn. Thai nhi có phát triển bình thường không? Mẹ có nguy cơ tiểu đường thai kỳ hay thiếu máu không? Nên làm NIPT, Double test hay chỉ cần siêu âm?",
+    "title": "Sàng lọc trước sinh: những xét nghiệm quan trọng mẹ bầu nên biết",
+    "excerpt": "Mang thai là hành trình nhiều niềm vui nhưng cũng đi kèm không ít băn khoăn. Thai nhi có phát triển bình thường không? Mẹ có nguy cơ đái tháo đường thai kỳ hay thiếu máu không? Nên làm xét nghiệm sàng lọc trước sinh không xâm lấn (NIPT), sàng lọc kết hợp quý I hay chỉ cần siêu âm?",
     "intro": [
-      "Mang thai là hành trình nhiều niềm vui nhưng cũng đi kèm không ít băn khoăn. Thai nhi có phát triển bình thường không? Mẹ có nguy cơ tiểu đường thai kỳ hay thiếu máu không? Nên làm NIPT, Double test hay chỉ cần siêu âm?",
+      "Mang thai là hành trình nhiều niềm vui nhưng cũng đi kèm không ít băn khoăn. Thai nhi có phát triển bình thường không? Mẹ có nguy cơ đái tháo đường thai kỳ hay thiếu máu không? Nên làm xét nghiệm sàng lọc trước sinh không xâm lấn (NIPT), sàng lọc kết hợp quý I hay chỉ cần siêu âm?",
       "Sàng lọc trước sinh giúp bác sĩ đánh giá sức khỏe của mẹ, theo dõi sự phát triển của thai nhi và phát hiện sớm một số nguy cơ bất thường. Tuy nhiên, không phải mẹ bầu nào cũng cần thực hiện tất cả các xét nghiệm đang có trên thị trường. Mỗi xét nghiệm có mục đích, thời điểm và giới hạn riêng.",
       "Hiểu rõ từng mốc sàng lọc sẽ giúp mẹ bầu chủ động hơn, tránh bỏ lỡ “thời điểm vàng” nhưng cũng không quá lo lắng hoặc làm xét nghiệm trùng lặp không cần thiết.",
       "Sàng lọc trước sinh là gì?",
@@ -5878,8 +5888,8 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Xét nghiệm sàng lọc",
         "paragraphs": [
           "Xét nghiệm sàng lọc giúp ước tính khả năng thai nhi có một bất thường nào đó. Những phương pháp thường gặp gồm:",
-          "Double test.",
-          "Triple test hoặc Quad test.",
+          "Xét nghiệm sàng lọc kết hợp quý I.",
+          "Xét nghiệm sàng lọc bộ ba hoặc bộ bốn trong quý II.",
           "Xét nghiệm NIPT.",
           "Đo độ mờ da gáy.",
           "Siêu âm hình thái thai nhi.",
@@ -5913,7 +5923,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Xét nghiệm viêm gan B, viêm gan C, HIV và giang mai.",
           "Một số xét nghiệm miễn dịch hoặc bệnh truyền nhiễm khác theo tiền sử và nguy cơ.",
           "Xét nghiệm sàng lọc bệnh tuyến giáp khi có chỉ định.",
-          "Việc phát hiện sớm các bệnh truyền nhiễm giúp bác sĩ có kế hoạch theo dõi, điều trị và giảm nguy cơ lây truyền từ mẹ sang con. CDC khuyến nghị phụ nữ mang thai được xét nghiệm HIV, viêm gan B, viêm gan C và giang mai trong mỗi thai kỳ; một số trường hợp có nguy cơ có thể cần xét nghiệm bổ sung hoặc lặp lại ở giai đoạn sau."
+          "Việc phát hiện sớm các bệnh truyền nhiễm giúp bác sĩ có kế hoạch theo dõi, điều trị và giảm nguy cơ lây truyền từ mẹ sang con. Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ khuyến nghị phụ nữ mang thai được xét nghiệm HIV, viêm gan B, viêm gan C và giang mai trong mỗi thai kỳ; một số trường hợp có nguy cơ có thể cần xét nghiệm bổ sung hoặc lặp lại ở giai đoạn sau."
         ]
       },
       {
@@ -5927,7 +5937,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Phát hiện một số bất thường sớm.",
           "Đánh giá tình trạng tử cung, buồng trứng khi cần.",
           "Siêu âm ba tháng đầu đặc biệt hữu ích với người không nhớ rõ ngày kinh cuối, kinh nguyệt không đều, đau bụng, ra máu hoặc mang thai nhờ hỗ trợ sinh sản.",
-          "WHO khuyến nghị thai phụ được siêu âm ít nhất một lần trước tuần 24 nhằm xác định tuổi thai, phát hiện đa thai và hỗ trợ nhận diện một số bất thường của thai nhi."
+          "Tổ chức Y tế Thế giới khuyến nghị thai phụ được siêu âm ít nhất một lần trước tuần 24 nhằm xác định tuổi thai, phát hiện đa thai và hỗ trợ nhận diện một số bất thường của thai nhi."
         ]
       },
       {
@@ -5937,19 +5947,19 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Kết quả đo độ mờ da gáy có thể được kết hợp với:",
           "Tuổi của mẹ.",
           "Tuổi thai.",
-          "Xét nghiệm máu Double test.",
+          "Xét nghiệm máu sàng lọc kết hợp quý I.",
           "Một số đặc điểm siêu âm khác.",
           "Sự gia tăng độ mờ da gáy có thể liên quan đến nguy cơ bất thường nhiễm sắc thể, dị tật tim hoặc một số hội chứng di truyền. Tuy nhiên, chỉ số cao không đồng nghĩa thai nhi chắc chắn bất thường. Mẹ bầu cần được tư vấn thêm thay vì tự đọc kết quả rồi quá lo lắng.",
-          "Double test là gì?",
-          "Double test là xét nghiệm máu thường được thực hiện trong ba tháng đầu, kết hợp với độ mờ da gáy và một số thông tin của mẹ để ước tính nguy cơ thai nhi mắc:",
+          "Xét nghiệm sàng lọc kết hợp quý I là gì?",
+          "Đây là xét nghiệm máu thường được thực hiện trong ba tháng đầu, kết hợp với độ mờ da gáy và một số thông tin của mẹ để ước tính nguy cơ thai nhi mắc:",
           "Hội chứng Down, còn gọi là trisomy 21.",
           "Hội chứng Edwards, còn gọi là trisomy 18.",
-          "Một số bất thường nhiễm sắc thể khác tùy phần mềm và chương trình sàng lọc.",
-          "Double test không xét nghiệm trực tiếp nhiễm sắc thể của thai nhi. Kết quả thường được thể hiện dưới dạng tỷ lệ nguy cơ, chẳng hạn 1/1.000 hoặc 1/100.",
+          "Một số bất thường nhiễm sắc thể khác, tùy phạm vi của phương pháp xét nghiệm và chương trình sàng lọc.",
+          "Xét nghiệm này không kiểm tra trực tiếp nhiễm sắc thể của thai nhi. Kết quả thường được thể hiện dưới dạng tỷ lệ nguy cơ, chẳng hạn 1/1.000 hoặc 1/100.",
           "Tỷ lệ nguy cơ cao không phải kết luận thai mắc bệnh. Bác sĩ sẽ xem xét toàn bộ kết quả, tuổi mẹ, siêu âm và tiền sử để tư vấn bước tiếp theo.",
           "NIPT là gì và nên thực hiện khi nào?",
           "NIPT là xét nghiệm sàng lọc trước sinh không xâm lấn, phân tích các đoạn DNA tự do có nguồn gốc chủ yếu từ nhau thai lưu hành trong máu mẹ.",
-          "Xét nghiệm có thể được thực hiện từ khoảng tuần thai thứ 10. NIPT có độ nhạy và độ đặc hiệu cao trong sàng lọc một số bất thường nhiễm sắc thể thường gặp, đặc biệt là trisomy 21, 18 và 13. Theo hướng dẫn ACOG cập nhật năm 2026, xét nghiệm DNA tự do là phương pháp sàng lọc có độ nhạy và độ đặc hiệu cao nhất đối với ba bất thường nhiễm sắc thể phổ biến này, đồng thời có thể được cung cấp cho mọi thai phụ sau khi được tư vấn.",
+          "Xét nghiệm có thể được thực hiện từ khoảng tuần thai thứ 10. NIPT có độ nhạy và độ đặc hiệu cao trong sàng lọc một số bất thường nhiễm sắc thể thường gặp, đặc biệt là trisomy 21, 18 và 13. Theo hướng dẫn Hội Sản phụ khoa Hoa Kỳ cập nhật năm 2026, xét nghiệm DNA tự do là phương pháp sàng lọc có độ nhạy và độ đặc hiệu cao nhất đối với ba bất thường nhiễm sắc thể phổ biến này, đồng thời có thể được cung cấp cho mọi thai phụ sau khi được tư vấn.",
           "NIPT có thể sàng lọc những gì?",
           "Tùy gói xét nghiệm và công nghệ được sử dụng, NIPT có thể sàng lọc:",
           "Trisomy 21 – hội chứng Down.",
@@ -5962,7 +5972,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Không. NIPT vẫn là xét nghiệm sàng lọc, không phải xét nghiệm chẩn đoán.",
           "Nếu NIPT cho kết quả nguy cơ cao, bác sĩ thường sẽ tư vấn xét nghiệm chẩn đoán bằng sinh thiết gai nhau hoặc chọc ối trước khi đưa ra quyết định liên quan đến thai kỳ.",
           "Ngoài ra, NIPT cũng không thay thế siêu âm. Một thai nhi có kết quả NIPT nguy cơ thấp vẫn cần được siêu âm hình thái vì nhiều dị tật cấu trúc không liên quan đến những bất thường nhiễm sắc thể mà NIPT đang khảo sát.",
-          "Nên làm Double test hay NIPT?",
+          "Nên làm sàng lọc kết hợp quý I hay NIPT?",
           "Không có câu trả lời giống nhau cho tất cả mẹ bầu. Việc lựa chọn phụ thuộc vào:",
           "Tuổi thai.",
           "Tuổi của mẹ.",
@@ -5972,16 +5982,16 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Nguy cơ bệnh di truyền.",
           "Khả năng tài chính.",
           "Phạm vi xét nghiệm đang có tại cơ sở y tế.",
-          "NIPT có hiệu quả sàng lọc cao hơn đối với các bất thường nhiễm sắc thể phổ biến. Trong khi đó, Double test vẫn có thể được sử dụng như một phương pháp sàng lọc trong ba tháng đầu ở những nơi NIPT chưa phù hợp hoặc chưa sẵn có.",
+          "NIPT có hiệu quả sàng lọc cao hơn đối với các bất thường nhiễm sắc thể phổ biến. Trong khi đó, xét nghiệm sàng lọc kết hợp quý I vẫn có thể được sử dụng trong ba tháng đầu ở những trường hợp NIPT chưa phù hợp hoặc chưa sẵn có.",
           "Mẹ bầu không nên tự làm nhiều xét nghiệm sàng lọc nhiễm sắc thể độc lập trong cùng một thời điểm chỉ với suy nghĩ “làm càng nhiều càng an tâm”. Việc lựa chọn một chiến lược sàng lọc phù hợp và giải thích kết quả thống nhất sẽ hạn chế tình trạng thông tin chồng chéo, gây lo lắng không cần thiết.",
-          "Dù lựa chọn Double test hay NIPT, siêu âm thai đúng mốc vẫn có vai trò rất quan trọng.",
-          "Triple test hoặc Quad test có còn cần thiết không?",
-          "Triple test là xét nghiệm máu thường được thực hiện trong ba tháng giữa thai kỳ. Quad test tương tự nhưng đo thêm một chỉ số trong máu mẹ.",
+          "Dù lựa chọn sàng lọc kết hợp quý I hay NIPT, siêu âm thai đúng mốc vẫn có vai trò rất quan trọng.",
+          "Xét nghiệm sàng lọc bộ ba hoặc bộ bốn trong quý II có còn cần thiết không?",
+          "Xét nghiệm sàng lọc bộ ba thường được thực hiện trong ba tháng giữa thai kỳ. Xét nghiệm bộ bốn có cách thực hiện tương tự nhưng đo thêm một chỉ số trong máu mẹ.",
           "Các xét nghiệm này có thể hỗ trợ đánh giá nguy cơ:",
           "Hội chứng Down.",
           "Hội chứng Edwards.",
           "Dị tật ống thần kinh hở.",
-          "Theo ACOG, xét nghiệm Quad test có thể được thực hiện trong khoảng tuần 15–22. Phương pháp này thường được cân nhắc khi mẹ bầu đến khám muộn, đã bỏ qua thời điểm sàng lọc ba tháng đầu hoặc không thực hiện NIPT.",
+          "Xét nghiệm sàng lọc bộ bốn trong quý II có thể được thực hiện trong khoảng tuần 15–22 theo hướng dẫn chuyên môn. Phương pháp này thường được cân nhắc khi mẹ bầu đến khám muộn, đã bỏ qua thời điểm sàng lọc ba tháng đầu hoặc không thực hiện xét nghiệm sàng lọc trước sinh không xâm lấn (NIPT).",
           "Nếu mẹ đã thực hiện một phương pháp sàng lọc nhiễm sắc thể phù hợp và có kết quả rõ ràng, bác sĩ sẽ cân nhắc xem có cần làm thêm xét nghiệm huyết thanh khác hay không."
         ]
       },
@@ -6013,7 +6023,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Từng sinh con có cân nặng lớn.",
           "Có hội chứng buồng trứng đa nang.",
           "Đường huyết trước mang thai hoặc đầu thai kỳ bất thường.",
-          "Nếu kết quả cho thấy tiểu đường thai kỳ, mẹ bầu sẽ được hướng dẫn điều chỉnh dinh dưỡng, vận động, theo dõi đường huyết và dùng thuốc khi bác sĩ chỉ định. Kiểm soát tốt đường huyết giúp giảm nguy cơ thai quá lớn, sinh khó và một số biến chứng cho mẹ và bé. ACOG khuyến nghị sàng lọc đường huyết ở tuần 24–28 nếu thai phụ chưa được xác định có vấn đề đường huyết sớm hơn."
+          "Nếu kết quả cho thấy tiểu đường thai kỳ, mẹ bầu sẽ được hướng dẫn điều chỉnh dinh dưỡng, vận động, theo dõi đường huyết và dùng thuốc khi bác sĩ chỉ định. Kiểm soát tốt đường huyết giúp giảm nguy cơ thai quá lớn, sinh khó và một số biến chứng cho mẹ và bé. Hội Sản phụ khoa Hoa Kỳ khuyến nghị sàng lọc đường huyết ở tuần 24–28 nếu thai phụ chưa được xác định có vấn đề đường huyết sớm hơn."
         ]
       },
       {
@@ -6036,7 +6046,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Mẹ từ 35 tuổi trở lên.",
           "Từng mang thai hoặc sinh con có bất thường bẩm sinh.",
           "Kết quả siêu âm có dấu hiệu nghi ngờ.",
-          "Kết quả Double test, Triple test hoặc NIPT nguy cơ cao.",
+          "Kết quả sàng lọc kết hợp quý I, sàng lọc bộ ba quý II hoặc NIPT thuộc nhóm nguy cơ cao.",
           "Hai vợ chồng có quan hệ huyết thống.",
           "Gia đình có người mắc bệnh di truyền.",
           "Mẹ mắc bệnh mạn tính như tiểu đường, tăng huyết áp hoặc bệnh tự miễn.",
@@ -6079,7 +6089,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "hiem-muon-vo-sinh-khi-nao-hai-vo-chong-nen-di-kham": {
     "sourceFile": "24. Hiếm muộn vô sinh khi nào hai vợ chồng nên đi khám.docx",
-    "title": "Hiếm muộn, vô sinh: Khi nào hai vợ chồng nên đi khám?",
+    "title": "Hiếm muộn, vô sinh: khi nào hai vợ chồng nên đi khám?",
     "excerpt": "Mỗi tháng chờ đợi một tin vui rồi lại thất vọng có thể tạo ra áp lực rất lớn cho cả hai vợ chồng. Nhiều người băn khoăn không biết mình nên kiên nhẫn thêm, thay đổi thời điểm quan hệ hay đi khám ngay để tránh bỏ lỡ cơ hội.",
     "intro": [
       "Mỗi tháng chờ đợi một tin vui rồi lại thất vọng có thể tạo ra áp lực rất lớn cho cả hai vợ chồng. Nhiều người băn khoăn không biết mình nên kiên nhẫn thêm, thay đổi thời điểm quan hệ hay đi khám ngay để tránh bỏ lỡ cơ hội.",
@@ -6107,7 +6117,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Người vợ từ 35 tuổi trở lên",
         "paragraphs": [
           "Nên đi khám sau 6 tháng cố gắng có thai nhưng chưa thành công.",
-          "Khả năng sinh sản của nữ giới giảm dần theo tuổi, đặc biệt rõ hơn từ sau 35 tuổi. Vì vậy, việc chờ đủ một năm có thể làm mất thêm thời gian có giá trị đối với quá trình đánh giá và điều trị. ASRM và ACOG đều khuyến nghị bắt đầu đánh giá sau 6 tháng đối với phụ nữ từ 35 tuổi trở lên."
+          "Khả năng sinh sản của nữ giới giảm dần theo tuổi, đặc biệt rõ hơn từ sau 35 tuổi. Vì vậy, việc chờ đủ một năm có thể làm mất thêm thời gian có giá trị đối với quá trình đánh giá và điều trị. Hội Y học sinh sản Hoa Kỳ và Hội Sản phụ khoa Hoa Kỳ đều khuyến nghị bắt đầu đánh giá sau 6 tháng đối với phụ nữ từ 35 tuổi trở lên."
         ]
       },
       {
@@ -6169,7 +6179,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Từng điều trị ung thư hoặc bệnh lý ảnh hưởng đến buồng trứng",
         "paragraphs": [
-          "Hóa trị, xạ trị vùng chậu hoặc một số phẫu thuật có thể ảnh hưởng đến khả năng sinh sản. Người chuẩn bị điều trị bằng phương pháp có nguy cơ làm tổn thương trứng hoặc buồng trứng nên được tư vấn bảo tồn khả năng sinh sản trước khi bắt đầu điều trị khi điều kiện cho phép. ASRM đã cập nhật hướng dẫn bảo tồn khả năng sinh sản cho người phải điều trị có nguy cơ gây độc tuyến sinh dục vào năm 2026."
+          "Hóa trị, xạ trị vùng chậu hoặc một số phẫu thuật có thể ảnh hưởng đến khả năng sinh sản. Người chuẩn bị điều trị bằng phương pháp có nguy cơ làm tổn thương trứng hoặc buồng trứng nên được tư vấn bảo tồn khả năng sinh sản trước khi bắt đầu điều trị khi điều kiện cho phép. Hội Y học sinh sản Hoa Kỳ đã cập nhật hướng dẫn bảo tồn khả năng sinh sản cho người phải điều trị có nguy cơ gây độc tuyến sinh dục vào năm 2026."
         ]
       },
       {
@@ -6202,10 +6212,10 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Từng thắt ống dẫn tinh.",
           "Tiếp xúc thường xuyên với nhiệt độ cao, hóa chất hoặc độc chất nghề nghiệp.",
           "Một số người vẫn có đời sống tình dục bình thường nhưng tinh dịch đồ bất thường. Vì vậy, không thể đánh giá khả năng sinh sản của nam giới chỉ dựa trên khả năng cương hoặc xuất tinh.",
-          "Hướng dẫn AUA/ASRM được sửa đổi năm 2024 xác định khai thác tiền sử, khám lâm sàng và xét nghiệm tinh dịch là những phần quan trọng trong đánh giá nam giới của cặp vợ chồng hiếm muộn.",
+          "Hướng dẫn của các hội tiết niệu và y học sinh sản Hoa Kỳ xác định việc tìm hiểu tiền sử, khám lâm sàng và xét nghiệm tinh dịch là những phần quan trọng khi đánh giá người chồng trong trường hợp hiếm muộn.",
           "Sảy thai nhiều lần có được xem là hiếm muộn không?",
           "Sảy thai và không thể có thai là hai tình huống khác nhau, nhưng đều cần được quan tâm trong chăm sóc sinh sản.",
-          "Hai vợ chồng nên trao đổi với bác sĩ nếu đã có từ hai lần mất thai được xác nhận trở lên. Đánh giá có thể bao gồm yếu tố di truyền, cấu trúc tử cung, nội tiết, bệnh lý toàn thân và những nguyên nhân khác tùy trường hợp. ASRM năm 2026 đề cập việc đánh giá sảy thai liên tiếp sau từ hai lần mất thai.",
+          "Hai vợ chồng nên trao đổi với bác sĩ nếu đã có từ hai lần mất thai được xác nhận trở lên. Đánh giá có thể bao gồm yếu tố di truyền, cấu trúc tử cung, nội tiết, bệnh lý toàn thân và những nguyên nhân khác tùy trường hợp. Hội Y học sinh sản Hoa Kỳ năm 2026 đề cập việc đánh giá sảy thai liên tiếp sau từ hai lần mất thai.",
           "Không nên tự cho rằng sảy thai là do người mẹ vận động, ăn uống sai hoặc “không giữ được con”. Phần lớn trường hợp không xuất phát từ một hành động đơn lẻ của người phụ nữ.",
           "Quan hệ thế nào được xem là đều đặn?",
           "Để có cơ hội thụ thai, tinh trùng cần có mặt trong đường sinh dục nữ vào khoảng thời gian trứng rụng.",
@@ -6219,7 +6229,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Việc theo dõi không nên trở thành một áp lực khiến quan hệ tình dục chỉ còn là “nhiệm vụ”. Nếu đã quan hệ thường xuyên trong thời gian phù hợp nhưng chưa có thai, vấn đề thường không đơn giản chỉ là chưa chọn đúng ngày.",
           "Vì sao hai vợ chồng nên đi khám cùng nhau?",
           "Nguyên nhân hiếm muộn có thể đến từ người vợ, người chồng hoặc kết hợp cả hai. Vì vậy, chỉ kiểm tra người vợ trước rồi chờ rất lâu mới đánh giá người chồng có thể làm mất thời gian.",
-          "ASRM khuyến nghị khi bắt đầu đánh giá hiếm muộn, người chồng nên được khai thác tiền sử sinh sản và thực hiện ít nhất một xét nghiệm tinh dịch khi phù hợp.",
+          "Hội Y học sinh sản Hoa Kỳ khuyến nghị khi bắt đầu đánh giá hiếm muộn, người chồng nên được khai thác tiền sử sinh sản và thực hiện ít nhất một xét nghiệm tinh dịch khi phù hợp.",
           "Đi khám cùng nhau còn giúp:",
           "Hai người hiểu đây là vấn đề sức khỏe chung.",
           "Hạn chế đổ lỗi.",
@@ -6260,7 +6270,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Xét nghiệm progesterone vào thời điểm phù hợp.",
           "Siêu âm theo dõi nang noãn.",
           "Xét nghiệm nội tiết khi chu kỳ bất thường.",
-          "Không phải mọi hormone sinh sản đều cần được xét nghiệm cho tất cả người bệnh."
+          "Không phải mọi nội tiết tố sinh sản đều cần được xét nghiệm cho tất cả người bệnh."
         ]
       },
       {
@@ -6269,7 +6279,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Các phương pháp có thể gồm:",
           "Xét nghiệm AMH.",
           "Đếm nang thứ cấp bằng siêu âm.",
-          "Một số hormone được kiểm tra vào thời điểm phù hợp trong chu kỳ.",
+          "Một số nội tiết tố được kiểm tra vào thời điểm phù hợp trong chu kỳ.",
           "Dự trữ buồng trứng phản ánh phần nào số lượng nang trứng còn lại và khả năng đáp ứng với kích thích buồng trứng. Kết quả thấp không đồng nghĩa chắc chắn không thể có thai tự nhiên; kết quả cao cũng không bảo đảm chất lượng trứng hoặc khả năng sinh con.",
           "Tuổi của người vợ vẫn là yếu tố rất quan trọng khi diễn giải kết quả."
         ]
@@ -6402,7 +6412,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Tiền sử bệnh lý của cả hai bên gia đình.",
           "Những câu hỏi muốn trao đổi với bác sĩ.",
           "Người chồng cần hỏi trước về cách chuẩn bị lấy mẫu tinh dịch, bao gồm thời gian kiêng xuất tinh và cách vận chuyển mẫu nếu không lấy tại cơ sở y tế.",
-          "Không nên tự làm quá nhiều xét nghiệm hormone, gene hoặc dấu ấn không rõ chỉ định trước khi khám. Một kết quả đứng riêng lẻ có thể khó diễn giải và gây thêm lo lắng.",
+          "Không nên tự làm quá nhiều xét nghiệm nội tiết tố, gene hoặc dấu ấn không rõ chỉ định trước khi khám. Một kết quả đứng riêng lẻ có thể khó diễn giải và gây thêm lo lắng.",
           "Có cần thay đổi lối sống trước khi điều trị không?",
           "Lối sống lành mạnh hỗ trợ sức khỏe sinh sản nhưng không thể thay thế việc điều trị một nguyên nhân thực thể như tắc vòi trứng hoặc bất thường tinh trùng nghiêm trọng.",
           "Hai vợ chồng nên:",
@@ -6413,7 +6423,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Vận động vừa sức.",
           "Ngủ đủ.",
           "Kiểm soát bệnh nền.",
-          "Không tự sử dụng hormone hoặc sản phẩm tăng cơ.",
+          "Không tự sử dụng nội tiết tố hoặc sản phẩm tăng cơ.",
           "Giảm tiếp xúc với nhiệt độ cao và hóa chất độc hại khi có thể.",
           "Người vợ bổ sung acid folic theo hướng dẫn trước khi mang thai.",
           "Không có một món ăn, loại thảo dược hay thực phẩm bổ sung nào được bảo đảm có thể chữa vô sinh cho tất cả mọi người. Một số sản phẩm còn có thể tương tác với thuốc hoặc ảnh hưởng đến gan, thận và nội tiết.",
@@ -6426,7 +6436,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Hiệu quả công việc.",
           "Tâm trạng.",
           "Khả năng tiếp tục điều trị.",
-          "WHO nhấn mạnh hiếm muộn có thể gây đau khổ tâm lý, kỳ thị và áp lực tài chính, vì vậy chăm sóc cần hướng đến con người chứ không chỉ tập trung vào kỹ thuật điều trị.",
+          "Tổ chức Y tế Thế giới nhấn mạnh hiếm muộn có thể gây đau khổ tâm lý, kỳ thị và áp lực tài chính, vì vậy chăm sóc cần hướng đến con người chứ không chỉ tập trung vào kỹ thuật điều trị.",
           "Hai vợ chồng nên thống nhất cách chia sẻ thông tin với gia đình, đặt giới hạn trước những câu hỏi gây áp lực và tìm hỗ trợ tâm lý khi cảm thấy quá tải."
         ]
       },
@@ -6486,7 +6496,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "kham-nhi-tong-quat-khi-nao-tre-can-gap-bac-si-chuyen-khoa": {
     "sourceFile": "25.Khám nhi tổng quát khi nào trẻ cần gặp bác sĩ chuyên khoa.docx",
-    "title": "Khám nhi tổng quát: Khi nào trẻ cần gặp bác sĩ chuyên khoa?",
+    "title": "Khám nhi tổng quát: khi nào trẻ cần gặp bác sĩ chuyên khoa?",
     "excerpt": "Trẻ nhỏ không phải là “người lớn phiên bản thu nhỏ”. Cơ thể trẻ liên tục thay đổi, trong khi nhiều vấn đề về dinh dưỡng, tăng trưởng, ngôn ngữ hoặc hành vi lại không biểu hiện bằng những cơn đau rõ ràng.",
     "intro": [
       "Trẻ nhỏ không phải là “người lớn phiên bản thu nhỏ”. Cơ thể trẻ liên tục thay đổi, trong khi nhiều vấn đề về dinh dưỡng, tăng trưởng, ngôn ngữ hoặc hành vi lại không biểu hiện bằng những cơn đau rõ ràng.",
@@ -6534,7 +6544,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "paragraphs": [
           "Hai năm đầu là giai đoạn trẻ tăng trưởng và phát triển nhanh. Đây cũng là lúc các kỹ năng vận động, giao tiếp, ngôn ngữ và tương tác xã hội lần lượt xuất hiện.",
           "Khám định kỳ giúp bác sĩ phát hiện trẻ tăng cân quá chậm, chậm vận động, ít giao tiếp hoặc chưa đạt một số mốc phát triển phù hợp với độ tuổi.",
-          "CDC nhấn mạnh rằng cha mẹ nên theo dõi cách trẻ chơi, học, nói, hành động và vận động. Theo khuyến nghị của AAP được CDC dẫn lại, sàng lọc phát triển bằng công cụ chuẩn hóa thường được thực hiện ở các mốc 9, 18 và 30 tháng; sàng lọc rối loạn phổ tự kỷ ở 18 và 24 tháng hoặc bất cứ khi nào gia đình hay nhân viên y tế có lo ngại. Đây là lịch tham khảo quốc tế và bác sĩ có thể điều chỉnh cho từng trẻ."
+          "Cha mẹ nên theo dõi cách trẻ chơi, học, nói, giao tiếp và vận động. Các hướng dẫn nhi khoa Hoa Kỳ thường đề xuất sàng lọc phát triển ở mốc 9, 18 và 30 tháng; sàng lọc rối loạn phổ tự kỷ ở 18 và 24 tháng hoặc bất cứ khi nào gia đình hay nhân viên y tế có lo ngại. Đây là lịch tham khảo và bác sĩ có thể điều chỉnh cho từng trẻ."
         ]
       },
       {
@@ -6607,7 +6617,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Theo dõi tiêm chủng",
         "paragraphs": [
           "Rà soát sổ tiêm chủng giúp phát hiện các mũi đã đến hạn hoặc bị bỏ lỡ. Tiêm chủng cần tuân theo chương trình quốc gia và hướng dẫn chuyên môn phù hợp với tuổi, tiền sử sức khỏe của trẻ.",
-          "Chương trình Tiêm chủng mở rộng tại Việt Nam cung cấp vaccine phòng nhiều bệnh truyền nhiễm quan trọng ở trẻ em. Với trẻ tiêm chậm hoặc bỏ lỡ mũi, phụ huynh nên mang sổ tiêm đến cơ sở y tế để được xây dựng lịch tiêm bù phù hợp, thay vì tự bắt đầu lại toàn bộ lịch.",
+          "Chương trình Tiêm chủng mở rộng tại Việt Nam cung cấp vắc xin phòng nhiều bệnh truyền nhiễm quan trọng ở trẻ em. Với trẻ tiêm chậm hoặc bỏ lỡ mũi, phụ huynh nên mang sổ tiêm đến cơ sở y tế để được xây dựng lịch tiêm bù phù hợp, thay vì tự bắt đầu lại toàn bộ lịch.",
           "Khi nào trẻ cần gặp bác sĩ chuyên khoa?",
           "Bác sĩ nhi tổng quát có thể xử trí nhiều bệnh thường gặp và đóng vai trò điều phối chăm sóc. Trẻ thường được giới thiệu đến bác sĩ chuyên khoa khi:",
           "Triệu chứng kéo dài hoặc tái phát nhiều lần.",
@@ -6633,7 +6643,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Biếng ăn nghiêm trọng hoặc chế độ ăn quá hạn chế.",
           "Khát nhiều, tiểu nhiều và sụt cân.",
           "Có dấu hiệu dậy thì quá sớm hoặc quá muộn.",
-          "Kết quả đường huyết, tuyến giáp hoặc hormone bất thường.",
+          "Kết quả đường huyết, tuyến giáp hoặc nội tiết tố bất thường.",
           "Bác sĩ sẽ xem xét tốc độ tăng trưởng, khẩu phần ăn, yếu tố di truyền và các bệnh lý có thể ảnh hưởng đến cân nặng hoặc chiều cao."
         ]
       },
@@ -6693,7 +6703,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Gặp khó khăn đáng kể trong học tập.",
           "Đi không vững, yếu một bên cơ thể hoặc vận động bất thường.",
           "Mất kỹ năng đã từng có.",
-          "Mất kỹ năng đã đạt được là dấu hiệu đặc biệt cần lưu ý. CDC khuyến nghị gia đình trao đổi sớm với bác sĩ khi trẻ bỏ lỡ mốc phát triển, mất kỹ năng hoặc có bất kỳ lo ngại nào, thay vì chỉ chờ trẻ “tự lớn sẽ hết”."
+          "Mất kỹ năng đã đạt được là dấu hiệu đặc biệt cần lưu ý. Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ khuyến nghị gia đình trao đổi sớm với bác sĩ khi trẻ bỏ lỡ mốc phát triển, mất kỹ năng hoặc có bất kỳ lo ngại nào, thay vì chỉ chờ trẻ “tự lớn sẽ hết”."
         ]
       },
       {
@@ -6818,7 +6828,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "sot-o-tre-em-dau-hieu-nao-can-dua-tre-di-vien": {
     "sourceFile": "26.Sốt ở trẻ em dấu hiệu nào cần đưa trẻ đi viện.docx",
-    "title": "Sốt ở trẻ em: Dấu hiệu nào cần đưa trẻ đi viện?",
+    "title": "Sốt ở trẻ em: dấu hiệu nào cần đưa trẻ đi viện?",
     "excerpt": "Trẻ sốt thường khiến cha mẹ lo lắng, nhất là khi nhiệt độ tăng nhanh vào ban đêm. Tuy nhiên, không phải cứ sốt cao là trẻ mắc bệnh nặng và cũng không nên chỉ nhìn vào con số trên nhiệt kế để đánh giá tình trạng của trẻ.",
     "intro": [
       "Trẻ sốt thường khiến cha mẹ lo lắng, nhất là khi nhiệt độ tăng nhanh vào ban đêm. Tuy nhiên, không phải cứ sốt cao là trẻ mắc bệnh nặng và cũng không nên chỉ nhìn vào con số trên nhiệt kế để đánh giá tình trạng của trẻ.",
@@ -6828,7 +6838,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Cha mẹ nên sử dụng nhiệt kế điện tử thay vì chỉ sờ trán hoặc quan sát cảm giác nóng. Với trẻ nhỏ, có thể đặt nhiệt kế ở nách theo đúng hướng dẫn của thiết bị.",
       "Nếu trẻ vừa tắm, vừa vận động hoặc được quấn chăn dày, thân nhiệt có thể tăng tạm thời. Hãy để trẻ nghỉ vài phút rồi đo lại.",
       "Sốt ở trẻ có phải lúc nào cũng nguy hiểm không?",
-      "Không. Sốt thường là phản ứng của cơ thể khi chống lại nhiễm trùng. Nhiều trẻ bị sốt do cảm lạnh, viêm họng, cúm hoặc các bệnh nhiễm virus và có thể hồi phục sau vài ngày.",
+      "Không. Sốt thường là phản ứng của cơ thể khi chống lại nhiễm trùng. Nhiều trẻ bị sốt do cảm lạnh, viêm họng, cúm hoặc các bệnh nhiễm vi rút và có thể hồi phục sau vài ngày.",
       "Bản thân mức nhiệt độ chưa phản ánh đầy đủ mức độ nặng. Khi đánh giá trẻ sốt, cha mẹ cần quan sát xem trẻ có tỉnh táo, uống được, đi tiểu bình thường, thở dễ dàng và phản ứng với người thân hay không. Việc trẻ chơi hoặc tương tác trở lại sau khi bớt khó chịu là một dấu hiệu tương đối tích cực.",
       "Tuy nhiên, ở trẻ sơ sinh và trẻ nhỏ dưới ba tháng tuổi, ngay cả một cơn sốt không quá cao cũng có thể liên quan đến nhiễm trùng nghiêm trọng. Nhóm tuổi này cần được đánh giá thận trọng hơn."
     ],
@@ -6916,7 +6926,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Trẻ dưới ba tháng tuổi",
         "paragraphs": [
           "Trẻ dưới ba tháng có nhiệt độ từ 38°C trở lên cần được đưa đi khám ngay, kể cả khi trẻ vẫn bú và chưa có dấu hiệu bất thường khác.",
-          "Ở độ tuổi này, cha mẹ khó có thể tự phân biệt nhiễm virus thông thường với nhiễm khuẩn nghiêm trọng. Không nên tự cho trẻ uống thuốc hạ sốt rồi chờ theo dõi tại nhà."
+          "Ở độ tuổi này, cha mẹ khó có thể tự phân biệt nhiễm vi rút thông thường với nhiễm khuẩn nghiêm trọng. Không nên tự cho trẻ uống thuốc hạ sốt rồi chờ theo dõi tại nhà."
         ]
       },
       {
@@ -6943,7 +6953,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Cha mẹ cảm thấy trẻ khác hẳn mọi ngày hoặc tình trạng đang xấu đi.",
           "Trực giác của người chăm sóc cũng có giá trị. Nếu cha mẹ thấy trẻ “không ổn” dù chưa xác định được một triệu chứng cụ thể, nên đưa trẻ đi kiểm tra.",
           "Trẻ sốt kéo dài bao lâu thì cần đi khám?",
-          "Nhiều cơn sốt do nhiễm virus có thể giảm trong vài ngày. Tuy nhiên, trẻ sốt kéo dài cần được tìm nguyên nhân.",
+          "Nhiều cơn sốt do nhiễm vi rút có thể giảm trong vài ngày. Tuy nhiên, trẻ sốt kéo dài cần được tìm nguyên nhân.",
           "Nên đưa trẻ đi khám khi:",
           "Trẻ dưới hai tuổi sốt kéo dài hơn khoảng 24 giờ.",
           "Trẻ từ hai tuổi trở lên sốt kéo dài trên ba ngày.",
@@ -7002,7 +7012,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Không tự mua kháng sinh",
         "paragraphs": [
-          "Kháng sinh không điều trị được các bệnh do virus và không phải loại thuốc dùng chung cho mọi trẻ bị sốt. Việc lựa chọn kháng sinh cần dựa trên thăm khám, nguyên nhân nghi ngờ, tuổi của trẻ và các xét nghiệm khi cần.",
+          "Kháng sinh không điều trị được các bệnh do vi rút và không phải loại thuốc dùng chung cho mọi trẻ bị sốt. Việc lựa chọn kháng sinh cần dựa trên thăm khám, nguyên nhân nghi ngờ, tuổi của trẻ và các xét nghiệm khi cần.",
           "Không nên sử dụng lại đơn thuốc cũ hoặc thuốc còn thừa của lần bệnh trước.",
           "Vì sao uống thuốc rồi trẻ vẫn sốt trở lại?",
           "Thuốc hạ sốt chỉ giúp giảm nhiệt độ và khó chịu trong một khoảng thời gian, không loại bỏ ngay nguyên nhân gây sốt. Khi tác dụng của thuốc giảm, nhiệt độ có thể tăng trở lại.",
@@ -7086,8 +7096,8 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Một số trẻ từ khoảng sáu tháng đến sáu tuổi có thể bị co giật do sốt. Phần lớn các cơn ngắn không gây hậu quả lâu dài, nhưng trẻ co giật lần đầu hoặc có cơn kéo dài trên năm phút cần được cấp cứu.",
           "Hết sốt rồi có cần tiếp tục theo dõi không?",
           "Có. Cha mẹ nên tiếp tục theo dõi khả năng ăn uống, mức độ tỉnh táo, nhịp thở và lượng nước tiểu. Đặc biệt trong sốt xuất huyết, giai đoạn giảm sốt có thể là lúc các dấu hiệu cảnh báo xuất hiện.",
-          "Trẻ sốt sau tiêm vaccine có đáng lo không?",
-          "Sốt nhẹ có thể xuất hiện sau một số loại vaccine. Tuy nhiên, trẻ vẫn cần đi khám nếu sốt kèm khó thở, co giật, lơ mơ, phát ban bất thường, bỏ bú hoặc các dấu hiệu nguy hiểm khác.",
+          "Trẻ sốt sau tiêm vắc xin có đáng lo không?",
+          "Sốt nhẹ có thể xuất hiện sau một số loại vắc xin. Tuy nhiên, trẻ vẫn cần đi khám nếu sốt kèm khó thở, co giật, lơ mơ, phát ban bất thường, bỏ bú hoặc các dấu hiệu nguy hiểm khác.",
           "Với trẻ dưới ba tháng có nhiệt độ từ 38°C trở lên, cha mẹ nên liên hệ bác sĩ để được hướng dẫn, kể cả khi sốt xuất hiện sau tiêm.",
           "Kết luận",
           "Không phải mọi trường hợp sốt ở trẻ đều cần nhập viện. Cha mẹ có thể theo dõi tại nhà nếu trẻ vẫn tỉnh táo, uống được, đi tiểu bình thường, thở dễ dàng và không có dấu hiệu cảnh báo.",
@@ -7109,18 +7119,18 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "ho-keo-dai-o-tre-nguyen-nhan-thuong-gap-va-khi-nao-can-kiem-tra": {
     "sourceFile": "27.Ho kéo dài ở trẻ nguyên nhân thường gặp và khi nào cần kiểm tra.docx",
-    "title": "Ho kéo dài ở trẻ: Nguyên nhân thường gặp và khi nào cần kiểm tra?",
+    "title": "Ho kéo dài ở trẻ: nguyên nhân thường gặp và khi nào cần kiểm tra?",
     "excerpt": "Ho là phản xạ tự nhiên giúp cơ thể làm sạch dịch nhầy, bụi và các tác nhân kích thích trong đường thở. Khi trẻ vừa cảm lạnh, sổ mũi hoặc viêm họng, tiếng ho có thể kéo dài thêm một thời gian dù trẻ đã hết sốt và vui chơi trở lại.",
     "intro": [
       "Ho là phản xạ tự nhiên giúp cơ thể làm sạch dịch nhầy, bụi và các tác nhân kích thích trong đường thở. Khi trẻ vừa cảm lạnh, sổ mũi hoặc viêm họng, tiếng ho có thể kéo dài thêm một thời gian dù trẻ đã hết sốt và vui chơi trở lại.",
-      "Tuy nhiên, nếu trẻ ho hằng ngày trong nhiều tuần, đặc biệt là ho có đờm, ho ngày càng tăng hoặc đi kèm khó thở, sốt, sụt cân, phụ huynh không nên chỉ tiếp tục chờ đợi. Việc kiểm tra sớm giúp phân biệt ho sau nhiễm virus thông thường với hen, viêm phế quản kéo dài, ho gà, dị vật đường thở và một số bệnh hô hấp khác.",
+      "Tuy nhiên, nếu trẻ ho hằng ngày trong nhiều tuần, đặc biệt là ho có đờm, ho ngày càng tăng hoặc đi kèm khó thở, sốt, sụt cân, phụ huynh không nên chỉ tiếp tục chờ đợi. Việc kiểm tra sớm giúp phân biệt ho sau nhiễm vi rút thông thường với hen, viêm phế quản kéo dài, ho gà, dị vật đường thở và một số bệnh hô hấp khác.",
       "Ho kéo dài ở trẻ được tính từ bao lâu?",
       "Trong hướng dẫn nhi khoa, ho hằng ngày kéo dài trên 4 tuần thường được xem là ho mạn tính hoặc ho kéo dài và cần được đánh giá nguyên nhân.",
       "Có thể phân chia tương đối như sau:",
       "Ho cấp tính: kéo dài đến khoảng 2 tuần.",
       "Ho cấp kéo dài: từ 2–4 tuần.",
       "Ho mạn tính: ho hằng ngày trên 4 tuần.",
-      "Phần lớn các cơn ho do nhiễm virus đường hô hấp sẽ giảm trong vòng 1–3 tuần. Trẻ nhỏ đi nhà trẻ có thể mắc nhiều đợt viêm đường hô hấp trong năm, khiến phụ huynh có cảm giác trẻ “ho mãi không khỏi”. Điều cần phân biệt là trẻ đang ho liên tục do một bệnh kéo dài hay vừa hết đợt này đã mắc thêm một đợt mới.",
+      "Phần lớn các cơn ho do nhiễm vi rút đường hô hấp sẽ giảm trong vòng 1–3 tuần. Trẻ nhỏ đi nhà trẻ có thể mắc nhiều đợt viêm đường hô hấp trong năm, khiến phụ huynh có cảm giác trẻ “ho mãi không khỏi”. Điều cần phân biệt là trẻ đang ho liên tục do một bệnh kéo dài hay vừa hết đợt này đã mắc thêm một đợt mới.",
       "Ho kéo dài có phải lúc nào cũng nguy hiểm?",
       "Không. Nhiều trẻ ho lâu sau cảm lạnh nhưng vẫn ăn uống, ngủ và vui chơi bình thường. Cơn ho có thể giảm dần mà không cần điều trị đặc hiệu.",
       "Tuy nhiên, thời gian ho không phải yếu tố duy nhất cần quan tâm. Bác sĩ còn đánh giá:",
@@ -7136,12 +7146,12 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Những nguyên nhân thường gặp khiến trẻ ho kéo dài",
         "paragraphs": [
-          "1. Ho sau nhiễm virus đường hô hấp",
+          "1. Ho sau nhiễm vi rút đường hô hấp",
           "Đây là một trong những nguyên nhân phổ biến nhất. Sau cảm lạnh, cúm hoặc một đợt viêm hô hấp, niêm mạc đường thở có thể còn nhạy cảm trong một thời gian. Trẻ vì thế tiếp tục ho dù những biểu hiện như sốt, nghẹt mũi hoặc đau họng đã giảm.",
-          "Ho sau nhiễm virus thường có xu hướng nhẹ dần. Trẻ vẫn sinh hoạt tương đối bình thường và không xuất hiện các dấu hiệu như thở gắng sức, ho ra máu hoặc sụt cân. Nếu cơn ho không cải thiện sau bốn tuần, bác sĩ cần đánh giá để loại trừ nguyên nhân khác.",
+          "Ho sau nhiễm vi rút thường có xu hướng nhẹ dần. Trẻ vẫn sinh hoạt tương đối bình thường và không xuất hiện các dấu hiệu như thở gắng sức, ho ra máu hoặc sụt cân. Nếu cơn ho không cải thiện sau bốn tuần, bác sĩ cần đánh giá để loại trừ nguyên nhân khác.",
           "2. Trẻ mắc liên tiếp nhiều đợt viêm đường hô hấp",
           "Trẻ nhỏ có thể mắc từ 6–12 đợt nhiễm trùng đường hô hấp mỗi năm, đặc biệt khi mới đi nhà trẻ hoặc thường xuyên tiếp xúc với nhiều trẻ khác. Một đợt ho chưa dứt hẳn thì trẻ lại sổ mũi, sốt và ho tiếp, khiến triệu chứng trông như kéo dài liên tục.",
-          "Phụ huynh nên ghi lại thời điểm trẻ sốt, sổ mũi và mức độ ho. Những khoảng thời gian trẻ hoàn toàn khỏe giữa các đợt bệnh là thông tin quan trọng giúp bác sĩ phân biệt nhiễm virus tái diễn với ho mạn tính thực sự.",
+          "Phụ huynh nên ghi lại thời điểm trẻ sốt, sổ mũi và mức độ ho. Những khoảng thời gian trẻ hoàn toàn khỏe giữa các đợt bệnh là thông tin quan trọng giúp bác sĩ phân biệt nhiễm vi rút tái diễn với ho mạn tính thực sự.",
           "3. Hen phế quản",
           "Hen có thể gây ho khan, khò khè, nặng ngực hoặc khó thở. Triệu chứng thường tăng về đêm, sáng sớm, khi chạy nhảy, gặp không khí lạnh hoặc tiếp xúc với khói thuốc, bụi, lông động vật và các yếu tố kích thích khác.",
           "Tuy nhiên, không nên kết luận trẻ mắc hen chỉ vì ho kéo dài. Bác sĩ cần hỏi kỹ triệu chứng, khám phổi và có thể thực hiện đo chức năng hô hấp nếu trẻ đủ lớn và phối hợp được.",
@@ -7177,7 +7187,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Những nguyên nhân này ít phổ biến hơn nhưng cần được xem xét khi trẻ chậm tăng trưởng, viêm phổi nhiều lần, ho ra máu, ngón tay dùi trống hoặc có bệnh nền.",
           "Ho khan và ho có đờm khác nhau thế nào?",
           "Mô tả tiếng ho giúp bác sĩ định hướng nguyên nhân.",
-          "Ho khan không tạo cảm giác có dịch trong đường thở. Ho khan kéo dài có thể gặp sau nhiễm virus, trong hen, khi tiếp xúc chất kích thích hoặc ở trẻ có tic.",
+          "Ho khan không tạo cảm giác có dịch trong đường thở. Ho khan kéo dài có thể gặp sau nhiễm vi rút, trong hen, khi tiếp xúc chất kích thích hoặc ở trẻ có tic.",
           "Ho ướt nghe như có dịch nhầy trong ngực hoặc cổ họng. Trẻ nhỏ thường nuốt đờm nên phụ huynh không nhất thiết nhìn thấy đờm được khạc ra. Ho ướt hằng ngày trên bốn tuần cần được kiểm tra vì có thể liên quan đến viêm phế quản do vi khuẩn kéo dài hoặc bệnh phổi sinh mủ.",
           "Phụ huynh có thể quay một đoạn video ngắn khi trẻ ho để bác sĩ nghe tiếng ho, nhất là khi trẻ không ho trong lúc khám.",
           "Dấu hiệu nào cho thấy trẻ cần được kiểm tra sớm?",
@@ -7255,7 +7265,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "dinh-duong-cho-tre-sau-om-cha-me-nen-luu-y-gi": {
     "sourceFile": "28.Dinh dưỡng cho trẻ sau ốm cha mẹ nên lưu ý gì.docx",
-    "title": "Dinh dưỡng cho trẻ sau ốm: Cha mẹ nên lưu ý gì để con hồi phục tốt?",
+    "title": "Dinh dưỡng cho trẻ sau ốm: cha mẹ nên lưu ý gì để con hồi phục tốt?",
     "excerpt": "Sau một đợt sốt, viêm đường hô hấp, rối loạn tiêu hóa hoặc điều trị bệnh, trẻ thường mệt mỏi, ăn ít và chưa thể trở lại nhịp sinh hoạt bình thường ngay lập tức. Đây là lúc nhiều cha mẹ sốt ruột, tìm đủ món “bồi bổ” với mong muốn con nhanh lấy lại cân nặng.",
     "intro": [
       "Sau một đợt sốt, viêm đường hô hấp, rối loạn tiêu hóa hoặc điều trị bệnh, trẻ thường mệt mỏi, ăn ít và chưa thể trở lại nhịp sinh hoạt bình thường ngay lập tức. Đây là lúc nhiều cha mẹ sốt ruột, tìm đủ món “bồi bổ” với mong muốn con nhanh lấy lại cân nặng.",
@@ -7283,7 +7293,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Dung dịch bù nước và điện giải theo hướng dẫn của nhân viên y tế.",
           "Nước từ trái cây mềm, phù hợp với độ tuổi.",
           "Với trẻ đang bú mẹ, nên tiếp tục cho trẻ bú theo nhu cầu. Trẻ dưới 6 tháng tuổi không nên tự ý uống thêm nước hoặc sử dụng thực phẩm khác nếu chưa được bác sĩ tư vấn. Tổ chức Y tế Thế giới khuyến nghị trẻ được bú mẹ hoàn toàn trong 6 tháng đầu và tiếp tục bú mẹ cùng chế độ ăn bổ sung phù hợp sau đó.",
-          "Nếu trẻ bị tiêu chảy, cha mẹ không nên tự ý ngừng cho ăn. Dung dịch oresol cần được pha đúng lượng nước ghi trên bao bì và sử dụng theo chỉ dẫn; pha quá đặc hoặc quá loãng đều có thể không an toàn. WHO khuyến nghị tiếp tục cho trẻ ăn, bú mẹ và sử dụng dung dịch bù nước đường uống trong điều trị tiêu chảy."
+          "Nếu trẻ bị tiêu chảy, cha mẹ không nên tự ý ngừng cho ăn. Dung dịch oresol cần được pha đúng lượng nước ghi trên bao bì và sử dụng theo chỉ dẫn; pha quá đặc hoặc quá loãng đều có thể không an toàn. Tổ chức Y tế Thế giới khuyến nghị tiếp tục cho trẻ ăn, bú mẹ và sử dụng dung dịch bù nước đường uống trong điều trị tiêu chảy."
         ]
       },
       {
@@ -7443,10 +7453,10 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "tiem-chung-cho-tre-lich-tiem-va-nhung-dieu-can-chuan-bi": {
     "sourceFile": "29. Tiêm chủng cho trẻ lịch tiêm và những điều cần chuẩn bị.docx",
-    "title": "Tiêm chủng cho trẻ: Lịch tiêm và những điều cha mẹ cần chuẩn bị",
-    "excerpt": "Từ khi mới chào đời, trẻ đã bắt đầu hành trình làm quen với thế giới bên ngoài – nơi có không ít virus và vi khuẩn gây bệnh. Tiêm chủng giúp cơ thể trẻ “tập nhận diện” một số tác nhân truyền nhiễm, từ đó chủ động tạo miễn dịch bảo vệ.",
+    "title": "Tiêm chủng cho trẻ: lịch tiêm và những điều cha mẹ cần chuẩn bị",
+    "excerpt": "Từ khi mới chào đời, trẻ đã bắt đầu hành trình làm quen với thế giới bên ngoài – nơi có không ít vi rút và vi khuẩn gây bệnh. Tiêm chủng giúp cơ thể trẻ “tập nhận diện” một số tác nhân truyền nhiễm, từ đó chủ động tạo miễn dịch bảo vệ.",
     "intro": [
-      "Từ khi mới chào đời, trẻ đã bắt đầu hành trình làm quen với thế giới bên ngoài – nơi có không ít virus và vi khuẩn gây bệnh. Tiêm chủng giúp cơ thể trẻ “tập nhận diện” một số tác nhân truyền nhiễm, từ đó chủ động tạo miễn dịch bảo vệ.",
+      "Từ khi mới chào đời, trẻ đã bắt đầu hành trình làm quen với thế giới bên ngoài – nơi có không ít vi rút và vi khuẩn gây bệnh. Tiêm chủng giúp cơ thể trẻ “tập nhận diện” một số tác nhân truyền nhiễm, từ đó chủ động tạo miễn dịch bảo vệ.",
       "Tuy nhiên, lịch tiêm của trẻ có khá nhiều mốc. Chỉ cần bận rộn một chút, cha mẹ có thể quên mất con đã tiêm mũi nào, còn thiếu mũi nào hoặc có cần tiêm bù hay không. Việc hiểu lịch tiêm cơ bản, chuẩn bị đầy đủ trước khi đến cơ sở y tế và theo dõi đúng cách sau tiêm sẽ giúp buổi tiêm chủng diễn ra thuận lợi hơn.",
       "Vì sao trẻ cần được tiêm chủng đầy đủ và đúng lịch?",
       "Trẻ nhỏ có hệ miễn dịch chưa hoàn thiện nên dễ mắc bệnh truyền nhiễm và có nguy cơ gặp biến chứng nặng hơn người lớn. Vắc xin giúp hệ miễn dịch nhận biết tác nhân gây bệnh trước khi trẻ thực sự tiếp xúc với chúng.",
@@ -7581,7 +7591,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "kham-so-sinh-sau-sinh-nhung-moc-cha-me-khong-nen-bo-lo": {
     "sourceFile": "30.Khám sơ sinh sau sinh những mốc cha mẹ không nên bỏ lỡ.docx",
-    "title": "Khám sơ sinh sau sinh: Những mốc cha mẹ không nên bỏ lỡ",
+    "title": "Khám sơ sinh sau sinh: những mốc cha mẹ không nên bỏ lỡ",
     "excerpt": "Sau khi em bé chào đời, nhiều gia đình thường nghĩ rằng chỉ cần trẻ bú được, ngủ ngoan và không sốt là có thể yên tâm. Tuy nhiên, giai đoạn sơ sinh là thời điểm cơ thể trẻ phải thích nghi nhanh với môi trường bên ngoài, từ hô hấp, tuần hoàn, điều hòa thân nhiệt đến ăn uống và tiêu hóa.",
     "intro": [
       "Sau khi em bé chào đời, nhiều gia đình thường nghĩ rằng chỉ cần trẻ bú được, ngủ ngoan và không sốt là có thể yên tâm. Tuy nhiên, giai đoạn sơ sinh là thời điểm cơ thể trẻ phải thích nghi nhanh với môi trường bên ngoài, từ hô hấp, tuần hoàn, điều hòa thân nhiệt đến ăn uống và tiêu hóa.",
@@ -7633,7 +7643,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Cơ quan sinh dục và hậu môn.",
           "Rốn và dây rốn.",
           "Một số dị tật có thể quan sát được.",
-          "WHO khuyến nghị trẻ được đánh giá dấu hiệu sinh tồn, tình trạng hoạt động, màu da, nhịp thở và sức khỏe tổng quát trong vòng 24 giờ đầu.",
+          "Tổ chức Y tế Thế giới khuyến nghị trẻ được đánh giá dấu hiệu sinh tồn, tình trạng hoạt động, màu da, nhịp thở và sức khỏe tổng quát trong vòng 24 giờ đầu.",
           "Cha mẹ nên thông báo với bác sĩ nếu trong thai kỳ mẹ từng mắc tiểu đường, tăng huyết áp, bệnh tuyến giáp, bệnh truyền nhiễm, dùng thuốc kéo dài hoặc thai nhi từng được phát hiện bất thường trên siêu âm."
         ]
       },
@@ -7667,7 +7677,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Kiểm tra vàng da",
         "paragraphs": [
           "Vàng da khá thường gặp ở trẻ sơ sinh nhưng mức độ nguy hiểm không giống nhau. Trẻ có thể được quan sát màu da, đo bilirubin qua da hoặc xét nghiệm máu khi cần.",
-          "Vàng da xuất hiện trong 24 giờ đầu, tăng nhanh, lan xuống lòng bàn tay và lòng bàn chân hoặc đi kèm bú kém, li bì là dấu hiệu cần được đánh giá ngay. WHO xếp vàng da trong ngày đầu và vàng lòng bàn tay, lòng bàn chân ở bất kỳ thời điểm nào vào nhóm dấu hiệu cảnh báo.",
+          "Vàng da xuất hiện trong 24 giờ đầu, tăng nhanh, lan xuống lòng bàn tay và lòng bàn chân hoặc đi kèm bú kém, li bì là dấu hiệu cần được đánh giá ngay. Tổ chức Y tế Thế giới xếp vàng da trong ngày đầu và vàng lòng bàn tay, lòng bàn chân ở bất kỳ thời điểm nào vào nhóm dấu hiệu cảnh báo.",
           "Cha mẹ không nên tự phơi nắng để điều trị vàng da. Khi bilirubin tăng đến mức cần can thiệp, trẻ phải được điều trị theo chỉ định chuyên môn.",
           "Sàng lọc sơ sinh gồm những gì?",
           "Sàng lọc sơ sinh nhằm phát hiện sớm một số bệnh có thể chưa gây triệu chứng ngay sau sinh nhưng có nguy cơ ảnh hưởng đến sức khỏe và sự phát triển lâu dài của trẻ.",
@@ -7702,9 +7712,9 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Tiêm chủng trong giai đoạn sơ sinh",
         "paragraphs": [
           "Trẻ cần được tiêm chủng theo chương trình quốc gia và hướng dẫn của bác sĩ.",
-          "Vaccine viêm gan B liều sơ sinh được khuyến nghị tiêm càng sớm càng tốt, ưu tiên trong vòng 24 giờ sau sinh. Liều vaccine này có vai trò đặc biệt quan trọng trong giảm nguy cơ lây truyền virus viêm gan B từ mẹ sang con.",
-          "Nếu mẹ có kết quả viêm gan B dương tính, em bé có thể cần thêm biện pháp dự phòng theo phác đồ. Bác sĩ Sản khoa và Nhi khoa cần phối hợp để chuẩn bị vaccine và các thuốc cần thiết ngay từ trước cuộc sinh.",
-          "Vaccine phòng lao BCG được thực hiện theo lịch tiêm chủng và tình trạng sức khỏe của trẻ. Chương trình Tiêm chủng mở rộng tại Việt Nam hiện bao gồm vaccine phòng lao, viêm gan B và nhiều bệnh truyền nhiễm quan trọng khác.",
+          "Vắc xin viêm gan B liều sơ sinh được khuyến nghị tiêm càng sớm càng tốt, ưu tiên trong vòng 24 giờ sau sinh. Liều vắc xin này có vai trò đặc biệt quan trọng trong giảm nguy cơ lây truyền vi rút viêm gan B từ mẹ sang con.",
+          "Nếu mẹ có kết quả viêm gan B dương tính, em bé có thể cần thêm biện pháp dự phòng theo phác đồ. Bác sĩ Sản khoa và Nhi khoa cần phối hợp để chuẩn bị vắc xin và các thuốc cần thiết ngay từ trước cuộc sinh.",
+          "Vắc xin phòng lao BCG được thực hiện theo lịch tiêm chủng và tình trạng sức khỏe của trẻ. Chương trình Tiêm chủng mở rộng tại Việt Nam hiện bao gồm vắc xin phòng lao, viêm gan B và nhiều bệnh truyền nhiễm quan trọng khác.",
           "Trẻ sinh non, đang điều trị bệnh hoặc có chống chỉ định tạm thời sẽ được bác sĩ tư vấn thời điểm tiêm phù hợp."
         ]
       },
@@ -7723,7 +7733,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Rốn và vùng da quanh rốn.",
           "Da, mắt và miệng.",
           "Kết quả sàng lọc đã thực hiện tại bệnh viện.",
-          "Những loại vaccine đã được tiêm.",
+          "Những loại vắc xin đã được tiêm.",
           "Giấc ngủ và cách đặt trẻ ngủ.",
           "Tâm lý, sức khỏe và khả năng chăm con của mẹ.",
           "Nếu trẻ sinh non, nhẹ cân, bú yếu hoặc từng điều trị vàng da, lần khám có thể được sắp xếp sớm hơn."
@@ -7770,7 +7780,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Các vấn đề như trào ngược, quấy khóc hoặc khó ngủ.",
           "Lịch tiêm chủng trong những tháng tiếp theo.",
           "An toàn khi ngủ và phòng tránh tai nạn.",
-          "Lịch khám trẻ khỏe mạnh của Viện Hàn lâm Nhi khoa Hoa Kỳ có mốc kiểm tra trong tuần đầu và khi trẻ khoảng một tháng tuổi. WHO khuyến nghị thêm một lần chăm sóc sau sinh vào khoảng tuần thứ sáu.",
+          "Lịch khám trẻ khỏe mạnh của Viện Hàn lâm Nhi khoa Hoa Kỳ có mốc kiểm tra trong tuần đầu và khi trẻ khoảng một tháng tuổi. Tổ chức Y tế Thế giới khuyến nghị thêm một lần chăm sóc sau sinh vào khoảng tuần thứ sáu.",
           "Đây cũng thường gần với thời điểm mẹ tái khám hậu sản. Vì vậy, gia đình có thể kết hợp kiểm tra sức khỏe của cả mẹ và bé, giúp quá trình chăm sóc sau sinh được liên tục hơn.",
           "Vì sao cần phối hợp giữa Sản khoa và Nhi khoa?",
           "Sức khỏe của trẻ sơ sinh có liên quan chặt chẽ đến quá trình mang thai và sinh nở.",
@@ -7824,7 +7834,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Không đi tiểu hoặc lượng nước tiểu giảm nhiều.",
           "Rốn đỏ lan ra xung quanh, sưng, chảy mủ hoặc có mùi hôi.",
           "Trẻ khóc yếu, khóc thét bất thường hoặc đột ngột ít vận động.",
-          "WHO khuyến cáo gia đình tìm hỗ trợ y tế sớm khi trẻ bú kém, giảm hoạt động, khó thở, sốt, co giật, vàng da nguy hiểm hoặc cơ thể lạnh.",
+          "Tổ chức Y tế Thế giới khuyến cáo gia đình tìm hỗ trợ y tế sớm khi trẻ bú kém, giảm hoạt động, khó thở, sốt, co giật, vàng da nguy hiểm hoặc cơ thể lạnh.",
           "Với trẻ dưới ba tháng tuổi, nhiệt độ từ 38°C trở lên cần được nhân viên y tế đánh giá ngay, không nên tự dùng thuốc hạ sốt rồi tiếp tục theo dõi tại nhà.",
           "Cha mẹ cần chuẩn bị gì khi đưa trẻ đi khám?",
           "Gia đình nên mang theo:",
@@ -8241,7 +8251,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "gan-nhiem-mo-nguyen-nhan-xet-nghiem-va-cach-theo-doi": {
     "sourceFile": "33.Gan nhiễm mỡ nguyên nhân, xét nghiệm và cách theo dõi.docx",
-    "title": "Gan nhiễm mỡ: Nguyên nhân, xét nghiệm và cách theo dõi",
+    "title": "Gan nhiễm mỡ: nguyên nhân, xét nghiệm và cách theo dõi",
     "excerpt": "Gan nhiễm mỡ thường được phát hiện khá tình cờ khi khám sức khỏe, làm xét nghiệm men gan hoặc siêu âm bụng. Nhiều người thấy cơ thể vẫn khỏe nên cho rằng đây chỉ là một thay đổi nhỏ, chưa cần quan tâm.",
     "intro": [
       "Gan nhiễm mỡ thường được phát hiện khá tình cờ khi khám sức khỏe, làm xét nghiệm men gan hoặc siêu âm bụng. Nhiều người thấy cơ thể vẫn khỏe nên cho rằng đây chỉ là một thay đổi nhỏ, chưa cần quan tâm.",
@@ -8262,7 +8272,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "paragraphs": [
           "Đây là nhóm nguyên nhân rất phổ biến. Những yếu tố làm tăng nguy cơ gồm:",
           "Thừa cân, béo phì, đặc biệt là béo bụng.",
-          "Tiền đái tháo đường hoặc đái tháo đường type 2.",
+          "Tiền đái tháo đường hoặc đái tháo đường típ 2.",
           "Tăng triglyceride hoặc rối loạn cholesterol.",
           "Tăng huyết áp.",
           "Hội chứng chuyển hóa.",
@@ -8281,7 +8291,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Thuốc và một số bệnh lý khác",
         "paragraphs": [
-          "Một số thuốc có thể liên quan đến tình trạng tích tụ mỡ hoặc tổn thương gan, chẳng hạn corticosteroid, amiodarone, methotrexate, tamoxifen và một số thuốc điều trị khác. Ngoài ra, gan nhiễm mỡ có thể gặp trong suy giáp, hội chứng buồng trứng đa nang, suy dinh dưỡng, giảm cân quá nhanh, viêm gan virus hoặc một số bệnh di truyền hiếm gặp.",
+          "Một số thuốc có thể liên quan đến tình trạng tích tụ mỡ hoặc tổn thương gan, chẳng hạn corticosteroid, amiodarone, methotrexate, tamoxifen và một số thuốc điều trị khác. Ngoài ra, gan nhiễm mỡ có thể gặp trong suy giáp, hội chứng buồng trứng đa nang, suy dinh dưỡng, giảm cân quá nhanh, viêm gan vi rút hoặc một số bệnh di truyền hiếm gặp.",
           "Người bệnh không nên tự ngừng thuốc khi phát hiện gan nhiễm mỡ. Bác sĩ cần xem xét lợi ích, nguy cơ và lựa chọn phương án điều chỉnh nếu thực sự cần thiết.",
           "Gan nhiễm mỡ có triệu chứng không?",
           "Gan nhiễm mỡ thường được gọi là một tình trạng “âm thầm” vì nhiều người gần như không có triệu chứng. Ngay cả khi bệnh đã gây tổn thương đáng kể, biểu hiện bên ngoài đôi khi vẫn khá mờ nhạt.",
@@ -8296,12 +8306,12 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Gan nhiễm mỡ đơn thuần thường chưa gây ảnh hưởng rõ rệt đến chức năng gan. Tuy nhiên, nếu tình trạng tích tụ mỡ đi kèm viêm kéo dài, các tế bào gan có thể bị tổn thương và hình thành mô sẹo.",
           "Quá trình này có thể diễn ra theo các giai đoạn:",
           "Gan nhiễm mỡ → viêm gan nhiễm mỡ → xơ hóa gan → xơ gan.",
-          "Không phải người bệnh nào cũng đi qua toàn bộ các giai đoạn trên. Nguy cơ thường cao hơn ở người có đái tháo đường type 2, béo phì, nhiều yếu tố chuyển hóa, men gan tăng kéo dài hoặc sử dụng rượu bia.",
+          "Không phải người bệnh nào cũng đi qua toàn bộ các giai đoạn trên. Nguy cơ thường cao hơn ở người có đái tháo đường típ 2, béo phì, nhiều yếu tố chuyển hóa, men gan tăng kéo dài hoặc sử dụng rượu bia.",
           "Ngoài bệnh gan, người bị gan nhiễm mỡ liên quan chuyển hóa cũng cần được kiểm soát nguy cơ tim mạch. Đường huyết, huyết áp và mỡ máu không chỉ ảnh hưởng đến gan mà còn liên quan trực tiếp đến sức khỏe tim và mạch máu.",
           "Khi nào nên kiểm tra gan nhiễm mỡ?",
           "Bạn nên chủ động trao đổi với bác sĩ khi thuộc một trong các nhóm sau:",
           "Đang thừa cân, béo phì hoặc có vòng bụng lớn.",
-          "Mắc đái tháo đường type 2 hoặc tiền đái tháo đường.",
+          "Mắc đái tháo đường típ 2 hoặc tiền đái tháo đường.",
           "Có tăng huyết áp, triglyceride cao hoặc rối loạn cholesterol.",
           "Thường xuyên sử dụng rượu bia.",
           "Men gan tăng không rõ nguyên nhân.",
@@ -8394,7 +8404,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Đánh giá lại nguy cơ xơ hóa",
         "paragraphs": [
-          "Ở người trưởng thành có nguy cơ thấp, việc đánh giá FIB-4 có thể được lặp lại định kỳ. Người có tiền đái tháo đường, đái tháo đường type 2 hoặc nhiều yếu tố chuyển hóa thường cần được kiểm tra sát hơn. Theo hướng dẫn AASLD, khoảng đánh giá lại có thể từ 1–3 năm tùy nhóm nguy cơ, nhưng lịch cụ thể cần do bác sĩ quyết định."
+          "Ở người trưởng thành có nguy cơ thấp, việc đánh giá FIB-4 có thể được lặp lại định kỳ. Người có tiền đái tháo đường, đái tháo đường típ 2 hoặc nhiều yếu tố chuyển hóa thường cần được kiểm tra sát hơn. Theo hướng dẫn AASLD, khoảng đánh giá lại có thể từ 1–3 năm tùy nhóm nguy cơ, nhưng lịch cụ thể cần do bác sĩ quyết định."
         ]
       },
       {
@@ -8459,7 +8469,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Kiểm tra và theo dõi gan nhiễm mỡ tại Bệnh viện Đa khoa Hồng Phúc",
         "paragraphs": [
           "Khi phát hiện gan nhiễm mỡ, người bệnh có thể đến Bệnh viện Đa khoa Hồng Phúc để được bác sĩ khai thác tiền sử, đánh giá chế độ ăn uống, mức sử dụng rượu bia và các bệnh chuyển hóa đi kèm.",
-          "Tùy tình trạng cụ thể, người bệnh có thể được chỉ định xét nghiệm chức năng gan, đường huyết, mỡ máu, viêm gan virus, siêu âm bụng hoặc phương pháp đánh giá xơ hóa phù hợp. Kết quả sẽ giúp bác sĩ xây dựng kế hoạch theo dõi và tư vấn điều chỉnh lối sống thay vì chỉ dựa vào một dòng kết luận “gan nhiễm mỡ” trên phiếu siêu âm."
+          "Tùy tình trạng cụ thể, người bệnh có thể được chỉ định xét nghiệm chức năng gan, đường huyết, mỡ máu, viêm gan vi rút, siêu âm bụng hoặc phương pháp đánh giá xơ hóa phù hợp. Kết quả sẽ giúp bác sĩ xây dựng kế hoạch theo dõi và tư vấn điều chỉnh lối sống thay vì chỉ dựa vào một dòng kết luận “gan nhiễm mỡ” trên phiếu siêu âm."
         ]
       },
       {
@@ -8474,15 +8484,15 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "viem-gan-b-vi-sao-can-kiem-tra-dinh-ky": {
     "sourceFile": "34.Viêm gan B vì sao cần kiểm tra định kỳ.docx",
-    "title": "Viêm gan B: Vì sao cần kiểm tra định kỳ ngay cả khi không có triệu chứng?",
+    "title": "Viêm gan B: vì sao cần kiểm tra định kỳ ngay cả khi không có triệu chứng?",
     "excerpt": "Viêm gan B thường khiến người bệnh băn khoăn: “Tôi vẫn ăn ngủ bình thường, không đau bụng, không vàng da thì có cần đi khám lại không?”. Đây là suy nghĩ khá phổ biến bởi viêm gan B mạn tính có thể diễn tiến âm thầm trong nhiều năm.",
     "intro": [
       "Viêm gan B thường khiến người bệnh băn khoăn: “Tôi vẫn ăn ngủ bình thường, không đau bụng, không vàng da thì có cần đi khám lại không?”. Đây là suy nghĩ khá phổ biến bởi viêm gan B mạn tính có thể diễn tiến âm thầm trong nhiều năm.",
-      "Không có triệu chứng không đồng nghĩa với việc virus đã biến mất hoặc gan hoàn toàn khỏe mạnh. Việc kiểm tra định kỳ giúp bác sĩ theo dõi mức độ hoạt động của virus, đánh giá tổn thương gan, xác định thời điểm cần điều trị và phát hiện sớm các biến chứng như xơ gan hoặc ung thư gan.",
+      "Không có triệu chứng không đồng nghĩa với việc vi rút đã biến mất hoặc gan hoàn toàn khỏe mạnh. Việc kiểm tra định kỳ giúp bác sĩ theo dõi mức độ hoạt động của vi rút, đánh giá tổn thương gan, xác định thời điểm cần điều trị và phát hiện sớm các biến chứng như xơ gan hoặc ung thư gan.",
       "Viêm gan B là bệnh gì?",
-      "Viêm gan B là bệnh nhiễm trùng gan do virus viêm gan B, còn gọi là HBV, gây ra. Bệnh có thể xuất hiện dưới hai dạng:",
-      "Viêm gan B cấp tính: Xảy ra trong khoảng sáu tháng đầu sau khi cơ thể nhiễm virus. Một số người có thể tự loại bỏ virus và hồi phục.",
-      "Viêm gan B mạn tính: Virus tồn tại lâu dài trong cơ thể và có khả năng gây tổn thương gan theo thời gian.",
+      "Viêm gan B là bệnh nhiễm trùng gan do vi rút viêm gan B, còn gọi là HBV, gây ra. Bệnh có thể xuất hiện dưới hai dạng:",
+      "Viêm gan B cấp tính: Xảy ra trong khoảng sáu tháng đầu sau khi cơ thể nhiễm vi rút. Một số người có thể tự loại bỏ vi rút và hồi phục.",
+      "Viêm gan B mạn tính: Vi rút tồn tại lâu dài trong cơ thể và có khả năng gây tổn thương gan theo thời gian.",
       "Viêm gan B mạn tính có thể dẫn đến viêm gan kéo dài, xơ hóa, xơ gan và ung thư gan. Tuy nhiên, mức độ tiến triển không giống nhau ở tất cả người bệnh. Có người duy trì tình trạng ổn định trong nhiều năm, trong khi người khác có thể xuất hiện tổn thương gan sớm hơn.",
       "Bệnh lây chủ yếu qua máu và một số dịch cơ thể, từ mẹ sang con trong lúc sinh, qua quan hệ tình dục không được bảo vệ hoặc khi dùng chung kim tiêm và những dụng cụ có thể dính máu. Viêm gan B không lây qua ăn uống chung, ôm, bắt tay, ho hoặc hắt hơi.",
       "Vì sao viêm gan B thường khó nhận biết?",
@@ -8500,28 +8510,28 @@ export const articleDetails: Record<string, ArticleDetail> = {
     ],
     "sections": [
       {
-        "heading": "Virus viêm gan B có thể thay đổi mức độ hoạt động",
+        "heading": "Vi rút viêm gan B có thể thay đổi mức độ hoạt động",
         "paragraphs": [
-          "Viêm gan B mạn tính không phải là một trạng thái cố định. Bệnh có thể trải qua nhiều giai đoạn với tải lượng virus, men gan và mức độ tổn thương gan khác nhau.",
-          "Có thời điểm virus hoạt động thấp, men gan bình thường và người bệnh chưa cần dùng thuốc. Tuy nhiên, sau một thời gian, virus có thể hoạt động mạnh trở lại, khiến men gan tăng và thúc đẩy quá trình xơ hóa.",
+          "Viêm gan B mạn tính không phải là một trạng thái cố định. Bệnh có thể trải qua nhiều giai đoạn với tải lượng vi rút, men gan và mức độ tổn thương gan khác nhau.",
+          "Có thời điểm vi rút hoạt động thấp, men gan bình thường và người bệnh chưa cần dùng thuốc. Tuy nhiên, sau một thời gian, vi rút có thể hoạt động mạnh trở lại, khiến men gan tăng và thúc đẩy quá trình xơ hóa.",
           "Hướng dẫn chuyên môn hiện nay xem viêm gan B mạn tính là một bệnh có diễn biến động, cần được đánh giá nhiều lần thay vì kết luận từ một kết quả xét nghiệm đơn lẻ.",
-          "Điều này giải thích vì sao một người từng được thông báo “virus đang ngủ” hoặc “chưa cần điều trị” vẫn phải tái khám. Kết luận đó chỉ phản ánh tình trạng tại thời điểm kiểm tra, không phải sự bảo đảm rằng bệnh sẽ luôn ổn định."
+          "Điều này giải thích vì sao một người từng được thông báo “vi rút đang ngủ” hoặc “chưa cần điều trị” vẫn phải tái khám. Kết luận đó chỉ phản ánh tình trạng tại thời điểm kiểm tra, không phải sự bảo đảm rằng bệnh sẽ luôn ổn định."
         ]
       },
       {
-        "heading": "Kiểm tra định kỳ giúp phát hiện virus hoạt động trở lại",
+        "heading": "Kiểm tra định kỳ giúp phát hiện vi rút hoạt động trở lại",
         "paragraphs": [
-          "Một trong những mục tiêu quan trọng của theo dõi viêm gan B là xác định virus đang nhân lên ở mức độ nào.",
-          "Xét nghiệm HBV DNA, thường được gọi là đo tải lượng virus, cho biết lượng virus viêm gan B trong máu. Kết quả này được kết hợp với men gan, tình trạng xơ hóa, tuổi, bệnh nền và một số yếu tố khác để bác sĩ quyết định:",
-          "Người bệnh có cần dùng thuốc kháng virus hay chưa.",
+          "Một trong những mục tiêu quan trọng của theo dõi viêm gan B là xác định vi rút đang nhân lên ở mức độ nào.",
+          "Xét nghiệm HBV DNA, thường được gọi là đo tải lượng vi rút, cho biết lượng vi rút viêm gan B trong máu. Kết quả này được kết hợp với men gan, tình trạng xơ hóa, tuổi, bệnh nền và một số yếu tố khác để bác sĩ quyết định:",
+          "Người bệnh có cần dùng thuốc kháng vi rút hay chưa.",
           "Trường hợp chưa dùng thuốc có thể tiếp tục theo dõi hay không.",
-          "Thuốc đang sử dụng có kiểm soát virus hiệu quả không.",
+          "Thuốc đang sử dụng có kiểm soát vi rút hiệu quả không.",
           "Người bệnh có dấu hiệu kháng thuốc hoặc tuân thủ điều trị chưa tốt không.",
-          "Không nên chỉ nhìn vào một kết quả HBV DNA cao hoặc thấp để tự kết luận bệnh nặng hay nhẹ. Tải lượng virus cần được diễn giải trong bối cảnh tổng thể của sức khỏe gan.",
+          "Không nên chỉ nhìn vào một kết quả HBV DNA cao hoặc thấp để tự kết luận bệnh nặng hay nhẹ. Tải lượng vi rút cần được diễn giải trong bối cảnh tổng thể của sức khỏe gan.",
           "Men gan bình thường có nghĩa gan hoàn toàn khỏe mạnh không?",
           "Men gan ALT và AST là những chỉ số thường được sử dụng để đánh giá tổn thương tế bào gan. Khi tế bào gan bị viêm hoặc tổn thương, các chỉ số này có thể tăng.",
-          "Tuy nhiên, men gan bình thường không loại trừ hoàn toàn nguy cơ xơ hóa hoặc ung thư gan. Một số người có thể có tải lượng virus đáng kể hoặc đã hình thành xơ gan dù men gan chưa tăng rõ.",
-          "Ngược lại, men gan tăng cũng không phải lúc nào cũng chỉ do virus viêm gan B. Tình trạng này có thể liên quan đến gan nhiễm mỡ, rượu bia, thuốc, thực phẩm bổ sung, viêm gan do nguyên nhân khác hoặc hoạt động thể lực cường độ cao.",
+          "Tuy nhiên, men gan bình thường không loại trừ hoàn toàn nguy cơ xơ hóa hoặc ung thư gan. Một số người có thể có tải lượng vi rút đáng kể hoặc đã hình thành xơ gan dù men gan chưa tăng rõ.",
+          "Ngược lại, men gan tăng cũng không phải lúc nào cũng chỉ do vi rút viêm gan B. Tình trạng này có thể liên quan đến gan nhiễm mỡ, rượu bia, thuốc, thực phẩm bổ sung, viêm gan do nguyên nhân khác hoặc hoạt động thể lực cường độ cao.",
           "Vì vậy, bác sĩ thường không dựa vào men gan đơn độc mà kết hợp nhiều xét nghiệm và phương pháp đánh giá khác nhau."
         ]
       },
@@ -8537,20 +8547,20 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Đo độ đàn hồi gan.",
           "Các phương pháp chẩn đoán hình ảnh khác khi cần thiết.",
           "Sinh thiết gan trong một số trường hợp đặc biệt.",
-          "WHO cho biết xét nghiệm máu, siêu âm và đo độ đàn hồi gan có thể được sử dụng để đánh giá sẹo gan và theo dõi sự tiến triển của bệnh.",
+          "Tổ chức Y tế Thế giới cho biết xét nghiệm máu, siêu âm và đo độ đàn hồi gan có thể được sử dụng để đánh giá sẹo gan và theo dõi sự tiến triển của bệnh.",
           "Phát hiện xơ hóa sớm có ý nghĩa quan trọng vì bác sĩ có thể điều chỉnh kế hoạch điều trị và theo dõi trước khi gan xuất hiện biến chứng mất bù."
         ]
       },
       {
         "heading": "Viêm gan B làm tăng nguy cơ ung thư gan",
         "paragraphs": [
-          "Viêm gan B mạn tính là một trong những yếu tố nguy cơ quan trọng của ung thư biểu mô tế bào gan, dạng ung thư gan nguyên phát phổ biến. Nguy cơ thường cao hơn ở người đã xơ gan, tải lượng virus cao, có tiền sử gia đình mắc ung thư gan hoặc đồng nhiễm một số virus khác.",
+          "Viêm gan B mạn tính là một trong những yếu tố nguy cơ quan trọng của ung thư biểu mô tế bào gan, dạng ung thư gan nguyên phát phổ biến. Nguy cơ thường cao hơn ở người đã xơ gan, tải lượng vi rút cao, có tiền sử gia đình mắc ung thư gan hoặc đồng nhiễm một số vi rút khác.",
           "Đáng lưu ý, viêm gan B có thể làm tăng nguy cơ ung thư gan ngay cả khi người bệnh chưa bị xơ gan. Vì thế, việc theo dõi ung thư gan không chỉ dành cho người đã có xơ gan.",
           "Với những người thuộc nhóm nguy cơ, bác sĩ có thể chỉ định siêu âm gan kết hợp xét nghiệm AFP định kỳ. Các hướng dẫn của AASLD khuyến nghị tầm soát ung thư gan mỗi sáu tháng đối với người bị xơ gan và một số nhóm mắc viêm gan B mạn tính có nguy cơ cao.",
-          "Không phải mọi người mang virus viêm gan B đều có cùng lịch tầm soát. Bác sĩ sẽ cân nhắc tuổi, giới tính, tiền sử gia đình, mức độ xơ hóa và các yếu tố nguy cơ cụ thể.",
+          "Không phải mọi người mang vi rút viêm gan B đều có cùng lịch tầm soát. Bác sĩ sẽ cân nhắc tuổi, giới tính, tiền sử gia đình, mức độ xơ hóa và các yếu tố nguy cơ cụ thể.",
           "Người đang uống thuốc viêm gan B có cần kiểm tra định kỳ không?",
-          "Có. Việc tái khám vẫn rất cần thiết ngay cả khi người bệnh đang uống thuốc đều đặn và tải lượng virus đã giảm.",
-          "Thuốc kháng virus có thể ức chế sự nhân lên của HBV, làm chậm quá trình xơ gan, giảm nguy cơ biến chứng và cải thiện khả năng sống lâu dài. Tuy nhiên, thuốc thường không loại bỏ hoàn toàn virus khỏi cơ thể và nhiều người phải điều trị trong thời gian dài.",
+          "Có. Việc tái khám vẫn rất cần thiết ngay cả khi người bệnh đang uống thuốc đều đặn và tải lượng vi rút đã giảm.",
+          "Thuốc kháng vi rút có thể ức chế sự nhân lên của HBV, làm chậm quá trình xơ gan, giảm nguy cơ biến chứng và cải thiện khả năng sống lâu dài. Tuy nhiên, thuốc thường không loại bỏ hoàn toàn vi rút khỏi cơ thể và nhiều người phải điều trị trong thời gian dài.",
           "Trong quá trình điều trị, bác sĩ cần theo dõi:",
           "Mức giảm của HBV DNA.",
           "Sự thay đổi của men gan.",
@@ -8559,13 +8569,13 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Khả năng tuân thủ điều trị.",
           "Tác dụng không mong muốn.",
           "Nguy cơ xơ gan và ung thư gan.",
-          "Người bệnh không nên tự ngừng thuốc khi thấy xét nghiệm tốt hoặc cảm thấy cơ thể khỏe hơn. Ngừng thuốc không đúng thời điểm có thể khiến virus hoạt động trở lại, gây đợt viêm gan bùng phát và làm tổn thương gan.",
+          "Người bệnh không nên tự ngừng thuốc khi thấy xét nghiệm tốt hoặc cảm thấy cơ thể khỏe hơn. Ngừng thuốc không đúng thời điểm có thể khiến vi rút hoạt động trở lại, gây đợt viêm gan bùng phát và làm tổn thương gan.",
           "Nếu quên thuốc nhiều lần, gặp tác dụng phụ hoặc muốn mang thai, người bệnh nên trao đổi với bác sĩ để được điều chỉnh kế hoạch phù hợp.",
           "Người chưa cần dùng thuốc có thể không tái khám không?",
           "Không cần điều trị ngay không có nghĩa là không cần quản lý bệnh.",
-          "Một số người có tải lượng virus thấp, men gan ổn định và chưa có xơ hóa đáng kể có thể được bác sĩ lựa chọn theo dõi thay vì dùng thuốc. Tuy nhiên, các chỉ số này có thể thay đổi theo thời gian.",
+          "Một số người có tải lượng vi rút thấp, men gan ổn định và chưa có xơ hóa đáng kể có thể được bác sĩ lựa chọn theo dõi thay vì dùng thuốc. Tuy nhiên, các chỉ số này có thể thay đổi theo thời gian.",
           "Việc tái khám giúp phát hiện thời điểm người bệnh chuyển từ giai đoạn theo dõi sang giai đoạn cần điều trị. Nếu bỏ kiểm tra trong nhiều năm, tình trạng viêm hoặc xơ hóa có thể tiến triển mà người bệnh không nhận biết.",
-          "Khoảng cách giữa các lần khám không giống nhau cho tất cả mọi người. Người mới được chẩn đoán, men gan không ổn định, tải lượng virus cao, đang mang thai, có xơ hóa hoặc đang bắt đầu dùng thuốc có thể cần theo dõi thường xuyên hơn.",
+          "Khoảng cách giữa các lần khám không giống nhau cho tất cả mọi người. Người mới được chẩn đoán, men gan không ổn định, tải lượng vi rút cao, đang mang thai, có xơ hóa hoặc đang bắt đầu dùng thuốc có thể cần theo dõi thường xuyên hơn.",
           "Một lần kiểm tra viêm gan B thường gồm những gì?",
           "Tùy tình trạng cụ thể, bác sĩ có thể chỉ định một số kiểm tra sau:"
         ]
@@ -8577,15 +8587,15 @@ export const articleDetails: Record<string, ArticleDetail> = {
         ]
       },
       {
-        "heading": "Đo tải lượng virus HBV DNA",
+        "heading": "Đo tải lượng vi rút HBV DNA",
         "paragraphs": [
-          "Đây là xét nghiệm quan trọng để xác định mức độ nhân lên của virus và đánh giá đáp ứng điều trị."
+          "Đây là xét nghiệm quan trọng để xác định mức độ nhân lên của vi rút và đánh giá đáp ứng điều trị."
         ]
       },
       {
         "heading": "HBeAg và anti-HBe",
         "paragraphs": [
-          "Các chỉ số này giúp bác sĩ hiểu thêm về giai đoạn nhiễm virus, nhưng không nên được sử dụng riêng lẻ để kết luận mức độ bệnh."
+          "Các chỉ số này giúp bác sĩ hiểu thêm về giai đoạn nhiễm vi rút, nhưng không nên được sử dụng riêng lẻ để kết luận mức độ bệnh."
         ]
       },
       {
@@ -8609,12 +8619,12 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Kiểm tra các bệnh đồng nhiễm",
         "paragraphs": [
-          "Người mắc viêm gan B có thể được tư vấn xét nghiệm viêm gan C, viêm gan D và HIV. Việc đồng nhiễm có thể làm thay đổi nguy cơ biến chứng và kế hoạch điều trị. CDC cũng khuyến nghị người mới được chẩn đoán viêm gan B mạn tính xem xét kiểm tra các bệnh nhiễm trùng này.",
+          "Người mắc viêm gan B có thể được tư vấn xét nghiệm viêm gan C, viêm gan D và HIV. Việc đồng nhiễm có thể làm thay đổi nguy cơ biến chứng và kế hoạch điều trị. Trung tâm Kiểm soát và Phòng ngừa Dịch bệnh Hoa Kỳ cũng khuyến nghị người mới được chẩn đoán viêm gan B mạn tính xem xét kiểm tra các bệnh nhiễm trùng này.",
           "Không phải lần tái khám nào cũng cần thực hiện toàn bộ các xét nghiệm trên. Bác sĩ sẽ lựa chọn dựa trên kết quả trước đó và tình trạng hiện tại.",
           "Bao lâu nên kiểm tra viêm gan B một lần?",
           "Không có một lịch kiểm tra cố định áp dụng cho tất cả người bệnh.",
           "Tần suất tái khám phụ thuộc vào:",
-          "Virus đang hoạt động ở mức nào.",
+          "Vi rút đang hoạt động ở mức nào.",
           "Men gan có ổn định hay không.",
           "Người bệnh đã dùng thuốc hay chưa.",
           "Có xơ hóa hoặc xơ gan không.",
@@ -8633,9 +8643,9 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Không dùng chung dao cạo, bàn chải đánh răng hoặc vật dụng có thể dính máu.",
           "Che kín vết thương hở.",
           "Sử dụng bao cao su nếu bạn tình chưa có miễn dịch.",
-          "Khuyến khích người sống cùng gia đình và bạn tình xét nghiệm, tiêm vaccine nếu chưa được bảo vệ.",
+          "Khuyến khích người sống cùng gia đình và bạn tình xét nghiệm, tiêm vắc xin nếu chưa được bảo vệ.",
           "Thông báo với bác sĩ trước khi sử dụng thuốc mới, thuốc đông y, thảo dược hoặc thực phẩm bổ sung.",
-          "Vaccine là biện pháp phòng ngừa viêm gan B hiệu quả cho người chưa nhiễm và chưa có miễn dịch. Tuy nhiên, vaccine không phải là thuốc điều trị cho người đã mắc viêm gan B mạn tính.",
+          "Vắc xin là biện pháp phòng ngừa viêm gan B hiệu quả cho người chưa nhiễm và chưa có miễn dịch. Tuy nhiên, vắc xin không phải là thuốc điều trị cho người đã mắc viêm gan B mạn tính.",
           "Khi nào người mắc viêm gan B cần đi khám sớm?",
           "Không nên chờ đến lịch hẹn thông thường nếu xuất hiện các dấu hiệu sau:",
           "Da hoặc mắt vàng rõ.",
@@ -8654,7 +8664,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Theo dõi viêm gan B tại Bệnh viện Đa khoa Hồng Phúc",
         "paragraphs": [
-          "Người đã được chẩn đoán viêm gan B có thể đến Bệnh viện Đa khoa Hồng Phúc để được bác sĩ đánh giá tình trạng virus, chức năng gan và nguy cơ xơ hóa dựa trên từng trường hợp cụ thể.",
+          "Người đã được chẩn đoán viêm gan B có thể đến Bệnh viện Đa khoa Hồng Phúc để được bác sĩ đánh giá tình trạng vi rút, chức năng gan và nguy cơ xơ hóa dựa trên từng trường hợp cụ thể.",
           "Tùy kết quả thăm khám, bác sĩ có thể chỉ định xét nghiệm máu, đo tải lượng HBV DNA, siêu âm, đo độ đàn hồi gan hoặc các phương pháp kiểm tra cần thiết khác. Những người đang điều trị sẽ được theo dõi đáp ứng thuốc, khả năng tuân thủ và các chỉ số an toàn trong quá trình sử dụng.",
           "Việc lưu giữ các kết quả xét nghiệm cũ cũng rất quan trọng. So sánh dữ liệu qua nhiều lần kiểm tra giúp bác sĩ nhận biết xu hướng thay đổi tốt hơn so với việc chỉ xem một kết quả riêng lẻ."
         ]
@@ -8662,8 +8672,8 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Kiểm tra đều đặn để chủ động sống khỏe cùng viêm gan B",
         "paragraphs": [
-          "Viêm gan B mạn tính là bệnh cần được quản lý lâu dài. Người bệnh có thể không có triệu chứng trong nhiều năm, nhưng virus và tình trạng gan vẫn có khả năng thay đổi.",
-          "Tái khám đúng hẹn giúp phát hiện virus hoạt động trở lại, đánh giá xơ hóa, lựa chọn thời điểm điều trị phù hợp và tầm soát sớm ung thư gan. Vì vậy, ngay cả khi cơ thể vẫn khỏe và các xét nghiệm trước đây ổn định, người mắc viêm gan B cũng không nên tự ý ngừng theo dõi hoặc ngừng thuốc.",
+          "Viêm gan B mạn tính là bệnh cần được quản lý lâu dài. Người bệnh có thể không có triệu chứng trong nhiều năm, nhưng vi rút và tình trạng gan vẫn có khả năng thay đổi.",
+          "Tái khám đúng hẹn giúp phát hiện vi rút hoạt động trở lại, đánh giá xơ hóa, lựa chọn thời điểm điều trị phù hợp và tầm soát sớm ung thư gan. Vì vậy, ngay cả khi cơ thể vẫn khỏe và các xét nghiệm trước đây ổn định, người mắc viêm gan B cũng không nên tự ý ngừng theo dõi hoặc ngừng thuốc.",
           "Hiểu đúng về bệnh và duy trì kiểm tra định kỳ là cách thiết thực để bảo vệ gan, giảm nguy cơ biến chứng và giữ chất lượng cuộc sống lâu dài.",
           "Nội dung trong bài viết mang tính chất tham khảo, không thay thế cho việc thăm khám, chẩn đoán hoặc điều trị trực tiếp từ bác sĩ."
         ]
@@ -8775,7 +8785,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Nhiễm trùng hoặc ký sinh trùng đường ruột",
         "paragraphs": [
-          "Nhiễm vi khuẩn, virus hoặc ký sinh trùng thường gây rối loạn tiêu hóa cấp tính, nhưng một số trường hợp có thể kéo dài hoặc tái phát.",
+          "Nhiễm vi khuẩn, vi rút hoặc ký sinh trùng thường gây rối loạn tiêu hóa cấp tính, nhưng một số trường hợp có thể kéo dài hoặc tái phát.",
           "Nguy cơ có thể tăng khi người bệnh:",
           "Ăn thực phẩm chưa được nấu chín.",
           "Uống nước không bảo đảm vệ sinh.",
@@ -9108,7 +9118,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Dáng đi và khả năng chịu lực.",
           "Bác sĩ cũng có thể kiểm tra khớp háng, cổ chân hoặc cột sống vì đau từ những vị trí này đôi khi lan xuống đầu gối.",
           "Có phải đau gối luôn cần chụp X-quang?",
-          "Không phải trường hợp nào cũng cần chụp phim ngay. Theo hướng dẫn NICE, thoái hóa khớp thường có thể được chẩn đoán lâm sàng ở người từ 45 tuổi trở lên khi đau khớp liên quan đến vận động và cứng khớp buổi sáng không quá 30 phút. Chẩn đoán hình ảnh không cần thực hiện thường quy nếu không có biểu hiện bất thường hoặc nghi ngờ một bệnh khác.",
+          "Không phải trường hợp nào cũng cần chụp phim ngay. Theo hướng dẫn Viện Y tế và Chất lượng Điều trị Quốc gia Anh, thoái hóa khớp thường có thể được chẩn đoán lâm sàng ở người từ 45 tuổi trở lên khi đau khớp liên quan đến vận động và cứng khớp buổi sáng không quá 30 phút. Chẩn đoán hình ảnh không cần thực hiện thường quy nếu không có biểu hiện bất thường hoặc nghi ngờ một bệnh khác.",
           "Khi cần, X-quang có thể giúp bác sĩ nhận biết:",
           "Khe khớp hẹp.",
           "Gai xương.",
@@ -9160,7 +9170,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Nếu đau nhiều, yếu cơ hoặc chưa biết nên tập thế nào, người bệnh nên được bác sĩ phục hồi chức năng hoặc kỹ thuật viên vật lý trị liệu hướng dẫn.",
           "2. Kiểm soát cân nặng",
           "Với người thừa cân hoặc béo phì, giảm cân giúp giảm áp lực lên khớp gối và có thể cải thiện đau cũng như khả năng vận động.",
-          "Bất kỳ mức giảm cân hợp lý nào cũng có thể đem lại lợi ích. Theo NICE, giảm khoảng 10% trọng lượng cơ thể có khả năng mang lại hiệu quả tốt hơn so với giảm 5%, nhưng mục tiêu cần thực tế và phù hợp với sức khỏe từng người.",
+          "Bất kỳ mức giảm cân hợp lý nào cũng có thể đem lại lợi ích. Theo Viện Y tế và Chất lượng Điều trị Quốc gia Anh, giảm khoảng 10% trọng lượng cơ thể có khả năng mang lại hiệu quả tốt hơn so với giảm 5%, nhưng mục tiêu cần thực tế và phù hợp với sức khỏe từng người.",
           "Người bệnh không nên nhịn ăn hoặc sử dụng thuốc giảm cân không rõ nguồn gốc. Kế hoạch giảm cân nên kết hợp dinh dưỡng cân đối và vận động phù hợp với khả năng của khớp.",
           "3. Điều chỉnh sinh hoạt",
           "Người bệnh không cần ngừng vận động hoàn toàn, nhưng nên điều chỉnh những hoạt động làm đau tăng rõ rệt:",
@@ -9186,12 +9196,12 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Đang sử dụng thuốc chống đông.",
           "Đang mang thai.",
           "Dị ứng thuốc giảm đau.",
-          "Paracetamol không còn được khuyến nghị sử dụng thường quy cho mọi trường hợp thoái hóa khớp vì hiệu quả có thể hạn chế. Thuốc opioid mạnh và glucosamine cũng không được NICE khuyến nghị dùng để điều trị thường quy.",
+          "Paracetamol không còn được khuyến nghị sử dụng thường quy cho mọi trường hợp thoái hóa khớp vì hiệu quả có thể hạn chế. Thuốc opioid mạnh và glucosamine cũng không được Viện Y tế và Chất lượng Điều trị Quốc gia Anh khuyến nghị dùng để điều trị thường quy.",
           "Người bệnh không nên dùng thuốc theo đơn cũ hoặc đơn của người khác. Bác sĩ cần cân nhắc bệnh nền và các thuốc đang sử dụng trước khi lựa chọn phương án giảm đau.",
           "6. Tiêm thuốc vào khớp",
           "Tiêm corticosteroid vào khớp có thể được cân nhắc khi những phương pháp khác không hiệu quả, không phù hợp hoặc người bệnh cần giảm đau tạm thời để tham gia tập phục hồi chức năng.",
           "Hiệu quả thường mang tính ngắn hạn, khoảng vài tuần. Việc tiêm cần được bác sĩ chỉ định, thực hiện trong điều kiện vô khuẩn và không nên lặp lại tùy tiện.",
-          "Đối với tiêm axit hyaluronic, bằng chứng về hiệu quả chưa thống nhất và NICE không khuyến nghị sử dụng thường quy trong điều trị thoái hóa khớp. Các phương pháp như huyết tương giàu tiểu cầu hoặc tế bào gốc cũng không nên được xem là giải pháp chắc chắn tái tạo khớp; người bệnh cần tìm hiểu kỹ về bằng chứng, chi phí và nguy cơ trước khi quyết định.",
+          "Đối với tiêm axit hyaluronic, bằng chứng về hiệu quả chưa thống nhất và Viện Y tế và Chất lượng Điều trị Quốc gia Anh không khuyến nghị sử dụng thường quy trong điều trị thoái hóa khớp. Các phương pháp như huyết tương giàu tiểu cầu hoặc tế bào gốc cũng không nên được xem là giải pháp chắc chắn tái tạo khớp; người bệnh cần tìm hiểu kỹ về bằng chứng, chi phí và nguy cơ trước khi quyết định.",
           "7. Phẫu thuật bảo tồn khớp",
           "Ở một số người còn trẻ, thoái hóa chỉ tập trung tại một khoang khớp và có biến dạng trục chân, bác sĩ có thể cân nhắc phẫu thuật chỉnh trục xương. Mục đích là phân bố lại lực chịu tải và giảm áp lực lên vùng khớp bị tổn thương.",
           "Phương pháp này chỉ phù hợp với một số trường hợp nhất định và cần được bác sĩ chấn thương chỉnh hình đánh giá kỹ.",
@@ -9260,7 +9270,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "dau-lung-keo-dai-khi-nao-can-chup-mri": {
     "sourceFile": "37.Đau lưng kéo dài khi nào cần chụp MRI.docx",
-    "title": "Đau lưng kéo dài: Khi nào cần chụp MRI?",
+    "title": "Đau lưng kéo dài: khi nào cần chụp cộng hưởng từ (MRI)?",
     "excerpt": "Đau lưng có thể xuất hiện sau một ngày ngồi làm việc quá lâu, mang vật nặng, vận động sai tư thế hoặc ngủ trên chiếc đệm không phù hợp. Phần lớn các trường hợp đau lưng thông thường có thể cải thiện khi nghỉ ngơi hợp lý, vận động nhẹ và điều chỉnh thói quen sinh hoạt.",
     "intro": [
       "Đau lưng có thể xuất hiện sau một ngày ngồi làm việc quá lâu, mang vật nặng, vận động sai tư thế hoặc ngủ trên chiếc đệm không phù hợp. Phần lớn các trường hợp đau lưng thông thường có thể cải thiện khi nghỉ ngơi hợp lý, vận động nhẹ và điều chỉnh thói quen sinh hoạt.",
@@ -9308,7 +9318,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Tuy nhiên, hình ảnh chi tiết không có nghĩa MRI luôn cần thiết ngay từ đầu.",
           "Vì sao đau lưng không phải lúc nào cũng cần chụp MRI?",
           "Nhiều trường hợp đau lưng bắt nguồn từ căng cơ, quá tải vận động hoặc thay đổi thoái hóa thông thường. Những tình trạng này thường có thể được nhận biết bước đầu thông qua hỏi bệnh và khám lâm sàng.",
-          "Hướng dẫn của NICE không khuyến cáo chụp hình ảnh thường quy đối với đau thắt lưng không đặc hiệu tại cơ sở khám ban đầu. Chẩn đoán hình ảnh chỉ nên được cân nhắc khi kết quả có khả năng làm thay đổi kế hoạch điều trị.",
+          "Hướng dẫn của Viện Y tế và Chất lượng Điều trị Quốc gia Anh không khuyến cáo chụp hình ảnh thường quy đối với đau thắt lưng không đặc hiệu tại cơ sở khám ban đầu. Chẩn đoán hình ảnh chỉ nên được cân nhắc khi kết quả có khả năng làm thay đổi kế hoạch điều trị.",
           "Tiêu chuẩn của Hội Điện quang Hoa Kỳ cũng đánh giá MRI, CT và X-quang thường không phù hợp như phương pháp kiểm tra ban đầu đối với đau thắt lưng không có dấu hiệu cảnh báo và chưa trải qua điều trị bảo tồn.",
           "Một lý do khác là MRI có thể phát hiện các thay đổi thoái hóa, phình hoặc lồi đĩa đệm ở cả những người không hề đau lưng. Nếu chỉ nhìn hình ảnh mà không đối chiếu với triệu chứng và khám lâm sàng, người bệnh có thể lo lắng quá mức hoặc tiếp nhận những phương pháp điều trị chưa thực sự cần thiết.",
           "Nói một cách dễ hiểu, MRI có thể cho thấy “cột sống trông như thế nào”, nhưng bác sĩ vẫn phải xác định thay đổi nào thực sự gây ra triệu chứng.",
@@ -9353,7 +9363,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Yếu một hoặc cả hai chân.",
           "Đau thần kinh tọa hai bên.",
           "Triệu chứng thần kinh tiến triển nhanh.",
-          "Khi nghi ngờ hội chứng này, người bệnh cần được đánh giá cấp cứu và chụp MRI khẩn cấp, không nên chờ theo dõi tại nhà. NICE xác định đây là tình trạng chèn ép thần kinh nghiêm trọng, cần quy trình đánh giá và chẩn đoán hình ảnh khẩn trương."
+          "Khi nghi ngờ hội chứng này, người bệnh cần được đánh giá cấp cứu và chụp MRI khẩn cấp, không nên chờ theo dõi tại nhà. Viện Y tế và Chất lượng Điều trị Quốc gia Anh xác định đây là tình trạng chèn ép thần kinh nghiêm trọng, cần quy trình đánh giá và chẩn đoán hình ảnh khẩn trương."
         ]
       },
       {
@@ -9544,7 +9554,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Xử trí bong gân, căng cơ và bầm tím trong những ngày đầu",
         "paragraphs": [
-          "Với chấn thương phần mềm mức độ nhẹ, có thể áp dụng các bước bảo vệ, nghỉ tương đối, chườm lạnh, băng ép và kê cao vùng bị thương."
+          "Với chấn thương mô mềm mức độ nhẹ, có thể áp dụng các bước bảo vệ, nghỉ tương đối, chườm lạnh, băng ép và kê cao vùng bị thương."
         ]
       },
       {
@@ -9745,7 +9755,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "phau-thuat-noi-soi-khop-uu-diem-va-truong-hop-chi-dinh": {
     "sourceFile": "39. Phẫu thuật nội soi khớp ưu điểm và trường hợp chỉ định.docx",
-    "title": "Phẫu thuật nội soi khớp: Ưu điểm và những trường hợp được chỉ định",
+    "title": "Phẫu thuật nội soi khớp: ưu điểm và những trường hợp được chỉ định",
     "excerpt": "Đau, sưng, kẹt khớp hoặc mất vững khớp có thể ảnh hưởng đáng kể đến khả năng đi lại, làm việc và chơi thể thao. Khi thuốc, vật lý trị liệu và các phương pháp điều trị bảo tồn không mang lại hiệu quả như mong đợi, bác sĩ có thể cân nhắc phẫu thuật để xử lý tổn thương bên trong khớp.",
     "intro": [
       "Đau, sưng, kẹt khớp hoặc mất vững khớp có thể ảnh hưởng đáng kể đến khả năng đi lại, làm việc và chơi thể thao. Khi thuốc, vật lý trị liệu và các phương pháp điều trị bảo tồn không mang lại hiệu quả như mong đợi, bác sĩ có thể cân nhắc phẫu thuật để xử lý tổn thương bên trong khớp.",
@@ -10005,7 +10015,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Mục tiêu vận động và công việc của người bệnh.",
           "Các kiểm tra có thể gồm:",
           "X-quang để đánh giá xương, trục khớp và mức độ thoái hóa.",
-          "Siêu âm đối với một số tổn thương gân và phần mềm.",
+          "Siêu âm đối với một số tổn thương gân và mô mềm.",
           "MRI để khảo sát sụn, dây chằng, gân và cấu trúc bên trong khớp.",
           "CT khi cần đánh giá chi tiết cấu trúc xương.",
           "Xét nghiệm máu, điện tim hoặc kiểm tra tiền mê.",
@@ -10118,16 +10128,16 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Phụ nữ mất xương nhanh hơn quanh thời kỳ mãn kinh",
         "paragraphs": [
-          "Estrogen có vai trò quan trọng đối với quá trình duy trì xương. Khi phụ nữ bước vào giai đoạn tiền mãn kinh và mãn kinh, nồng độ hormone này suy giảm, làm tốc độ mất xương có thể tăng lên.",
+          "Estrogen có vai trò quan trọng đối với quá trình duy trì xương. Khi phụ nữ bước vào giai đoạn tiền mãn kinh và mãn kinh, nồng độ nội tiết tố này suy giảm, làm tốc độ mất xương có thể tăng lên.",
           "Theo Viện Quốc gia về Viêm khớp, Cơ xương và Bệnh da Hoa Kỳ, ở nhiều phụ nữ, quá trình loãng xương có thể bắt đầu phát triển từ khoảng một đến hai năm trước mãn kinh.",
-          "Phụ nữ mãn kinh sớm, phẫu thuật cắt buồng trứng hoặc phải điều trị làm suy giảm hormone cần được đánh giá nguy cơ xương sớm hơn."
+          "Phụ nữ mãn kinh sớm, phẫu thuật cắt buồng trứng hoặc phải điều trị làm suy giảm nội tiết tố cần được đánh giá nguy cơ xương sớm hơn."
         ]
       },
       {
         "heading": "Nam giới cũng có thể bị loãng xương",
         "paragraphs": [
           "Loãng xương thường được nhắc đến nhiều ở phụ nữ nhưng nam giới không nằm ngoài nguy cơ. Nam giới thường có khối lượng xương ban đầu cao hơn và mất xương chậm hơn, vì vậy bệnh có xu hướng xuất hiện muộn hơn. Tuy nhiên, bệnh vẫn có thể xảy ra sớm khi có yếu tố nguy cơ.",
-          "Nam giới trung niên cần lưu ý sức khỏe xương nếu từng gãy xương sau chấn thương nhẹ, thiếu hormone sinh dục, dùng corticosteroid kéo dài, điều trị ung thư tuyến tiền liệt hoặc mắc một số bệnh mạn tính.",
+          "Nam giới trung niên cần lưu ý sức khỏe xương nếu từng gãy xương sau chấn thương nhẹ, thiếu nội tiết tố sinh dục, dùng corticosteroid kéo dài, điều trị ung thư tuyến tiền liệt hoặc mắc một số bệnh mạn tính.",
           "Ai ở tuổi trung niên có nguy cơ loãng xương cao hơn?",
           "Không phải mọi người trung niên đều cần đo mật độ xương ngay. Việc tầm soát thường được quyết định dựa trên tuổi, giới tính, tình trạng mãn kinh và các yếu tố nguy cơ.",
           "Những trường hợp nên được bác sĩ đánh giá nguy cơ gồm:",
@@ -10160,14 +10170,14 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Bệnh gan hoặc bệnh thận mạn tính.",
           "Bệnh gây giảm hấp thu dinh dưỡng.",
           "Một số bệnh lý huyết học.",
-          "Tình trạng suy giảm hormone sinh dục.",
+          "Tình trạng suy giảm nội tiết tố sinh dục.",
           "Những bệnh này không đồng nghĩa người bệnh chắc chắn bị loãng xương, nhưng có thể là lý do để bác sĩ cân nhắc đánh giá sức khỏe xương sớm hơn.",
           "Thuốc nào có thể làm tăng nguy cơ mất xương?",
           "Một số loại thuốc có thể ảnh hưởng đến quá trình tạo và hủy xương, đặc biệt khi dùng liều cao hoặc trong thời gian dài. Nhóm thường được quan tâm là corticosteroid, đôi khi được gọi là thuốc corticoid.",
           "Ngoài ra, nguy cơ còn có thể liên quan đến:",
           "Một số thuốc điều trị ung thư vú hoặc ung thư tuyến tiền liệt.",
           "Một số thuốc chống động kinh.",
-          "Một số thuốc ảnh hưởng đến hormone.",
+          "Một số thuốc ảnh hưởng đến nội tiết tố.",
           "Một số phương pháp điều trị bệnh mạn tính khác.",
           "Người bệnh không được tự ý ngừng thuốc vì lo sợ loãng xương. Bác sĩ cần cân bằng giữa lợi ích điều trị bệnh chính và nguy cơ đối với xương, đồng thời cân nhắc tầm soát hoặc biện pháp bảo vệ xương khi cần thiết.",
           "Người trung niên khi nào nên tầm soát loãng xương?",
@@ -10186,7 +10196,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Giảm chiều cao hoặc lưng còng dần.",
           "Đau lưng mới xuất hiện mà không rõ nguyên nhân.",
           "Có tiền sử gia đình gãy cổ xương đùi.",
-          "Đang điều trị ung thư có ảnh hưởng đến hormone.",
+          "Đang điều trị ung thư có ảnh hưởng đến nội tiết tố.",
           "Bị suy dinh dưỡng, nhẹ cân hoặc kém hấp thu kéo dài.",
           "Tầm soát loãng xương được thực hiện như thế nào?",
           "Tầm soát không chỉ là chụp một phim rồi kết luận. Bác sĩ thường kết hợp đánh giá yếu tố nguy cơ, tiền sử gãy xương, thuốc đang sử dụng và đo mật độ xương khi có chỉ định."
@@ -10235,7 +10245,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Xét nghiệm vitamin D.",
           "Đánh giá chức năng tuyến giáp.",
           "Xét nghiệm chức năng gan, thận.",
-          "Xét nghiệm hormone.",
+          "Xét nghiệm nội tiết tố.",
           "Công thức máu.",
           "Các xét nghiệm tìm bệnh gây giảm hấp thu hoặc rối loạn chuyển hóa xương.",
           "Chụp X-quang hoặc đánh giá đốt sống nếu nghi ngờ xẹp đốt sống.",
@@ -10318,7 +10328,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Đang dùng corticosteroid kéo dài.",
           "Có bệnh tuyến giáp, bệnh tự miễn, bệnh gan, thận hoặc bệnh gây kém hấp thu.",
           "Có người thân từng gãy cổ xương đùi.",
-          "Đang điều trị ung thư ảnh hưởng đến hormone.",
+          "Đang điều trị ung thư ảnh hưởng đến nội tiết tố.",
           "Kết quả khám sức khỏe gợi ý mật độ xương thấp.",
           "Nếu đau dữ dội sau một cú ngã, không thể đứng hoặc cử động, chân tay biến dạng hay đau cột sống đột ngột, người bệnh cần đến cơ sở y tế sớm để kiểm tra gãy xương."
         ]
@@ -10344,24 +10354,24 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "dai-thao-duong-type-2-dau-hieu-som-va-xet-nghiem-can-lam": {
     "sourceFile": "41.Đái tháo đường type 2 dấu hiệu sớm và xét nghiệm cần làm.docx",
-    "title": "Đái tháo đường type 2: Dấu hiệu sớm và những xét nghiệm cần làm",
-    "excerpt": "Đái tháo đường type 2 thường không xuất hiện một cách ồn ào. Bệnh có thể phát triển từ từ trong nhiều năm, trong khi người bệnh vẫn ăn uống, làm việc và sinh hoạt gần như bình thường. Một số người chỉ phát hiện đường huyết cao trong lần khám sức khỏe định kỳ hoặc khi đã xuất hiện vấn đề về mắt, thận, thần kinh hay tim mạch.",
+    "title": "Đái tháo đường típ 2: dấu hiệu sớm và những xét nghiệm cần làm",
+    "excerpt": "Đái tháo đường típ 2 thường tiến triển âm thầm trong nhiều năm. Không ít người chỉ phát hiện đường huyết cao khi khám sức khỏe định kỳ hoặc khi đã xuất hiện vấn đề ở mắt, thận, thần kinh hay tim mạch.",
     "intro": [
-      "Đái tháo đường type 2 thường không xuất hiện một cách ồn ào. Bệnh có thể phát triển từ từ trong nhiều năm, trong khi người bệnh vẫn ăn uống, làm việc và sinh hoạt gần như bình thường. Một số người chỉ phát hiện đường huyết cao trong lần khám sức khỏe định kỳ hoặc khi đã xuất hiện vấn đề về mắt, thận, thần kinh hay tim mạch.",
+      "Đái tháo đường típ 2 thường tiến triển âm thầm trong nhiều năm. Không ít người chỉ phát hiện đường huyết cao khi khám sức khỏe định kỳ hoặc khi đã xuất hiện vấn đề ở mắt, thận, thần kinh hay tim mạch.",
       "Nhận biết các dấu hiệu sớm và chủ động xét nghiệm khi thuộc nhóm nguy cơ giúp phát hiện bệnh ở giai đoạn sớm hơn. Đây là thời điểm người bệnh có nhiều cơ hội điều chỉnh lối sống, kiểm soát đường huyết và hạn chế các biến chứng lâu dài.",
-      "Đái tháo đường type 2 là gì?",
-      "Đường glucose là một trong những nguồn năng lượng chính của cơ thể. Sau khi chúng ta ăn, glucose được hấp thu vào máu. Hormone insulin do tuyến tụy sản xuất có nhiệm vụ giúp glucose đi từ máu vào tế bào để được sử dụng làm năng lượng.",
-      "Ở người mắc đái tháo đường type 2, cơ thể không sử dụng insulin hiệu quả, tình trạng này được gọi là đề kháng insulin. Theo thời gian, tuyến tụy có thể không sản xuất đủ insulin để duy trì đường huyết trong giới hạn phù hợp. Khi đó, glucose tích tụ trong máu và gây tăng đường huyết kéo dài.",
+      "Đái tháo đường típ 2 là gì?",
+      "Glucose là một trong những nguồn năng lượng chính của cơ thể. Sau khi chúng ta ăn, glucose được hấp thu vào máu. Nội tiết tố insulin do tuyến tụy sản xuất giúp đưa glucose từ máu vào tế bào để tạo năng lượng.",
+      "Ở người mắc đái tháo đường típ 2, cơ thể không sử dụng insulin hiệu quả, tình trạng này được gọi là đề kháng insulin. Theo thời gian, tuyến tụy có thể không sản xuất đủ insulin để duy trì đường huyết trong giới hạn phù hợp. Khi đó, glucose tích tụ trong máu và gây tăng đường huyết kéo dài.",
       "Nói một cách dễ hiểu, cơ thể vẫn có “chìa khóa” insulin nhưng ổ khóa trên tế bào không còn phản hồi tốt như trước. Tuyến tụy phải làm việc nhiều hơn để bù lại. Khi khả năng bù trừ suy giảm, đường huyết bắt đầu tăng rõ và bệnh đái tháo đường được hình thành.",
-      "Đái tháo đường type 2 là dạng đái tháo đường phổ biến nhất. Bệnh thường gặp ở người trưởng thành nhưng hiện cũng có thể xuất hiện ở người trẻ, thanh thiếu niên và trẻ em, nhất là khi có thừa cân, ít vận động hoặc tiền sử gia đình.",
-      "Vì sao đái tháo đường type 2 thường được phát hiện muộn?",
+      "Đái tháo đường típ 2 là dạng đái tháo đường phổ biến nhất. Bệnh thường gặp ở người trưởng thành nhưng hiện cũng có thể xuất hiện ở người trẻ, thanh thiếu niên và trẻ em, nhất là khi có thừa cân, ít vận động hoặc tiền sử gia đình.",
+      "Vì sao đái tháo đường típ 2 thường được phát hiện muộn?",
       "Đường huyết có thể tăng từ từ nên cơ thể dần thích nghi với sự thay đổi. Các biểu hiện ban đầu thường nhẹ, không đặc hiệu và dễ bị cho là do thiếu ngủ, tuổi tác, áp lực công việc hoặc thời tiết.",
-      "Nhiều người mắc đái tháo đường type 2 hoàn toàn không nhận thấy triệu chứng. Một số trường hợp chỉ được phát hiện khi kiểm tra vì thị lực giảm, vết thương lâu lành, tê chân tay hoặc xuất hiện bệnh lý tim mạch.",
+      "Nhiều người mắc đái tháo đường típ 2 hoàn toàn không nhận thấy triệu chứng. Một số trường hợp chỉ được phát hiện khi kiểm tra vì thị lực giảm, vết thương lâu lành, tê chân tay hoặc xuất hiện bệnh lý tim mạch.",
       "Vì vậy, không nên chờ đến khi có biểu hiện rõ ràng mới kiểm tra đường huyết. Với người thuộc nhóm nguy cơ, xét nghiệm định kỳ có giá trị hơn việc chỉ quan sát triệu chứng."
     ],
     "sections": [
       {
-        "heading": "Dấu hiệu sớm của đái tháo đường type 2",
+        "heading": "Dấu hiệu sớm của đái tháo đường típ 2",
         "paragraphs": [
           "Không phải người bệnh nào cũng có đầy đủ các dấu hiệu dưới đây. Một triệu chứng riêng lẻ cũng chưa đủ để kết luận mắc đái tháo đường vì có thể liên quan đến nhiều nguyên nhân khác."
         ]
@@ -10425,9 +10435,9 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Sụt cân không rõ nguyên nhân",
         "paragraphs": [
-          "Sụt cân thường được nhắc đến nhiều ở đái tháo đường type 1, nhưng cũng có thể xuất hiện ở người mắc type 2 khi đường huyết tăng đáng kể. Khi tế bào không sử dụng được glucose, cơ thể có thể phân giải mỡ và cơ để tạo năng lượng.",
+          "Sụt cân thường được nhắc đến nhiều ở đái tháo đường típ 1, nhưng cũng có thể xuất hiện ở người mắc típ 2 khi đường huyết tăng đáng kể. Khi tế bào không sử dụng được glucose, cơ thể có thể phân giải mỡ và cơ để tạo năng lượng.",
           "Sụt cân nhanh mà không chủ động ăn kiêng hoặc tăng vận động là biểu hiện cần đi khám, không nên xem là một tín hiệu tích cực.",
-          "Ai nên chủ động xét nghiệm đái tháo đường type 2?",
+          "Ai nên chủ động xét nghiệm đái tháo đường típ 2?",
           "Theo tiêu chuẩn chăm sóc của Hiệp hội Đái tháo đường Hoa Kỳ năm 2026, việc sàng lọc nên bắt đầu từ 35 tuổi đối với người trưởng thành, ngay cả khi chưa có triệu chứng. Người có kết quả bình thường thường được kiểm tra lại định kỳ, phổ biến là khoảng ba năm một lần, nhưng khoảng cách có thể ngắn hơn nếu nguy cơ tăng lên.",
           "Người dưới 35 tuổi cũng nên được cân nhắc xét nghiệm sớm nếu đang thừa cân hoặc béo phì và có thêm yếu tố nguy cơ.",
           "Những nhóm nên chủ động trao đổi với bác sĩ gồm:",
@@ -10441,8 +10451,8 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Có rối loạn mỡ máu hoặc các biểu hiện rối loạn chuyển hóa.",
           "Đang sử dụng một số loại thuốc có thể làm tăng đường huyết.",
           "Có triệu chứng nghi ngờ như tiểu nhiều, khát nhiều, nhìn mờ hoặc sụt cân.",
-          "Người có tiền đái tháo đường thường cần kiểm tra lại thường xuyên hơn, phổ biến là mỗi năm. Phụ nữ từng mắc đái tháo đường thai kỳ cũng cần được theo dõi lâu dài vì nguy cơ mắc đái tháo đường type 2 về sau cao hơn.",
-          "Những xét nghiệm nào giúp phát hiện đái tháo đường type 2?",
+          "Người có tiền đái tháo đường thường cần kiểm tra lại thường xuyên hơn, phổ biến là mỗi năm. Phụ nữ từng mắc đái tháo đường thai kỳ cũng cần được theo dõi lâu dài vì nguy cơ mắc đái tháo đường típ 2 về sau cao hơn.",
+          "Những xét nghiệm nào giúp phát hiện đái tháo đường típ 2?",
           "Chẩn đoán đái tháo đường cần dựa trên xét nghiệm máu tại cơ sở y tế. Bác sĩ sẽ lựa chọn một hoặc kết hợp nhiều xét nghiệm tùy triệu chứng, tình trạng sức khỏe và hoàn cảnh của người bệnh."
         ]
       },
@@ -10515,12 +10525,12 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Kiểm tra bàn chân, cảm giác và tuần hoàn ngoại biên.",
           "Khám mắt có giãn đồng tử.",
           "Đánh giá cân nặng, vòng bụng và các bệnh lý đi kèm.",
-          "Ở người mắc đái tháo đường type 2, kiểm tra thận bằng eGFR và albumin niệu thường được thực hiện định kỳ. Khám mắt toàn diện cũng được khuyến nghị ngay từ thời điểm chẩn đoán vì bệnh có thể đã tồn tại trước khi được phát hiện.",
+          "Ở người mắc đái tháo đường típ 2, kiểm tra thận bằng eGFR và albumin niệu thường được thực hiện định kỳ. Khám mắt toàn diện cũng được khuyến nghị ngay từ thời điểm chẩn đoán vì bệnh có thể đã tồn tại trước khi được phát hiện.",
           "Không phải người bệnh nào cũng cần làm toàn bộ xét nghiệm trong cùng một ngày. Bác sĩ sẽ xây dựng danh mục phù hợp dựa trên tuổi, triệu chứng, bệnh nền và kết quả khám."
         ]
       },
       {
-        "heading": "Phân biệt tiền đái tháo đường và đái tháo đường type 2",
+        "heading": "Phân biệt tiền đái tháo đường và đái tháo đường típ 2",
         "paragraphs": [
           "Tiền đái tháo đường là tình trạng đường huyết cao hơn bình thường nhưng chưa đạt ngưỡng chẩn đoán đái tháo đường. Giai đoạn này thường không có triệu chứng rõ ràng nhưng cho thấy cơ thể đã bắt đầu gặp khó khăn trong việc điều hòa glucose.",
           "Tiền đái tháo đường không có nghĩa người bệnh chắc chắn sẽ tiến triển thành đái tháo đường. Điều chỉnh chế độ ăn, tăng vận động, giảm cân phù hợp và theo dõi định kỳ có thể giúp làm chậm hoặc ngăn quá trình tiến triển ở nhiều người.",
@@ -10545,10 +10555,10 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Hơi thở có mùi trái cây bất thường.",
           "Lơ mơ, lú lẫn hoặc khó đánh thức.",
           "Suy yếu nhanh.",
-          "Đây có thể là biểu hiện của tình trạng tăng đường huyết cấp tính hoặc nhiễm toan ceton. Mặc dù biến chứng này thường gặp hơn ở đái tháo đường type 1, người mắc type 2 vẫn có thể gặp và cần được cấp cứu.",
+          "Đây có thể là biểu hiện của tình trạng tăng đường huyết cấp tính hoặc nhiễm toan ceton. Mặc dù biến chứng này thường gặp hơn ở đái tháo đường típ 1, người mắc típ 2 vẫn có thể gặp và cần được cấp cứu.",
           "Phát hiện đái tháo đường sớm có ý nghĩa gì?",
           "Đường huyết tăng kéo dài có thể ảnh hưởng đến mạch máu và nhiều cơ quan như tim, não, thận, mắt, dây thần kinh và bàn chân. Tuy nhiên, nguy cơ biến chứng có thể được giảm bớt khi bệnh được phát hiện, kiểm soát và theo dõi đúng cách.",
-          "Điều trị đái tháo đường type 2 không chỉ là giảm đường huyết. Người bệnh còn cần kiểm soát huyết áp, mỡ máu, cân nặng, thói quen hút thuốc và các yếu tố nguy cơ tim mạch khác.",
+          "Điều trị đái tháo đường típ 2 không chỉ là giảm đường huyết. Người bệnh còn cần kiểm soát huyết áp, mỡ máu, cân nặng, thói quen hút thuốc và các yếu tố nguy cơ tim mạch khác.",
           "Tùy từng trường hợp, kế hoạch chăm sóc có thể gồm điều chỉnh chế độ ăn, vận động, giảm cân, dùng thuốc và theo dõi định kỳ. Người bệnh không nên tự mua thuốc theo kết quả xét nghiệm hoặc dùng đơn của người khác vì lựa chọn điều trị cần dựa trên mức đường huyết, chức năng thận, bệnh tim mạch và nhiều yếu tố cá nhân."
         ]
       },
@@ -10563,7 +10573,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Đừng chờ cơ thể “lên tiếng” quá rõ mới kiểm tra",
         "paragraphs": [
-          "Đái tháo đường type 2 có thể tiến triển âm thầm và không gây triệu chứng trong thời gian dài. Những biểu hiện như khát nhiều, tiểu nhiều, nhanh đói, mệt mỏi, nhìn mờ hoặc vết thương lâu lành là các tín hiệu nên được kiểm tra, nhưng không phải người bệnh nào cũng có những dấu hiệu này.",
+          "Đái tháo đường típ 2 có thể tiến triển âm thầm và không gây triệu chứng trong thời gian dài. Những biểu hiện như khát nhiều, tiểu nhiều, nhanh đói, mệt mỏi, nhìn mờ hoặc vết thương lâu lành là các tín hiệu nên được kiểm tra, nhưng không phải người bệnh nào cũng có những dấu hiệu này.",
           "Chủ động xét nghiệm khi từ 35 tuổi hoặc khi có yếu tố nguy cơ là cách thiết thực để phát hiện tiền đái tháo đường và đái tháo đường sớm. Một kết quả bất thường không nên khiến người bệnh quá hoảng sợ, nhưng cũng không nên bị bỏ qua hoặc tự xử lý tại nhà.",
           "Phát hiện sớm giúp người bệnh có thêm thời gian để điều chỉnh lối sống, lựa chọn hướng điều trị phù hợp và bảo vệ sức khỏe tim, thận, mắt cùng hệ thần kinh trong dài hạn.",
           "Nội dung trong bài viết mang tính chất tham khảo, không thay thế cho việc thăm khám, chẩn đoán hoặc điều trị trực tiếp từ bác sĩ."
@@ -10573,14 +10583,14 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "roi-loan-tuyen-giap-nhung-trieu-chung-de-bi-bo-qua": {
     "sourceFile": "42.Rối loạn tuyến giáp những triệu chứng dễ bị bỏ qua.docx",
-    "title": "Rối loạn tuyến giáp: Những triệu chứng dễ bị bỏ qua",
+    "title": "Rối loạn tuyến giáp: những triệu chứng dễ bị bỏ qua",
     "excerpt": "Mệt mỏi, tăng cân, khó ngủ, rụng tóc hay tâm trạng thất thường thường được cho là hậu quả của áp lực công việc, tuổi tác hoặc sinh hoạt thiếu điều độ. Tuy nhiên, trong một số trường hợp, đây lại là những tín hiệu liên quan đến rối loạn tuyến giáp.",
     "intro": [
       "Mệt mỏi, tăng cân, khó ngủ, rụng tóc hay tâm trạng thất thường thường được cho là hậu quả của áp lực công việc, tuổi tác hoặc sinh hoạt thiếu điều độ. Tuy nhiên, trong một số trường hợp, đây lại là những tín hiệu liên quan đến rối loạn tuyến giáp.",
       "Các triệu chứng của bệnh tuyến giáp thường xuất hiện từ từ và khá giống với nhiều vấn đề sức khỏe thông thường. Vì vậy, không ít người chỉ phát hiện bệnh khi đi khám sức khỏe, làm xét nghiệm hoặc khi các biểu hiện đã ảnh hưởng rõ rệt đến cuộc sống.",
       "Tuyến giáp có vai trò gì đối với cơ thể?",
-      "Tuyến giáp là một tuyến nhỏ có hình dạng gần giống cánh bướm, nằm ở phía trước cổ. Tuy kích thước không lớn, tuyến giáp lại sản xuất hormone tham gia điều hòa cách cơ thể sử dụng năng lượng.",
-      "Hormone tuyến giáp có ảnh hưởng đến nhiều hoạt động như:",
+      "Tuyến giáp là một tuyến nhỏ có hình dạng gần giống cánh bướm, nằm ở phía trước cổ. Tuy kích thước không lớn, tuyến giáp lại sản xuất nội tiết tố tham gia điều hòa cách cơ thể sử dụng năng lượng.",
+      "Nội tiết tố tuyến giáp có ảnh hưởng đến nhiều hoạt động như:",
       "Nhịp tim.",
       "Nhiệt độ cơ thể.",
       "Cân nặng và quá trình chuyển hóa.",
@@ -10588,21 +10598,21 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Chu kỳ kinh nguyệt.",
       "Tâm trạng và khả năng tập trung.",
       "Sức khỏe của da, tóc và cơ bắp.",
-      "Có thể hình dung tuyến giáp giống như một “bộ điều chỉnh tốc độ” của cơ thể. Khi hormone tuyến giáp quá ít, nhiều hoạt động có xu hướng chậm lại. Ngược lại, khi lượng hormone quá nhiều, cơ thể có thể hoạt động nhanh hơn bình thường.",
+      "Có thể hình dung tuyến giáp giống như một “bộ điều chỉnh tốc độ” của cơ thể. Khi nội tiết tố tuyến giáp quá ít, nhiều hoạt động có xu hướng chậm lại. Ngược lại, khi lượng nội tiết tố quá nhiều, cơ thể có thể hoạt động nhanh hơn bình thường.",
       "Rối loạn tuyến giáp gồm những tình trạng nào?",
       "Rối loạn tuyến giáp không chỉ là một bệnh duy nhất. Một số tình trạng thường gặp gồm:",
       "Suy giáp",
-      "Suy giáp xảy ra khi tuyến giáp không sản xuất đủ hormone đáp ứng nhu cầu của cơ thể. Khi đó, quá trình chuyển hóa thường chậm lại, khiến người bệnh dễ mệt, sợ lạnh, tăng cân hoặc táo bón.",
+      "Suy giáp xảy ra khi tuyến giáp không sản xuất đủ nội tiết tố đáp ứng nhu cầu của cơ thể. Khi đó, quá trình chuyển hóa thường chậm lại, khiến người bệnh dễ mệt, sợ lạnh, tăng cân hoặc táo bón.",
       "Viêm tuyến giáp Hashimoto, một bệnh tự miễn khiến hệ miễn dịch tấn công nhầm tuyến giáp, là nguyên nhân phổ biến của suy giáp.",
       "Cường giáp",
-      "Cường giáp là tình trạng tuyến giáp sản xuất nhiều hormone hơn mức cơ thể cần. Người bệnh có thể cảm thấy tim đập nhanh, nóng bức, dễ cáu gắt, run tay hoặc giảm cân dù vẫn ăn uống bình thường.",
+      "Cường giáp là tình trạng tuyến giáp sản xuất nhiều nội tiết tố hơn mức cơ thể cần. Người bệnh có thể cảm thấy tim đập nhanh, nóng bức, dễ cáu gắt, run tay hoặc giảm cân dù vẫn ăn uống bình thường.",
       "Bệnh Graves, cũng là một bệnh tự miễn, thường liên quan đến tình trạng cường giáp."
     ],
     "sections": [
       {
         "heading": "Viêm tuyến giáp",
         "paragraphs": [
-          "Tuyến giáp bị viêm có thể giải phóng lượng hormone dự trữ vào máu, gây biểu hiện giống cường giáp trong một thời gian. Sau đó, tuyến giáp có thể chuyển sang giai đoạn hoạt động kém và gây suy giáp."
+          "Tuyến giáp bị viêm có thể giải phóng lượng nội tiết tố dự trữ vào máu, gây biểu hiện giống cường giáp trong một thời gian. Sau đó, tuyến giáp có thể chuyển sang giai đoạn hoạt động kém và gây suy giáp."
         ]
       },
       {
@@ -10643,7 +10653,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Tim đập nhanh hoặc chậm bất thường",
         "paragraphs": [
-          "Hormone tuyến giáp có ảnh hưởng trực tiếp đến hoạt động của tim.",
+          "Nội tiết tố tuyến giáp có ảnh hưởng trực tiếp đến hoạt động của tim.",
           "Ở người cường giáp, tim có thể đập nhanh, hồi hộp, đánh trống ngực hoặc đôi khi không đều. Một số người cảm thấy tim đập mạnh ngay cả khi đang nghỉ ngơi.",
           "Suy giáp có thể làm nhịp tim chậm hơn. Tuy nhiên, những thay đổi về nhịp tim cũng có thể liên quan đến bệnh tim mạch, lo âu, thiếu máu, sử dụng chất kích thích hoặc nhiều nguyên nhân khác.",
           "Cường giáp không được kiểm soát có thể làm tăng nguy cơ rối loạn nhịp tim, suy tim và ảnh hưởng đến xương."
@@ -10660,7 +10670,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Hay cáu gắt, lo âu hoặc buồn bã",
         "paragraphs": [
-          "Thay đổi hormone tuyến giáp có thể ảnh hưởng đến tâm trạng. Cường giáp thường liên quan đến cảm giác lo lắng, bồn chồn, dễ kích động hoặc thiếu kiên nhẫn.",
+          "Thay đổi nội tiết tố tuyến giáp có thể ảnh hưởng đến tâm trạng. Cường giáp thường liên quan đến cảm giác lo lắng, bồn chồn, dễ kích động hoặc thiếu kiên nhẫn.",
           "Suy giáp có thể khiến người bệnh cảm thấy chậm chạp, thiếu động lực, buồn bã hoặc có biểu hiện giống trầm cảm.",
           "Tuy nhiên, các vấn đề tâm lý và cảm xúc cần được đánh giá toàn diện. Xét nghiệm tuyến giáp chỉ là một phần trong quá trình tìm nguyên nhân khi bác sĩ nhận thấy có dấu hiệu phù hợp."
         ]
@@ -10684,7 +10694,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       {
         "heading": "Táo bón hoặc đi ngoài nhiều lần",
         "paragraphs": [
-          "Khi hormone tuyến giáp thấp, hoạt động của đường tiêu hóa có thể chậm lại, dẫn đến táo bón.",
+          "Khi nội tiết tố tuyến giáp thấp, hoạt động của đường tiêu hóa có thể chậm lại, dẫn đến táo bón.",
           "Ngược lại, người bị cường giáp có thể đi ngoài nhiều lần hơn bình thường, phân lỏng hoặc cảm thấy đường ruột hoạt động nhanh hơn.",
           "Đây là dấu hiệu khá kín đáo nên người bệnh thường chỉ điều chỉnh chế độ ăn mà không nghĩ đến nguyên nhân nội tiết."
         ]
@@ -10739,7 +10749,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "paragraphs": [
           "Các xét nghiệm thường được sử dụng gồm:",
           "TSH: Thường là xét nghiệm đầu tiên để đánh giá hoạt động của tuyến giáp.",
-          "FT4 hoặc T4: Giúp xác định lượng hormone tuyến giáp trong máu.",
+          "FT4 hoặc T4: Giúp xác định lượng nội tiết tố tuyến giáp trong máu.",
           "T3: Có thể được chỉ định khi nghi ngờ cường giáp.",
           "Kháng thể tuyến giáp: Hỗ trợ xác định một số bệnh tuyến giáp tự miễn như Hashimoto hoặc Graves.",
           "Thông thường, TSH tăng gợi ý tuyến giáp hoạt động kém, trong khi TSH thấp có thể gợi ý tuyến giáp hoạt động quá mức. Tuy nhiên, kết quả cần được đọc cùng các xét nghiệm khác, tình trạng mang thai, bệnh nền và thuốc đang sử dụng."
@@ -10766,7 +10776,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Rối loạn tuyến giáp có điều trị được không?",
           "Phần lớn các rối loạn chức năng tuyến giáp có thể được kiểm soát khi xác định đúng nguyên nhân và theo dõi phù hợp.",
           "Hướng điều trị có thể bao gồm:",
-          "Bổ sung hormone tuyến giáp đối với một số trường hợp suy giáp.",
+          "Bổ sung nội tiết tố tuyến giáp đối với một số trường hợp suy giáp.",
           "Thuốc giúp kiểm soát cường giáp.",
           "Điều trị iod phóng xạ hoặc phẫu thuật trong những trường hợp phù hợp.",
           "Theo dõi định kỳ đối với một số nhân tuyến giáp chưa cần can thiệp.",
@@ -10821,7 +10831,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Viện Lão khoa Quốc gia Hoa Kỳ khuyến nghị người lớn tuổi nên được kiểm tra huyết áp và cholesterol định kỳ, kể cả khi vẫn cảm thấy khỏe mạnh.",
       "Điện tim hoặc siêu âm tim không nhất thiết phải thực hiện giống nhau cho tất cả mọi người. Bác sĩ sẽ cân nhắc dựa trên tuổi, triệu chứng, tiền sử bệnh và kết quả khám ban đầu.",
       "3. Tầm soát đái tháo đường và rối loạn chuyển hóa",
-      "Đái tháo đường type 2 thường không gây triệu chứng rõ ở giai đoạn đầu. Khi đường huyết tăng kéo dài, người bệnh có thể gặp biến chứng ở mắt, tim mạch, thận, thần kinh và bàn chân.",
+          "Đái tháo đường típ 2 thường không gây triệu chứng rõ ở giai đoạn đầu. Khi đường huyết tăng kéo dài, người bệnh có thể gặp biến chứng ở mắt, tim mạch, thận, thần kinh và bàn chân.",
       "Các xét nghiệm thường được cân nhắc gồm:",
       "Đường huyết lúc đói.",
       "HbA1c, phản ánh mức đường huyết trung bình trong vài tháng gần đây.",
@@ -10889,17 +10899,17 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Các kết quả tầm soát trước đó.",
       "Thể trạng và khả năng chịu đựng các bước kiểm tra tiếp theo.",
       "Lợi ích và nguy cơ của từng phương pháp.",
-      "Chẳng hạn, người có tiền sử hút thuốc lâu năm có thể cần được đánh giá nguy cơ ung thư phổi. Người mắc viêm gan virus hoặc xơ gan có thể cần theo dõi ung thư gan. Trong khi đó, nội soi tiêu hóa hoặc chụp chiếu chỉ nên thực hiện theo chỉ định phù hợp, không nên làm tràn lan chỉ vì lo lắng.",
+      "Chẳng hạn, người có tiền sử hút thuốc lâu năm có thể cần được đánh giá nguy cơ ung thư phổi. Người mắc viêm gan vi rút hoặc xơ gan có thể cần theo dõi ung thư gan. Trong khi đó, nội soi tiêu hóa hoặc chụp chiếu chỉ nên thực hiện theo chỉ định phù hợp, không nên làm tràn lan chỉ vì lo lắng.",
       "10. Rà soát lịch tiêm chủng",
       "Miễn dịch thường suy giảm theo tuổi, khiến người cao tuổi dễ gặp biến chứng nặng khi mắc các bệnh truyền nhiễm. Vì vậy, kiểm tra lịch tiêm chủng cũng là một phần cần thiết của khám sức khỏe định kỳ.",
-      "Tùy độ tuổi, bệnh nền, lịch sử tiêm trước đây và hướng dẫn hiện hành, bác sĩ có thể tư vấn về các vaccine như:",
+      "Tùy độ tuổi, bệnh nền, lịch sử tiêm trước đây và hướng dẫn hiện hành, bác sĩ có thể tư vấn về các vắc xin như:",
       "Cúm mùa.",
       "Phế cầu.",
       "COVID-19.",
       "Zona thần kinh.",
       "Uốn ván, bạch hầu và ho gà.",
-      "Một số vaccine khác theo nguy cơ cá nhân.",
-      "Lịch tiêm không nên được áp dụng máy móc. Người đang sốt, mắc bệnh cấp tính, suy giảm miễn dịch hoặc có tiền sử phản ứng với vaccine cần được bác sĩ đánh giá trước khi tiêm. Các hướng dẫn tiêm chủng dành cho người lớn cũng nhấn mạnh việc lựa chọn vaccine theo tuổi và tình trạng sức khỏe cụ thể.",
+      "Một số vắc xin khác theo nguy cơ cá nhân.",
+      "Lịch tiêm không nên được áp dụng máy móc. Người đang sốt, mắc bệnh cấp tính, suy giảm miễn dịch hoặc có tiền sử phản ứng với vắc xin cần được bác sĩ đánh giá trước khi tiêm. Các hướng dẫn tiêm chủng dành cho người lớn cũng nhấn mạnh việc lựa chọn vắc xin theo tuổi và tình trạng sức khỏe cụ thể.",
       "Có phải người cao tuổi nào cũng cần làm đầy đủ tất cả xét nghiệm?",
       "Câu trả lời là không.",
       "Một gói khám có quá nhiều xét nghiệm chưa chắc đã phù hợp hơn. Việc kiểm tra không có chỉ định có thể tạo ra kết quả bất thường không đáng kể, khiến người bệnh lo lắng và phải thực hiện thêm nhiều thủ thuật không cần thiết.",
@@ -10937,7 +10947,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "met-moi-keo-dai-nen-kiem-tra-nhung-chi-so-nao": {
     "sourceFile": "44. Mệt mỏi kéo dài nên kiểm tra những chỉ số nào.docx",
-    "title": "Mệt mỏi kéo dài: Nên kiểm tra những chỉ số nào?",
+    "title": "Mệt mỏi kéo dài: nên kiểm tra những chỉ số nào?",
     "excerpt": "Ai cũng có lúc cảm thấy mệt sau một ngày làm việc căng thẳng, một đêm thiếu ngủ hoặc một tuần lịch trình dày đặc. Thông thường, cơ thể sẽ dần hồi phục sau khi được nghỉ ngơi và ăn uống đầy đủ.",
     "intro": [
       "Ai cũng có lúc cảm thấy mệt sau một ngày làm việc căng thẳng, một đêm thiếu ngủ hoặc một tuần lịch trình dày đặc. Thông thường, cơ thể sẽ dần hồi phục sau khi được nghỉ ngơi và ăn uống đầy đủ.",
@@ -10993,7 +11003,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Đường huyết ngẫu nhiên.",
       "HbA1c.",
       "Nghiệm pháp dung nạp glucose khi cần thiết.",
-      "HbA1c phản ánh mức đường huyết trung bình trong khoảng ba tháng gần đây. Xét nghiệm này có thể được sử dụng để hỗ trợ phát hiện tiền đái tháo đường, đái tháo đường type 2 hoặc theo dõi người đã được chẩn đoán bệnh.",
+          "HbA1c phản ánh mức đường huyết trung bình trong khoảng ba tháng gần đây. Xét nghiệm này có thể được sử dụng để hỗ trợ phát hiện tiền đái tháo đường, đái tháo đường típ 2 hoặc theo dõi người đã được chẩn đoán bệnh.",
       "Những người mệt mỏi kèm khát nước nhiều, tiểu nhiều, sụt cân không chủ ý, nhìn mờ hoặc vết thương lâu lành nên đi khám sớm.",
       "4. Chức năng tuyến giáp",
       "Tuyến giáp tham gia điều hòa quá trình sử dụng năng lượng của cơ thể. Khi tuyến giáp hoạt động quá yếu hoặc quá mạnh, người bệnh đều có thể cảm thấy mệt.",
@@ -11099,8 +11109,8 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "chup-mri-ct-va-x-quang-khac-nhau-the-nao": {
     "sourceFile": "45. Chụp MRI, CT và X-quang khác nhau thế nào.docx",
-    "title": "Chụp MRI, CT và X-quang khác nhau thế nào?",
-    "excerpt": "Khi được bác sĩ chỉ định chẩn đoán hình ảnh, nhiều người thường băn khoăn: “Tại sao không chụp MRI cho rõ nhất?”, “CT có phải là X-quang nâng cao không?” hay “Chụp nhiều có ảnh hưởng đến sức khỏe không?”.",
+    "title": "Chụp cộng hưởng từ (MRI), cắt lớp vi tính (CT) và X-quang khác nhau thế nào?",
+    "excerpt": "Mỗi kỹ thuật chẩn đoán hình ảnh có nguyên lý và thế mạnh riêng. Lựa chọn phù hợp phụ thuộc vào bộ phận cần khảo sát, bệnh lý nghi ngờ và tình trạng của từng người.",
     "intro": [
       "Khi được bác sĩ chỉ định chẩn đoán hình ảnh, nhiều người thường băn khoăn: “Tại sao không chụp MRI cho rõ nhất?”, “CT có phải là X-quang nâng cao không?” hay “Chụp nhiều có ảnh hưởng đến sức khỏe không?”.",
       "Trên thực tế, X-quang, CT và MRI đều giúp quan sát các cấu trúc bên trong cơ thể, nhưng mỗi phương pháp hoạt động theo một nguyên lý khác nhau và có thế mạnh riêng. Không có kỹ thuật nào tốt nhất trong mọi trường hợp. Phương pháp phù hợp phụ thuộc vào bộ phận cần khảo sát, bệnh lý nghi ngờ, mức độ cấp cứu và tình trạng sức khỏe của từng người.",
@@ -11114,7 +11124,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
       "Kiểm tra hiệu quả điều trị.",
       "Hỗ trợ định hướng phẫu thuật hoặc thủ thuật.",
       "Hướng dẫn sinh thiết, dẫn lưu và một số can thiệp khác.",
-      "X-quang, chụp cắt lớp vi tính CT và chụp cộng hưởng từ MRI là ba kỹ thuật chẩn đoán hình ảnh phổ biến. Tuy nhiên, hình ảnh do mỗi kỹ thuật tạo ra không giống nhau."
+      "X-quang, chụp cắt lớp vi tính (CT) và chụp cộng hưởng từ (MRI) là ba kỹ thuật chẩn đoán hình ảnh phổ biến. Tuy nhiên, hình ảnh do mỗi kỹ thuật tạo ra không giống nhau."
     ],
     "sections": [
       {
@@ -11122,7 +11132,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "paragraphs": [
           "Thời gian, chi phí và chất lượng hình ảnh thực tế còn phụ thuộc vào bộ phận khảo sát, loại thiết bị, quy trình chụp và việc có sử dụng thuốc tương phản hay không.",
           "Chụp X-quang là gì?",
-          "X-quang, còn gọi là chụp radiography, sử dụng một lượng nhỏ tia X đi qua vùng cơ thể cần khảo sát. Các mô hấp thụ tia X ở mức độ khác nhau, từ đó tạo thành hình ảnh trên đầu thu kỹ thuật số.",
+          "Chụp X-quang sử dụng một lượng nhỏ tia X đi qua vùng cơ thể cần khảo sát. Các mô hấp thụ tia X ở mức độ khác nhau, từ đó tạo thành hình ảnh trên đầu thu kỹ thuật số.",
           "Xương hấp thụ tia X nhiều nên thường hiện sáng. Không khí trong phổi hấp thụ ít hơn nên thường hiện tối. Các mô mềm nằm ở mức trung gian và có thể khó phân biệt rõ nếu chúng chồng lên nhau.",
           "X-quang thường tạo ra hình ảnh hai chiều, giống như nhìn một vật thể ba chiều được “ép” lên một mặt phẳng. Vì vậy, các cấu trúc nằm trước và sau nhau có thể chồng hình.",
           "X-quang thường được chỉ định khi nào?",
@@ -11154,7 +11164,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "X-quang không thể hiện rõ nhiều loại mô mềm. Những bất thường nhỏ, tổn thương sâu hoặc cấu trúc bị che khuất có thể không được nhìn thấy trên phim thông thường.",
           "Do hình ảnh có hiện tượng chồng lớp, bác sĩ đôi khi cần chụp thêm tư thế khác hoặc chỉ định CT, MRI hay siêu âm để đánh giá kỹ hơn.",
           "Chụp CT là gì?",
-          "CT là viết tắt của Computed Tomography, thường được gọi là chụp cắt lớp vi tính. Máy CT cũng sử dụng tia X, nhưng thay vì chỉ chụp một hình chiếu, hệ thống phát tia và đầu thu quay quanh cơ thể để ghi nhận nhiều dữ liệu từ các góc khác nhau.",
+          "Chụp cắt lớp vi tính, thường được gọi tắt là CT, cũng sử dụng tia X. Thay vì chỉ chụp một hình chiếu, hệ thống phát tia và đầu thu quay quanh cơ thể để ghi nhận dữ liệu từ nhiều góc khác nhau.",
           "Máy tính sau đó xử lý dữ liệu và tạo thành những hình ảnh lát cắt. Có thể hình dung CT giống như “cắt” cơ thể thành nhiều lát mỏng để bác sĩ quan sát từng lớp, thay vì nhìn tất cả cấu trúc chồng lên nhau như trên phim X-quang.",
           "CT cho hình ảnh chi tiết hơn X-quang thông thường và có thể quan sát xương, phổi, cơ quan nội tạng, mô mềm và mạch máu trong cùng một lần khảo sát.",
           "CT thường được chỉ định khi nào?",
@@ -11193,7 +11203,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Nguy cơ từ một lần chụp được chỉ định hợp lý thường nhỏ so với lợi ích chẩn đoán. Tuy nhiên, CT không nên được thực hiện chỉ để “kiểm tra cho yên tâm” khi không có chỉ định, nhất là khi người bệnh đã chụp nhiều lần hoặc là trẻ nhỏ.",
           "Một số mô mềm ở não, tủy sống, khớp và các cơ quan vùng chậu có thể được đánh giá rõ hơn bằng MRI. Vì vậy, CT chi tiết hơn X-quang không đồng nghĩa với việc CT luôn thay thế được MRI.",
           "Chụp MRI là gì?",
-          "MRI là viết tắt của Magnetic Resonance Imaging, hay chụp cộng hưởng từ.",
+          "Chụp cộng hưởng từ, thường được gọi tắt là MRI, sử dụng từ trường mạnh và sóng vô tuyến để tạo hình ảnh chi tiết của các cơ quan, mô mềm và nhiều cấu trúc bên trong cơ thể.",
           "MRI không sử dụng tia X. Thiết bị dùng từ trường mạnh, năng lượng sóng vô tuyến và hệ thống máy tính để tạo hình ảnh chi tiết của các mô và cơ quan bên trong cơ thể. Hình ảnh có thể được tái tạo theo nhiều mặt phẳng khác nhau.",
           "MRI có khả năng phân biệt tốt giữa các loại mô mềm. Vì vậy, phương pháp này thường được sử dụng khi bác sĩ cần quan sát kỹ não, tủy sống, dây thần kinh, cơ, dây chằng, sụn, gân và nhiều cơ quan nội tạng.",
           "MRI thường được chỉ định khi nào?",
@@ -11384,7 +11394,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Bạch cầu mono.",
           "Bạch cầu ái toan.",
           "Bạch cầu ái kiềm.",
-          "Số lượng bạch cầu tăng có thể gặp khi cơ thể đang nhiễm trùng, viêm, chịu căng thẳng hoặc phản ứng với một số loại thuốc. Bạch cầu giảm có thể liên quan đến nhiễm virus, bệnh tự miễn, ảnh hưởng của thuốc hoặc vấn đề tại tủy xương.",
+          "Số lượng bạch cầu tăng có thể gặp khi cơ thể đang nhiễm trùng, viêm, chịu căng thẳng hoặc phản ứng với một số loại thuốc. Bạch cầu giảm có thể liên quan đến nhiễm vi rút, bệnh tự miễn, ảnh hưởng của thuốc hoặc vấn đề tại tủy xương.",
           "Tuy nhiên, bạch cầu tăng không tự động có nghĩa là nhiễm khuẩn và bạch cầu bình thường cũng không loại trừ hoàn toàn bệnh lý. Bác sĩ cần kết hợp với triệu chứng, khám lâm sàng và những xét nghiệm khác.",
           "Tiểu cầu",
           "Tiểu cầu tham gia vào quá trình đông máu và giúp cầm máu khi mạch máu bị tổn thương.",
@@ -11428,7 +11438,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "paragraphs": [
           "AST và ALT là các enzyme có trong tế bào. Khi tế bào gan bị tổn thương, nồng độ những enzyme này trong máu có thể tăng.",
           "GGT thường được bác sĩ xem xét cùng các chỉ số khác để đánh giá tình trạng gan và đường mật. Chỉ số này có thể bị ảnh hưởng bởi rượu bia, thuốc và nhiều bệnh lý khác.",
-          "Men gan tăng không cho biết ngay nguyên nhân là gan nhiễm mỡ, viêm gan virus, thuốc hay tắc mật. Bác sĩ cần xem xét kiểu tăng của các chỉ số, triệu chứng, tiền sử uống rượu, thuốc đang dùng và kết quả siêu âm hoặc xét nghiệm bổ sung.",
+          "Men gan tăng không cho biết ngay nguyên nhân là gan nhiễm mỡ, viêm gan vi rút, thuốc hay tắc mật. Bác sĩ cần xem xét kiểu tăng của các chỉ số, triệu chứng, tiền sử uống rượu, thuốc đang dùng và kết quả siêu âm hoặc xét nghiệm bổ sung.",
           "Bilirubin",
           "Bilirubin là sản phẩm được hình thành khi cơ thể phân hủy hồng cầu cũ. Gan xử lý bilirubin và đưa chất này ra khỏi cơ thể.",
           "Bilirubin tăng có thể xuất hiện trong các vấn đề liên quan đến gan, đường mật hoặc quá trình phá hủy hồng cầu. Người bệnh đôi khi có biểu hiện vàng da, vàng mắt hoặc nước tiểu sẫm màu."
@@ -11438,7 +11448,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         "heading": "Albumin và protein toàn phần",
         "paragraphs": [
           "Albumin là một protein chính trong máu, được sản xuất tại gan. Chỉ số giảm có thể liên quan đến bệnh gan, bệnh thận, thiếu dinh dưỡng, viêm kéo dài hoặc một số tình trạng khác.",
-          "Các xét nghiệm gan có thể giúp phát hiện dấu hiệu tổn thương và theo dõi hoạt động của gan, nhưng thường không thể tự xác định chính xác một bệnh lý cụ thể. Khi kết quả bất thường, người bệnh có thể cần thêm siêu âm, xét nghiệm virus viêm gan hoặc những kiểm tra chuyên sâu khác.",
+          "Các xét nghiệm gan có thể giúp phát hiện dấu hiệu tổn thương và theo dõi hoạt động của gan, nhưng thường không thể tự xác định chính xác một bệnh lý cụ thể. Khi kết quả bất thường, người bệnh có thể cần thêm siêu âm, xét nghiệm vi rút viêm gan hoặc những kiểm tra chuyên sâu khác.",
           "5. Các chỉ số nào phản ánh chức năng thận?",
           "Những xét nghiệm máu thường được sử dụng để đánh giá chức năng thận gồm:",
           "Creatinine.",
@@ -11567,7 +11577,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "cap-cuu-24-7-nguoi-nha-can-chuan-bi-gi-khi-dua-benh-nhan-den-vien": {
     "sourceFile": "47.Cấp cứu 247 người nhà cần chuẩn bị gì khi đưa bệnh nhân đến viện.docx",
-    "title": "Cấp cứu 24/7: Người nhà cần chuẩn bị gì khi đưa bệnh nhân đến viện?",
+    "title": "Cấp cứu 24/7: người nhà cần chuẩn bị gì khi đưa bệnh nhân đến viện?",
     "excerpt": "Khi người thân bất ngờ đau ngực, khó thở, ngất, co giật hoặc gặp tai nạn, phần lớn gia đình đều rơi vào trạng thái luống cuống. Người đi tìm giấy tờ, người gọi xe, người cố cho bệnh nhân uống thuốc… nhưng lại quên mất những thông tin bác sĩ cần biết nhất.",
     "intro": [
       "Khi người thân bất ngờ đau ngực, khó thở, ngất, co giật hoặc gặp tai nạn, phần lớn gia đình đều rơi vào trạng thái luống cuống. Người đi tìm giấy tờ, người gọi xe, người cố cho bệnh nhân uống thuốc… nhưng lại quên mất những thông tin bác sĩ cần biết nhất.",
@@ -11772,7 +11782,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
         ]
       },
       {
-        "heading": "Checklist nhanh trước khi đưa bệnh nhân đến viện",
+        "heading": "Danh sách kiểm tra nhanh trước khi đưa bệnh nhân đến viện",
         "paragraphs": [
           "Trong điều kiện cho phép, người nhà có thể kiểm tra nhanh:",
           "Đã gọi cấp cứu khi tình trạng nghiêm trọng.",
@@ -11804,237 +11814,89 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "kiem-soat-nhiem-khuan-trong-benh-vien-quoc-te-vi-sao-nguoi-benh-nen-quan-tam": {
     "sourceFile": "48.Kiểm soát nhiễm khuẩn trong bệnh viện đa khoa hồng phúc  vì sao người bệnh nên quan tâm.docx",
-    "title": "Cấp cứu 24/7: Người nhà cần chuẩn bị gì khi đưa bệnh nhân đến viện?",
-    "excerpt": "Khi người thân bất ngờ đau ngực, khó thở, ngất, co giật hoặc gặp tai nạn, phần lớn gia đình đều rơi vào trạng thái luống cuống. Người đi tìm giấy tờ, người gọi xe, người cố cho bệnh nhân uống thuốc… nhưng lại quên mất những thông tin bác sĩ cần biết nhất.",
+    "title": "Kiểm soát nhiễm khuẩn trong bệnh viện: vì sao người bệnh nên quan tâm?",
+    "excerpt": "Kiểm soát nhiễm khuẩn không chỉ là việc của bác sĩ và điều dưỡng. Vệ sinh tay, làm sạch môi trường, xử lý dụng cụ, sử dụng kháng sinh hợp lý và sự phối hợp của người bệnh đều góp phần giảm nguy cơ lây nhiễm trong quá trình khám, điều trị.",
     "intro": [
-      "Khi người thân bất ngờ đau ngực, khó thở, ngất, co giật hoặc gặp tai nạn, phần lớn gia đình đều rơi vào trạng thái luống cuống. Người đi tìm giấy tờ, người gọi xe, người cố cho bệnh nhân uống thuốc… nhưng lại quên mất những thông tin bác sĩ cần biết nhất.",
-      "Trong tình huống cấp cứu, điều quan trọng hàng đầu là đưa bệnh nhân đến cơ sở y tế an toàn và sớm nhất có thể. Giấy tờ, thuốc đang dùng và hồ sơ bệnh cũ rất hữu ích, nhưng không nên trở thành lý do làm chậm việc gọi cấp cứu hoặc đưa người bệnh đến viện.",
-      "Khi nào cần gọi cấp cứu ngay?",
-      "Không phải trường hợp nào cũng phù hợp để gia đình tự chở bệnh nhân bằng xe máy hoặc ô tô cá nhân. Nếu người bệnh có biểu hiện nghiêm trọng, việc gọi nhân viên cấp cứu giúp bệnh nhân được hỗ trợ trên đường di chuyển và hạn chế những rủi ro do vận chuyển không đúng cách.",
-      "Các dấu hiệu cần đặc biệt chú ý gồm:",
-      "Khó thở, thở yếu, tím môi hoặc có cảm giác không lấy được hơi.",
-      "Mất ý thức, gọi hỏi không đáp ứng hoặc tỉnh lại không hoàn toàn.",
-      "Đau ngực dữ dội, đau lan lên hàm, vai hoặc cánh tay.",
-      "Méo miệng, nói khó, yếu hoặc tê đột ngột một bên cơ thể.",
-      "Co giật kéo dài, co giật liên tiếp hoặc không tỉnh lại bình thường.",
-      "Chảy máu nhiều, vết thương sâu hoặc nghi ngờ chảy máu bên trong.",
-      "Chấn thương đầu, cổ, cột sống hoặc tai nạn giao thông nghiêm trọng.",
-      "Bỏng nặng, điện giật hoặc đuối nước.",
-      "Nôn ra máu, ho ra máu hoặc đi ngoài ra nhiều máu.",
-      "Phản ứng dị ứng kèm khó thở, sưng môi, lưỡi hoặc vùng họng.",
-      "Nghi ngờ uống nhầm thuốc, hóa chất hoặc dùng quá liều.",
-      "Đau dữ dội xuất hiện đột ngột hoặc tình trạng xấu đi nhanh chóng.",
-      "Khó thở, ngất, lú lẫn đột ngột, chảy máu nặng, đau dữ dội, nôn hoặc ho ra máu đều thuộc những dấu hiệu cần được đánh giá cấp cứu.",
-      "Tại Việt Nam, người dân có thể gọi 115 để yêu cầu hỗ trợ cấp cứu y tế. Hệ thống cấp cứu 115 thực hiện tiếp nhận thông tin, xử trí ban đầu và vận chuyển người bệnh trong các trường hợp phù hợp.",
-      "Khi bệnh nhân không tỉnh, khó thở, chảy máu nhiều hoặc có dấu hiệu đột quỵ, gia đình không nên để bệnh nhân tự đi lại hoặc tự lái xe đến viện."
+      "Khi đến bệnh viện, người bệnh mong được chẩn đoán đúng và điều trị hiệu quả. Nhưng bên cạnh chuyên môn, một yếu tố thầm lặng có ảnh hưởng trực tiếp đến sự an toàn là cách bệnh viện phòng ngừa và kiểm soát nhiễm khuẩn.",
+      "Nhiễm khuẩn liên quan đến chăm sóc y tế là tình trạng nhiễm khuẩn xuất hiện trong quá trình người bệnh được khám, điều trị hoặc chăm sóc. Nguy cơ có thể liên quan đến tiếp xúc, thủ thuật xâm lấn, dụng cụ y tế, môi trường chăm sóc hoặc việc sử dụng kháng sinh chưa hợp lý.",
+      "Không phải mọi trường hợp đều có thể ngăn chặn hoàn toàn, nhưng nhiều nguy cơ có thể giảm đáng kể khi bệnh viện thực hiện đúng quy trình và người bệnh, người nhà cùng hợp tác. Hiểu những nguyên tắc cơ bản sẽ giúp mỗi gia đình chủ động hơn mà không cần hoang mang hoặc tự áp dụng các biện pháp cực đoan."
     ],
     "sections": [
       {
-        "heading": "Việc đầu tiên không phải là tìm giấy tờ",
+        "heading": "Kiểm soát nhiễm khuẩn không chỉ là giữ phòng bệnh sạch",
         "paragraphs": [
-          "Trong vài phút đầu, người nhà nên ưu tiên theo thứ tự:",
-          "Kiểm tra xem bệnh nhân có tỉnh và còn thở hay không.",
-          "Gọi người hỗ trợ và liên hệ cấp cứu khi tình trạng nghiêm trọng.",
-          "Thực hiện sơ cứu trong phạm vi mình đã được hướng dẫn.",
-          "Chuẩn bị thông tin, thuốc và giấy tờ nếu có thể lấy nhanh.",
-          "Đưa bệnh nhân đến cơ sở y tế bằng phương tiện an toàn.",
-          "Không nên để một người vừa lái xe vừa theo dõi bệnh nhân. Nếu gia đình tự di chuyển bằng ô tô, nên có ít nhất một người ngồi bên cạnh để quan sát nhịp thở, mức độ tỉnh táo và thông báo ngay nếu tình trạng thay đổi.",
-          "Người nhà nên chuẩn bị những giấy tờ nào?",
-          "Nếu lấy được nhanh và không làm chậm quá trình cấp cứu, gia đình có thể mang theo:",
-          "Căn cước công dân hoặc giấy tờ nhận dạng của bệnh nhân.",
-          "Thẻ bảo hiểm y tế hoặc thông tin bảo hiểm liên quan.",
-          "Giấy khai sinh đối với trẻ nhỏ nếu thuận tiện.",
-          "Sổ khám bệnh.",
-          "Hồ sơ bệnh án hoặc giấy ra viện gần nhất.",
-          "Kết quả xét nghiệm, nội soi, siêu âm hoặc phim chụp trước đây.",
-          "Phiếu hẹn và đơn thuốc đang sử dụng.",
-          "Thông tin liên hệ của người thân có thể quyết định các vấn đề cần thiết.",
-          "Có thể chụp hồ sơ, đơn thuốc hoặc giấy tờ bằng điện thoại nếu không kịp mang bản gốc.",
-          "Tuy nhiên, cần nhớ một nguyên tắc đơn giản: có giấy tờ thì tốt, chưa tìm thấy cũng vẫn phải đi viện. Khoa Cấp cứu ưu tiên đánh giá và xử trí tình trạng người bệnh, không nên trì hoãn thời điểm đến viện chỉ vì thiếu một tờ giấy."
+          "Một phòng bệnh gọn gàng tạo cảm giác yên tâm, nhưng bề mặt sạch bằng mắt thường chưa phản ánh đầy đủ mức độ an toàn. Kiểm soát nhiễm khuẩn là một hệ thống gồm con người, quy trình, thiết bị, môi trường và cách theo dõi kết quả.",
+          "Hệ thống này bắt đầu từ những việc rất cơ bản như vệ sinh tay đúng thời điểm, che miệng khi ho và phân loại chất thải. Đồng thời, bệnh viện còn phải kiểm soát những khâu chuyên môn hơn như khử khuẩn, tiệt khuẩn dụng cụ, chăm sóc vết mổ, quản lý đường truyền và phát hiện sớm dấu hiệu lây nhiễm.",
+          "Mỗi khu vực có mức nguy cơ khác nhau. Phòng khám thông thường, khu cấp cứu, phòng mổ, khoa hồi sức và khu chăm sóc trẻ sơ sinh không thể áp dụng một cách làm giống hệt nhau. Quy trình cần được xây dựng theo loại hoạt động, nhóm người bệnh và nguy cơ tiếp xúc thực tế.",
+          "Vì vậy, người bệnh không nên chỉ đánh giá chất lượng kiểm soát nhiễm khuẩn qua mùi thuốc sát khuẩn hoặc số lần nhân viên lau sàn. Điều quan trọng hơn là các bước an toàn có được thực hiện đúng, đều đặn và có kiểm tra hay không."
         ]
       },
       {
-        "heading": "Danh sách thuốc đang dùng rất quan trọng",
+        "heading": "Những mắt xích chính bảo vệ người bệnh",
         "paragraphs": [
-          "Thông tin về thuốc có thể ảnh hưởng trực tiếp đến quyết định điều trị. Một số loại thuốc làm tăng nguy cơ chảy máu, thay đổi huyết áp, đường huyết, nhịp tim hoặc tương tác với thuốc được sử dụng trong cấp cứu.",
-          "Người nhà nên mang theo:",
-          "Các loại thuốc bệnh nhân đang uống.",
-          "Thuốc tiêm, bút tiêm insulin.",
-          "Thuốc xịt hen.",
-          "Thuốc nhỏ mắt, thuốc dán hoặc thuốc bôi đang dùng.",
-          "Vitamin, thực phẩm bổ sung và thuốc không kê đơn.",
-          "Đơn thuốc gần nhất.",
-          "Tốt nhất nên để thuốc trong bao bì gốc. Nếu không kịp mang thuốc, gia đình có thể chụp rõ tên thuốc, hàm lượng và hướng dẫn sử dụng trên vỏ hộp.",
-          "Danh sách nên ghi được ba thông tin:",
-          "Tên thuốc.",
-          "Liều lượng.",
-          "Thời điểm bệnh nhân dùng liều gần nhất.",
-          "Các hướng dẫn an toàn thuốc khuyến nghị người bệnh mang theo đầy đủ thuốc đang sử dụng, bao gồm thuốc kê đơn, thuốc không kê đơn, vitamin và sản phẩm thảo dược khi đến bệnh viện.",
-          "Không tự ý cho bệnh nhân uống thêm thuốc cũ hoặc tăng liều vì nghĩ rằng thuốc sẽ giúp cầm cự đến khi đến viện. Việc dùng thêm thuốc có thể làm che lấp triệu chứng, gây tương tác hoặc khiến tình trạng nặng hơn."
+          "Vệ sinh tay là một trong những biện pháp quan trọng nhất để hạn chế vi sinh vật lây truyền qua tiếp xúc. Nhân viên y tế cần vệ sinh tay vào đúng thời điểm trước và sau khi chăm sóc người bệnh, sau khi tiếp xúc với dịch cơ thể, bề mặt có nguy cơ nhiễm bẩn hoặc sau khi tháo găng.",
+          "Găng tay giúp tạo hàng rào bảo vệ trong những tình huống phù hợp nhưng không thay thế cho vệ sinh tay. Găng cũng cần được thay giữa các thao tác hoặc giữa hai người bệnh để tránh mang tác nhân gây bệnh từ nơi này sang nơi khác.",
+          "Khẩu trang, áo choàng, kính hoặc tấm che mặt được sử dụng tùy theo nguy cơ tiếp xúc. Việc nhân viên không mặc đầy đủ mọi phương tiện bảo hộ trong mọi tình huống không có nghĩa là thiếu an toàn; phương tiện cần được lựa chọn đúng với đường lây và loại thủ thuật.",
+          "Dụng cụ tái sử dụng phải được xử lý theo đúng mục đích sử dụng và mức độ tiếp xúc với cơ thể. Dụng cụ dùng trong phẫu thuật hoặc đi vào mô vô khuẩn cần được tiệt khuẩn, trong khi một số dụng cụ khác có thể cần làm sạch và khử khuẩn ở mức phù hợp.",
+          "Các bề mặt thường xuyên được chạm vào như tay nắm cửa, thành giường, bàn cạnh giường và thiết bị dùng chung cần có kế hoạch làm sạch rõ ràng. Khi có vết bẩn từ máu hoặc dịch cơ thể, việc xử lý phải tuân theo quy trình riêng thay vì chỉ lau bằng nước thông thường.",
+          "Chất thải y tế và vật sắc nhọn cần được phân loại, thu gom và xử lý an toàn ngay từ nơi phát sinh. Đây vừa là cách bảo vệ người bệnh và nhân viên, vừa hạn chế nguy cơ phơi nhiễm cho người làm vệ sinh và cộng đồng.",
+          "Bệnh viện cũng cần nhận biết sớm người có triệu chứng nhiễm trùng đường hô hấp hoặc bệnh có khả năng lây truyền. Tùy tình huống, người bệnh có thể được hướng dẫn đeo khẩu trang, bố trí khu vực chờ phù hợp hoặc áp dụng biện pháp phòng ngừa bổ sung.",
+          "Một mắt xích khác thường ít được nhìn thấy là theo dõi nhiễm khuẩn và phản hồi cho các khoa. Dữ liệu giúp bệnh viện nhận ra khu vực có nguy cơ, đánh giá hiệu quả của biện pháp phòng ngừa và điều chỉnh quy trình khi cần thiết."
         ]
       },
       {
-        "heading": "Ghi rõ tiền sử bệnh và dị ứng",
+        "heading": "An toàn trong phẫu thuật và thủ thuật xâm lấn",
         "paragraphs": [
-          "Trong tình huống khẩn cấp, bệnh nhân có thể quá mệt, lú lẫn hoặc không thể tự trả lời. Người nhà nên chuẩn bị thông tin ngắn gọn về:",
-          "Tăng huyết áp.",
-          "Đái tháo đường.",
-          "Bệnh tim, rối loạn nhịp tim hoặc đặt máy tạo nhịp.",
-          "Tiền sử đột quỵ.",
-          "Hen, bệnh phổi mạn tính.",
-          "Bệnh gan, suy thận hoặc đang chạy thận.",
-          "Động kinh.",
-          "Rối loạn đông máu.",
-          "Ung thư.",
-          "Phẫu thuật hoặc thủ thuật gần đây.",
-          "Tiền sử đang mang thai hoặc có khả năng mang thai.",
-          "Dị ứng thuốc, thức ăn, hóa chất hoặc vật liệu y tế.",
-          "Nếu bệnh nhân từng dị ứng thuốc, cần nói rõ tên thuốc và biểu hiện đã xảy ra, chẳng hạn nổi mề đay, khó thở, tụt huyết áp hay chỉ buồn nôn. Câu nói “bệnh nhân dị ứng nhiều loại thuốc nhưng không nhớ tên” thường chưa đủ để bác sĩ đánh giá nguy cơ.",
-          "Hồ sơ sức khỏe cá nhân nên có danh sách thuốc, liều dùng, bệnh mạn tính, tiền sử phẫu thuật và các loại dị ứng."
+          "Phẫu thuật, đặt đường truyền, đặt ống thông, nội soi hoặc các thủ thuật can thiệp đều có thể tạo ra đường đi cho vi sinh vật xâm nhập cơ thể. Vì vậy, chỉ định đúng và chuẩn bị đúng là bước đầu tiên để giảm nguy cơ.",
+          "Trước thủ thuật, nhân viên y tế cần đánh giá tình trạng sức khỏe, tiền sử dị ứng, thuốc đang dùng và các yếu tố có thể ảnh hưởng đến lành vết thương. Người bệnh nên cung cấp đầy đủ thông tin, đặc biệt khi có đái tháo đường, suy giảm miễn dịch, đang dùng thuốc chống đông hoặc từng nhiễm khuẩn gần đây.",
+          "Trong quá trình thực hiện, kỹ thuật vô khuẩn, dụng cụ đã được xử lý đúng quy định và việc tuân thủ an toàn phẫu thuật có vai trò quan trọng. Sau thủ thuật, vết mổ, đường truyền hoặc ống dẫn lưu cần được chăm sóc và theo dõi theo hướng dẫn.",
+          "Không phải cứ sốt sau mổ là nhiễm khuẩn, và cũng không phải vết mổ không đau là chắc chắn an toàn. Bác sĩ cần đánh giá dựa trên thời điểm xuất hiện, biểu hiện tại chỗ, tình trạng toàn thân và các xét nghiệm khi cần.",
+          "Người bệnh nên báo ngay khi vết mổ sưng đỏ tăng dần, đau nhiều hơn, chảy dịch đục hoặc có mùi, sốt, rét run hay mệt lả. Không tự tháo băng, đắp lá, bôi thuốc không rõ thành phần hoặc dùng lại kháng sinh cũ."
         ]
       },
       {
-        "heading": "Ghi nhớ thời điểm và diễn biến triệu chứng",
+        "heading": "Vì sao sử dụng kháng sinh hợp lý cũng là kiểm soát nhiễm khuẩn?",
         "paragraphs": [
-          "Thông tin về thời gian có thể rất quan trọng, đặc biệt trong các trường hợp nghi ngờ đột quỵ, nhồi máu cơ tim, ngộ độc hoặc chấn thương.",
-          "Người nhà nên cố gắng xác định:",
-          "Bệnh nhân bắt đầu xuất hiện triệu chứng lúc mấy giờ?",
-          "Trước đó bệnh nhân còn bình thường vào thời điểm nào?",
-          "Triệu chứng xuất hiện đột ngột hay tăng dần?",
-          "Bệnh nhân đang làm gì khi sự việc xảy ra?",
-          "Có ngã, va đập đầu hoặc tai nạn hay không?",
-          "Có sốt, nôn, tiêu chảy, đau ngực hoặc khó thở trước đó không?",
-          "Bệnh nhân đã uống thuốc hay được sơ cứu gì?",
-          "Triệu chứng có giảm rồi xuất hiện trở lại không?",
-          "Không cần kể quá dài. Người nhà có thể ghi vào điện thoại theo mẫu:",
-          "“Khoảng 20 giờ 15 phút, bệnh nhân đang ăn tối thì đột ngột nói khó và yếu tay phải. Trước đó lúc 20 giờ vẫn nói chuyện bình thường. Gia đình chưa cho uống thuốc.”",
-          "Việc mô tả triệu chứng, thời điểm xuất hiện, thời gian kéo dài và sự thay đổi của triệu chứng giúp nhân viên y tế tiếp nhận thông tin hiệu quả hơn.",
-          "Trường hợp tai nạn cần cung cấp những thông tin gì?",
-          "Nếu bệnh nhân bị tai nạn, người chứng kiến nên ghi nhớ:",
-          "Thời điểm xảy ra tai nạn.",
-          "Cơ chế chấn thương: ngã từ độ cao, va chạm xe, vật nặng đè hoặc bị đánh.",
-          "Vị trí cơ thể bị va đập.",
-          "Bệnh nhân có đội mũ bảo hiểm hoặc thắt dây an toàn hay không.",
-          "Có bất tỉnh sau tai nạn không?",
-          "Có nôn, co giật, chảy máu tai mũi hoặc quên sự việc không?",
-          "Bệnh nhân đã được di chuyển như thế nào?",
-          "Có chảy máu và đã băng ép ở đâu?",
-          "Khi nghi ngờ chấn thương đầu, cổ hoặc cột sống, không nên yêu cầu người bệnh tự ngồi dậy, đi lại hoặc xoay cổ. Người bệnh nên được giữ ở tư thế đang nằm, trừ khi bắt buộc phải di chuyển để tránh nguy hiểm, thực hiện hồi sức hoặc kiểm soát chảy máu.",
-          "Không tự nắn xương, kéo thẳng tay chân hoặc tháo mũ bảo hiểm của người bị tai nạn nếu không được đào tạo, trừ trường hợp cần thực hiện hồi sức và mũ bảo hiểm cản trở đường thở.",
-          "Nếu nghi ngờ ngộ độc, cần mang theo gì?",
-          "Khi bệnh nhân có thể đã uống nhầm thuốc, hóa chất hoặc dùng quá liều, người nhà nên mang theo nếu an toàn:",
-          "Vỏ thuốc, vỉ thuốc hoặc lọ thuốc.",
-          "Bao bì hóa chất.",
-          "Nhãn sản phẩm.",
-          "Ảnh chụp thành phần trên bao bì.",
-          "Thông tin về lượng có thể đã sử dụng.",
-          "Thời điểm tiếp xúc hoặc uống phải.",
-          "Mẫu chất nghi ngờ nếu nhân viên cấp cứu hướng dẫn.",
-          "Không cầm trực tiếp hóa chất bằng tay trần và không để chất độc rò rỉ trong quá trình vận chuyển.",
-          "Đặc biệt, không tự gây nôn, không cho uống chanh, giấm, nước muối hoặc một loại “thuốc giải” truyền miệng. Một số chất có thể tiếp tục gây tổn thương đường tiêu hóa khi bị nôn trở lại. Việc gây nôn hoặc trung hòa chất độc chỉ nên thực hiện khi có hướng dẫn của nhân viên y tế.",
-          "Có nên cho bệnh nhân ăn uống trước khi đến viện?",
-          "Không nên ép bệnh nhân ăn hoặc uống để “lấy sức”, đặc biệt khi người bệnh:",
-          "Không tỉnh táo hoàn toàn.",
-          "Đang khó thở.",
-          "Nôn nhiều.",
-          "Vừa co giật.",
-          "Có nguy cơ sặc.",
-          "Nghi ngờ ngộ độc.",
-          "Bị chấn thương nặng.",
-          "Có thể cần phẫu thuật hoặc thủ thuật khẩn cấp.",
-          "Người đang bất tỉnh không được cho ăn, uống hoặc uống thuốc vì có nguy cơ sặc vào đường thở.",
-          "Nếu bệnh nhân hoàn toàn tỉnh táo, trường hợp có được uống nước hay không còn tùy vào tình trạng cụ thể. Gia đình nên làm theo hướng dẫn của nhân viên cấp cứu hoặc cơ sở y tế đang tiếp nhận.",
-          "Nếu bệnh nhân co giật, người nhà nên làm gì?",
-          "Khi bệnh nhân đang co giật:",
-          "Dọn các vật sắc nhọn hoặc cứng ở xung quanh.",
-          "Có thể lót vật mềm dưới đầu nhưng không che mũi, miệng.",
-          "Nới lỏng quần áo quanh cổ.",
-          "Ghi lại thời điểm bắt đầu và thời gian co giật.",
-          "Sau khi cơn co giật dừng, theo dõi nhịp thở và mức độ tỉnh táo.",
-          "Gọi cấp cứu khi đây là lần co giật đầu tiên, cơn kéo dài, tái diễn, bệnh nhân bị thương hoặc không tỉnh lại bình thường.",
-          "Không ghì chặt tay chân, không cố ngăn cơn co giật và không nhét thìa, đũa, khăn hoặc ngón tay vào miệng bệnh nhân. Cũng không cho bệnh nhân uống nước hoặc thuốc cho đến khi cơn co giật kết thúc và người bệnh tỉnh táo hoàn toàn."
+          "Kháng sinh chỉ có tác dụng với những bệnh do vi khuẩn nhạy cảm và không điều trị được phần lớn bệnh do vi rút. Dùng kháng sinh khi không cần thiết có thể gây tác dụng phụ, làm thay đổi hệ vi sinh của cơ thể và góp phần tạo ra vi khuẩn kháng thuốc.",
+          "Vi khuẩn kháng thuốc khiến việc điều trị trở nên khó khăn hơn, có thể cần thuốc mạnh hơn, thời gian nằm viện dài hơn hoặc phải theo dõi chặt chẽ hơn. Đây không chỉ là vấn đề của một người bệnh mà còn ảnh hưởng đến an toàn chung trong cơ sở y tế.",
+          "Người bệnh không nên tự mua kháng sinh, dùng đơn cũ, chia thuốc cho người khác hoặc tự dừng thuốc chỉ vì triệu chứng đã giảm. Nếu gặp tác dụng không mong muốn hoặc quên liều, hãy liên hệ bác sĩ hoặc dược sĩ để được hướng dẫn phù hợp.",
+          "Trong một số trường hợp, bác sĩ có thể lấy mẫu để xác định tác nhân gây bệnh và lựa chọn kháng sinh phù hợp hơn. Việc đổi thuốc, giảm phạm vi kháng sinh hoặc ngừng kháng sinh sau khi có kết quả không có nghĩa là điều trị yếu đi; đó có thể là cách sử dụng thuốc chính xác và an toàn hơn."
         ]
       },
       {
-        "heading": "Nên chọn một người đại diện trao đổi với bác sĩ",
+        "heading": "Người bệnh và người nhà có thể làm gì?",
         "paragraphs": [
-          "Khi đến khoa Cấp cứu, quá nhiều người cùng nói có thể khiến thông tin bị trùng lặp hoặc mâu thuẫn. Gia đình nên chọn một người:",
-          "Biết rõ diễn biến của bệnh nhân.",
-          "Nắm được bệnh nền và thuốc đang sử dụng.",
-          "Có thể trả lời điện thoại.",
-          "Bình tĩnh trao đổi với nhân viên y tế.",
-          "Có khả năng liên hệ với những thành viên khác trong gia đình.",
-          "Người này nên đi cùng bệnh nhân nếu điều kiện cho phép. Các thành viên còn lại có thể hỗ trợ tìm hồ sơ, chuẩn bị vật dụng hoặc liên hệ người thân.",
-          "Bàn giao thông tin như thế nào khi đến khoa Cấp cứu?",
-          "Người nhà có thể cung cấp thông tin theo thứ tự ngắn gọn:"
+          "Vệ sinh tay trước khi ăn, sau khi đi vệ sinh, sau khi ho hoặc hắt hơi, sau khi chạm vào bề mặt xung quanh giường bệnh và trước, sau khi chăm sóc vết thương.",
+          "Dùng dung dịch sát khuẩn tay nhanh khi tay không nhìn thấy bẩn; rửa bằng xà phòng và nước khi tay có vết bẩn rõ ràng hoặc theo hướng dẫn của nhân viên y tế.",
+          "Che miệng và mũi bằng khăn giấy hoặc khuỷu tay khi ho, hắt hơi; bỏ khăn giấy đúng nơi quy định và vệ sinh tay ngay sau đó.",
+          "Đeo khẩu trang khi có triệu chứng đường hô hấp hoặc khi bệnh viện hướng dẫn. Khẩu trang cần che kín mũi và miệng, không nên kéo xuống cằm rồi tiếp tục sử dụng.",
+          "Không tự chạm, tháo hoặc điều chỉnh đường truyền, ống thông, băng vết thương và các thiết bị đang gắn trên cơ thể.",
+          "Không ngồi lên giường người bệnh khác, không dùng chung khăn, cốc, dụng cụ cá nhân và hạn chế đặt đồ dùng cá nhân xuống sàn hoặc khu vực xử lý y tế.",
+          "Thông báo cho nhân viên y tế nếu bản thân hoặc người đến thăm đang sốt, ho, tiêu chảy, phát ban hoặc có bệnh dễ lây. Trong một số trường hợp, việc hoãn thăm là lựa chọn an toàn hơn cho người đang điều trị.",
+          "Tuân thủ số lượng và thời gian thăm bệnh. Phòng bệnh đông người làm tăng tiếp xúc, cản trở chăm sóc và có thể khiến việc giữ vệ sinh trở nên khó khăn hơn.",
+          "Người bệnh hoàn toàn có thể lịch sự hỏi nhân viên y tế về vệ sinh tay trước khi khám, thay băng hoặc thao tác với đường truyền. Câu hỏi vì an toàn không phải là sự thiếu tôn trọng mà là một phần của sự hợp tác trong chăm sóc."
         ]
       },
       {
-        "heading": "Xử trí trước viện:“Gia đình chưa cho uống thêm thuốc.”",
+        "heading": "Những dấu hiệu cần báo ngay cho nhân viên y tế",
         "paragraphs": [
-          "Tổ chức Y tế Thế giới khuyến nghị quá trình bàn giao cấp cứu cần truyền đạt rõ đánh giá ban đầu, lý do chuyển viện, diễn biến và những xử trí đã thực hiện.",
-          "Nếu bệnh nhân đã được sơ cứu, uống thuốc, tiêm thuốc hoặc thực hiện ép tim, người nhà cần nói rõ tên biện pháp và thời điểm thực hiện.",
-          "Vì sao có người đến sau nhưng được khám trước?",
-          "Sau khi tiếp nhận, nhân viên y tế sẽ phân loại người bệnh dựa trên mức độ nghiêm trọng và tính khẩn cấp. Người có nguy cơ đe dọa tính mạng cần được xử trí trước, trong khi người có tình trạng ổn định hơn có thể phải chờ.",
-          "Đây được gọi là phân loại cấp cứu. Thứ tự xử trí không nhất thiết dựa trên ai đến trước mà dựa trên ai cần can thiệp sớm hơn.",
-          "Trong thời gian chờ, người nhà cần báo ngay cho nhân viên y tế nếu bệnh nhân:",
-          "Đau tăng lên.",
-          "Khó thở hơn.",
-          "Trở nên lơ mơ.",
-          "Xuất hiện co giật.",
-          "Chảy máu nhiều hơn.",
-          "Nôn liên tục.",
-          "Tím môi hoặc vã mồ hôi lạnh.",
-          "Có biểu hiện khác rõ rệt so với lúc mới đến.",
-          "Không nên im lặng chờ nếu tình trạng đang thay đổi."
+          "Trong thời gian nằm viện hoặc sau khi về nhà, người bệnh cần liên hệ cơ sở y tế khi có biểu hiện bất thường theo hướng dẫn xuất viện. Những dấu hiệu thường cần được chú ý gồm:",
+          "Sốt, rét run, mệt lả hoặc tình trạng toàn thân xấu đi.",
+          "Vết mổ hoặc vị trí đặt đường truyền sưng, nóng, đỏ, đau tăng, chảy dịch hoặc có mùi bất thường.",
+          "Khó thở, ho tăng, đau ngực hoặc đờm thay đổi rõ rệt.",
+          "Tiểu buốt, tiểu khó, nước tiểu đục hoặc đau vùng hạ vị sau khi đặt ống thông.",
+          "Tiêu chảy nhiều lần, đau bụng hoặc nôn kéo dài, đặc biệt khi đang hoặc vừa dùng kháng sinh.",
+          "Không nên tự kết luận đây là nhiễm khuẩn chỉ dựa trên một dấu hiệu. Tuy nhiên, báo sớm giúp bác sĩ đánh giá kịp thời và quyết định người bệnh có cần khám lại, làm xét nghiệm hay điều chỉnh chăm sóc hay không."
         ]
       },
       {
-        "heading": "Những sai lầm người nhà nên tránh",
+        "heading": "Kiểm soát nhiễm khuẩn tại Bệnh viện Đa khoa Hồng Phúc",
         "paragraphs": [
-          "Trong tình huống khẩn cấp, một số hành động tưởng là giúp đỡ lại có thể gây nguy hiểm:",
-          "Chờ tìm đủ hồ sơ mới đưa bệnh nhân đi viện.",
-          "Chở bệnh nhân nặng bằng xe máy.",
-          "Để bệnh nhân khó thở hoặc lơ mơ tự lái xe.",
-          "Tự cho uống thêm thuốc kê đơn.",
-          "Ép người bệnh ăn uống.",
-          "Đánh thức người bất tỉnh bằng cách tát hoặc hắt nước.",
-          "Nhét đồ vật vào miệng người đang co giật.",
-          "Tự gây nôn khi nghi ngờ ngộ độc.",
-          "Tự di chuyển người có thể bị chấn thương cột sống.",
-          "Tụ tập quá đông quanh bệnh nhân.",
-          "Quay phim, chụp ảnh làm cản trở việc cấp cứu.",
-          "Che giấu việc người bệnh đã uống rượu, dùng thuốc hoặc tiếp xúc hóa chất.",
-          "Nhân viên y tế cần thông tin chính xác để lựa chọn cách xử trí an toàn. Vì vậy, gia đình nên cung cấp trung thực, kể cả những thông tin được xem là nhạy cảm."
-        ]
-      },
-      {
-        "heading": "Checklist nhanh trước khi đưa bệnh nhân đến viện",
-        "paragraphs": [
-          "Trong điều kiện cho phép, người nhà có thể kiểm tra nhanh:",
-          "Đã gọi cấp cứu khi tình trạng nghiêm trọng.",
-          "Có người theo dõi bệnh nhân trên đường.",
-          "Đã ghi lại thời điểm khởi phát triệu chứng.",
-          "Có danh sách thuốc hoặc ảnh chụp thuốc đang dùng.",
-          "Đã ghi nhận bệnh nền và dị ứng.",
-          "Có giấy tờ tùy thân, bảo hiểm y tế nếu lấy được nhanh.",
-          "Có hồ sơ bệnh cũ quan trọng.",
-          "Có vỏ thuốc hoặc hóa chất nếu nghi ngờ ngộ độc.",
-          "Đã chọn một người đại diện trao đổi với bác sĩ.",
-          "Không cho bệnh nhân ăn uống hoặc dùng thêm thuốc tùy tiện.",
-          "Danh sách này chỉ nhằm giúp việc bàn giao thuận lợi hơn. Không cần chờ hoàn thành tất cả mới đưa bệnh nhân đi viện."
-        ]
-      },
-      {
-        "heading": "Cấp cứu 24/7 tại Bệnh viện Đa khoa Hồng Phúc",
-        "paragraphs": [
-          "Bộ phận Cấp cứu tại Bệnh viện Đa khoa Hồng Phúc tiếp nhận người bệnh 24 giờ mỗi ngày, bao gồm các trường hợp bệnh cấp tính, tai nạn và tình trạng sức khỏe diễn biến bất thường.",
-          "Khi đến viện, người bệnh được đánh giá ban đầu, phân loại mức độ khẩn cấp và xử trí theo tình trạng thực tế. Khi cần thiết, bác sĩ Cấp cứu sẽ phối hợp với các chuyên khoa, xét nghiệm và chẩn đoán hình ảnh để phục vụ quá trình đánh giá và điều trị.",
-          "Người nhà nên cung cấp đầy đủ thời điểm xuất hiện triệu chứng, bệnh nền, thuốc đang dùng, dị ứng và các biện pháp đã thực hiện trước khi đến viện. Những thông tin ngắn gọn nhưng chính xác có thể giúp quá trình tiếp nhận diễn ra thuận lợi hơn.",
-          "Kết luận",
-          "Khi đưa bệnh nhân đến viện cấp cứu, điều quan trọng nhất không phải là chuẩn bị một chiếc túi thật đầy mà là hành động đúng thứ tự: nhận biết dấu hiệu nguy hiểm, gọi hỗ trợ, vận chuyển an toàn và cung cấp thông tin rõ ràng.",
-          "Giấy tờ, hồ sơ bệnh cũ, thuốc đang dùng và thông tin dị ứng đều cần thiết, nhưng không được làm chậm thời điểm cấp cứu. Trong mọi trường hợp, nếu bệnh nhân khó thở, mất ý thức, đau ngực dữ dội, có dấu hiệu đột quỵ, chảy máu nhiều hoặc tình trạng xấu đi nhanh, gia đình nên liên hệ cấp cứu và đưa người bệnh đến cơ sở y tế sớm nhất có thể.",
-          "Nội dung trong bài viết mang tính chất hướng dẫn tham khảo, không thay thế hướng dẫn trực tiếp của nhân viên cấp cứu hoặc việc thăm khám, chẩn đoán và điều trị từ bác sĩ."
+          "Tại Bệnh viện Đa khoa Hồng Phúc, kiểm soát nhiễm khuẩn được xác định là một phần của an toàn người bệnh, gắn với hoạt động khám bệnh, điều trị nội trú, phẫu thuật, thủ thuật và chăm sóc hằng ngày.",
+          "Các quy trình vệ sinh tay, sử dụng phương tiện phòng hộ, làm sạch môi trường, xử lý dụng cụ, quản lý chất thải và phòng ngừa lây truyền cần được thực hiện đồng bộ giữa các khoa. Khi phát hiện nguy cơ, nhân viên y tế có trách nhiệm hướng dẫn người bệnh và người nhà các biện pháp phù hợp với tình trạng cụ thể.",
+          "Người bệnh có thể chủ động hỏi về cách chăm sóc vết thương, vệ sinh tay, sử dụng khẩu trang, thời gian thăm bệnh hoặc những dấu hiệu cần theo dõi sau khi ra viện. Nắm rõ hướng dẫn trước khi rời bệnh viện giúp gia đình chăm sóc an toàn hơn tại nhà.",
+          "Một bệnh viện an toàn không được tạo nên bởi một phòng bệnh thật sạch hay một khẩu hiệu trên tường. Đó là kết quả của những thao tác đúng được lặp lại mỗi ngày, sự giám sát có trách nhiệm và tinh thần hợp tác giữa nhân viên y tế, người bệnh và người nhà.",
+          "Nội dung bài viết được biên soạn để tham khảo theo các nguyên tắc phòng ngừa và kiểm soát nhiễm khuẩn của Tổ chức Y tế Thế giới và các hướng dẫn chuyên môn hiện hành. Thông tin không thay thế chỉ định hoặc hướng dẫn trực tiếp của bác sĩ và nhân viên kiểm soát nhiễm khuẩn."
         ]
       }
     ]
@@ -12288,7 +12150,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Đọc kỹ và hỏi lại những điều chưa hiểu trước khi ký xác nhận đồng ý phẫu thuật.",
           "Nếu xuất hiện sốt, ho, khó thở, tiêu chảy, tổn thương da hoặc kinh nguyệt bất thường trước ngày mổ, người bệnh nên báo lại cho bác sĩ. Đôi khi dời lịch phẫu thuật là lựa chọn an toàn hơn.",
           "Làm sao để chọn một dịch vụ thẩm mỹ đáng tin cậy?",
-          "Trước khi quyết định, khách hàng nên trực tiếp hỏi cơ sở y tế:",
+          "Trước khi quyết định, người có nhu cầu thẩm mỹ nên trực tiếp hỏi cơ sở y tế:",
           "Kỹ thuật này có nằm trong phạm vi chuyên môn được cấp phép không?",
           "Ai là người trực tiếp phẫu thuật?",
           "Bác sĩ đã được đào tạo về phẫu thuật tạo hình thẩm mỹ như thế nào?",
@@ -12301,18 +12163,18 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Tôi sẽ được theo dõi sau mổ trong bao lâu?",
           "Tổng chi phí đã bao gồm thuốc, vật tư, lưu viện và tái khám hay chưa?",
           "Vật liệu cấy ghép, nếu sử dụng, có thông tin nhận diện và nguồn gốc rõ ràng không?",
-          "Một cơ sở nghiêm túc sẽ không né tránh những câu hỏi này. Bác sĩ cũng không nên thúc ép khách hàng quyết định ngay trong buổi tư vấn bằng chương trình giảm giá có thời hạn quá ngắn."
+          "Một cơ sở nghiêm túc sẽ không né tránh những câu hỏi này. Bác sĩ cũng không nên thúc ép người tư vấn quyết định ngay trong buổi khám bằng chương trình giảm giá có thời hạn quá ngắn."
         ]
       },
       {
         "heading": "Phẫu thuật tạo hình thẩm mỹ tại Bệnh viện Đa khoa Hồng Phúc",
         "paragraphs": [
-          "Phát triển thẩm mỹ trong môi trường bệnh viện không có nghĩa là làm giảm đi sự tinh tế, riêng tư hoặc trải nghiệm của khách hàng. Ngược lại, đây là cách đưa nhu cầu làm đẹp đến gần hơn với những nguyên tắc an toàn của y khoa hiện đại.",
+          "Thực hiện thẩm mỹ trong môi trường bệnh viện không có nghĩa là giảm đi sự tinh tế hoặc riêng tư. Ngược lại, đây là cách đặt nhu cầu làm đẹp trong những nguyên tắc an toàn của y khoa hiện đại.",
           "Tại Bệnh viện Đa khoa Hồng Phúc, định hướng của dịch vụ phẫu thuật tạo hình thẩm mỹ là kết hợp ba yếu tố:",
-          "Cá nhân hóa về thẩm mỹ:Mỗi người được tư vấn dựa trên đặc điểm khuôn mặt, vóc dáng, chất lượng mô và mong muốn thực tế, thay vì áp dụng một hình mẫu giống nhau.",
-          "Kiểm soát về y khoa:Quyết định phẫu thuật được cân nhắc dựa trên tình trạng sức khỏe, kết quả thăm khám, yêu cầu gây mê và mức độ xâm lấn của kỹ thuật.",
-          "Liên tục trong chăm sóc:Quá trình không dừng lại khi ca mổ kết thúc mà tiếp tục bằng theo dõi hồi tỉnh, chăm sóc vết thương, tái khám và đánh giá kết quả theo từng giai đoạn.",
-          "Những kỹ thuật cụ thể chỉ được thực hiện khi phù hợp với nhu cầu, sức khỏe của khách hàng và phạm vi chuyên môn được phê duyệt. Trong một số trường hợp, bác sĩ có thể tư vấn chưa nên phẫu thuật hoặc đề xuất một giải pháp khác an toàn hơn.",
+          "Cá nhân hóa về thẩm mỹ: mỗi người được tư vấn dựa trên đặc điểm khuôn mặt, vóc dáng, chất lượng mô và mong muốn thực tế, thay vì áp dụng một hình mẫu giống nhau.",
+          "Kiểm soát về y khoa: quyết định phẫu thuật được cân nhắc dựa trên tình trạng sức khỏe, kết quả thăm khám, yêu cầu gây mê và mức độ xâm lấn của kỹ thuật.",
+          "Chăm sóc liên tục: quá trình không dừng lại khi ca mổ kết thúc mà tiếp tục bằng theo dõi hồi tỉnh, chăm sóc vết thương, tái khám và đánh giá kết quả theo từng giai đoạn.",
+          "Kỹ thuật chỉ được lựa chọn khi phù hợp với nhu cầu, sức khỏe của người thực hiện và phạm vi chuyên môn được phê duyệt. Trong một số trường hợp, bác sĩ có thể tư vấn chưa nên phẫu thuật hoặc đề xuất một giải pháp khác an toàn hơn.",
           "Đây không phải là sự từ chối nhu cầu làm đẹp. Đó chính là cách môi trường bệnh viện đặt sự an toàn và lợi ích lâu dài của người bệnh lên trước."
         ]
       },
@@ -12329,7 +12191,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
   },
   "tai-tao-sau-chan-thuong-bong-hoac-phau-thuat-vai-tro-cua-phau-thuat-tao-hinh-hien-dai": {
     "sourceFile": "50.Tái tạo sau chấn thương, bỏng hoặc phẫu thuật vai trò của phẫu thuật tạo hình hiện đại.docx",
-    "title": "Tái tạo sau chấn thương, bỏng hoặc phẫu thuật: Vai trò của phẫu thuật tạo hình hiện đại",
+    "title": "Tái tạo sau chấn thương, bỏng hoặc phẫu thuật: vai trò của phẫu thuật tạo hình hiện đại",
     "excerpt": "Khi nhắc đến phẫu thuật tạo hình, nhiều người thường nghĩ ngay đến nâng mũi, căng da hay chỉnh sửa vóc dáng. Tuy nhiên, phía sau hai chữ “tạo hình” còn có một lĩnh vực y khoa quan trọng: tái tạo những vùng cơ thể bị tổn thương do tai nạn, bỏng, bệnh lý hoặc phẫu thuật.",
     "intro": [
       "Khi nhắc đến phẫu thuật tạo hình, nhiều người thường nghĩ ngay đến nâng mũi, căng da hay chỉnh sửa vóc dáng. Tuy nhiên, phía sau hai chữ “tạo hình” còn có một lĩnh vực y khoa quan trọng: tái tạo những vùng cơ thể bị tổn thương do tai nạn, bỏng, bệnh lý hoặc phẫu thuật.",
@@ -12383,7 +12245,7 @@ export const articleDetails: Record<string, ArticleDetail> = {
           "Khâu nối gân.",
           "Sửa chữa dây thần kinh.",
           "Nối mạch máu.",
-          "Tái tạo phần mềm.",
+          "Tái tạo mô mềm.",
           "Cố định hoặc phối hợp xử lý tổn thương xương.",
           "Vật lý trị liệu và phục hồi chức năng sau mổ.",
           "Phẫu thuật bàn tay, chấn thương mặt và tổn thương mô mềm các chi là những lĩnh vực thường có sự tham gia của chuyên ngành tạo hình tái tạo."

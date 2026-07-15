@@ -15,9 +15,9 @@ import { ActionLink } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
 import { getArticleContent } from "@/lib/article-details";
 import type { ArticleDetailSection } from "@/lib/article-details";
+import { getKnowledgeArticleBySlug, type KnowledgeArticle } from "@/lib/headless-wordpress";
 import {
   articleCatalog,
-  getArticleBySlug,
   getArticleSlug,
   getArticlesBySpecialty,
   getDoctorsBySpecialty,
@@ -40,13 +40,13 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const article = getArticleBySlug(slug);
-  const content = getArticleContent(slug);
+  const resolvedArticle = await getKnowledgeArticleBySlug(slug);
 
-  if (!article) {
+  if (!resolvedArticle) {
     return {};
   }
 
+  const { article, content } = resolvedArticle;
   const title = content?.title ?? article.title;
   const description = content?.excerpt ?? article.summary;
 
@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `/kien-thuc/${getArticleSlug(article)}`,
+      canonical: `/kien-thuc/${article.slug}`,
     },
     openGraph: {
       title,
@@ -64,12 +64,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-function makeArticleSections(article: NonNullable<ReturnType<typeof getArticleBySlug>>): ArticleDetailSection[] {
+function makeArticleSections(article: KnowledgeArticle): ArticleDetailSection[] {
   return [
     {
       heading: "Tổng quan",
       paragraphs: [
-        `${article.title} là chủ đề người bệnh thường tìm kiếm khi muốn hiểu rõ tình trạng sức khỏe trước khi quyết định đi khám. Nội dung này được viết theo hướng dễ hiểu, tránh thuật ngữ không cần thiết và tập trung vào những câu hỏi thực tế: dấu hiệu nào nên chú ý, khi nào cần gặp bác sĩ và buổi khám thường diễn ra ra sao.`,
+        `${article.title} là chủ đề người bệnh thường tìm kiếm khi muốn hiểu rõ tình trạng sức khỏe trước khi quyết định đi khám. Nội dung này được viết theo hướng dễ hiểu, tránh thuật ngữ không cần thiết và tập trung vào những câu hỏi thực tế: dấu hiệu nào nên chú ý, khi nào cần gặp bác sĩ và buổi khám thường được thực hiện như thế nào.`,
         article.summary,
       ],
     },
@@ -83,21 +83,21 @@ function makeArticleSections(article: NonNullable<ReturnType<typeof getArticleBy
     {
       heading: "Tại Hồng Phúc, người bệnh được hỗ trợ thế nào?",
       paragraphs: [
-        "Bệnh viện Đa khoa Hồng Phúc tổ chức hành trình khám theo hướng điều phối rõ ràng: tiếp nhận thông tin ban đầu, gợi ý chuyên khoa phù hợp, thực hiện thăm khám và chỉ định cận lâm sàng khi cần, sau đó giải thích kết quả bằng ngôn ngữ dễ hiểu để người bệnh biết bước tiếp theo.",
+        "Tại Bệnh viện Đa khoa Hồng Phúc, người bệnh được tiếp nhận thông tin ban đầu, tư vấn chuyên khoa phù hợp, thăm khám và thực hiện xét nghiệm hoặc chẩn đoán hình ảnh khi cần. Sau đó, bác sĩ giải thích kết quả bằng ngôn ngữ dễ hiểu và hướng dẫn bước tiếp theo.",
         "Với các trường hợp cần phối hợp nhiều chuyên khoa, hồ sơ có thể được rà soát bởi bác sĩ liên quan để giảm tình trạng người bệnh phải tự đi vòng quanh nhiều điểm khám. Mục tiêu là mỗi lần đến viện đều có câu trả lời cụ thể hơn, không chỉ là thêm một kết quả xét nghiệm.",
       ],
     },
     {
       heading: "Chuẩn bị trước buổi khám",
       paragraphs: [
-        "Người bệnh nên mang theo giấy tờ tùy thân, đơn thuốc đang dùng, kết quả xét nghiệm hoặc phim chụp cũ nếu có. Nếu bài viết liên quan tới xét nghiệm máu, siêu âm bụng, nội soi hoặc thủ thuật, hãy hỏi trước về việc nhịn ăn, uống nước, ngưng thuốc hay cần người thân đi cùng.",
+        "Người bệnh nên mang theo giấy tờ tùy thân, đơn thuốc đang dùng, kết quả xét nghiệm hoặc phim chụp cũ nếu có. Nếu bài viết liên quan tới xét nghiệm máu, siêu âm bụng, nội soi hoặc thủ thuật, hãy hỏi trước về việc nhịn ăn, uống nước, sử dụng thuốc hay cần người thân đi cùng. Không tự ngừng thuốc khi chưa có hướng dẫn của bác sĩ.",
         "Trước khi gặp bác sĩ, nên ghi lại ba điều: triệu chứng bắt đầu từ khi nào, yếu tố nào làm triệu chứng nặng hơn hoặc nhẹ đi, và câu hỏi quan trọng nhất muốn được giải đáp. Việc chuẩn bị này giúp cuộc khám ngắn gọn nhưng hiệu quả hơn.",
       ],
     },
   ];
 }
 
-function makeFaq(article: NonNullable<ReturnType<typeof getArticleBySlug>>) {
+function makeFaq(article: KnowledgeArticle) {
   return [
     {
       question: `Bài viết về ${article.category.toLowerCase()} này có thay thế tư vấn bác sĩ không?`,
@@ -107,7 +107,7 @@ function makeFaq(article: NonNullable<ReturnType<typeof getArticleBySlug>>) {
     {
       question: "Tôi chưa biết nên khám chuyên khoa nào thì bắt đầu từ đâu?",
       answer:
-        "Bạn có thể bắt đầu bằng Nội tổng quát hoặc gửi mô tả triệu chứng khi đặt lịch. Đội điều phối sẽ gợi ý chuyên khoa, bác sĩ hoặc dịch vụ phù hợp hơn trước khi bạn đến bệnh viện.",
+        "Bạn có thể bắt đầu bằng Khoa Nội hoặc mô tả triệu chứng khi đặt lịch. Nhân viên tư vấn sẽ hỗ trợ chọn khoa, bác sĩ hoặc dịch vụ phù hợp trước khi bạn đến bệnh viện.",
     },
     {
       question: "Có cần mang kết quả khám cũ không?",
@@ -130,72 +130,101 @@ function toHeadingId(heading: string, index: number) {
   return slug ? `${slug}-${index + 1}` : `muc-${index + 1}`;
 }
 
-function getUseCase(article: NonNullable<ReturnType<typeof getArticleBySlug>>, specialtyName?: string) {
-  const normalized = article.category.toLowerCase();
-
-  if (normalized.includes("triệu chứng")) {
-    return "Nhận biết dấu hiệu sớm và quyết định thời điểm nên đi khám.";
-  }
-
-  if (normalized.includes("cấp cứu")) {
-    return "Ưu tiên xử trí đúng khi có dấu hiệu cần vào viện ngay.";
-  }
-
-  if (normalized.includes("xét nghiệm") || normalized.includes("chẩn đoán")) {
-    return "Chuẩn bị trước dịch vụ và hiểu mục đích của chỉ định.";
-  }
-
-  if (normalized.includes("nhi")) {
-    return "Theo dõi tại nhà đúng cách và biết khi nào cần đưa trẻ đi viện.";
-  }
-
-  if (specialtyName) {
-    return `Hiểu rõ hơn cách tiếp cận của chuyên khoa ${specialtyName.toLowerCase()} đối với vấn đề đang gặp.`;
-  }
-
-  return "Chuẩn bị một buổi khám hiệu quả hơn với các câu hỏi và thông tin cần thiết.";
+function getUseCase(article: KnowledgeArticle) {
+  return article.summary;
 }
 
-function getReaderType(article: NonNullable<ReturnType<typeof getArticleBySlug>>, specialtyName?: string) {
-  const normalized = article.category.toLowerCase();
+const readerTypesByCategory: Record<string, string> = {
+  "Giới thiệu": "Người bệnh và gia đình muốn tìm hiểu về Hồng Phúc trước khi lựa chọn nơi khám.",
+  "Hệ thống y tế": "Người muốn hiểu cách nhiều chuyên khoa cùng phối hợp trong một kế hoạch chăm sóc.",
+  "Hợp tác quốc tế": "Người quan tâm đến hội chẩn, đào tạo và chuyển giao kỹ thuật trong bệnh viện.",
+  "Hướng dẫn người bệnh": "Người sắp đến Hồng Phúc khám lần đầu hoặc cần chuẩn bị lại hồ sơ tái khám.",
+  "Nội tổng quát": "Người có triệu chứng kéo dài, nhiều bệnh nền hoặc chưa rõ nên bắt đầu khám từ khoa nào.",
+  "Doanh nghiệp": "Bộ phận nhân sự, công đoàn và đơn vị đang chuẩn bị chương trình khám cho người lao động.",
+  "Nội Tim mạch": "Người có triệu chứng tim mạch, yếu tố nguy cơ hoặc đang theo dõi bệnh tim mạch lâu dài.",
+  "Dịch vụ": "Người sắp thực hiện một dịch vụ y tế và muốn biết cách chuẩn bị trước khi đến viện.",
+  "Nội Ung bướu": "Người cần tầm soát theo nguy cơ, đang chờ kết quả hoặc đồng hành cùng người thân điều trị.",
+  "Nội Tiêu hóa - Gan mật": "Người có triệu chứng dạ dày, đường ruột, gan mật hoặc đang chuẩn bị nội soi tiêu hóa.",
+  "Sản phụ khoa": "Phụ nữ muốn chủ động chăm sóc sức khỏe phụ khoa và sức khỏe sinh sản.",
+  "Thai sản": "Mẹ bầu và gia đình muốn theo dõi các mốc khám, siêu âm và xét nghiệm trong thai kỳ.",
+  "Sức khỏe sinh sản": "Các cặp vợ chồng đang chuẩn bị mang thai hoặc cần đánh giá khả năng sinh sản.",
+  "Nhi khoa": "Cha mẹ hoặc người chăm sóc trẻ sơ sinh, trẻ nhỏ và trẻ trong độ tuổi đi học.",
+  "Nội Cơ xương khớp": "Người bị đau khớp, đau lưng, chấn thương hoặc gặp khó khăn khi vận động.",
+  "Nội tiết - Chuyển hóa": "Người đang theo dõi đường huyết, tuyến giáp hoặc các rối loạn chuyển hóa.",
+  "Gói khám": "Người muốn chọn danh mục kiểm tra phù hợp với tuổi, bệnh nền và nguy cơ cá nhân.",
+  "Triệu chứng": "Người đang có dấu hiệu bất thường và cần biết khi nào nên đi khám.",
+  "Chẩn đoán hình ảnh": "Người được chỉ định siêu âm, X-quang, chụp cắt lớp vi tính hoặc cộng hưởng từ.",
+  "Xét nghiệm": "Người sắp làm xét nghiệm hoặc muốn hiểu ý nghĩa cơ bản của kết quả.",
+  "Hồi sức cấp cứu": "Người bệnh và người nhà cần chuẩn bị cho tình huống phải đến cấp cứu.",
+  "Kiểm soát nhiễm khuẩn": "Người bệnh, người nhà và người chăm sóc muốn cùng bệnh viện giảm nguy cơ lây nhiễm trong quá trình điều trị.",
+  "Tạo hình thẩm mỹ": "Người đang tìm hiểu phẫu thuật tạo hình, phục hồi sau chấn thương hoặc can thiệp thẩm mỹ.",
+};
 
-  if (normalized.includes("nhi")) {
-    return "Cha mẹ hoặc người chăm sóc trẻ nhỏ.";
-  }
-
-  if (normalized.includes("thai") || normalized.includes("sản") || normalized.includes("phụ")) {
-    return "Phụ nữ đang theo dõi sức khỏe sinh sản, thai kỳ hoặc chuẩn bị mang thai.";
+function getReaderType(article: KnowledgeArticle, specialtyName?: string) {
+  const readerType = readerTypesByCategory[article.category];
+  if (readerType) {
+    return readerType;
   }
 
   if (specialtyName) {
     return `Người bệnh đang chuẩn bị khám hoặc theo dõi tại chuyên khoa ${specialtyName.toLowerCase()}.`;
   }
 
-  return "Người bệnh và người nhà cần tài liệu nền tảng trước khi trao đổi cùng bác sĩ.";
+  return "Người bệnh và người nhà muốn tìm hiểu thông tin cơ bản trước khi trao đổi với bác sĩ.";
+}
+
+function toNaturalPhrase(heading: string) {
+  const phrase = heading
+    .replace(/^\d+[.)]\s*/, "")
+    .replace(/[?!.:]+$/, "")
+    .trim();
+
+  return phrase ? `${phrase.charAt(0).toLocaleLowerCase("vi-VN")}${phrase.slice(1)}` : "nội dung cần lưu ý";
+}
+
+function getMeaningfulHeadings(sections: ArticleDetailSection[]) {
+  return sections
+    .map((section) => section.heading.trim())
+    .filter((heading) => heading && heading.toLocaleLowerCase("vi-VN") !== "nội dung chính");
 }
 
 function makeReadingSignals(
-  article: NonNullable<ReturnType<typeof getArticleBySlug>>,
+  article: KnowledgeArticle,
+  sections: ArticleDetailSection[],
   specialtyName?: string,
 ) {
+  const headings = getMeaningfulHeadings(sections);
+  const organizationTopics = new Set([
+    "Giới thiệu",
+    "Hệ thống y tế",
+    "Hợp tác quốc tế",
+    "Hướng dẫn người bệnh",
+    "Doanh nghiệp",
+    "An toàn người bệnh",
+  ]);
+
   return [
-    `Bạn đang muốn hiểu rõ hơn về ${article.category.toLowerCase()} trước khi đi khám.`,
-    specialtyName
-      ? `Bạn cần biết chuyên khoa ${specialtyName.toLowerCase()} thường đánh giá vấn đề này như thế nào.`
-      : "Bạn cần một khung thông tin nền tảng trước khi gặp bác sĩ.",
-    "Bạn muốn chuẩn bị câu hỏi đúng và tránh cảm giác mơ hồ khi bước vào buổi tư vấn.",
+    `Bạn đang quan tâm đến chủ đề: ${article.title}`,
+    headings[0]
+      ? `Bạn muốn tìm hiểu ${toNaturalPhrase(headings[0])}.`
+      : "Bạn muốn hiểu vấn đề rõ hơn trước khi quyết định đi khám.",
+    specialtyName && !organizationTopics.has(article.category)
+      ? `Bạn muốn chuẩn bị câu hỏi trước khi trao đổi với bác sĩ ${specialtyName.toLowerCase()}.`
+      : "Bạn muốn chuẩn bị câu hỏi trước khi trao đổi với bác sĩ hoặc nhân viên bệnh viện.",
   ];
 }
 
 function makeKeyTakeaways(
-  article: NonNullable<ReturnType<typeof getArticleBySlug>>,
-  specialtyName?: string,
+  article: KnowledgeArticle,
+  sections: ArticleDetailSection[],
 ) {
+  const headings = getMeaningfulHeadings(sections);
+
   return [
     article.summary,
-    specialtyName
-      ? `Nội dung được kết nối với chuyên khoa ${specialtyName.toLowerCase()}, giúp người đọc hiểu đúng đường đi khám và dịch vụ liên quan.`
-      : "Bài viết tập trung vào nhu cầu thực tế của người bệnh thay vì giải thích y khoa thuần lý thuyết.",
+    headings[1]
+      ? `Một nội dung đáng chú ý là ${toNaturalPhrase(headings[1])}.`
+      : "Nếu triệu chứng kéo dài, tăng dần hoặc khiến bạn lo lắng, nên trao đổi trực tiếp với bác sĩ.",
     "Thông tin có giá trị nhất khi được dùng để chuẩn bị trước buổi khám, không thay thế đánh giá trực tiếp của bác sĩ.",
   ];
 }
@@ -248,13 +277,13 @@ function toContentBlocks(paragraphs: string[]): ContentBlock[] {
 
 export default async function KnowledgeArticlePage({ params }: Props) {
   const { slug } = await params;
-  const article = getArticleBySlug(slug);
-  const content = getArticleContent(slug);
+  const resolvedArticle = await getKnowledgeArticleBySlug(slug);
 
-  if (!article) {
+  if (!resolvedArticle) {
     notFound();
   }
 
+  const { article, content } = resolvedArticle;
   const displayTitle = content?.title ?? article.title;
   const displaySummary = content?.excerpt ?? article.summary;
   const specialty = getSpecialtyBySlug(article.specialtySlug);
@@ -273,9 +302,9 @@ export default async function KnowledgeArticlePage({ params }: Props) {
     })),
   ];
   const faq = makeFaq(article);
-  const readingSignals = makeReadingSignals(article, specialty?.name);
-  const keyTakeaways = makeKeyTakeaways(article, specialty?.name);
-  const useCase = getUseCase(article, specialty?.name);
+  const readingSignals = makeReadingSignals(article, sections, specialty?.name);
+  const keyTakeaways = makeKeyTakeaways(article, sections);
+  const useCase = getUseCase(article);
   const readerType = getReaderType(article, specialty?.name);
   const jsonLd = [
     {
@@ -345,13 +374,13 @@ export default async function KnowledgeArticlePage({ params }: Props) {
                 <div className="mt-6 grid gap-4 md:grid-cols-3">
                   <article className="rounded-[1.35rem] border border-white/70 bg-white/82 p-4">
                     <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--color-brand)]">
-                      Đọc để làm gì
+                      Bạn sẽ biết
                     </p>
                     <p className="mt-3 text-sm leading-7 text-[var(--color-muted)]">{useCase}</p>
                   </article>
                   <article className="rounded-[1.35rem] border border-white/70 bg-white/82 p-4">
                     <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--color-brand)]">
-                      Phù hợp cho
+                      Dành cho
                     </p>
                     <p className="mt-3 text-sm leading-7 text-[var(--color-muted)]">{readerType}</p>
                   </article>
@@ -360,7 +389,7 @@ export default async function KnowledgeArticlePage({ params }: Props) {
                       Thời lượng đọc
                     </p>
                     <p className="mt-3 text-sm leading-7 text-[var(--color-muted)]">
-                      {article.readTime}, tập trung vào phần cốt lõi người bệnh thường cần trước buổi khám.
+                      {article.readTime}
                     </p>
                   </article>
                 </div>
@@ -372,7 +401,7 @@ export default async function KnowledgeArticlePage({ params }: Props) {
                   {article.readTime}
                 </div>
                 <p className="mt-4 text-sm leading-7 text-[var(--color-muted)]">
-                  Nội dung định hướng tham khảo, giúp người bệnh chuẩn bị câu hỏi trước khi trao đổi trực tiếp với bác sĩ.
+                  Nội dung chỉ có giá trị tham khảo, giúp người bệnh chuẩn bị câu hỏi trước khi trao đổi trực tiếp với bác sĩ.
                 </p>
                 <ActionLink href="/dat-lich" className="mt-5 w-full">
                   <CalendarDays className="mr-2 h-4 w-4" />
@@ -390,7 +419,7 @@ export default async function KnowledgeArticlePage({ params }: Props) {
                 <div>
                   <div className="flex items-center gap-3 text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-brand)]">
                     <Sparkles className="h-4 w-4" />
-                    Bài này phù hợp nếu
+                    Bạn nên đọc bài này nếu
                   </div>
                   <div className="mt-4 grid gap-3">
                     {readingSignals.map((item) => (
@@ -495,10 +524,10 @@ export default async function KnowledgeArticlePage({ params }: Props) {
                     Cần bác sĩ đánh giá kỹ hơn?
                   </p>
                   <h2 className="mt-3 font-serif text-3xl leading-tight">
-                    Biến phần kiến thức vừa đọc thành một kế hoạch khám thực tế, rõ ràng và đúng chuyên khoa.
+                    Nếu còn băn khoăn, hãy để bác sĩ đánh giá trực tiếp tình trạng của bạn.
                   </h2>
                   <p className="mt-4 max-w-2xl text-sm leading-7 text-white/78">
-                    Đội điều phối của Hồng Phúc có thể hỗ trợ chọn bác sĩ, chuyên khoa và dịch vụ liên quan để buổi khám đi thẳng vào vấn đề người bệnh đang quan tâm.
+                    Nhân viên Hồng Phúc có thể hỗ trợ chọn bác sĩ, chuyên khoa và dịch vụ liên quan để buổi khám tập trung vào vấn đề bạn đang quan tâm.
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-3">

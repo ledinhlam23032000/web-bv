@@ -7,7 +7,7 @@ import { siteInfo } from "@/lib/site-content";
 
 export const metadata: Metadata = {
   title: "Liên hệ",
-  description: "Thông tin liên hệ và hỗ trợ khách hàng cho Bệnh viện Đa khoa Hồng Phúc.",
+  description: "Thông tin liên hệ và hỗ trợ người bệnh tại Bệnh viện Đa khoa Hồng Phúc.",
 };
 
 const contactCards = [
@@ -19,8 +19,8 @@ const contactCards = [
 
 const supportSteps = [
   "Mô tả ngắn gọn nhu cầu: đặt lịch, hỏi đường đi, hỏi chuẩn bị trước khám hay hỗ trợ cấp cứu.",
-  "Cung cấp độ tuổi, triệu chứng chính, bệnh nền và thời điểm muốn đến viện để điều phối nhanh hơn.",
-  "Giữ lại đơn thuốc, kết quả cũ và số điện thoại liên hệ để đội ngũ hỗ trợ xâu chuỗi thông tin thuận lợi.",
+  "Cung cấp độ tuổi, triệu chứng chính, bệnh nền và thời điểm muốn đến viện để được hướng dẫn nhanh hơn.",
+  "Giữ lại đơn thuốc, kết quả cũ và số điện thoại liên hệ để nhân viên hỗ trợ nắm đầy đủ thông tin.",
 ];
 
 const emergencyNotes = [
@@ -35,8 +35,8 @@ export default function ContactPage() {
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Liên hệ" }]} />
       <PageHero
         eyebrow="Liên hệ"
-        title="Một điểm chạm trợ giúp rõ ràng, lịch sự và dễ hành động."
-        description="Trang liên hệ được thiết kế để người dùng tìm đúng kênh hỗ trợ trong vài giây, đồng thời vẫn giữ cảm giác cao cấp và nhẹ nhàng của toàn bộ thương hiệu."
+        title="Liên hệ Hồng Phúc khi bạn cần đặt lịch hoặc hỗ trợ y tế."
+        description="Tìm nhanh số tổng đài, địa chỉ, giờ làm việc và hướng dẫn cần thiết trước khi đến bệnh viện."
         imageSrc="/images/building.webp"
         imageAlt="Bệnh viện nhìn từ trên cao"
         actions={[
@@ -50,8 +50,8 @@ export default function ContactPage() {
           <div>
             <SectionHeading
               eyebrow="Kênh hỗ trợ"
-              title="Thông tin liên hệ cần dễ thấy nhưng vẫn được trình bày như một trải nghiệm dịch vụ."
-              description="Thay vì chỉ hiển thị số điện thoại và địa chỉ, trang này còn phải cho người bệnh biết nên liên hệ khi nào, chuẩn bị gì và trường hợp nào nên vào thẳng luồng cấp cứu."
+              title="Chọn đúng kênh để được hỗ trợ nhanh hơn."
+              description="Bạn có thể gọi tổng đài để đặt lịch, hỏi cách chuẩn bị trước khám hoặc nhận hướng dẫn khi có tình huống cần cấp cứu."
             />
             <div className="mt-8 grid gap-5 sm:grid-cols-2">
               {contactCards.map((card) => {
@@ -77,7 +77,7 @@ export default function ContactPage() {
 
           <div className="space-y-5">
             <article className="rounded-[2rem] bg-[linear-gradient(135deg,var(--color-brand-deep),var(--color-brand),#0f78c2)] p-6 text-white shadow-[0_30px_100px_-72px_rgba(7,63,120,0.72)]">
-              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-white/70">Điều phối người bệnh</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-white/70">Hỗ trợ người bệnh</p>
               <h2 className="mt-3 text-3xl font-semibold leading-tight sm:text-[2.2rem]">
                 Gọi hoặc đặt lịch sẽ hiệu quả hơn nếu chuẩn bị đúng thông tin.
               </h2>
@@ -123,7 +123,7 @@ export default function ContactPage() {
                 Chuẩn bị đúng sẽ giúp bệnh viện hỗ trợ nhanh hơn.
               </h2>
               <p className="mt-3 text-sm leading-7 text-[var(--color-muted)]">
-                Với một website bệnh viện đa khoa lớn, trang liên hệ không chỉ là nơi hiển thị số điện thoại mà còn là điểm bắt đầu cho luồng điều phối thông minh và lịch sự.
+                Khi cung cấp đủ thông tin ban đầu, bạn sẽ được hướng dẫn đúng chuyên khoa, khung giờ và những điều cần chuẩn bị trước khi đến.
               </p>
             </div>
             <div className="grid gap-3">
@@ -134,7 +134,7 @@ export default function ContactPage() {
                 Triệu chứng chính, thời điểm xuất hiện và các bệnh nền quan trọng nếu có.
               </p>
               <p className="rounded-[1.2rem] bg-[var(--color-panel)] px-4 py-3 text-sm leading-7 text-[var(--color-muted)]">
-                Kết quả xét nghiệm, phim chụp hoặc đơn thuốc gần nhất để bác sĩ và điều phối viên nắm nhanh bối cảnh.
+                Kết quả xét nghiệm, phim chụp hoặc đơn thuốc gần nhất để bác sĩ và nhân viên hỗ trợ nắm nhanh tình trạng.
               </p>
             </div>
           </div>

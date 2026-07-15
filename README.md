@@ -1,66 +1,78 @@
 # Bệnh viện Đa khoa Hồng Phúc
 
-Website demo cho Bệnh viện Đa khoa Hồng Phúc, xây dựng bằng Next.js theo hướng:
+Đây là repo bàn giao cho website demo của **Bệnh viện Đa khoa Hồng Phúc** theo mô hình:
 
-- bệnh viện đa khoa quy mô lớn tại Việt Nam
-- tông trắng - xanh, cảm giác sạch, cao cấp, tinh tế
-- dễ mở rộng thêm chuyên khoa, dịch vụ, bác sĩ và thư viện bài viết
-- có lớp SEO cơ bản để phát triển nội dung dài hạn
+- giao diện public bằng Next.js
+- CMS nội dung bằng WordPress chạy local/headless
+- ưu tiên cảm giác bệnh viện đa khoa lớn tại Việt Nam, sáng, sạch, hiện đại, đáng tin
+- sẵn cấu trúc để mở rộng SEO, bài viết, khoa, dịch vụ, bác sĩ và nội dung hợp tác chuyên môn
 
-Repo này đã được chuẩn bị để người đọc mới, AI coding agent hoặc đội triển khai có thể hiểu nhanh cấu trúc, giao diện và mục tiêu của website.
+## Đọc trước khi làm gì
 
-## Xem nhanh
+- Bối cảnh dự án: [PROJECT-CONTEXT.md](./PROJECT-CONTEXT.md)
+- Handoff kỹ thuật cho AI/dev: [docs/AI-HANDOFF.md](./docs/AI-HANDOFF.md)
+- Runbook khẩn cấp: [docs/EMERGENCY-RUNBOOK.md](./docs/EMERGENCY-RUNBOOK.md)
+- Prompt kế thừa để AI dựng lại: [docs/AI-REBUILD-PROMPT.md](./docs/AI-REBUILD-PROMPT.md)
+- Sơ đồ trang và phạm vi nội dung: [docs/SITE-MAP.md](./docs/SITE-MAP.md)
+- Hướng dẫn chạy máy cá nhân làm máy chủ tạm: [docs/PERSONAL-PC-SERVER.md](./docs/PERSONAL-PC-SERVER.md)
+- Ghi chú triển khai: [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md)
 
-- Tài liệu bối cảnh dự án: [PROJECT-CONTEXT.md](./PROJECT-CONTEXT.md)
-- Handoff chi tiết cho AI/dev: [docs/AI-HANDOFF.md](./docs/AI-HANDOFF.md)
-- Sơ đồ trang và tuyến nội dung: [docs/SITE-MAP.md](./docs/SITE-MAP.md)
-- Hướng dẫn deploy: [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md)
+## Kiến trúc hiện tại
 
-## Công nghệ
+- Frontend public: Next.js 16 tại `http://localhost:9999`
+- CMS nội dung: WordPress Docker tại `http://localhost:10088`
+- Headless bridge: `src/lib/headless-wordpress.ts`
+- Plugin WordPress phục vụ REST và redirect public: `wordpress/wp-content/plugins/hong-phuc-core/hong-phuc-core.php`
+- Dữ liệu fallback nội bộ: `src/lib/site-content.ts`
 
-- Next.js 16
-- React 19
-- TypeScript
-- Tailwind CSS 4
-- Dữ liệu nội dung demo lưu nội bộ trong `src/lib/site-content.ts`
+## Quy ước bắt buộc
 
-## Chạy local
+- Không được đụng vào `http://localhost:3000` nếu trên máy đang có dự án khác của chủ máy dùng cổng này.
+- Bản public của repo này phải chạy ở `9999`.
+- WordPress của repo này phải chạy ở `10088`.
+- Link `trycloudflare.com` chỉ là link tạm để xem thử, hết hiệu lực khi tunnel tắt.
 
-Cách nhanh:
+## Cách chạy nhanh
 
-```bash
-npm install
-npm run dev
-```
+### Chạy giao diện public
 
-Mặc định Next.js sẽ chạy ở `http://localhost:3000`.
+- Mở [Chay-Hong-Phuc-9999.bat](C:/Users/PC/Documents/Codex/2026-07-11/b-nh-vi-n-a-khoa/work/hong-phuc-site/Chay-Hong-Phuc-9999.bat)
 
-Nếu máy bạn đã có dự án khác dùng cổng `3000`, nên chạy bản demo ở `9999`:
+### Chạy WordPress CMS
 
-```bash
-npx next dev --port 9999
-```
+- Mở [Chay-Hong-Phuc-WordPress-10088.bat](C:/Users/PC/Documents/Codex/2026-07-11/b-nh-vi-n-a-khoa/work/hong-phuc-site/Chay-Hong-Phuc-WordPress-10088.bat)
 
-## Build kiểm tra
+### Chạy đầy đủ để chia sẻ trong mạng nội bộ
 
-```bash
-npm run lint
-npm run build
-```
+- Mở [Chay-Hong-Phuc-Internet.bat](C:/Users/PC/Documents/Codex/2026-07-11/b-nh-vi-n-a-khoa/work/hong-phuc-site/Chay-Hong-Phuc-Internet.bat)
 
-## Cấu trúc chính
+### Tạo link xem thử miễn phí
 
-```text
-src/app/                 App Router pages
-src/components/          Site chrome, hero, browser, section UI
-src/lib/site-content.ts  Nội dung demo trung tâm cho chuyên khoa/dịch vụ/bài viết
-src/lib/seo.ts           URL tuyệt đối và helper SEO
-public/images/           Ảnh minh họa demo
-docs/                    Tài liệu handoff cho AI/dev
-```
+- Mở [Chay-Link-Xem-Thu-Mien-Phi.bat](C:/Users/PC/Documents/Codex/2026-07-11/b-nh-vi-n-a-khoa/work/hong-phuc-site/Chay-Link-Xem-Thu-Mien-Phi.bat)
 
-## Ghi chú quan trọng
+## Khoa thực tế hiện dùng trong site
 
-- Đây là bản demo định hướng cao cấp cho bệnh viện đa khoa, không phải CMS hoàn chỉnh.
-- Nội dung bài viết hiện dùng dữ liệu mẫu có cấu trúc để dễ thay bằng nội dung thật sau này.
-- Nhiều ảnh là ảnh demo/AI-generated để phục vụ review thiết kế giai đoạn đầu.
+- Khoa Hồi sức cấp cứu
+- Khoa Nội
+- Khoa Ngoại
+- Khoa Sản
+- Khoa Nhi
+- Khoa Y học cổ truyền
+- Khoa Phục hồi chức năng
+- Khoa Tạo hình thẩm mỹ
+- Khoa Mắt
+- Khoa Tai Mũi Họng
+- Khoa Răng Hàm Mặt
+- Khoa Da liễu
+- Khoa Chẩn đoán hình ảnh
+- Khoa Xét nghiệm
+- Khoa Dược
+- Khoa Kiểm soát nhiễm khuẩn
+- Khoa Gây mê hồi sức
+
+## Mục tiêu của repo GitHub này
+
+- lưu trạng thái code hiện tại của web
+- lưu tài liệu phục hồi khi sự cố xảy ra
+- lưu prompt để AI kế nhiệm có thể dựng lại đúng tinh thần hiện tại
+- giúp người mới tiếp quản không phải mò lại từ đầu

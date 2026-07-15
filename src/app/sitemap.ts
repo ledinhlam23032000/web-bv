@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
+import { getKnowledgeArticles } from "@/lib/headless-wordpress";
 import { resolveAbsoluteUrl } from "@/lib/seo";
-import { articleCatalog, doctorProfiles, getArticleSlug, medicalServices, specialties } from "@/lib/site-content";
+import { doctorProfiles, medicalServices, specialties } from "@/lib/site-content";
 
 const staticRoutes = [
   "",
@@ -19,8 +20,9 @@ const staticRoutes = [
   "/dat-lich",
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date("2026-07-12");
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const lastModified = new Date("2026-07-14");
+  const knowledgeArticles = await getKnowledgeArticles();
   const dynamicRoutes: Array<{ route: string; priority: number; changeFrequency: "weekly" | "monthly" }> = [
     ...specialties.map((specialty) => ({
       route: `/chuyen-khoa/${specialty.slug}`,
@@ -37,8 +39,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       changeFrequency: "monthly" as const,
     })),
-    ...articleCatalog.map((article) => ({
-      route: `/kien-thuc/${getArticleSlug(article)}`,
+    ...knowledgeArticles.map((article) => ({
+      route: `/kien-thuc/${article.slug}`,
       priority: 0.76,
       changeFrequency: "weekly" as const,
     })),

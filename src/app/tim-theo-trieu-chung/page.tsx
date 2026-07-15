@@ -7,7 +7,7 @@ import { symptomGroups } from "@/lib/site-content";
 export const metadata: Metadata = {
   title: "Tìm theo triệu chứng",
   description:
-    "Gợi ý chuyên khoa và dịch vụ phù hợp theo nhóm triệu chứng thường gặp.",
+    "Gợi ý nơi khám phù hợp theo các nhóm triệu chứng thường gặp.",
 };
 
 export default function SymptomPage() {
@@ -19,7 +19,7 @@ export default function SymptomPage() {
       <PageHero
         eyebrow="Bắt đầu từ điều người bệnh đang gặp"
         title="Chưa biết nên khám khoa nào? Hãy bắt đầu từ triệu chứng."
-        description="Các nhóm triệu chứng dưới đây giúp người bệnh định hướng chuyên khoa, dịch vụ liên quan và bước tiếp theo trước khi đặt lịch khám."
+        description="Chọn nhóm triệu chứng gần nhất với tình trạng của bạn để xem chuyên khoa nên đến trước. Gợi ý này không thay thế chẩn đoán của bác sĩ."
         imageSrc="/images/consultation.webp"
         imageAlt="Tư vấn trước thăm khám"
         actions={[
@@ -45,7 +45,7 @@ export default function SymptomPage() {
                 Chuyên khoa phù hợp: <span className="font-semibold text-[var(--color-ink)]">{group.specialty}</span>
               </p>
               <p className="mt-2 text-sm leading-7 text-[var(--color-muted)]">
-                Dịch vụ nên tham khảo: {group.service}
+                Dịch vụ bác sĩ có thể cân nhắc: {group.service}
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <ActionLink href="/chuyen-khoa">Xem chuyên khoa</ActionLink>

@@ -41,6 +41,7 @@ dev-*.log
 
 # local review artifacts not meant for git
 /outputs/
+/logs/
 
 # typescript
 *.tsbuildinfo

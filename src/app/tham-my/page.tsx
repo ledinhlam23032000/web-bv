@@ -5,9 +5,9 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { aestheticServices } from "@/lib/site-content";
 
 export const metadata: Metadata = {
-  title: "Trung tâm phẫu thuật tạo hình thẩm mỹ",
+  title: "Khoa Tạo hình thẩm mỹ",
   description:
-    "Hướng trình bày dịch vụ thẩm mỹ theo cách kín đáo, tinh tế và đáng tin trong hệ sinh thái Hồng Phúc.",
+    "Dịch vụ phẫu thuật tạo hình và thẩm mỹ tại Bệnh viện Đa khoa Hồng Phúc, chú trọng an toàn, riêng tư và tư vấn rõ ràng.",
 };
 
 export default function AestheticPage() {
@@ -16,18 +16,18 @@ export default function AestheticPage() {
       <Breadcrumbs
         items={[
           { label: "Trang chủ", href: "/" },
-          { label: "Trung tâm phẫu thuật tạo hình thẩm mỹ" },
+          { label: "Khoa Tạo hình thẩm mỹ" },
         ]}
       />
       <PageHero
-        eyebrow="Trung tâm thẩm mỹ"
-        title="Nhóm dịch vụ thẩm mỹ cần một giọng điệu riêng: kín đáo hơn, tinh tế hơn, nhưng vẫn rõ chuyên môn."
-        description="Trang này giúp Hồng Phúc tách bạch mạch trải nghiệm thẩm mỹ khỏi luồng khám chữa bệnh đại trà, đồng thời giữ cùng một chuẩn mực thương hiệu và niềm tin."
+        eyebrow="Khoa Tạo hình thẩm mỹ"
+        title="Phẫu thuật tạo hình và thẩm mỹ trong môi trường bệnh viện đa khoa."
+        description="Mỗi trường hợp được bác sĩ thăm khám riêng, đánh giá sức khỏe, trao đổi kết quả mong đợi và lập kế hoạch chăm sóc sau phẫu thuật."
         imageSrc="/images/consultation.webp"
         imageAlt="Tư vấn riêng tư"
         actions={[
           { href: "/lien-he", label: "Gửi yêu cầu tư vấn" },
-          { href: "/dat-lich", label: "Đặt lịch kín đáo", variant: "secondary" },
+          { href: "/dat-lich", label: "Đặt lịch tư vấn riêng", variant: "secondary" },
         ]}
       />
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">

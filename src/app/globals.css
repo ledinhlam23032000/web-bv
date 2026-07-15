@@ -1,19 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --color-brand: #075da8;
-  --color-brand-deep: #06345f;
-  --color-brand-strong: #043f78;
-  --color-brand-soft: #d7ecff;
+  --color-brand: #0087a5;
+  --color-brand-deep: #064860;
+  --color-brand-strong: #006e88;
+  --color-brand-soft: #dff5f7;
   --color-paper: #ffffff;
-  --color-sand: #eff6fc;
-  --color-mist: #edf6ff;
-  --color-panel: #f7fbff;
-  --color-line: rgba(7, 63, 120, 0.12);
-  --color-accent: #10a6b2;
-  --color-accent-soft: #d9fbff;
-  --color-ink: #071b33;
-  --color-muted: #5d6e82;
+  --color-sand: #f8f6f1;
+  --color-mist: #e9f6f6;
+  --color-panel: #f7faf9;
+  --color-line: rgba(6, 72, 96, 0.13);
+  --color-accent: #45ad8b;
+  --color-accent-soft: #e3f8ee;
+  --color-gold: #c8912e;
+  --color-gold-soft: #fff3d8;
+  --color-ink: #172f39;
+  --color-muted: #607179;
+  --shadow-soft: 0 22px 70px -54px rgba(18, 48, 60, 0.38);
+  --shadow-lift: 0 28px 88px -58px rgba(18, 48, 60, 0.48);
   --background: var(--color-paper);
   --foreground: var(--color-ink);
 }
@@ -22,7 +26,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-be-vietnam-pro);
-  --font-serif: var(--font-be-vietnam-pro);
+  --font-serif: var(--font-display);
 }
 
 * {
@@ -34,22 +38,20 @@ html {
 }
 
 body {
-  background: var(--background);
+  background:
+    linear-gradient(180deg, #ffffff 0%, #fbfcfb 38%, #f7faf9 100%);
   color: var(--foreground);
   font-family: var(--font-be-vietnam-pro), sans-serif;
-  background-image:
-    radial-gradient(circle at top left, rgba(7, 93, 168, 0.12), transparent 24%),
-    radial-gradient(circle at top right, rgba(16, 166, 178, 0.12), transparent 26%),
-    linear-gradient(180deg, #fbfdff 0%, #f1f8ff 40%, #ffffff 100%);
   text-rendering: optimizeLegibility;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 
-h1,
-h2,
-h3,
+body h1,
+body h2,
+body h3,
 .font-serif {
-  letter-spacing: -0.03em;
+  font-family: var(--font-display), var(--font-be-vietnam-pro), serif;
+  letter-spacing: 0;
 }
 
 a:not([class]) {
@@ -61,7 +63,7 @@ img {
 }
 
 ::selection {
-  background: rgba(7, 93, 168, 0.16);
+  background: rgba(0, 127, 168, 0.16);
   color: var(--color-brand-strong);
 }
 
@@ -105,6 +107,38 @@ img {
   }
 }
 
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes marquee-left {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.52;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.88;
+    transform: scale(1.08);
+  }
+}
+
 .media-kenburns {
   animation: media-kenburns 16s ease-in-out infinite alternate;
   transform-origin: center center;
@@ -125,6 +159,65 @@ img {
   will-change: transform;
 }
 
+.reveal-up {
+  animation: reveal-up 700ms ease both;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  min-width: 200%;
+  animation: marquee-left 32s linear infinite;
+  will-change: transform;
+}
+
+.marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-right: 2.25rem;
+  white-space: nowrap;
+}
+
+.image-depth-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  box-shadow: 0 28px 90px -58px rgba(8, 42, 54, 0.66);
+  isolation: isolate;
+}
+
+.image-depth-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(180deg, transparent 42%, rgba(5, 44, 58, 0.76)),
+    radial-gradient(circle at 20% 18%, rgba(255, 255, 255, 0.26), transparent 30%);
+  pointer-events: none;
+}
+
+.spotlight-orb {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(6px);
+  animation: pulse-glow 8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.kinetic-card {
+  transition:
+    transform 520ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 520ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 520ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.kinetic-card:hover {
+  transform: translateY(-8px) scale(1.012);
+  box-shadow: 0 34px 110px -62px rgba(8, 42, 54, 0.56);
+}
+
 .premium-hover-card {
   transition:
     transform 320ms ease,
@@ -134,14 +227,43 @@ img {
 }
 
 .premium-hover-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 28px 90px -74px rgba(7, 63, 120, 0.52);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lift);
+}
+
+.clinical-card {
+  border: 1px solid var(--color-line);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: var(--shadow-soft);
+}
+
+.section-band {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(247, 250, 249, 0.96)),
+    linear-gradient(90deg, rgba(0, 135, 165, 0.055), rgba(200, 145, 46, 0.055));
+}
+
+.editorial-rule {
+  position: relative;
+}
+
+.editorial-rule::before {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  margin-bottom: 16px;
+  background: var(--color-gold);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .media-kenburns,
   .media-float,
   .surface-drift,
+  .reveal-up,
+  .marquee-track,
+  .spotlight-orb,
+  .kinetic-card,
   .premium-hover-card {
     animation: none !important;
     transition: none !important;

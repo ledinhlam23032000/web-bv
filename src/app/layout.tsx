@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Be_Vietnam_Pro } from "next/font/google";
+import { Be_Vietnam_Pro, Noto_Serif } from "next/font/google";
 import { getSiteUrl, resolveAbsoluteUrl } from "@/lib/seo";
 import { siteInfo, specialties } from "@/lib/site-content";
 import "./globals.css";
@@ -8,6 +8,12 @@ const beVietnamPro = Be_Vietnam_Pro({
   variable: "--font-be-vietnam-pro",
   subsets: ["latin", "vietnamese"],
   weight: ["400", "500", "600", "700", "800"],
+});
+
+const notoSerif = Noto_Serif({
+  variable: "--font-display",
+  subsets: ["latin", "vietnamese"],
+  weight: ["500", "600", "700", "800"],
 });
 
 const siteSchema = [
@@ -87,7 +93,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi" className={`${beVietnamPro.variable} h-full antialiased`}>
+    <html
+      lang="vi"
+      data-scroll-behavior="smooth"
+      className={`${beVietnamPro.variable} ${notoSerif.variable} h-full antialiased`}
+    >
       <body className="min-h-full flex flex-col">
         <script
           type="application/ld+json"

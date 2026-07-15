@@ -5,11 +5,9 @@ import { ArticleBrowser } from "@/components/article-browser";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero, SectionHeading } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import { getArticleContent } from "@/lib/article-details";
+import { getKnowledgeArticles } from "@/lib/headless-wordpress";
 import { resolveAbsoluteUrl } from "@/lib/seo";
 import {
-  articleCatalog,
-  getArticleSlug,
   getSpecialtyBySlug,
   guideTopics,
   searchSuggestions,
@@ -23,7 +21,31 @@ const baseMetadata: Metadata = {
     "Thư viện bài viết y khoa của Bệnh viện Đa khoa Hồng Phúc, được tổ chức theo chuyên khoa, triệu chứng, dịch vụ và nhu cầu chăm sóc sức khỏe.",
 };
 
-const categories = Array.from(new Set(articleCatalog.map((article) => article.category)));
+const categoryDescriptions: Record<string, string> = {
+  "Giới thiệu": "Tìm hiểu quy mô, định hướng chuyên môn và cách Hồng Phúc tổ chức hành trình chăm sóc người bệnh.",
+  "Hệ thống y tế": "Giải thích cách các khoa phối hợp, chia sẻ thông tin và cùng theo dõi một kế hoạch điều trị thống nhất.",
+  "Hợp tác quốc tế": "Hội chẩn, đào tạo và chuyển giao kỹ thuật mang lại lợi ích thiết thực gì cho người bệnh.",
+  "Hướng dẫn người bệnh": "Các bước đặt lịch, chuẩn bị hồ sơ, đi khám, nhận kết quả và tái khám thuận tiện hơn.",
+  "Nội tổng quát": "Những triệu chứng thường gặp, bệnh nền và chỉ số sức khỏe cần được đánh giá toàn diện.",
+  "Doanh nghiệp": "Kinh nghiệm tổ chức khám định kỳ, quản lý dữ liệu và theo dõi sức khỏe cho người lao động.",
+  "Nội Tim mạch": "Dấu hiệu cảnh báo, yếu tố nguy cơ và những kiểm tra thường dùng trong lĩnh vực Nội Tim mạch.",
+  "Dịch vụ": "Hiểu mục đích, cách chuẩn bị và những bước thường diễn ra khi thực hiện dịch vụ y tế.",
+  "Nội Ung bướu": "Tầm soát theo nguy cơ, nhận biết dấu hiệu bất thường và chăm sóc người bệnh trong quá trình điều trị.",
+  "Nội Tiêu hóa - Gan mật": "Giải đáp các vấn đề về dạ dày, đường ruột, gan mật, nội soi và dấu hiệu cần đi khám sớm.",
+  "Sản phụ khoa": "Kiến thức về khám phụ khoa, sức khỏe sinh sản và tầm soát bệnh lý thường gặp ở phụ nữ.",
+  "Thai sản": "Các mốc khám thai, xét nghiệm, siêu âm và lưu ý giúp mẹ theo dõi thai kỳ an toàn hơn.",
+  "Sức khỏe sinh sản": "Thông tin dành cho các cặp vợ chồng đang chuẩn bị mang thai hoặc cần đánh giá khả năng sinh sản.",
+  "Nhi khoa": "Cách chăm sóc trẻ, nhận biết dấu hiệu cảnh báo và chuẩn bị thông tin trước khi đưa trẻ đi khám.",
+  "Nội Cơ xương khớp": "Đau khớp, đau lưng, chấn thương và các lựa chọn điều trị giúp người bệnh sớm trở lại vận động.",
+  "Nội tiết - Chuyển hóa": "Đái tháo đường, tuyến giáp, rối loạn chuyển hóa và kế hoạch theo dõi bệnh lâu dài.",
+  "Gói khám": "Gợi ý kiểm tra sức khỏe theo tuổi, bệnh nền và nguy cơ thay vì lựa chọn danh mục một cách máy móc.",
+  "Triệu chứng": "Giúp bạn hiểu dấu hiệu đang gặp, biết điều gì cần theo dõi và khi nào nên đến bệnh viện.",
+  "Chẩn đoán hình ảnh": "Phân biệt X-quang, siêu âm, chụp cắt lớp vi tính và cộng hưởng từ theo từng mục đích chỉ định.",
+  "Xét nghiệm": "Giải thích ý nghĩa cơ bản của các chỉ số và những lưu ý cần biết trước khi lấy mẫu.",
+  "Hồi sức cấp cứu": "Dấu hiệu nguy hiểm, thông tin cần chuẩn bị và cách phối hợp khi đưa người bệnh vào cấp cứu.",
+  "Kiểm soát nhiễm khuẩn": "Vệ sinh tay, phòng ngừa lây nhiễm và những việc người bệnh có thể chủ động để cùng bảo đảm an toàn.",
+  "Tạo hình thẩm mỹ": "Thông tin về chỉ định, an toàn phẫu thuật, phục hồi chức năng và chăm sóc sau can thiệp.",
+};
 
 type InsightsPageProps = {
   searchParams: Promise<{
@@ -45,33 +67,38 @@ function describeArticleIntent(category: string, specialtyName?: string) {
   const normalized = category.toLowerCase();
 
   if (normalized.includes("triệu chứng")) {
-    return "Phù hợp khi bạn đang có dấu hiệu sức khỏe nhưng chưa rõ nên bắt đầu khám từ đâu.";
+    return "Giúp bạn hiểu dấu hiệu đang gặp và biết khi nào nên đi khám.";
   }
 
   if (normalized.includes("cấp cứu")) {
-    return "Phù hợp để nhận biết dấu hiệu cần đến bệnh viện sớm thay vì tiếp tục theo dõi tại nhà.";
+    return "Giúp nhận biết những dấu hiệu cần đến bệnh viện sớm thay vì tiếp tục theo dõi tại nhà.";
   }
 
   if (normalized.includes("gói khám") || normalized.includes("tầm soát")) {
-    return "Phù hợp khi bạn muốn chủ động kiểm tra nguy cơ và chuẩn bị một kế hoạch tầm soát rõ ràng.";
+    return "Dành cho người muốn chủ động kiểm tra nguy cơ và chuẩn bị kế hoạch tầm soát phù hợp.";
   }
 
   if (normalized.includes("nhi")) {
-    return "Phù hợp cho cha mẹ cần theo dõi trẻ đúng cách trước khi quyết định đưa trẻ đi khám.";
+    return "Giúp cha mẹ theo dõi trẻ tại nhà và nhận biết thời điểm cần đưa trẻ đi khám.";
   }
 
   if (normalized.includes("thai") || normalized.includes("sản") || normalized.includes("phụ")) {
-    return "Phù hợp cho người bệnh cần hiểu rõ lộ trình theo dõi và chuẩn bị trước buổi khám chuyên khoa.";
+    return "Giúp người bệnh hiểu các mốc theo dõi và chuẩn bị trước buổi khám chuyên khoa.";
   }
 
   if (specialtyName) {
-    return `Phù hợp khi bạn muốn hiểu rõ hơn về hướng tiếp cận của chuyên khoa ${specialtyName.toLowerCase()}.`;
+    return `Giải đáp những câu hỏi thường gặp trước khi khám ${specialtyName.toLowerCase()}.`;
   }
 
-  return "Phù hợp khi bạn cần một bài viết nền tảng để chuẩn bị câu hỏi trước khi gặp bác sĩ.";
+  return "Phù hợp khi bạn cần thông tin cơ bản để chuẩn bị câu hỏi trước khi gặp bác sĩ.";
 }
 
 function describeArticleFocus(category: string, specialtyName?: string) {
+  const categoryDescription = categoryDescriptions[category];
+  if (categoryDescription) {
+    return categoryDescription;
+  }
+
   const normalized = category.toLowerCase();
 
   if (normalized.includes("triệu chứng")) {
@@ -94,7 +121,7 @@ function describeArticleFocus(category: string, specialtyName?: string) {
     return `Những câu hỏi người bệnh thường có trước khi khám ${specialtyName.toLowerCase()}.`;
   }
 
-  return "Các mốc cần biết trước khi bước vào một hành trình thăm khám thực tế.";
+  return "Những điều cần biết để chuẩn bị tốt hơn trước buổi khám.";
 }
 
 export async function generateMetadata({ searchParams }: InsightsPageProps): Promise<Metadata> {
@@ -134,26 +161,29 @@ export async function generateMetadata({ searchParams }: InsightsPageProps): Pro
 }
 
 export default async function InsightsPage({ searchParams }: InsightsPageProps) {
+  const knowledgeArticles = await getKnowledgeArticles();
+  const categories = Array.from(new Set(knowledgeArticles.map((article) => article.category)));
   const resolvedSearchParams = await searchParams;
   const rawQuery = typeof resolvedSearchParams.query === "string" ? resolvedSearchParams.query.trim() : "";
   const requestedCategory =
     typeof resolvedSearchParams.category === "string" ? resolvedSearchParams.category.trim() : "";
   const initialCategory = categories.includes(requestedCategory) ? requestedCategory : "Tất cả";
 
-  const browserArticles = articleCatalog.map((article) => {
-    const slug = getArticleSlug(article);
+  const browserArticles = knowledgeArticles.map((article) => {
     const specialty = getSpecialtyBySlug(article.specialtySlug);
-    const content = getArticleContent(slug);
 
     return {
-      slug,
-      title: content?.title ?? article.title,
-      summary: content?.excerpt ?? article.summary,
+      slug: article.slug,
+      title: article.title,
+      summary: article.summary,
       category: article.category,
       specialtyName: specialty?.name,
       readTime: article.readTime,
-      intent: describeArticleIntent(article.category, specialty?.name),
-      focus: describeArticleFocus(article.category, specialty?.name),
+      intent: article.summary || describeArticleIntent(article.category, specialty?.name),
+      focus:
+        article.focusArea && normalize(article.focusArea) !== "noi dung chinh"
+          ? article.focusArea
+          : describeArticleFocus(article.category, specialty?.name),
     };
   });
 
@@ -180,8 +210,8 @@ export default async function InsightsPage({ searchParams }: InsightsPageProps) 
   const editorPicks = curatedArticles.slice(1, 4);
   const topicClusters = categories.slice(0, 6).map((category) => ({
     category,
-    count: articleCatalog.filter((article) => article.category === category).length,
-    article: browserArticles.find((item) => item.category === category),
+    count: knowledgeArticles.filter((article) => article.category === category).length,
+    description: describeArticleFocus(category),
   }));
 
   const queryString = new URLSearchParams(
@@ -232,7 +262,7 @@ export default async function InsightsPage({ searchParams }: InsightsPageProps) 
       <PageHero
         eyebrow="Thư viện y khoa"
         title="Kiến thức sức khỏe được biên tập để người bệnh đọc dễ, hiểu đúng và chuẩn bị tốt trước buổi khám."
-        description="Mỗi bài viết được gắn với chuyên khoa, triệu chứng và dịch vụ liên quan, để từ việc tra cứu trên Google đến lúc đặt lịch, người bệnh vẫn thấy một hành trình rõ ràng và đáng tin cậy."
+        description="Mỗi bài viết được liên kết với chuyên khoa và dịch vụ liên quan, giúp người đọc hiểu vấn đề sức khỏe và biết khi nào nên gặp bác sĩ."
         imageSrc="/images/bedside.webp"
         imageAlt="Bác sĩ trao đổi thông tin sức khỏe với người bệnh"
         actions={[
@@ -304,9 +334,9 @@ export default async function InsightsPage({ searchParams }: InsightsPageProps) 
 
         <div className="mt-10 grid gap-6 lg:grid-cols-[0.96fr_1.04fr]">
           <SectionHeading
-            eyebrow="Bắt đầu đúng cách"
-            title="Người đọc mới không cần biết quá nhiều y khoa để tìm đúng bài cần đọc."
-            description="Thư viện được tổ chức để người bệnh có thể đi theo từng nhu cầu rất đời thường: chuẩn bị đi khám, hiểu dịch vụ sắp làm, hoặc tra cứu triệu chứng trước khi quyết định gặp bác sĩ."
+            eyebrow="Gợi ý cho bạn"
+            title="Bắt đầu từ câu hỏi sức khỏe mà bạn đang quan tâm."
+            description="Bạn có thể xem cách chuẩn bị đi khám, tìm hiểu dịch vụ sắp thực hiện hoặc tra cứu triệu chứng trước khi gặp bác sĩ."
           />
           <div className="grid gap-4 sm:grid-cols-3">
             {guideTopics.map((topic) => (
@@ -330,10 +360,10 @@ export default async function InsightsPage({ searchParams }: InsightsPageProps) 
               <Search className="h-6 w-6 text-[var(--color-brand)]" />
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--color-brand)]">
-                  Lối vào nhanh
+                  Tìm nhanh
                 </p>
                 <h2 className="mt-2 font-serif text-3xl leading-tight text-[var(--color-ink)]">
-                  Tra cứu từ đúng điều người bệnh đang lo nhất
+                  Tìm theo điều bạn đang lo lắng
                 </h2>
               </div>
             </div>
@@ -363,18 +393,18 @@ export default async function InsightsPage({ searchParams }: InsightsPageProps) 
             <div className="grid gap-4 sm:grid-cols-3">
               <article className="rounded-[1.6rem] border border-[rgba(17,61,114,0.1)] bg-white/88 p-5">
                 <BookOpenText className="h-7 w-7 text-[var(--color-brand)]" />
-                <p className="mt-4 font-serif text-5xl leading-none text-[var(--color-ink)]">{articleCatalog.length}</p>
+                <p className="mt-4 font-serif text-5xl leading-none text-[var(--color-ink)]">{knowledgeArticles.length}</p>
                 <p className="mt-2 text-sm font-semibold text-[var(--color-muted)]">bài viết hiện có</p>
               </article>
               <article className="rounded-[1.6rem] border border-[rgba(17,61,114,0.1)] bg-white/88 p-5">
                 <FolderTree className="h-7 w-7 text-[var(--color-brand)]" />
                 <p className="mt-4 font-serif text-5xl leading-none text-[var(--color-ink)]">{categories.length}</p>
-                <p className="mt-2 text-sm font-semibold text-[var(--color-muted)]">cụm chủ đề</p>
+                <p className="mt-2 text-sm font-semibold text-[var(--color-muted)]">chủ đề sức khỏe</p>
               </article>
               <article className="rounded-[1.6rem] border border-[rgba(17,61,114,0.1)] bg-white/88 p-5">
                 <Stethoscope className="h-7 w-7 text-[var(--color-brand)]" />
                 <p className="mt-4 font-serif text-5xl leading-none text-[var(--color-ink)]">Rõ</p>
-                <p className="mt-2 text-sm font-semibold text-[var(--color-muted)]">đường đi khám</p>
+                <p className="mt-2 text-sm font-semibold text-[var(--color-muted)]">dễ tìm nơi khám</p>
               </article>
             </div>
 
@@ -401,14 +431,14 @@ export default async function InsightsPage({ searchParams }: InsightsPageProps) 
           <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--color-brand)]">
-                Cụm nội dung
+                Chủ đề sức khỏe
               </p>
               <h2 className="mt-2 font-serif text-3xl leading-tight text-[var(--color-ink)]">
-                Mỗi nhóm bài đều có thể mở rộng thành một thư viện lớn sau này
+                Tìm bài viết theo chủ đề bạn đang quan tâm
               </h2>
             </div>
             <p className="max-w-xl text-sm leading-7 text-[var(--color-muted)]">
-              Từ tim mạch, ung bướu, thai sản đến chẩn đoán hình ảnh, cấu trúc hiện tại đã sẵn sàng để mở rộng thành hàng trăm nghìn bài viết mà vẫn giữ logic điều hướng rõ ràng.
+              Các chủ đề được sắp xếp theo khoa và lĩnh vực, từ Nội Tim mạch, Nội Ung bướu, Sản, Nhi đến Chẩn đoán hình ảnh.
             </p>
           </div>
           <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -425,7 +455,7 @@ export default async function InsightsPage({ searchParams }: InsightsPageProps) 
                   </span>
                 </div>
                 <p className="mt-3 text-sm leading-7 text-[var(--color-muted)]">
-                  {cluster.article?.focus ?? "Đang được mở rộng thêm bài nền tảng và bài chuyên sâu."}
+                  {cluster.description}
                 </p>
               </Link>
             ))}

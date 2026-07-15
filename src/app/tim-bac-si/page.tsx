@@ -13,14 +13,14 @@ export const metadata: Metadata = {
 };
 
 const doctorStats = [
-  { value: `${doctorProfiles.length}`, label: "hồ sơ bác sĩ nổi bật" },
-  { value: `${specialties.length}`, label: "cụm chuyên khoa liên quan" },
-  { value: "1 luồng", label: "đặt lịch và điều phối" },
+  { value: `${doctorProfiles.length}`, label: "hồ sơ bác sĩ tiêu biểu" },
+  { value: `${specialties.length}`, label: "khoa chuyên môn" },
+  { value: "Dễ dàng", label: "đặt lịch và nhận xác nhận" },
 ];
 
 const selectionGuides = [
-  "Chọn theo chuyên khoa nếu bạn đã biết rõ vấn đề mình đang cần kiểm tra.",
-  "Chọn theo thế mạnh lâm sàng nếu bạn muốn gặp bác sĩ phù hợp với ca bệnh cụ thể hơn.",
+  "Chọn theo khoa nếu bạn đã biết rõ vấn đề mình đang cần kiểm tra.",
+    "Chọn theo lĩnh vực chuyên sâu nếu bạn muốn tìm bác sĩ phù hợp với vấn đề sức khỏe cụ thể.",
   "Chọn theo lịch khám và khả năng theo dõi lâu dài nếu bạn đang điều trị liên tục hoặc có bệnh nền.",
 ];
 
@@ -45,7 +45,7 @@ export default function FindDoctorPage() {
           {doctorStats.map((item) => (
             <article
               key={item.label}
-              className="rounded-[1.6rem] border border-[var(--color-line)] bg-white/90 p-5 shadow-[0_22px_80px_-68px_rgba(19,35,48,0.3)]"
+              className="premium-hover-card rounded-lg border border-[var(--color-line)] bg-white/90 p-5 shadow-[var(--shadow-soft)]"
             >
               <p className="font-serif text-[2rem] leading-none text-[var(--color-brand)]">{item.value}</p>
               <p className="mt-3 text-lg font-semibold leading-7 text-[var(--color-ink)]">{item.label}</p>
@@ -58,26 +58,26 @@ export default function FindDoctorPage() {
         <div className="mb-8 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
           <SectionHeading
             eyebrow="Danh bạ bác sĩ"
-            title="Hồ sơ bác sĩ cần đủ chiều sâu để tạo niềm tin, không chỉ để liệt kê tên."
-            description="Mỗi hồ sơ bên dưới được tổ chức theo vai trò chuyên môn, thế mạnh lâm sàng, lịch tiếp nhận và lối vào đặt lịch rõ ràng."
+            title="Tìm hiểu chuyên môn và lịch khám của từng bác sĩ."
+            description="Mỗi hồ sơ giới thiệu chức danh, lĩnh vực chuyên sâu, kinh nghiệm và lịch khám dự kiến để bạn có thêm thông tin trước khi lựa chọn."
           />
           <ActionLink href="/dat-lich" variant="secondary">
-            Đặt lịch cùng điều phối
+            Đặt lịch với bác sĩ
           </ActionLink>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-[360px_minmax(0,1fr)]">
           <aside className="lg:sticky lg:top-6 lg:self-start">
-            <div className="rounded-[1.8rem] border border-[var(--color-line)] bg-white/92 p-6 shadow-[0_24px_90px_-72px_rgba(19,35,48,0.28)]">
+            <div className="rounded-lg border border-[var(--color-line)] bg-white/92 p-6 shadow-[var(--shadow-soft)]">
               <Search className="h-6 w-6 text-[var(--color-brand)]" />
               <p className="mt-4 text-sm font-semibold uppercase tracking-[0.2em] text-[var(--color-brand)]">
-                Lọc theo chuyên khoa
+                Lọc theo khoa
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
                 {specialties.map((specialty) => (
                   <span
                     key={specialty.name}
-                    className="rounded-full border border-[var(--color-line)] bg-[var(--color-paper)] px-4 py-2 text-sm text-[var(--color-ink)]"
+                    className="rounded-lg border border-[var(--color-line)] bg-[var(--color-paper)] px-4 py-2 text-sm text-[var(--color-ink)]"
                   >
                     {specialty.name}
                   </span>
@@ -85,14 +85,14 @@ export default function FindDoctorPage() {
               </div>
             </div>
 
-            <div className="mt-5 rounded-[1.8rem] border border-[rgba(7,93,168,0.14)] bg-[linear-gradient(135deg,rgba(7,93,168,0.08),rgba(255,255,255,0.96))] p-6">
+            <div className="mt-5 rounded-lg border border-[var(--color-line)] bg-[linear-gradient(135deg,rgba(0,135,165,0.08),rgba(255,255,255,0.96))] p-6 shadow-[var(--shadow-soft)]">
               <div className="flex items-center gap-2 text-[var(--color-brand)]">
                 <Users2 className="h-5 w-5" />
                 <p className="text-sm font-semibold uppercase tracking-[0.2em]">Tiêu chí chọn bác sĩ</p>
               </div>
               <div className="mt-4 space-y-3">
                 {selectionGuides.map((item) => (
-                  <p key={item} className="rounded-[1.2rem] bg-white/90 px-4 py-3 text-sm leading-7 text-[var(--color-muted)]">
+                  <p key={item} className="rounded-lg bg-white/90 px-4 py-3 text-sm leading-7 text-[var(--color-muted)]">
                     {item}
                   </p>
                 ))}
@@ -104,9 +104,9 @@ export default function FindDoctorPage() {
             {doctorProfiles.map((doctor) => (
               <article
                 key={doctor.slug}
-                className="grid gap-5 rounded-[1.9rem] border border-[var(--color-line)] bg-white/92 p-5 shadow-[0_24px_90px_-72px_rgba(19,35,48,0.32)] md:grid-cols-[180px_1fr]"
+                className="premium-hover-card grid gap-5 rounded-lg border border-[var(--color-line)] bg-white/92 p-5 shadow-[var(--shadow-soft)] md:grid-cols-[180px_1fr]"
               >
-                <div className="relative min-h-[230px] overflow-hidden rounded-[1.5rem] bg-[var(--color-mist)] md:min-h-full">
+                <div className="relative min-h-[230px] overflow-hidden rounded-lg bg-[var(--color-mist)] md:min-h-full">
                   <Image
                     src={doctor.image}
                     alt={doctor.name}
@@ -135,7 +135,7 @@ export default function FindDoctorPage() {
                           </p>
                         ))}
                       </div>
-                      <div className="rounded-[1.2rem] bg-[var(--color-panel)] px-4 py-3">
+                      <div className="rounded-lg bg-[var(--color-panel)] px-4 py-3">
                         <p className="inline-flex items-center gap-2 text-sm font-semibold text-[var(--color-brand)]">
                           <Clock3 className="h-4 w-4" />
                           {doctor.schedule}

@@ -85,8 +85,8 @@ export default async function ServiceDetailPage({ params }: Props) {
         <div>
           <SectionHeading
             eyebrow="Dành cho ai"
-            title="Dịch vụ được giải thích theo tình huống người bệnh đang gặp."
-            description="Trước khi đặt lịch, người bệnh cần biết dịch vụ này phù hợp với ai, diễn ra ra sao và cần chuẩn bị gì để buổi khám không bị động."
+            title="Dịch vụ này phù hợp với những trường hợp nào?"
+            description="Xem các trường hợp thường được bác sĩ chỉ định, quy trình dự kiến và những điều cần chuẩn bị trước khi đến viện."
           />
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {service.audience.map((item) => (
@@ -146,9 +146,9 @@ export default async function ServiceDetailPage({ params }: Props) {
           </section>
 
           <section className="rounded-lg bg-[var(--color-brand)] p-6 text-white">
-            <p className="font-serif text-4xl leading-none">Cần điều hướng nhanh?</p>
+            <p className="font-serif text-4xl leading-none">Cần được tư vấn nhanh?</p>
             <p className="mt-4 text-sm leading-7 text-white/74">
-              Đội chăm sóc khách hàng có thể hỗ trợ chọn bác sĩ, khung giờ và hướng chuẩn bị trước khi đến.
+              Nhân viên bệnh viện có thể hỗ trợ chọn bác sĩ, khung giờ và hướng dẫn chuẩn bị trước khi đến.
             </p>
             <ActionLink href="/dat-lich" variant="contrast" className="mt-5">
               <CalendarDays className="mr-2 h-4 w-4" />

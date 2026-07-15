@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        { "slug": "brand", "color": "#0087a5", "name": "Hồng Phúc Xanh" },
+        { "slug": "brand-deep", "color": "#064860", "name": "Xanh sâu" },
+        { "slug": "gold", "color": "#c8912e", "name": "Vàng nhấn" },
+        { "slug": "ink", "color": "#172f39", "name": "Mực chữ" },
+        { "slug": "mist", "color": "#e9f6f6", "name": "Nền dịu" }
+      ]
+    },
+    "layout": {
+      "contentSize": "860px",
+      "wideSize": "1280px"
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Be Vietnam Pro\", sans-serif",
+          "slug": "be-vietnam-pro",
+          "name": "Be Vietnam Pro"
+        },
+        {
+          "fontFamily": "\"Noto Serif\", serif",
+          "slug": "noto-serif",
+          "name": "Noto Serif"
+        }
+      ]
+    }
+  }
+}

@@ -13,7 +13,7 @@ import {
 export const metadata: Metadata = {
   title: "Hợp tác quốc tế",
   description:
-    "Hợp tác chuyên môn quốc tế, hội chẩn, đào tạo, chuyển giao kỹ thuật và chuẩn vận hành tại Bệnh viện Đa khoa Hồng Phúc.",
+    "Hoạt động hợp tác chuyên môn, hội chẩn, đào tạo và chuyển giao kỹ thuật với các đối tác y tế trong khu vực của Bệnh viện Đa khoa Hồng Phúc.",
 };
 
 const icons = [Globe2, GraduationCap, ShieldCheck, Network];
@@ -24,8 +24,8 @@ export default function InternationalPartnershipPage() {
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Hợp tác quốc tế" }]} />
       <PageHero
         eyebrow="Hợp tác quốc tế"
-        title="Hợp tác quốc tế để nâng năng lực chuyên môn và chất lượng chăm sóc."
-        description={`${siteInfo.name} phát triển các chương trình hội chẩn, đào tạo, chuyển giao kỹ thuật và chuẩn hóa quy trình cùng các đối tác chuyên môn trong khu vực.`}
+        title="Kết nối chuyên gia trong khu vực để người bệnh được tiếp cận thêm lựa chọn điều trị."
+        description={`${siteInfo.name} phát triển hoạt động hội chẩn, đào tạo và chuyển giao kỹ thuật cùng các đối tác y tế trong khu vực, từ đó nâng cao năng lực chuyên môn ngay tại Hải Phòng.`}
         imageSrc="/images/medical-council-premium.webp"
         imageAlt="Đội ngũ chuyên gia trong chương trình hợp tác quốc tế"
         actions={[
@@ -37,9 +37,9 @@ export default function InternationalPartnershipPage() {
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
           <SectionHeading
-            eyebrow="Bốn trụ cột hợp tác"
-            title="Kết nối chuyên môn khu vực, phục vụ người bệnh tại Hải Phòng."
-            description="Các hoạt động hợp tác tập trung vào hội chẩn, đào tạo, cập nhật kỹ thuật, chuẩn hóa hồ sơ và nâng chất lượng chăm sóc sau khám."
+            eyebrow="Bốn hướng hợp tác"
+            title="Đưa kinh nghiệm chuyên môn từ các đối tác khu vực đến gần người bệnh Hải Phòng."
+            description="Hoạt động hợp tác tập trung vào hội chẩn, đào tạo, cập nhật kỹ thuật, cải tiến hồ sơ bệnh án và nâng cao chất lượng chăm sóc sau khám."
           />
           <div className="grid gap-5 md:grid-cols-2">
             {internationalPrograms.map((program, index) => {
@@ -66,7 +66,7 @@ export default function InternationalPartnershipPage() {
               Năng lực trọng tâm
             </p>
             <h2 className="mt-4 font-serif text-5xl leading-none">
-              Từ kỹ thuật, dữ liệu đến chăm sóc sau khám.
+              Hợp tác phải tạo ra thay đổi thiết thực trong mỗi lần khám và điều trị.
             </h2>
             <div className="mt-8 grid gap-4">
               {technologyCapabilities.map((capability) => (
@@ -93,7 +93,7 @@ export default function InternationalPartnershipPage() {
         <div className="mt-12 rounded-[2rem] border border-[rgba(17,61,114,0.1)] bg-[linear-gradient(135deg,rgba(255,255,255,0.95),rgba(237,244,250,0.82))] p-6 sm:p-8 lg:flex lg:items-center lg:justify-between">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[var(--color-brand)]">
-              Dành cho người bệnh cần hồ sơ chuyên sâu
+              Hỗ trợ hồ sơ và ý kiến chuyên môn
             </p>
             <h2 className="mt-3 max-w-3xl font-serif text-4xl leading-none text-[var(--color-ink)] sm:text-5xl">
               Cần hội chẩn, ý kiến thứ hai hoặc chuẩn bị hồ sơ điều trị?
@@ -102,7 +102,7 @@ export default function InternationalPartnershipPage() {
           <div className="mt-6 flex flex-wrap gap-3 lg:mt-0">
             <ActionLink href="/dat-lich">Đặt lịch tư vấn</ActionLink>
             <ActionLink href="/lien-he" variant="secondary">
-              Liên hệ điều phối
+              Liên hệ hỗ trợ
             </ActionLink>
           </div>
         </div>

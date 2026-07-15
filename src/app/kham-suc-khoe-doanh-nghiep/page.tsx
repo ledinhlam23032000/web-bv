@@ -6,7 +6,7 @@ import { enterprisePrograms } from "@/lib/site-content";
 
 export const metadata: Metadata = {
   title: "Khám sức khỏe doanh nghiệp",
-  description: "Trang đích cho nhu cầu khám sức khỏe theo đoàn và gửi yêu cầu báo giá.",
+  description: "Chương trình khám sức khỏe theo đoàn và tư vấn gói khám phù hợp cho doanh nghiệp.",
 };
 
 export default function EnterpriseHealthPage() {
@@ -20,8 +20,8 @@ export default function EnterpriseHealthPage() {
       />
       <PageHero
         eyebrow="Khối doanh nghiệp"
-        title="Một website bệnh viện trưởng thành cần có lối vào rõ cho khách hàng tổ chức, không chỉ khách lẻ."
-        description="Trang này được dựng để sau này mở rộng thành luồng báo giá, mô tả quy trình triển khai và chứng minh năng lực vận hành khám sức khỏe theo đoàn."
+        title="Khám sức khỏe doanh nghiệp được tổ chức gọn, linh hoạt và dễ theo dõi."
+        description="Hồng Phúc tư vấn danh mục khám theo độ tuổi, tính chất công việc và quy mô nhân sự; đồng thời hỗ trợ xếp lịch, trả kết quả và báo cáo sức khỏe tổng hợp."
         imageSrc="/images/building.webp"
         imageAlt="Không gian bệnh viện và doanh nghiệp"
         actions={[

@@ -5,20 +5,20 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { guideTopics } from "@/lib/site-content";
 
 export const metadata: Metadata = {
-  title: "Hướng dẫn khách hàng",
-  description: "Các nội dung chuẩn bị trước, bảo hiểm và quy trình đi khám cho khách hàng Hồng Phúc.",
+  title: "Hướng dẫn người bệnh",
+  description: "Thông tin về chuẩn bị trước khám, bảo hiểm và quy trình đi khám tại Hồng Phúc.",
 };
 
 export default function CustomerGuidePage() {
   return (
     <SiteChrome>
       <Breadcrumbs
-        items={[{ label: "Trang chủ", href: "/" }, { label: "Hướng dẫn khách hàng" }]}
+        items={[{ label: "Trang chủ", href: "/" }, { label: "Hướng dẫn người bệnh" }]}
       />
       <PageHero
         eyebrow="Trước khi đến khám"
-        title="Những gì người bệnh cần trước buổi khám phải được viết thật rõ, không nên để họ tự đoán."
-        description="Trang này là lớp nội dung giảm lo lắng: giấy tờ, bảo hiểm, chuẩn bị trước dịch vụ và các lưu ý thực tế trước khi đến bệnh viện."
+        title="Chuẩn bị đầy đủ để buổi khám diễn ra thuận tiện hơn."
+        description="Xem trước giấy tờ cần mang, thông tin về bảo hiểm và những lưu ý khi làm xét nghiệm, siêu âm hoặc nội soi."
         imageSrc="/images/facility.webp"
         imageAlt="Không gian tiếp đón và hướng dẫn"
         actions={[
