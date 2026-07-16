@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { ReactNode } from "react";
 import {
   ArrowUpRight,
@@ -11,23 +12,27 @@ import {
 } from "lucide-react";
 import { ActionLink } from "@/components/marketing";
 import { QuickBookingWidget } from "@/components/quick-booking-widget";
-import { footerGroups, navigation, siteInfo, specialties } from "@/lib/site-content";
+import { getCmsContent, type CmsContent } from "@/lib/cms-content";
 
-const specialtyLinks = specialties;
-
-export function SiteChrome({ children }: { children: ReactNode }) {
+export async function SiteChrome({ children }: { children: ReactNode }) {
+  const content = await getCmsContent();
   return (
     <div className="min-h-screen bg-[var(--color-paper)] pb-20 text-[var(--color-ink)] lg:pb-0">
-      <SiteHeader />
+      <SiteHeader content={content} />
       <main>{children}</main>
-      <SiteFooter />
-      <MobileQuickBar />
-      <QuickBookingWidget />
+      <SiteFooter content={content} />
+      <MobileQuickBar siteInfo={content.siteInfo} />
+      <QuickBookingWidget
+        packageOptions={content.packageOptions}
+        siteInfo={content.siteInfo}
+        specialties={content.specialties}
+      />
     </div>
   );
 }
 
-function SiteHeader() {
+function SiteHeader({ content }: { content: CmsContent }) {
+  const { navigation, siteInfo, specialties: specialtyLinks } = content;
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--color-line)] bg-white/96 backdrop-blur">
       <div className="bg-[var(--color-brand-deep)] text-white">
@@ -57,13 +62,13 @@ function SiteHeader() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex min-h-20 items-center gap-5">
           <Link href="/" className="flex min-w-0 items-center gap-3">
-            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[linear-gradient(135deg,var(--color-brand),var(--color-accent))] text-lg font-bold text-white shadow-[0_16px_34px_-26px_rgba(0,104,132,0.8)]">
-              H
-            </div>
+            {siteInfo.logo ? (
+              <Image src={siteInfo.logo} alt={siteInfo.name} width={48} height={48} className="h-12 w-12 shrink-0 rounded-lg object-contain" />
+            ) : (
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-[linear-gradient(135deg,var(--color-brand),var(--color-accent))] text-lg font-bold text-white shadow-[0_16px_34px_-26px_rgba(0,104,132,0.8)]">H</div>
+            )}
             <div className="min-w-0">
-              <p className="text-xs font-bold uppercase text-[var(--color-brand)]">
-                Bệnh viện đa khoa
-              </p>
+              <p className="text-xs font-bold uppercase text-[var(--color-brand)]">Bệnh viện đa khoa</p>
               <p className="truncate font-serif text-2xl font-semibold leading-none text-[var(--color-ink)]">
                 {siteInfo.shortName}
               </p>
@@ -121,24 +126,24 @@ function SiteHeader() {
   );
 }
 
-function SiteFooter() {
+function SiteFooter({ content }: { content: CmsContent }) {
+  const { footerGroups, siteInfo } = content;
   return (
     <footer className="mt-20 border-t border-[var(--color-line)] bg-[linear-gradient(180deg,var(--color-brand-deep),#042f3f)] text-white">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.3fr_0.7fr_0.7fr_0.9fr] lg:px-8">
         <div>
           <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-white text-lg font-bold text-[var(--color-brand)]">
-              H
-            </div>
+            {siteInfo.logo ? (
+              <Image src={siteInfo.logo} alt={siteInfo.name} width={48} height={48} className="h-12 w-12 rounded-lg bg-white object-contain" />
+            ) : (
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-white text-lg font-bold text-[var(--color-brand)]">H</div>
+            )}
             <div>
               <p className="text-xs font-bold uppercase text-white/70">Bệnh viện đa khoa</p>
               <p className="text-2xl font-bold leading-none">{siteInfo.shortName}</p>
             </div>
           </div>
-          <p className="mt-5 max-w-xl text-sm leading-7 text-white/76">
-            Bệnh viện đa khoa tại Hải Phòng với 17 khoa chuyên môn, tăng cường hợp tác trong khu vực
-            và đồng hành cùng người bệnh trong suốt quá trình chăm sóc.
-          </p>
+          <p className="mt-5 max-w-xl text-sm leading-7 text-white/76">{siteInfo.description}</p>
           <div className="mt-5 space-y-2 text-sm text-white/74">
             <p>{siteInfo.address}</p>
             <p>{siteInfo.phone}</p>
@@ -173,13 +178,13 @@ function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-white/10 px-4 py-4 text-center text-sm text-white/58">
-        © 2026 Bệnh viện Đa khoa Hồng Phúc. Nội dung sức khỏe chỉ có giá trị tham khảo và không thay thế chẩn đoán của bác sĩ.
+        © 2026 {siteInfo.name}. Nội dung sức khỏe chỉ có giá trị tham khảo và không thay thế chẩn đoán của bác sĩ.
       </div>
     </footer>
   );
 }
 
-function MobileQuickBar() {
+function MobileQuickBar({ siteInfo }: { siteInfo: CmsContent["siteInfo"] }) {
   return (
     <div className="fixed inset-x-0 bottom-0 z-50 border-t border-[var(--color-line)] bg-white/96 px-3 py-2 shadow-[0_-12px_28px_-24px_rgba(19,35,48,0.5)] backdrop-blur lg:hidden">
       <div className="mx-auto grid max-w-7xl grid-cols-4 gap-2">

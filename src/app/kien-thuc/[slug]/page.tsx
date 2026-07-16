@@ -15,17 +15,9 @@ import { ActionLink } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
 import { getArticleContent } from "@/lib/article-details";
 import type { ArticleDetailSection } from "@/lib/article-details";
-import { getKnowledgeArticleBySlug, type KnowledgeArticle } from "@/lib/headless-wordpress";
-import {
-  articleCatalog,
-  getArticleSlug,
-  getArticlesBySpecialty,
-  getDoctorsBySpecialty,
-  getServicesBySpecialty,
-  getSpecialtyBySlug,
-  guideTopics,
-  siteInfo,
-} from "@/lib/site-content";
+import { getCmsContent } from "@/lib/cms-content";
+import { getKnowledgeArticleBySlug, getKnowledgeArticles, type KnowledgeArticle } from "@/lib/headless-wordpress";
+import { getArticleSlug } from "@/lib/site-content";
 
 type Props = PageProps<"/kien-thuc/[slug]">;
 
@@ -34,8 +26,9 @@ type ContentBlock =
   | { type: "prompt"; text: string }
   | { type: "list"; items: string[] };
 
-export function generateStaticParams() {
-  return articleCatalog.map((article) => ({ slug: getArticleSlug(article) }));
+export async function generateStaticParams() {
+  const articles = await getKnowledgeArticles();
+  return articles.map((article) => ({ slug: article.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -277,6 +270,8 @@ function toContentBlocks(paragraphs: string[]): ContentBlock[] {
 
 export default async function KnowledgeArticlePage({ params }: Props) {
   const { slug } = await params;
+  const cms = await getCmsContent();
+  const allArticles = await getKnowledgeArticles();
   const resolvedArticle = await getKnowledgeArticleBySlug(slug);
 
   if (!resolvedArticle) {
@@ -284,12 +279,14 @@ export default async function KnowledgeArticlePage({ params }: Props) {
   }
 
   const { article, content } = resolvedArticle;
+  const { doctorProfiles, guideTopics, medicalServices, siteInfo, specialties } = cms;
   const displayTitle = content?.title ?? article.title;
   const displaySummary = content?.excerpt ?? article.summary;
-  const specialty = getSpecialtyBySlug(article.specialtySlug);
-  const relatedServices = getServicesBySpecialty(article.specialtySlug).slice(0, 3);
-  const relatedDoctors = getDoctorsBySpecialty(article.specialtySlug).slice(0, 2);
-  const relatedArticles = getArticlesBySpecialty(article.specialtySlug)
+  const specialty = specialties.find((item) => item.slug === article.specialtySlug);
+  const relatedServices = medicalServices.filter((item) => item.specialtySlug === article.specialtySlug).slice(0, 3);
+  const relatedDoctors = doctorProfiles.filter((item) => item.specialtySlug === article.specialtySlug).slice(0, 2);
+  const relatedArticles = allArticles
+    .filter((item) => item.specialtySlug === article.specialtySlug)
     .filter((item) => item.title !== article.title)
     .slice(0, 3);
   const sections: ArticleDetailSection[] = content?.sections.length ? content.sections : makeArticleSections(article);

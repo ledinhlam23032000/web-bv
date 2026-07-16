@@ -5,15 +5,8 @@ import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero, SectionHeading } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
 import { getArticleContent } from "@/lib/article-details";
-import {
-  getDoctorsBySpecialty,
-  getArticleSlug,
-  getArticlesBySpecialty,
-  getServicesBySpecialty,
-  getSpecialtyBySlug,
-  siteInfo,
-  specialties,
-} from "@/lib/site-content";
+import { getCmsContent } from "@/lib/cms-content";
+import { getArticleSlug } from "@/lib/site-content";
 
 type Props = PageProps<"/chuyen-khoa/[slug]">;
 
@@ -28,13 +21,15 @@ function toSectionId(value: string) {
     .replace(/^-+|-+$/g, "");
 }
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { specialties } = await getCmsContent();
   return specialties.map((specialty) => ({ slug: specialty.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const specialty = getSpecialtyBySlug(slug);
+  const { specialties } = await getCmsContent();
+  const specialty = specialties.find((item) => item.slug === slug);
 
   if (!specialty) {
     return {};
@@ -48,15 +43,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function SpecialtyDetailPage({ params }: Props) {
   const { slug } = await params;
-  const specialty = getSpecialtyBySlug(slug);
+  const content = await getCmsContent();
+  const { articleCatalog, doctorProfiles, medicalServices, siteInfo, specialties } = content;
+  const specialty = specialties.find((item) => item.slug === slug);
 
   if (!specialty) {
     notFound();
   }
 
-  const doctors = getDoctorsBySpecialty(specialty.slug);
-  const services = getServicesBySpecialty(specialty.slug);
-  const articles = getArticlesBySpecialty(specialty.slug).slice(0, 3);
+  const doctors = doctorProfiles.filter((doctor) => doctor.specialtySlug === specialty.slug);
+  const services = medicalServices.filter((service) => service.specialtySlug === specialty.slug);
+  const articles = articleCatalog.filter((article) => article.specialtySlug === specialty.slug).slice(0, 3);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalSpecialty",

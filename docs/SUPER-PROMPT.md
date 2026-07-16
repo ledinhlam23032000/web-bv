@@ -47,7 +47,7 @@ B. QUY TẮC KỸ THUẬT KHÔNG ĐƯỢC VI PHẠM
 - Link trycloudflare.com chỉ là link xem thử tạm, không phải deployment bền vững.
 - Kiến trúc phải giữ mô hình:
   - Next.js App Router cho frontend public
-  - WordPress Docker làm CMS nội dung
+  - WordPress Docker làm CMS cho toàn bộ nội dung, media, thứ tự khối và SEO
   - Plugin hong-phuc-core cung cấp REST route cho bài viết
   - fallback dữ liệu nội bộ khi WordPress chưa sẵn
 
@@ -73,6 +73,8 @@ Sau đó đọc các file kỹ thuật lõi:
 6. src/components/quick-booking-widget.tsx
 7. src/lib/site-content.ts
 8. src/lib/headless-wordpress.ts
+9. src/lib/cms-content.ts
+10. wordpress/wp-content/plugins/hong-phuc-core/includes/cms-control.php
 9. wordpress/docker-compose.yml
 10. wordpress/wp-content/plugins/hong-phuc-core/hong-phuc-core.php
 

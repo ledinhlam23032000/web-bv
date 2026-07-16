@@ -13,14 +13,7 @@ import {
   Stethoscope,
   UserRound,
 } from "lucide-react";
-import {
-  doctorProfiles,
-  medicalServices,
-  packageOptions,
-  siteInfo,
-  specialties,
-  symptomGroups,
-} from "@/lib/site-content";
+import type { CmsContent } from "@/lib/cms-content";
 
 type AppointmentIntent = "specialty" | "doctor" | "symptom" | "package";
 
@@ -62,7 +55,17 @@ const timeSlots = ["07:30 - 09:00", "09:00 - 11:00", "13:30 - 15:00", "15:00 - 1
 const fieldClass =
   "w-full rounded-lg border border-[var(--color-line)] bg-white px-4 py-3 text-sm text-[var(--color-ink)] outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-brand)] focus:ring-4 focus:ring-[rgba(0,135,165,0.1)]";
 
-export function AppointmentFlow() {
+export function AppointmentFlow({
+  doctorProfiles,
+  medicalServices,
+  packageOptions,
+  siteInfo,
+  specialties,
+  symptomGroups,
+}: Pick<
+  CmsContent,
+  "doctorProfiles" | "medicalServices" | "packageOptions" | "siteInfo" | "specialties" | "symptomGroups"
+>) {
   const [intent, setIntent] = useState<AppointmentIntent>("specialty");
   const [specialtySlug, setSpecialtySlug] = useState(specialties[0]?.slug ?? "");
   const [doctorSlug, setDoctorSlug] = useState(doctorProfiles[0]?.slug ?? "");

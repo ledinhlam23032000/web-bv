@@ -108,7 +108,9 @@ Repo được tổ chức để:
 ## 9. Dữ liệu và nguồn nội dung
 
 - `src/lib/site-content.ts` là nguồn fallback nội bộ cho thông tin bệnh viện, khoa, dịch vụ, bác sĩ, nhóm triệu chứng và một phần bài viết.
-- `src/lib/headless-wordpress.ts` ưu tiên lấy bài viết từ WordPress qua REST route `/hong-phuc/v1/articles`.
+- `src/lib/cms-content.ts` ưu tiên lấy nội dung toàn site từ WordPress qua REST route `/hong-phuc/v1/content`.
+- `src/lib/headless-wordpress.ts` lấy danh sách và chi tiết bài viết qua `/hong-phuc/v1/articles`; danh sách không tải toàn bộ nội dung để có thể mở rộng số lượng lớn.
+- Trang chủ lấy thứ tự và trạng thái bật/tắt khối từ Gutenberg. WordPress gọi `/api/revalidate` sau khi lưu để làm mới frontend.
 - Nếu WordPress không phản hồi, site vẫn chạy bằng dữ liệu fallback.
 
 ## 10. Tài liệu phải đọc thêm

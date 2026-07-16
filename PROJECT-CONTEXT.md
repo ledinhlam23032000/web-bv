@@ -23,7 +23,8 @@
 - Cổng public local: `9999`
 - CMS nội dung: WordPress Docker
 - Cổng WordPress local: `10088`
-- Cầu nối headless: `src/lib/headless-wordpress.ts`
+- Cầu nối bài viết headless: `src/lib/headless-wordpress.ts`
+- Cầu nối nội dung toàn site: `src/lib/cms-content.ts`
 - Plugin headless WordPress: `wordpress/wp-content/plugins/hong-phuc-core/hong-phuc-core.php`
 - Dữ liệu fallback nội bộ: `src/lib/site-content.ts`
 
@@ -60,7 +61,9 @@ Site hiện bám theo đúng 17 khoa thực tế sau:
 
 - Đã có homepage hoàn chỉnh.
 - Đã có các trang lõi cho chuyên khoa, dịch vụ, bác sĩ, bài viết, liên hệ và đặt lịch.
-- Đã có lớp headless WordPress để lấy bài viết thật nếu WordPress chạy.
+- WordPress là nguồn quản trị chính cho thông tin toàn site, menu, footer, SEO, trang, khoa, dịch vụ, bác sĩ, gói khám và bài viết.
+- Trang chủ tôn trọng thứ tự và trạng thái bật/tắt block Gutenberg; frontend giữ phần trình bày.
+- WordPress gọi `/api/revalidate` để nội dung mới xuất hiện ngay trên frontend.
 - Đã có dữ liệu fallback để site vẫn lên khi WordPress chưa sẵn sàng.
 - Đã có batch file phục vụ chạy local, chạy bản public nội bộ và tạo link xem thử miễn phí.
 

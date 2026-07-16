@@ -13,12 +13,16 @@ import {
   Stethoscope,
   X,
 } from "lucide-react";
-import { packageOptions, siteInfo, specialties } from "@/lib/site-content";
+import type { CmsContent } from "@/lib/cms-content";
 
 const fieldClass =
   "w-full rounded-2xl border border-[var(--color-line)] bg-white px-4 py-3 text-sm text-[var(--color-ink)] outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-brand)] focus:ring-4 focus:ring-[rgba(0,135,165,0.11)]";
 
-export function QuickBookingWidget() {
+export function QuickBookingWidget({
+  packageOptions,
+  siteInfo,
+  specialties,
+}: Pick<CmsContent, "packageOptions" | "siteInfo" | "specialties">) {
   const [open, setOpen] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 

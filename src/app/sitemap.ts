@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
+import { getCmsContent } from "@/lib/cms-content";
 import { getKnowledgeArticles } from "@/lib/headless-wordpress";
 import { resolveAbsoluteUrl } from "@/lib/seo";
-import { doctorProfiles, medicalServices, specialties } from "@/lib/site-content";
 
 const staticRoutes = [
   "",
@@ -21,7 +21,8 @@ const staticRoutes = [
 ];
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const lastModified = new Date("2026-07-14");
+  const { doctorProfiles, medicalServices, specialties, updatedAt } = await getCmsContent();
+  const lastModified = updatedAt ? new Date(updatedAt) : new Date();
   const knowledgeArticles = await getKnowledgeArticles();
   const dynamicRoutes: Array<{ route: string; priority: number; changeFrequency: "weekly" | "monthly" }> = [
     ...specialties.map((specialty) => ({

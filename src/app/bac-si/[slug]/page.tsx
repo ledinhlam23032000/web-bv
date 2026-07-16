@@ -5,23 +5,19 @@ import { CalendarDays, GraduationCap, ShieldCheck, Stethoscope } from "lucide-re
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import {
-  doctorProfiles,
-  getDoctorBySlug,
-  getServiceBySlug,
-  getSpecialtyBySlug,
-  siteInfo,
-} from "@/lib/site-content";
+import { getCmsContent } from "@/lib/cms-content";
 
 type Props = PageProps<"/bac-si/[slug]">;
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { doctorProfiles } = await getCmsContent();
   return doctorProfiles.map((doctor) => ({ slug: doctor.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const doctor = getDoctorBySlug(slug);
+  const { doctorProfiles } = await getCmsContent();
+  const doctor = doctorProfiles.find((item) => item.slug === slug);
 
   if (!doctor) {
     return {};
@@ -35,15 +31,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function DoctorDetailPage({ params }: Props) {
   const { slug } = await params;
-  const doctor = getDoctorBySlug(slug);
+  const { doctorProfiles, medicalServices, siteInfo, specialties } = await getCmsContent();
+  const doctor = doctorProfiles.find((item) => item.slug === slug);
 
   if (!doctor) {
     notFound();
   }
 
-  const specialty = getSpecialtyBySlug(doctor.specialtySlug);
-  const relatedServices = doctor.relatedServices
-    .map((serviceSlug) => getServiceBySlug(serviceSlug))
+  const specialty = specialties.find((item) => item.slug === doctor.specialtySlug);
+  const relatedServices = (doctor.relatedServices ?? [])
+    .map((serviceSlug) => medicalServices.find((service) => service.slug === serviceSlug))
     .filter(Boolean);
   const jsonLd = {
     "@context": "https://schema.org",

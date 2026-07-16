@@ -2,30 +2,21 @@ import type { Metadata } from "next";
 import { ActionLink, PageHero } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { guideTopics } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Hướng dẫn người bệnh",
-  description: "Thông tin về chuẩn bị trước khám, bảo hiểm và quy trình đi khám tại Hồng Phúc.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("huong-dan-khach-hang", { title: "Hướng dẫn người bệnh", description: "Thông tin về chuẩn bị trước khám, bảo hiểm và quy trình đi khám tại Hồng Phúc." });
+}
 
-export default function CustomerGuidePage() {
+export default async function CustomerGuidePage() {
+  const { guideTopics, pages } = await getCmsContent();
+  const hero = resolveCmsHero(pages["huong-dan-khach-hang"] ?? null, { eyebrow: "Trước khi đến khám", title: "Chuẩn bị đầy đủ để buổi khám diễn ra thuận tiện hơn.", description: "Xem trước giấy tờ cần mang, thông tin về bảo hiểm và những lưu ý khi làm xét nghiệm, siêu âm hoặc nội soi.", imageSrc: "/images/facility.webp", imageAlt: "Không gian tiếp đón và hướng dẫn", actions: [{ href: "/dat-lich", label: "Đặt lịch khám" }, { href: "/lien-he", label: "Liên hệ hỗ trợ", variant: "secondary" }] });
   return (
     <SiteChrome>
       <Breadcrumbs
         items={[{ label: "Trang chủ", href: "/" }, { label: "Hướng dẫn người bệnh" }]}
       />
-      <PageHero
-        eyebrow="Trước khi đến khám"
-        title="Chuẩn bị đầy đủ để buổi khám diễn ra thuận tiện hơn."
-        description="Xem trước giấy tờ cần mang, thông tin về bảo hiểm và những lưu ý khi làm xét nghiệm, siêu âm hoặc nội soi."
-        imageSrc="/images/facility.webp"
-        imageAlt="Không gian tiếp đón và hướng dẫn"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch khám" },
-          { href: "/lien-he", label: "Liên hệ hỗ trợ", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-5 lg:grid-cols-3">
           {guideTopics.map((topic) => (

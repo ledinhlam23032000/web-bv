@@ -4,12 +4,11 @@ import { BrainCircuit, GraduationCap, HeartHandshake } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import { doctorProfiles } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Đội ngũ bác sĩ",
-  description: "Đội ngũ bác sĩ và chuyên gia tại Bệnh viện Đa khoa Hồng Phúc.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("doi-ngu-bac-si", { title: "Đội ngũ bác sĩ", description: "Đội ngũ bác sĩ và chuyên gia tại Bệnh viện Đa khoa Hồng Phúc." });
+}
 
 const valuePoints = [
   {
@@ -32,23 +31,15 @@ const valuePoints = [
   },
 ];
 
-export default function DoctorsPage() {
+export default async function DoctorsPage() {
+  const { doctorProfiles, pages } = await getCmsContent();
+  const hero = resolveCmsHero(pages["doi-ngu-bac-si"] ?? null, { eyebrow: "Đội ngũ bác sĩ", title: "Bác sĩ chuyên sâu từng lĩnh vực, phối hợp khi người bệnh cần nhiều chuyên khoa.", description: "Xem lĩnh vực chuyên môn, kinh nghiệm, lịch khám và các dịch vụ liên quan của từng bác sĩ.", imageSrc: "/images/doctor-team-premium.webp", imageAlt: "Đội ngũ bác sĩ Bệnh viện Đa khoa Hồng Phúc", actions: [{ href: "/dat-lich", label: "Đặt lịch với bác sĩ" }, { href: "/chuyen-khoa", label: "Xem theo khoa", variant: "secondary" }] });
   return (
     <SiteChrome>
       <Breadcrumbs
         items={[{ label: "Trang chủ", href: "/" }, { label: "Đội ngũ bác sĩ" }]}
       />
-      <PageHero
-        eyebrow="Đội ngũ bác sĩ"
-        title="Bác sĩ chuyên sâu từng lĩnh vực, phối hợp khi người bệnh cần nhiều chuyên khoa."
-        description="Xem lĩnh vực chuyên môn, kinh nghiệm, lịch khám và các dịch vụ liên quan của từng bác sĩ để lựa chọn người phù hợp trước khi đặt lịch."
-        imageSrc="/images/doctor-team-premium.webp"
-        imageAlt="Đội ngũ bác sĩ Bệnh viện Đa khoa Hồng Phúc"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch với bác sĩ" },
-          { href: "/chuyen-khoa", label: "Xem theo khoa", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-5 lg:grid-cols-2">
           {doctorProfiles.map((doctor) => (

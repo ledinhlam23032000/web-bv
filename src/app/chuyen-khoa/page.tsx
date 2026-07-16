@@ -13,18 +13,11 @@ import {
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero, SectionHeading } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import {
-  articleCatalog,
-  getArticlesBySpecialty,
-  getServicesBySpecialty,
-  specialties,
-} from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Hệ thống 17 khoa chuyên môn",
-  description:
-    "Tìm hiểu 17 khoa chuyên môn và các lĩnh vực chuyên sâu tại Bệnh viện Đa khoa Hồng Phúc.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("chuyen-khoa", { title: "Hệ thống 17 khoa chuyên môn", description: "Tìm hiểu 17 khoa chuyên môn và các lĩnh vực chuyên sâu tại Bệnh viện Đa khoa Hồng Phúc." });
+}
 
 const specialtyIcons = [
   HeartPulse,
@@ -52,47 +45,35 @@ const specialtyGroups = [
   },
 ];
 
-const overviewStats = [
-  {
-    value: `${specialties.length}`,
-    label: "khoa chuyên môn",
-    description: "Cơ cấu đúng theo hoạt động hiện có của Bệnh viện Đa khoa Hồng Phúc.",
-  },
-  {
-    value: `${specialtyGroups.length}`,
-    label: "khối phối hợp",
-    description: "Lâm sàng, cận lâm sàng và hỗ trợ điều trị cùng kết nối quanh người bệnh.",
-  },
-  {
-    value: `${articleCatalog.length}`,
-    label: "bài viết sức khỏe",
-    description: "Được phân lại theo khoa chủ quản và lĩnh vực chuyên sâu để dễ tìm kiếm.",
-  },
-];
-
 const pathwayGuides = [
   "Chưa rõ nên khám ở đâu: bắt đầu từ Khoa Nội hoặc mô tả triệu chứng khi đặt lịch.",
   "Có dấu hiệu nguy hiểm: đến Khoa Hồi sức cấp cứu hoặc gọi bệnh viện để được hướng dẫn ngay.",
   "Đã có chỉ định: chọn đúng khoa trên phiếu và mang theo kết quả, đơn thuốc, phim chụp cũ.",
 ];
 
-export default function SpecialtiesPage() {
+export default async function SpecialtiesPage() {
+  const { articleCatalog, medicalServices, pages, specialties } = await getCmsContent();
+  const getServicesBySpecialty = (slug: string) => medicalServices.filter((service) => service.specialtySlug === slug);
+  const getArticlesBySpecialty = (slug: string) => articleCatalog.filter((article) => article.specialtySlug === slug);
+  const overviewStats = [
+    { value: `${specialties.length}`, label: "khoa chuyên môn", description: "Cơ cấu đúng theo hoạt động hiện có của Bệnh viện Đa khoa Hồng Phúc." },
+    { value: `${specialtyGroups.length}`, label: "khối phối hợp", description: "Lâm sàng, cận lâm sàng và hỗ trợ điều trị cùng kết nối quanh người bệnh." },
+    { value: `${articleCatalog.length}`, label: "bài viết sức khỏe", description: "Được phân lại theo khoa chủ quản và lĩnh vực chuyên sâu để dễ tìm kiếm." },
+  ];
+  const hero = resolveCmsHero(pages["chuyen-khoa"] ?? null, {
+    eyebrow: "Hệ thống chuyên khoa",
+    title: "17 khoa chuyên môn cùng phối hợp trong một hành trình chăm sóc.",
+    description: "Tìm hiểu phạm vi chuyên môn, dịch vụ, bác sĩ và kiến thức sức khỏe của từng khoa.",
+    imageSrc: "/images/doctor-team-premium.webp",
+    imageAlt: "Hệ thống chuyên khoa Bệnh viện Đa khoa Hồng Phúc",
+    actions: [{ href: "/dat-lich", label: "Đặt lịch khám" }, { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" }],
+  });
   const internalMedicine = specialties.find((specialty) => specialty.slug === "noi");
 
   return (
     <SiteChrome>
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Chuyên khoa" }]} />
-      <PageHero
-        eyebrow="Hệ thống 17 khoa chuyên môn"
-        title="Đúng khoa, đúng lĩnh vực, thuận tiện ngay từ lần khám đầu tiên."
-        description="Hồng Phúc tổ chức các khoa theo ba khối phối hợp. Những lĩnh vực như Tim mạch, Tiêu hóa, Cơ xương khớp và Ung bướu được đặt đúng dưới Khoa Nội thay vì tách thành trung tâm độc lập."
-        imageSrc="/images/hospital-exterior-premium.webp"
-        imageAlt="Toàn cảnh Bệnh viện Đa khoa Hồng Phúc"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch khám" },
-          { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
 
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-4 md:grid-cols-3">

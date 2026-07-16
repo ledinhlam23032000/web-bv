@@ -3,36 +3,21 @@ import { CheckCircle2, Globe2, GraduationCap, Network, ShieldCheck } from "lucid
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero, SectionHeading } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import {
-  internationalPrograms,
-  siteInfo,
-  technologyCapabilities,
-  trustPillars,
-} from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Hợp tác quốc tế",
-  description:
-    "Hoạt động hợp tác chuyên môn, hội chẩn, đào tạo và chuyển giao kỹ thuật với các đối tác y tế trong khu vực của Bệnh viện Đa khoa Hồng Phúc.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("hop-tac-quoc-te", { title: "Hợp tác quốc tế", description: "Hoạt động hợp tác chuyên môn, hội chẩn, đào tạo và chuyển giao kỹ thuật với các đối tác y tế trong khu vực của Bệnh viện Đa khoa Hồng Phúc." });
+}
 
 const icons = [Globe2, GraduationCap, ShieldCheck, Network];
 
-export default function InternationalPartnershipPage() {
+export default async function InternationalPartnershipPage() {
+  const { internationalPrograms, pages, siteInfo, technologyCapabilities, trustPillars } = await getCmsContent();
+  const hero = resolveCmsHero(pages["hop-tac-quoc-te"] ?? null, { eyebrow: "Hợp tác quốc tế", title: "Kết nối chuyên gia trong khu vực để người bệnh được tiếp cận thêm lựa chọn điều trị.", description: `${siteInfo.name} phát triển hoạt động hội chẩn, đào tạo và chuyển giao kỹ thuật cùng các đối tác y tế trong khu vực.`, imageSrc: "/images/medical-council-premium.webp", imageAlt: "Đội ngũ chuyên gia trong chương trình hợp tác quốc tế", actions: [{ href: "/dat-lich", label: "Đặt lịch tư vấn" }, { href: "/chuyen-khoa", label: "Xem chuyên khoa", variant: "secondary" }] });
   return (
     <SiteChrome>
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Hợp tác quốc tế" }]} />
-      <PageHero
-        eyebrow="Hợp tác quốc tế"
-        title="Kết nối chuyên gia trong khu vực để người bệnh được tiếp cận thêm lựa chọn điều trị."
-        description={`${siteInfo.name} phát triển hoạt động hội chẩn, đào tạo và chuyển giao kỹ thuật cùng các đối tác y tế trong khu vực, từ đó nâng cao năng lực chuyên môn ngay tại Hải Phòng.`}
-        imageSrc="/images/medical-council-premium.webp"
-        imageAlt="Đội ngũ chuyên gia trong chương trình hợp tác quốc tế"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch tư vấn" },
-          { href: "/chuyen-khoa", label: "Xem chuyên khoa", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">

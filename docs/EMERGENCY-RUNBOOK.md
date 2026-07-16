@@ -14,6 +14,8 @@ Tài liệu này dùng khi web lỗi, mất máy, đổi người vận hành ho
 - Frontend public: Next.js App Router
 - CMS nội dung: WordPress Docker
 - Bài viết thật: REST route WordPress `/hong-phuc/v1/articles`
+- Nội dung toàn site: REST route WordPress `/hong-phuc/v1/content`
+- Làm mới cache khi lưu: Next route `/api/revalidate`
 - Fallback khi CMS chưa sẵn: `src/lib/site-content.ts`
 - Plugin CMS quan trọng: `wordpress/wp-content/plugins/hong-phuc-core/hong-phuc-core.php`
 
@@ -31,6 +33,8 @@ Tài liệu này dùng khi web lỗi, mất máy, đổi người vận hành ho
 2. Kiểm tra `http://localhost:10088/wp-admin/`.
 3. Nếu admin vào được nhưng frontend chưa có bài viết, kiểm tra REST route:
    `http://localhost:10088/index.php?rest_route=/hong-phuc/v1/articles&per_page=5`
+4. Kiểm tra API toàn site:
+   `http://localhost:10088/index.php?rest_route=/hong-phuc/v1/content`
 
 ### Trường hợp link xem thử miễn phí chết
 

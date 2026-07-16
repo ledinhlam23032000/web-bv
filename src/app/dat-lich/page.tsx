@@ -4,12 +4,11 @@ import { AppointmentFlow } from "@/components/appointment-flow";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { PageHero } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import { siteInfo } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Đặt lịch khám",
-  description: "Đặt lịch khám tại Bệnh viện Đa khoa Hồng Phúc.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("dat-lich", { title: "Đặt lịch khám", description: "Đặt lịch khám tại Bệnh viện Đa khoa Hồng Phúc." });
+}
 
 const assuranceItems = [
   {
@@ -34,21 +33,24 @@ const assuranceItems = [
   },
 ];
 
-export default function AppointmentPage() {
+export default async function AppointmentPage() {
+  const content = await getCmsContent();
+  const { siteInfo } = content;
+  const hero = resolveCmsHero(content.pages["dat-lich"] ?? null, {
+    eyebrow: "Đặt lịch khám",
+    title: "Chọn cách đặt lịch thuận tiện nhất với nhu cầu của bạn.",
+    description: "Người bệnh có thể đặt theo khoa, bác sĩ, triệu chứng hoặc gói khám. Nhân viên bệnh viện sẽ xác nhận lịch và hướng dẫn chuẩn bị trước khi đến viện.",
+    imageSrc: "/images/consultation.webp",
+    imageAlt: "Bác sĩ tư vấn cho người bệnh",
+    actions: [
+      { href: `tel:${siteInfo.phone.replace(/\s+/g, "")}`, label: "Gọi tổng đài" },
+      { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" },
+    ],
+  });
   return (
     <SiteChrome>
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Đặt lịch khám" }]} />
-      <PageHero
-        eyebrow="Đặt lịch khám"
-        title="Chọn cách đặt lịch thuận tiện nhất với nhu cầu của bạn."
-        description="Người bệnh có thể đặt theo khoa, bác sĩ, triệu chứng hoặc gói khám. Nhân viên bệnh viện sẽ xác nhận lịch và hướng dẫn chuẩn bị trước khi đến viện."
-        imageSrc="/images/consultation.webp"
-        imageAlt="Bác sĩ tư vấn cho người bệnh"
-        actions={[
-          { href: `tel:${siteInfo.phone.replace(/\s+/g, "")}`, label: "Gọi tổng đài" },
-          { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
 
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
@@ -65,7 +67,14 @@ export default function AppointmentPage() {
         </div>
       </section>
 
-      <AppointmentFlow />
+      <AppointmentFlow
+        doctorProfiles={content.doctorProfiles}
+        medicalServices={content.medicalServices}
+        packageOptions={content.packageOptions}
+        siteInfo={content.siteInfo}
+        specialties={content.specialties}
+        symptomGroups={content.symptomGroups}
+      />
     </SiteChrome>
   );
 }

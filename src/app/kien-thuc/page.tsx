@@ -5,15 +5,9 @@ import { ArticleBrowser } from "@/components/article-browser";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero, SectionHeading } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 import { getKnowledgeArticles } from "@/lib/headless-wordpress";
 import { resolveAbsoluteUrl } from "@/lib/seo";
-import {
-  getSpecialtyBySlug,
-  guideTopics,
-  searchSuggestions,
-  siteInfo,
-  symptomGroups,
-} from "@/lib/site-content";
 
 const baseMetadata: Metadata = {
   title: "Kiến thức sức khỏe",
@@ -157,10 +151,15 @@ export async function generateMetadata({ searchParams }: InsightsPageProps): Pro
     };
   }
 
-  return baseMetadata;
+  return getCmsPageMetadata("kien-thuc", {
+    title: String(baseMetadata.title),
+    description: String(baseMetadata.description),
+  });
 }
 
 export default async function InsightsPage({ searchParams }: InsightsPageProps) {
+  const { guideTopics, pages, searchSuggestions, siteInfo, specialties, symptomGroups } = await getCmsContent();
+  const getSpecialtyBySlug = (slug: string) => specialties.find((specialty) => specialty.slug === slug);
   const knowledgeArticles = await getKnowledgeArticles();
   const categories = Array.from(new Set(knowledgeArticles.map((article) => article.category)));
   const resolvedSearchParams = await searchParams;
@@ -168,6 +167,7 @@ export default async function InsightsPage({ searchParams }: InsightsPageProps) 
   const requestedCategory =
     typeof resolvedSearchParams.category === "string" ? resolvedSearchParams.category.trim() : "";
   const initialCategory = categories.includes(requestedCategory) ? requestedCategory : "Tất cả";
+  const hero = resolveCmsHero(pages["kien-thuc"] ?? null, { eyebrow: "Thư viện y khoa", title: "Kiến thức sức khỏe được biên tập để người bệnh đọc dễ, hiểu đúng và chuẩn bị tốt trước buổi khám.", description: "Mỗi bài viết được liên kết với chuyên khoa và dịch vụ liên quan, giúp người đọc hiểu vấn đề sức khỏe và biết khi nào nên gặp bác sĩ.", imageSrc: "/images/bedside.webp", imageAlt: "Bác sĩ trao đổi thông tin sức khỏe với người bệnh", actions: [{ href: "/dat-lich", label: "Đặt lịch cùng bác sĩ" }, { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" }] });
 
   const browserArticles = knowledgeArticles.map((article) => {
     const specialty = getSpecialtyBySlug(article.specialtySlug);
@@ -259,17 +259,7 @@ export default async function InsightsPage({ searchParams }: InsightsPageProps) 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Kiến thức" }]} />
-      <PageHero
-        eyebrow="Thư viện y khoa"
-        title="Kiến thức sức khỏe được biên tập để người bệnh đọc dễ, hiểu đúng và chuẩn bị tốt trước buổi khám."
-        description="Mỗi bài viết được liên kết với chuyên khoa và dịch vụ liên quan, giúp người đọc hiểu vấn đề sức khỏe và biết khi nào nên gặp bác sĩ."
-        imageSrc="/images/bedside.webp"
-        imageAlt="Bác sĩ trao đổi thông tin sức khỏe với người bệnh"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch cùng bác sĩ" },
-          { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">

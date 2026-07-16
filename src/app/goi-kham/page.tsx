@@ -3,28 +3,19 @@ import { CheckCheck } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import { packageOptions } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Gói khám",
-  description: "Các gói khám sức khỏe tại Bệnh viện Đa khoa Hồng Phúc.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("goi-kham", { title: "Gói khám", description: "Các gói khám sức khỏe tại Bệnh viện Đa khoa Hồng Phúc." });
+}
 
-export default function PackagesPage() {
+export default async function PackagesPage() {
+  const { packageOptions, pages } = await getCmsContent();
+  const hero = resolveCmsHero(pages["goi-kham"] ?? null, { eyebrow: "Gói khám và chương trình chăm sóc", title: "Chọn gói khám phù hợp với độ tuổi, sức khỏe và thời gian của bạn.", description: "Hồng Phúc có các gói khám dành cho cá nhân, phụ nữ, người có nguy cơ ung thư, người bận rộn và doanh nghiệp.", imageSrc: "/images/consultation.webp", imageAlt: "Tư vấn về gói khám sức khỏe", actions: [{ href: "/dat-lich", label: "Đặt lịch theo gói khám" }, { href: "/lien-he", label: "Được tư vấn chọn gói", variant: "secondary" }] });
   return (
     <SiteChrome>
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Gói khám" }]} />
-      <PageHero
-        eyebrow="Gói khám và chương trình chăm sóc"
-        title="Chọn gói khám phù hợp với độ tuổi, sức khỏe và thời gian của bạn."
-        description="Hồng Phúc có các gói khám dành cho cá nhân, phụ nữ, người có nguy cơ ung thư, người bận rộn và doanh nghiệp. Trước khi đăng ký, người bệnh được tư vấn để tránh làm những hạng mục chưa cần thiết."
-        imageSrc="/images/consultation.webp"
-        imageAlt="Tư vấn về gói khám sức khỏe"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch theo gói khám" },
-          { href: "/lien-he", label: "Được tư vấn chọn gói", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-5 lg:grid-cols-3">
           {packageOptions.map((pkg) => (

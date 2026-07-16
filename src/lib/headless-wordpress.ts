@@ -194,6 +194,7 @@ async function fetchWordPressJson<T>(path: string): Promise<T | null> {
       },
       next: {
         revalidate: WORDPRESS_REVALIDATE_SECONDS,
+        tags: ["hong-phuc-cms", "hong-phuc-articles"],
       },
       signal: controller.signal,
     });
@@ -214,15 +215,25 @@ function windowlessSetTimeout(callback: () => void, delay: number) {
   return setTimeout(callback, Number.isFinite(delay) && delay > 0 ? delay : 2500);
 }
 
-async function getWordPressArticles(): Promise<WordPressKnowledgeArticle[]> {
+async function getWordPressArticles(): Promise<WordPressKnowledgeArticle[] | null> {
   const envelope = await fetchWordPressJson<WordPressArticlesEnvelope>(
-    "/index.php?rest_route=/hong-phuc/v1/articles&per_page=100",
+    "/index.php?rest_route=/hong-phuc/v1/articles&per_page=100&include_content=0",
   );
+  if (!envelope) return null;
   const items = Array.isArray(envelope?.items) ? envelope.items : [];
 
   return items
     .map(toWordPressKnowledgeArticle)
     .filter((article): article is WordPressKnowledgeArticle => article !== null);
+}
+
+async function getWordPressArticleBySlug(slug: string): Promise<WordPressKnowledgeArticle | null | undefined> {
+  const envelope = await fetchWordPressJson<WordPressArticlesEnvelope>(
+    `/index.php?rest_route=/hong-phuc/v1/articles&slug=${encodeURIComponent(slug)}&include_content=1`,
+  );
+  if (!envelope) return undefined;
+  const raw = Array.isArray(envelope.items) ? envelope.items[0] : null;
+  return raw ? toWordPressKnowledgeArticle(raw) : null;
 }
 
 function extractTextBlocks(fragment: string) {
@@ -283,23 +294,23 @@ export async function getKnowledgeArticles(): Promise<KnowledgeArticle[]> {
   const staticArticles = articleCatalog.map(toStaticKnowledgeArticle);
   const wordPressArticles = await getWordPressArticles();
 
-  if (wordPressArticles.length === 0) {
+  if (wordPressArticles === null) {
     return staticArticles;
   }
-
-  const wordPressSlugs = new Set(wordPressArticles.map((article) => article.slug));
-  const remainingStaticArticles = staticArticles.filter((article) => !wordPressSlugs.has(article.slug));
-
-  return [...wordPressArticles.map(toPublicArticle), ...remainingStaticArticles];
+  return wordPressArticles.map(toPublicArticle);
 }
 
 export async function getKnowledgeArticleBySlug(slug: string): Promise<KnowledgeArticleDetail | null> {
-  const wordPressArticle = (await getWordPressArticles()).find((article) => article.slug === slug);
+  const wordPressArticle = await getWordPressArticleBySlug(slug);
   if (wordPressArticle) {
     return {
       article: toPublicArticle(wordPressArticle),
       content: makeWordPressArticleDetail(wordPressArticle) ?? getArticleContent(slug),
     };
+  }
+
+  if (wordPressArticle !== undefined) {
+    return null;
   }
 
   const staticArticle = staticArticlesBySlug.get(slug);

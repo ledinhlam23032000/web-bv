@@ -2,31 +2,21 @@ import type { Metadata } from "next";
 import { ActionLink, PageHero } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { symptomGroups } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Tìm theo triệu chứng",
-  description:
-    "Gợi ý nơi khám phù hợp theo các nhóm triệu chứng thường gặp.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("tim-theo-trieu-chung", { title: "Tìm theo triệu chứng", description: "Gợi ý nơi khám phù hợp theo các nhóm triệu chứng thường gặp." });
+}
 
-export default function SymptomPage() {
+export default async function SymptomPage() {
+  const { pages, symptomGroups } = await getCmsContent();
+  const hero = resolveCmsHero(pages["tim-theo-trieu-chung"] ?? null, { eyebrow: "Bắt đầu từ điều người bệnh đang gặp", title: "Chưa biết nên khám khoa nào? Hãy bắt đầu từ triệu chứng.", description: "Chọn nhóm triệu chứng gần nhất để xem chuyên khoa nên đến trước. Gợi ý này không thay thế chẩn đoán của bác sĩ.", imageSrc: "/images/consultation.webp", imageAlt: "Tư vấn trước thăm khám", actions: [{ href: "/dat-lich", label: "Đặt lịch theo nhu cầu" }, { href: "/tim-bac-si", label: "Tìm bác sĩ trước", variant: "secondary" }] });
   return (
     <SiteChrome>
       <Breadcrumbs
         items={[{ label: "Trang chủ", href: "/" }, { label: "Tìm theo triệu chứng" }]}
       />
-      <PageHero
-        eyebrow="Bắt đầu từ điều người bệnh đang gặp"
-        title="Chưa biết nên khám khoa nào? Hãy bắt đầu từ triệu chứng."
-        description="Chọn nhóm triệu chứng gần nhất với tình trạng của bạn để xem chuyên khoa nên đến trước. Gợi ý này không thay thế chẩn đoán của bác sĩ."
-        imageSrc="/images/consultation.webp"
-        imageAlt="Tư vấn trước thăm khám"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch theo nhu cầu" },
-          { href: "/tim-bac-si", label: "Tìm bác sĩ trước", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-5 lg:grid-cols-2">
           {symptomGroups.map((group, index) => (

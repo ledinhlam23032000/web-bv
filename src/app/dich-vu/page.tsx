@@ -4,13 +4,11 @@ import { CheckCircle2, ClipboardList, SearchCheck, ShieldCheck } from "lucide-re
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero, SectionHeading } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import { getSpecialtyBySlug, medicalServices, specialties } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Dịch vụ y tế",
-  description:
-    "Danh mục dịch vụ y tế tại Bệnh viện Đa khoa Hồng Phúc, được sắp xếp theo chuyên khoa và nhu cầu thăm khám.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("dich-vu", { title: "Dịch vụ y tế", description: "Danh mục dịch vụ y tế tại Bệnh viện Đa khoa Hồng Phúc, được sắp xếp theo chuyên khoa và nhu cầu thăm khám." });
+}
 
 const servicePillars = [
   {
@@ -41,21 +39,22 @@ const serviceVisuals = [
   "/images/medical-leadership.webp",
 ];
 
-export default function ServicesPage() {
+export default async function ServicesPage() {
+  const { medicalServices, specialties } = await getCmsContent();
+  const getSpecialtyBySlug = (slug: string) => specialties.find((specialty) => specialty.slug === slug);
+  const { pages } = await getCmsContent();
+  const hero = resolveCmsHero(pages["dich-vu"] ?? null, {
+    eyebrow: "Dịch vụ y tế",
+    title: "Hiểu rõ dịch vụ trước khi đặt lịch khám.",
+    description: "Tìm hiểu dịch vụ phù hợp với ai, cần chuẩn bị gì, được thực hiện như thế nào và chuyên khoa nào phụ trách.",
+    imageSrc: "/images/facility.webp",
+    imageAlt: "Cơ sở vật chất y tế tại Bệnh viện Đa khoa Hồng Phúc",
+    actions: [{ href: "/dat-lich", label: "Đặt lịch tư vấn" }, { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" }],
+  });
   return (
     <SiteChrome>
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Dịch vụ y tế" }]} />
-      <PageHero
-        eyebrow="Dịch vụ y tế"
-        title="Hiểu rõ dịch vụ trước khi đặt lịch khám."
-        description="Tìm hiểu dịch vụ phù hợp với ai, cần chuẩn bị gì, được thực hiện như thế nào và chuyên khoa nào phụ trách."
-        imageSrc="/images/facility.webp"
-        imageAlt="Cơ sở vật chất y tế tại Bệnh viện Đa khoa Hồng Phúc"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch tư vấn" },
-          { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-4 md:grid-cols-3">

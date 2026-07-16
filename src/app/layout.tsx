@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Be_Vietnam_Pro, Noto_Serif } from "next/font/google";
+import { getCmsContent } from "@/lib/cms-content";
 import { getSiteUrl, resolveAbsoluteUrl } from "@/lib/seo";
-import { siteInfo, specialties } from "@/lib/site-content";
 import "./globals.css";
 
 const beVietnamPro = Be_Vietnam_Pro({
@@ -16,82 +16,65 @@ const notoSerif = Noto_Serif({
   weight: ["500", "600", "700", "800"],
 });
 
-const siteSchema = [
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: siteInfo.name,
-    url: resolveAbsoluteUrl("/"),
-    description: siteInfo.description,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${resolveAbsoluteUrl("/kien-thuc")}?query={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Hospital",
-    name: siteInfo.name,
-    url: resolveAbsoluteUrl("/"),
-    description: siteInfo.description,
-    telephone: siteInfo.phone,
-    email: siteInfo.email,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: siteInfo.address,
-      addressCountry: "VN",
-    },
-    areaServed: "Hải Phòng",
-    medicalSpecialty: specialties.map((item) => item.name),
-  },
-];
+export async function generateMetadata(): Promise<Metadata> {
+  const { siteInfo } = await getCmsContent();
+  const seoTitle = siteInfo.seo?.title || siteInfo.name;
+  const seoDescription = siteInfo.seo?.description || siteInfo.description;
+  const socialImage = siteInfo.seo?.socialImage;
 
-export const metadata: Metadata = {
-  metadataBase: new URL(getSiteUrl()),
-  title: {
-    default: "Bệnh viện Đa khoa Hồng Phúc",
-    template: "%s | Bệnh viện Đa khoa Hồng Phúc",
-  },
-  description:
-    "Bệnh viện đa khoa quy mô lớn tại Hải Phòng với hệ chuyên khoa sâu, hợp tác chuyên môn quốc tế trong khu vực, đặt lịch khám và thư viện kiến thức y khoa.",
-  keywords: [
-    "Bệnh viện Đa khoa Hồng Phúc",
-    "bệnh viện đa khoa Hải Phòng",
-    "khám chuyên khoa",
-    "đặt lịch khám",
-    "hợp tác quốc tế y tế",
-    "kiến thức sức khỏe",
-  ],
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
-    title: "Bệnh viện Đa khoa Hồng Phúc",
-    description:
-      "Cổng thông tin bệnh viện đa khoa với chuyên khoa sâu, hợp tác chuyên môn quốc tế, đặt lịch khám và thư viện y khoa.",
-    url: "/",
-    siteName: "Bệnh viện Đa khoa Hồng Phúc",
-    locale: "vi_VN",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Bệnh viện Đa khoa Hồng Phúc",
-    description:
-      "Bệnh viện đa khoa tại Hải Phòng với chuyên khoa sâu, hợp tác chuyên môn quốc tế và thư viện kiến thức sức khỏe.",
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-};
+  return {
+    metadataBase: new URL(getSiteUrl()),
+    title: { default: seoTitle, template: `%s | ${siteInfo.name}` },
+    description: seoDescription,
+    keywords: [siteInfo.name, "bệnh viện đa khoa Hải Phòng", "khám chuyên khoa", "đặt lịch khám", "kiến thức sức khỏe"],
+    alternates: { canonical: "/" },
+    openGraph: {
+      title: seoTitle,
+      description: seoDescription,
+      url: "/",
+      siteName: siteInfo.name,
+      locale: "vi_VN",
+      type: "website",
+      images: socialImage ? [socialImage] : undefined,
+    },
+    twitter: { card: "summary_large_image", title: seoTitle, description: seoDescription, images: socialImage ? [socialImage] : undefined },
+    robots: { index: true, follow: true },
+  };
+}
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const { siteInfo, specialties } = await getCmsContent();
+  const siteSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: siteInfo.name,
+      url: resolveAbsoluteUrl("/"),
+      description: siteInfo.description,
+      potentialAction: {
+        "@type": "SearchAction",
+        target: `${resolveAbsoluteUrl("/kien-thuc")}?query={search_term_string}`,
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Hospital",
+      name: siteInfo.name,
+      url: resolveAbsoluteUrl("/"),
+      description: siteInfo.description,
+      telephone: siteInfo.phone,
+      email: siteInfo.email,
+      address: { "@type": "PostalAddress", streetAddress: siteInfo.address, addressCountry: "VN" },
+      areaServed: "Hải Phòng",
+      medicalSpecialty: specialties.map((item) => item.name),
+    },
+  ];
+
   return (
     <html
       lang="vi"

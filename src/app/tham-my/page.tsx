@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { aestheticServices } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Khoa Tạo hình thẩm mỹ",
-  description:
-    "Dịch vụ phẫu thuật tạo hình và thẩm mỹ tại Bệnh viện Đa khoa Hồng Phúc, chú trọng an toàn, riêng tư và tư vấn rõ ràng.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("tham-my", { title: "Khoa Tạo hình thẩm mỹ", description: "Dịch vụ phẫu thuật tạo hình và thẩm mỹ tại Bệnh viện Đa khoa Hồng Phúc, chú trọng an toàn, riêng tư và tư vấn rõ ràng." });
+}
 
-export default function AestheticPage() {
+export default async function AestheticPage() {
+  const { aestheticServices, pages } = await getCmsContent();
+  const hero = resolveCmsHero(pages["tham-my"] ?? null, { eyebrow: "Khoa Tạo hình thẩm mỹ", title: "Phẫu thuật tạo hình và thẩm mỹ trong môi trường bệnh viện đa khoa.", description: "Mỗi trường hợp được bác sĩ thăm khám riêng, đánh giá sức khỏe và lập kế hoạch chăm sóc sau phẫu thuật.", imageSrc: "/images/consultation.webp", imageAlt: "Tư vấn riêng tư", actions: [{ href: "/lien-he", label: "Gửi yêu cầu tư vấn" }, { href: "/dat-lich", label: "Đặt lịch tư vấn riêng", variant: "secondary" }] });
   return (
     <SiteChrome>
       <Breadcrumbs
@@ -19,17 +19,7 @@ export default function AestheticPage() {
           { label: "Khoa Tạo hình thẩm mỹ" },
         ]}
       />
-      <PageHero
-        eyebrow="Khoa Tạo hình thẩm mỹ"
-        title="Phẫu thuật tạo hình và thẩm mỹ trong môi trường bệnh viện đa khoa."
-        description="Mỗi trường hợp được bác sĩ thăm khám riêng, đánh giá sức khỏe, trao đổi kết quả mong đợi và lập kế hoạch chăm sóc sau phẫu thuật."
-        imageSrc="/images/consultation.webp"
-        imageAlt="Tư vấn riêng tư"
-        actions={[
-          { href: "/lien-he", label: "Gửi yêu cầu tư vấn" },
-          { href: "/dat-lich", label: "Đặt lịch tư vấn riêng", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-5 lg:grid-cols-3">
           {aestheticServices.map((service) => (

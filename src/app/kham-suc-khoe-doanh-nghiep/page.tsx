@@ -2,14 +2,15 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { enterprisePrograms } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Khám sức khỏe doanh nghiệp",
-  description: "Chương trình khám sức khỏe theo đoàn và tư vấn gói khám phù hợp cho doanh nghiệp.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("kham-suc-khoe-doanh-nghiep", { title: "Khám sức khỏe doanh nghiệp", description: "Chương trình khám sức khỏe theo đoàn và tư vấn gói khám phù hợp cho doanh nghiệp." });
+}
 
-export default function EnterpriseHealthPage() {
+export default async function EnterpriseHealthPage() {
+  const { enterprisePrograms, pages } = await getCmsContent();
+  const hero = resolveCmsHero(pages["kham-suc-khoe-doanh-nghiep"] ?? null, { eyebrow: "Khối doanh nghiệp", title: "Khám sức khỏe doanh nghiệp được tổ chức gọn, linh hoạt và dễ theo dõi.", description: "Hồng Phúc tư vấn danh mục khám theo độ tuổi, tính chất công việc và quy mô nhân sự.", imageSrc: "/images/building.webp", imageAlt: "Không gian bệnh viện và doanh nghiệp", actions: [{ href: "/lien-he", label: "Gửi yêu cầu báo giá" }, { href: "/dat-lich", label: "Đặt lịch tư vấn", variant: "secondary" }] });
   return (
     <SiteChrome>
       <Breadcrumbs
@@ -18,17 +19,7 @@ export default function EnterpriseHealthPage() {
           { label: "Khám sức khỏe doanh nghiệp" },
         ]}
       />
-      <PageHero
-        eyebrow="Khối doanh nghiệp"
-        title="Khám sức khỏe doanh nghiệp được tổ chức gọn, linh hoạt và dễ theo dõi."
-        description="Hồng Phúc tư vấn danh mục khám theo độ tuổi, tính chất công việc và quy mô nhân sự; đồng thời hỗ trợ xếp lịch, trả kết quả và báo cáo sức khỏe tổng hợp."
-        imageSrc="/images/building.webp"
-        imageAlt="Không gian bệnh viện và doanh nghiệp"
-        actions={[
-          { href: "/lien-he", label: "Gửi yêu cầu báo giá" },
-          { href: "/dat-lich", label: "Đặt lịch tư vấn", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-5 lg:grid-cols-3">
           {enterprisePrograms.map((program) => (

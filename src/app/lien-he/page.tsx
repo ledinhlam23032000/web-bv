@@ -3,19 +3,11 @@ import { Mail, MapPin, Phone, TimerReset } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero, SectionHeading } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import { siteInfo } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Liên hệ",
-  description: "Thông tin liên hệ và hỗ trợ người bệnh tại Bệnh viện Đa khoa Hồng Phúc.",
-};
-
-const contactCards = [
-  { label: "Tổng đài tư vấn", value: siteInfo.phone, icon: Phone },
-  { label: "Địa chỉ", value: siteInfo.address, icon: MapPin },
-  { label: "Giờ hoạt động", value: siteInfo.hours, icon: TimerReset },
-  { label: "Email hỗ trợ", value: siteInfo.email, icon: Mail },
-];
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("lien-he", { title: "Liên hệ", description: "Thông tin liên hệ và hỗ trợ người bệnh tại Bệnh viện Đa khoa Hồng Phúc." });
+}
 
 const supportSteps = [
   "Mô tả ngắn gọn nhu cầu: đặt lịch, hỏi đường đi, hỏi chuẩn bị trước khám hay hỗ trợ cấp cứu.",
@@ -29,21 +21,19 @@ const emergencyNotes = [
   "Người bệnh có bệnh nền nặng và tình trạng xấu đi nhanh trong vài giờ gần đây.",
 ];
 
-export default function ContactPage() {
+export default async function ContactPage() {
+  const { pages, siteInfo } = await getCmsContent();
+  const contactCards = [
+    { label: "Tổng đài tư vấn", value: siteInfo.phone, icon: Phone },
+    { label: "Địa chỉ", value: siteInfo.address, icon: MapPin },
+    { label: "Giờ hoạt động", value: siteInfo.hours, icon: TimerReset },
+    { label: "Email hỗ trợ", value: siteInfo.email, icon: Mail },
+  ];
+  const hero = resolveCmsHero(pages["lien-he"] ?? null, { eyebrow: "Liên hệ", title: "Liên hệ Hồng Phúc khi bạn cần đặt lịch hoặc hỗ trợ y tế.", description: "Tìm nhanh số tổng đài, địa chỉ, giờ làm việc và hướng dẫn cần thiết trước khi đến bệnh viện.", imageSrc: "/images/building.webp", imageAlt: "Bệnh viện nhìn từ trên cao", actions: [{ href: "/dat-lich", label: "Đặt lịch ngay" }, { href: `tel:${siteInfo.phone.replace(/\s+/g, "")}`, label: "Gọi tổng đài", variant: "secondary" }] });
   return (
     <SiteChrome>
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Liên hệ" }]} />
-      <PageHero
-        eyebrow="Liên hệ"
-        title="Liên hệ Hồng Phúc khi bạn cần đặt lịch hoặc hỗ trợ y tế."
-        description="Tìm nhanh số tổng đài, địa chỉ, giờ làm việc và hướng dẫn cần thiết trước khi đến bệnh viện."
-        imageSrc="/images/building.webp"
-        imageAlt="Bệnh viện nhìn từ trên cao"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch ngay" },
-          { href: `tel:${siteInfo.phone.replace(/\s+/g, "")}`, label: "Gọi tổng đài", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-[1.02fr_0.98fr]">

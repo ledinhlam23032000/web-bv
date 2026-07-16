@@ -4,19 +4,11 @@ import { CalendarDays, Clock3, Search, Stethoscope, Users2 } from "lucide-react"
 import { ActionLink, PageHero, SectionHeading } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
 import { Breadcrumbs } from "@/components/breadcrumbs";
-import { doctorProfiles, specialties } from "@/lib/site-content";
+import { getCmsContent, getCmsPageMetadata, resolveCmsHero } from "@/lib/cms-content";
 
-export const metadata: Metadata = {
-  title: "Tìm bác sĩ",
-  description:
-    "Tra cứu bác sĩ theo chuyên khoa, thế mạnh điều trị và lịch khám tại Bệnh viện Đa khoa Hồng Phúc.",
-};
-
-const doctorStats = [
-  { value: `${doctorProfiles.length}`, label: "hồ sơ bác sĩ tiêu biểu" },
-  { value: `${specialties.length}`, label: "khoa chuyên môn" },
-  { value: "Dễ dàng", label: "đặt lịch và nhận xác nhận" },
-];
+export async function generateMetadata(): Promise<Metadata> {
+  return getCmsPageMetadata("tim-bac-si", { title: "Tìm bác sĩ", description: "Tra cứu bác sĩ theo chuyên khoa, thế mạnh điều trị và lịch khám tại Bệnh viện Đa khoa Hồng Phúc." });
+}
 
 const selectionGuides = [
   "Chọn theo khoa nếu bạn đã biết rõ vấn đề mình đang cần kiểm tra.",
@@ -24,21 +16,25 @@ const selectionGuides = [
   "Chọn theo lịch khám và khả năng theo dõi lâu dài nếu bạn đang điều trị liên tục hoặc có bệnh nền.",
 ];
 
-export default function FindDoctorPage() {
+export default async function FindDoctorPage() {
+  const { doctorProfiles, pages, specialties } = await getCmsContent();
+  const doctorStats = [
+    { value: `${doctorProfiles.length}`, label: "hồ sơ bác sĩ tiêu biểu" },
+    { value: `${specialties.length}`, label: "khoa chuyên môn" },
+    { value: "Dễ dàng", label: "đặt lịch và nhận xác nhận" },
+  ];
+  const hero = resolveCmsHero(pages["tim-bac-si"] ?? null, {
+    eyebrow: "Tra cứu bác sĩ",
+    title: "Chọn đúng bác sĩ cho nhu cầu thăm khám của bạn.",
+    description: "Mỗi hồ sơ được trình bày theo chuyên môn, thế mạnh lâm sàng, lịch khám và dịch vụ liên quan để người bệnh dễ đưa ra quyết định hơn.",
+    imageSrc: "/images/doctor-team-premium.webp",
+    imageAlt: "Đội ngũ bác sĩ Bệnh viện Đa khoa Hồng Phúc",
+    actions: [{ href: "/dat-lich", label: "Đặt lịch với bác sĩ" }, { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" }],
+  });
   return (
     <SiteChrome>
       <Breadcrumbs items={[{ label: "Trang chủ", href: "/" }, { label: "Tìm bác sĩ" }]} />
-      <PageHero
-        eyebrow="Tra cứu bác sĩ"
-        title="Chọn đúng bác sĩ cho nhu cầu thăm khám của bạn."
-        description="Mỗi hồ sơ được trình bày theo chuyên môn, thế mạnh lâm sàng, lịch khám và dịch vụ liên quan để người bệnh dễ đưa ra quyết định hơn."
-        imageSrc="/images/doctor-team-premium.webp"
-        imageAlt="Đội ngũ bác sĩ Bệnh viện Đa khoa Hồng Phúc"
-        actions={[
-          { href: "/dat-lich", label: "Đặt lịch với bác sĩ" },
-          { href: "/tim-theo-trieu-chung", label: "Tìm theo triệu chứng", variant: "secondary" },
-        ]}
-      />
+      <PageHero {...hero} />
 
       <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
         <div className="grid gap-4 md:grid-cols-3">

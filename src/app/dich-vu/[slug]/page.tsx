@@ -4,23 +4,19 @@ import { CalendarDays, CheckCircle2, ClipboardCheck, UserRound } from "lucide-re
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ActionLink, PageHero, SectionHeading } from "@/components/marketing";
 import { SiteChrome } from "@/components/site-chrome";
-import {
-  getDoctorsBySpecialty,
-  getServiceBySlug,
-  getSpecialtyBySlug,
-  medicalServices,
-  siteInfo,
-} from "@/lib/site-content";
+import { getCmsContent } from "@/lib/cms-content";
 
 type Props = PageProps<"/dich-vu/[slug]">;
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { medicalServices } = await getCmsContent();
   return medicalServices.map((service) => ({ slug: service.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const service = getServiceBySlug(slug);
+  const { medicalServices } = await getCmsContent();
+  const service = medicalServices.find((item) => item.slug === slug);
 
   if (!service) {
     return {};
@@ -34,14 +30,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ServiceDetailPage({ params }: Props) {
   const { slug } = await params;
-  const service = getServiceBySlug(slug);
+  const { doctorProfiles, medicalServices, siteInfo, specialties } = await getCmsContent();
+  const service = medicalServices.find((item) => item.slug === slug);
 
   if (!service) {
     notFound();
   }
 
-  const specialty = getSpecialtyBySlug(service.specialtySlug);
-  const doctors = getDoctorsBySpecialty(service.specialtySlug);
+  const specialty = specialties.find((item) => item.slug === service.specialtySlug);
+  const doctors = doctorProfiles.filter((doctor) => doctor.specialtySlug === service.specialtySlug);
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalProcedure",

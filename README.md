@@ -23,7 +23,10 @@
 - Frontend public: Next.js 16 tại `http://localhost:9999`
 - CMS nội dung: WordPress Docker tại `http://localhost:10088`
 - Headless bridge: `src/lib/headless-wordpress.ts`
+- CMS toàn site: `src/lib/cms-content.ts`
 - Plugin WordPress phục vụ REST và redirect public: `wordpress/wp-content/plugins/hong-phuc-core/hong-phuc-core.php`
+
+Hướng dẫn vận hành nội dung: [docs/WORDPRESS-CMS-GUIDE.md](docs/WORDPRESS-CMS-GUIDE.md)
 - Dữ liệu fallback nội bộ: `src/lib/site-content.ts`
 
 ## Quy ước bắt buộc

@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: path.resolve(__dirname),
   },
+  images: {
+    remotePatterns: [
+      { protocol: "http", hostname: "localhost", port: "10088" },
+      { protocol: "https", hostname: "**" },
+    ],
+  },
   async redirects() {
     return [
       { source: "/chuyen-khoa/tim-mach", destination: "/chuyen-khoa/noi#noi-tim-mach", permanent: true },

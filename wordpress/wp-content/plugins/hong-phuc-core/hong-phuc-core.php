@@ -15,6 +15,8 @@ define('HP_CORE_VERSION', '0.1.0');
 define('HP_CORE_PATH', plugin_dir_path(__FILE__));
 define('HP_CORE_URL', plugin_dir_url(__FILE__));
 
+require_once HP_CORE_PATH . 'includes/cms-control.php';
+
 add_action('init', 'hp_core_register_content_types');
 add_action('init', 'hp_core_register_blocks');
 add_action('rest_api_init', 'hp_core_register_headless_routes');
@@ -206,14 +208,24 @@ function hp_core_rest_articles(WP_REST_Request $request): WP_REST_Response
         $per_page = 100;
     }
 
-    $posts = get_posts([
+    $slug = sanitize_title((string) $request->get_param('slug'));
+    $query = [
         'post_type' => 'post',
         'post_status' => 'publish',
-        'posts_per_page' => $per_page,
+        'posts_per_page' => $slug !== '' ? 1 : $per_page,
         'orderby' => ['menu_order' => 'ASC', 'date' => 'DESC'],
-    ]);
+    ];
+    if ($slug !== '') {
+        $query['name'] = $slug;
+    }
 
-    $articles = array_map('hp_core_rest_article_item', $posts);
+    $posts = get_posts($query);
+    $include_content = $slug !== '' || filter_var($request->get_param('include_content'), FILTER_VALIDATE_BOOLEAN);
+
+    $articles = array_map(
+        static fn(WP_Post $post): array => hp_core_rest_article_item($post, $include_content),
+        $posts
+    );
 
     return rest_ensure_response([
         'items' => $articles,
@@ -222,12 +234,12 @@ function hp_core_rest_articles(WP_REST_Request $request): WP_REST_Response
     ]);
 }
 
-function hp_core_rest_article_item(WP_Post $post): array
+function hp_core_rest_article_item(WP_Post $post, bool $include_content = true): array
 {
-    $content = hp_core_rest_render_content($post);
+    $content = $include_content ? hp_core_rest_render_content($post) : '';
     $excerpt = $post->post_excerpt !== ''
         ? $post->post_excerpt
-        : wp_trim_words(wp_strip_all_tags($content), 42, '...');
+        : wp_trim_words(wp_strip_all_tags($include_content ? $content : $post->post_content), 42, '...');
     $categories = get_the_category($post->ID);
     $category = $categories && isset($categories[0]) ? $categories[0]->name : 'Kiến thức';
 
@@ -240,7 +252,7 @@ function hp_core_rest_article_item(WP_Post $post): array
         'readTime' => (string) get_post_meta($post->ID, '_hp_read_time', true),
         'specialtySlug' => (string) get_post_meta($post->ID, '_hp_department_slug', true),
         'focusArea' => (string) get_post_meta($post->ID, '_hp_focus_area', true),
-        'contentHtml' => $content,
+        'contentHtml' => $include_content ? $content : null,
         'modified' => get_post_modified_time('c', true, $post),
         'link' => get_permalink($post),
     ];
@@ -770,7 +782,7 @@ function hp_core_render_importer_page(): void
     }
 
     $result = null;
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['hp_import_seed'])) {
+    if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['hp_import_seed'], $_POST['hp_confirm_seed'])) {
         check_admin_referer('hp_import_seed');
         $result = hp_core_import_seed();
     }
@@ -778,7 +790,8 @@ function hp_core_render_importer_page(): void
     ?>
     <div class="wrap">
         <h1>Nhập dữ liệu Bệnh viện Hồng Phúc</h1>
-        <p>Công cụ này tạo hoặc cập nhật trang chủ, khoa, dịch vụ, bác sĩ, gói khám và 50 bài viết từ file seed của repo.</p>
+        <p><strong>Chỉ dùng khi cài mới hoặc phục hồi khẩn cấp.</strong> Công cụ này tạo hoặc cập nhật trang chủ, khoa, dịch vụ, bác sĩ, gói khám và 50 bài viết từ file seed của repo.</p>
+        <p>Không chạy lại sau khi nhân viên đã sửa nội dung thật trong WordPress vì dữ liệu demo có thể ghi đè các mục cùng đường dẫn.</p>
         <?php if (is_array($result)) : ?>
             <div class="notice notice-success is-dismissible">
                 <p>
@@ -793,6 +806,7 @@ function hp_core_render_importer_page(): void
         <?php endif; ?>
         <form method="post">
             <?php wp_nonce_field('hp_import_seed'); ?>
+            <p><label><input type="checkbox" name="hp_confirm_seed" value="1" required /> Tôi hiểu đây là thao tác khôi phục dữ liệu demo và có thể ghi đè nội dung.</label></p>
             <p>
                 <button type="submit" name="hp_import_seed" class="button button-primary button-hero">
                     Import / Update dữ liệu demo
@@ -816,7 +830,9 @@ function hp_core_import_seed(): array
     hp_core_update_site_options($seed['siteInfo'] ?? []);
     update_option('hp_featured_departments', $seed['featuredDepartments'] ?? []);
     update_option('hp_symptom_groups', $seed['symptomGroups'] ?? []);
+    hp_cms_seed_content($seed);
     hp_core_seed_pages();
+    hp_cms_seed_page_presentations();
 
     $counts = [
         'departments' => 0,
@@ -836,7 +852,10 @@ function hp_core_import_seed(): array
             [
                 '_hp_image' => $department['heroImage'] ?? '',
                 '_hp_group' => $department['group'] ?? '',
+                '_hp_overview' => $department['overview'] ?? '',
+                '_hp_signs' => implode("\n", $department['signs'] ?? []),
                 '_hp_focus_areas' => wp_json_encode($department['focusAreas'] ?? []),
+                '_hp_payload' => wp_json_encode($department, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
             ],
             [
                 'hp_department_group' => [$department['group'] ?? ''],
@@ -858,6 +877,10 @@ function hp_core_import_seed(): array
                 '_hp_department_slug' => $service['specialtySlug'] ?? '',
                 '_hp_focus_area' => $service['focusArea'] ?? '',
                 '_hp_image' => hp_core_service_image($index),
+                '_hp_audience' => implode("\n", $service['audience'] ?? []),
+                '_hp_process' => implode("\n", $service['process'] ?? []),
+                '_hp_preparation' => $service['preparation'] ?? '',
+                '_hp_payload' => wp_json_encode($service, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
             ],
             [
                 'hp_focus_area' => [$service['focusArea'] ?? ''],
@@ -879,6 +902,9 @@ function hp_core_import_seed(): array
                 '_hp_schedule' => $doctor['schedule'] ?? '',
                 '_hp_department_slug' => $doctor['specialtySlug'] ?? '',
                 '_hp_image' => $doctor['image'] ?? '',
+                '_hp_bio' => $doctor['bio'] ?? '',
+                '_hp_credentials' => implode("\n", $doctor['credentials'] ?? []),
+                '_hp_payload' => wp_json_encode($doctor, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
             ],
             [],
             $index
@@ -894,7 +920,10 @@ function hp_core_import_seed(): array
             $package['name'],
             hp_core_package_content($package),
             $package['description'] ?? '',
-            [],
+            [
+                '_hp_includes' => implode("\n", $package['includes'] ?? []),
+                '_hp_payload' => wp_json_encode($package, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
+            ],
             [],
             $index
         );
@@ -938,7 +967,15 @@ function hp_core_seed_pages(): void
         'chuyen-khoa' => ['Chuyên khoa', '<!-- wp:hong-phuc/department-showcase /-->'],
         'dich-vu' => ['Dịch vụ', '<!-- wp:hong-phuc/service-showcase /-->'],
         'bac-si' => ['Bác sĩ', '<!-- wp:hong-phuc/doctor-showcase /-->'],
+        'tim-bac-si' => ['Tìm bác sĩ', '<!-- wp:hong-phuc/doctor-showcase /-->'],
+        'doi-ngu-bac-si' => ['Đội ngũ bác sĩ', '<!-- wp:hong-phuc/doctor-showcase /-->'],
         'kien-thuc' => ['Kiến thức', '<!-- wp:hong-phuc/article-showcase /-->'],
+        'goi-kham' => ['Gói khám', '<!-- wp:hong-phuc/packages-symptoms /-->'],
+        'tim-theo-trieu-chung' => ['Tìm theo triệu chứng', '<!-- wp:hong-phuc/packages-symptoms /-->'],
+        'hop-tac-quoc-te' => ['Hợp tác quốc tế', '<!-- wp:hong-phuc/quality-band /-->'],
+        'huong-dan-khach-hang' => ['Hướng dẫn người bệnh', '<!-- wp:hong-phuc/quick-actions /-->'],
+        'kham-suc-khoe-doanh-nghiep' => ['Khám sức khỏe doanh nghiệp', '<!-- wp:hong-phuc/packages-symptoms /-->'],
+        'tham-my' => ['Khoa Tạo hình thẩm mỹ', '<!-- wp:hong-phuc/service-showcase /-->'],
         'dat-lich' => ['Đặt lịch', '<!-- wp:hong-phuc/cta {"title":"Đặt lịch khám tại Bệnh viện Đa khoa Hồng Phúc","description":"Để lại thông tin, bộ phận chăm sóc khách hàng sẽ gọi lại để xác nhận thời gian và chuyên khoa phù hợp."} /-->'],
         'lien-he' => ['Liên hệ', '<!-- wp:hong-phuc/cta {"title":"Cần hỗ trợ nhanh?","description":"Gọi tổng đài hoặc gửi thông tin để được hướng dẫn trước khi đến bệnh viện.","buttonLabel":"Gọi tổng đài","buttonUrl":"tel:0987126688"} /-->'],
     ];
