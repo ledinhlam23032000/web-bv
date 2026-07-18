@@ -166,9 +166,14 @@ img {
 .marquee-track {
   display: flex;
   width: max-content;
-  min-width: 200%;
   animation: marquee-left 32s linear infinite;
   will-change: transform;
+}
+
+.marquee-group {
+  display: flex;
+  flex-shrink: 0;
+  width: max-content;
 }
 
 .marquee-item {

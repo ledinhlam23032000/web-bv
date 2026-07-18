@@ -181,7 +181,7 @@ async function fetchWordPressContent(): Promise<WordPressContent | null> {
 
 function collection<K extends keyof CmsContent>(content: WordPressContent, key: K): CmsContent[K] {
   const value = content[key as keyof WordPressContent];
-  return (Array.isArray(value) ? value : fallbackContent[key]) as CmsContent[K];
+  return (Array.isArray(value) && value.length > 0 ? value : fallbackContent[key]) as CmsContent[K];
 }
 
 function mergeItems<T extends Record<string, unknown>>(

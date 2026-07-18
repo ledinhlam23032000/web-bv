@@ -212,11 +212,15 @@ export default async function Home() {
 
       <section style={sectionStyle("hong-phuc/hero")} className="overflow-hidden border-y border-white/10 bg-[var(--color-brand-deep)] text-white">
         <div className="marquee-track py-3 text-sm font-bold uppercase tracking-[0.18em] text-white/78">
-          {[...marqueeItems, ...marqueeItems].map((item, index) => (
-            <span key={`${item}-${index}`} className="marquee-item">
-              <span className="h-2 w-2 rounded-full bg-[var(--color-gold)]" />
-              {item}
-            </span>
+          {[0, 1].map((copy) => (
+            <div key={copy} className="marquee-group" aria-hidden={copy === 1}>
+              {marqueeItems.map((item) => (
+                <span key={`${copy}-${item}`} className="marquee-item">
+                  <span className="h-2 w-2 rounded-full bg-[var(--color-gold)]" />
+                  {item}
+                </span>
+              ))}
+            </div>
           ))}
         </div>
       </section>
