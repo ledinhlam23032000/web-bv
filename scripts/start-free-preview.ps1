@@ -49,9 +49,11 @@ Set-Location $repoRoot
 New-Item -ItemType Directory -Force -Path $logsDir | Out-Null
 
 Write-Step "Dam bao frontend local dang chay"
-& (Join-Path $PSScriptRoot "start-personal-server.ps1") @(
-    if ($SkipBuild) { "-SkipBuild" }
-)
+if ($SkipBuild) {
+    & (Join-Path $PSScriptRoot "start-personal-server.ps1") -SkipBuild
+} else {
+    & (Join-Path $PSScriptRoot "start-personal-server.ps1")
+}
 
 Write-Step "Dung preview tunnel cu neu co"
 Stop-PreviewTunnel
