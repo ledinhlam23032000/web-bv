@@ -27,6 +27,13 @@ Tài liệu này dùng khi web lỗi, mất máy, đổi người vận hành ho
 2. Nếu muốn bản public có thể truy cập từ mạng nội bộ, mở `Chay-Hong-Phuc-Internet.bat`.
 3. Kiểm tra lại `http://localhost:9999`.
 
+### Tự khởi động sau khi máy tính bật lại
+
+1. Chạy `Cai-Tu-Dong-Khoi-Dong-Hong-Phuc.bat` một lần trên tài khoản Windows vận hành máy chủ.
+2. Windows Task Scheduler sẽ chạy frontend `9999` sau mỗi lần đăng nhập.
+3. Nếu tiến trình Next.js dừng do lỗi, tác vụ sẽ thử khởi động lại sau một phút.
+4. Cloudflare Tunnel và Docker vẫn phải được cấu hình tự khởi động riêng.
+
 ### Trường hợp WordPress CMS ở `10088` không vào được
 
 1. Mở `Chay-Hong-Phuc-WordPress-10088.bat`.
