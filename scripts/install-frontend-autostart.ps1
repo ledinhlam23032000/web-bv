@@ -5,16 +5,20 @@ param(
 $ErrorActionPreference = "Stop"
 
 $runner = Join-Path $PSScriptRoot "run-frontend-9999.ps1"
-$powershell = Join-Path $PSHOME "powershell.exe"
+$hiddenRunner = Join-Path $PSScriptRoot "run-frontend-9999-hidden.vbs"
+$wscript = Join-Path $env:WINDIR "System32\wscript.exe"
 $currentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
 
 if (-not (Test-Path -LiteralPath $runner)) {
     throw "Khong tim thay script khoi dong: $runner"
 }
+if (-not (Test-Path -LiteralPath $hiddenRunner)) {
+    throw "Khong tim thay script chay ngam: $hiddenRunner"
+}
 
-$arguments = "-NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$runner`""
+$arguments = "`"$hiddenRunner`""
 $action = New-ScheduledTaskAction `
-    -Execute $powershell `
+    -Execute $wscript `
     -Argument $arguments `
     -WorkingDirectory (Split-Path -Parent $PSScriptRoot)
 $logonTrigger = New-ScheduledTaskTrigger -AtLogOn -User $currentUser
@@ -42,7 +46,7 @@ Register-ScheduledTask `
     -Trigger @($logonTrigger, $watchdogTrigger) `
     -Principal $principal `
     -Settings $settings `
-    -Description "Kiem tra website Hong Phuc moi phut va tu khoi phuc frontend cong 9999 khi can." `
+    -Description "Kiem tra ngam website Hong Phuc moi phut va tu khoi phuc frontend cong 9999 khi can." `
     -Force | Out-Null
 
 Write-Host "Da cai watchdog tu khoi phuc website: $TaskName" -ForegroundColor Green
