@@ -30,8 +30,8 @@ Tài liệu này dùng khi web lỗi, mất máy, đổi người vận hành ho
 ### Tự khởi động sau khi máy tính bật lại
 
 1. Chạy `Cai-Tu-Dong-Khoi-Dong-Hong-Phuc.bat` một lần trên tài khoản Windows vận hành máy chủ.
-2. Windows Task Scheduler sẽ chạy frontend `9999` sau mỗi lần đăng nhập.
-3. Nếu tiến trình Next.js dừng do lỗi, tác vụ sẽ thử khởi động lại sau một phút.
+2. Windows Task Scheduler sẽ kiểm tra frontend `9999` sau khi đăng nhập và lặp lại mỗi phút.
+3. Nếu tiến trình Next.js dừng hoặc không trả HTTP 200, watchdog sẽ mở một tiến trình độc lập và kiểm tra lại kết quả.
 4. Cloudflare Tunnel và Docker vẫn phải được cấu hình tự khởi động riêng.
 
 ### Trường hợp WordPress CMS ở `10088` không vào được

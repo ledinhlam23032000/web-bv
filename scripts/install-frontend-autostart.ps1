@@ -17,7 +17,12 @@ $action = New-ScheduledTaskAction `
     -Execute $powershell `
     -Argument $arguments `
     -WorkingDirectory (Split-Path -Parent $PSScriptRoot)
-$trigger = New-ScheduledTaskTrigger -AtLogOn -User $currentUser
+$logonTrigger = New-ScheduledTaskTrigger -AtLogOn -User $currentUser
+$watchdogTrigger = New-ScheduledTaskTrigger `
+    -Once `
+    -At (Get-Date).AddMinutes(1) `
+    -RepetitionInterval (New-TimeSpan -Minutes 1) `
+    -RepetitionDuration (New-TimeSpan -Days 3650)
 $principal = New-ScheduledTaskPrincipal `
     -UserId $currentUser `
     -LogonType Interactive `
@@ -28,16 +33,16 @@ $settings = New-ScheduledTaskSettingsSet `
     -StartWhenAvailable `
     -RestartCount 99 `
     -RestartInterval (New-TimeSpan -Minutes 1) `
-    -ExecutionTimeLimit ([TimeSpan]::Zero) `
+    -ExecutionTimeLimit (New-TimeSpan -Minutes 2) `
     -MultipleInstances IgnoreNew
 
 Register-ScheduledTask `
     -TaskName $TaskName `
     -Action $action `
-    -Trigger $trigger `
+    -Trigger @($logonTrigger, $watchdogTrigger) `
     -Principal $principal `
     -Settings $settings `
-    -Description "Tu dong chay website Benh vien Da khoa Hong Phuc tai cong 9999 khi dang nhap Windows." `
+    -Description "Kiem tra website Hong Phuc moi phut va tu khoi phuc frontend cong 9999 khi can." `
     -Force | Out-Null
 
-Write-Host "Da cai tu dong khoi dong: $TaskName" -ForegroundColor Green
+Write-Host "Da cai watchdog tu khoi phuc website: $TaskName" -ForegroundColor Green

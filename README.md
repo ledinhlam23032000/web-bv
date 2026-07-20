@@ -53,7 +53,7 @@ Hướng dẫn vận hành nội dung: [docs/WORDPRESS-CMS-GUIDE.md](docs/WORDPR
 ### Tự chạy lại sau khi khởi động Windows
 
 - Mở [Cai-Tu-Dong-Khoi-Dong-Hong-Phuc.bat](C:/Users/PC/Documents/Codex/2026-07-11/b-nh-vi-n-a-khoa/work/hong-phuc-site/Cai-Tu-Dong-Khoi-Dong-Hong-Phuc.bat) một lần.
-- Frontend `9999` sẽ tự chạy sau khi tài khoản vận hành đăng nhập Windows và tự thử lại nếu Next.js thoát lỗi.
+- Watchdog sẽ kiểm tra frontend `9999` mỗi phút và tự mở lại một tiến trình độc lập nếu website không còn trả HTTP 200.
 
 ### Tạo link xem thử miễn phí
 
