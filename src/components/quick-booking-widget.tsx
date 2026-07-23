@@ -91,6 +91,7 @@ export function QuickBookingWidget({
         type="button"
         onClick={handleFloatingClick}
         data-quick-booking-trigger="true"
+        data-analytics-event="quick_booking_open"
         className="group fixed bottom-24 right-4 z-[70] flex items-center gap-2 rounded-full bg-[var(--color-brand)] p-2 text-white shadow-[0_22px_70px_-32px_rgba(0,104,132,0.92)] transition hover:-translate-y-1 hover:bg-[var(--color-brand-strong)] lg:bottom-8 lg:right-8"
         aria-label="Mở đặt lịch nhanh"
       >
@@ -198,6 +199,7 @@ export function QuickBookingWidget({
 
                 <button
                   type="submit"
+                  data-analytics-event="quick_booking_submit"
                   className="flex w-full items-center justify-center rounded-full bg-[var(--color-brand)] px-5 py-4 text-sm font-bold text-white shadow-[0_18px_42px_-30px_rgba(0,104,132,0.92)] transition hover:-translate-y-0.5 hover:bg-[var(--color-brand-strong)]"
                 >
                   Gửi yêu cầu đặt lịch nhanh

@@ -314,6 +314,7 @@ export function AppointmentFlow({
                   <button
                     type="button"
                     onClick={() => setSubmitted(true)}
+                    data-analytics-event="appointment_submit"
                     className="inline-flex items-center rounded-lg bg-[var(--color-brand)] px-5 py-3 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-[var(--color-brand-strong)]"
                   >
                     <CalendarDays className="mr-2 h-4 w-4" />

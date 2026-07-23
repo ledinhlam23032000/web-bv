@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Be_Vietnam_Pro, Noto_Serif } from "next/font/google";
 import { getCmsContent } from "@/lib/cms-content";
 import { getSiteUrl, resolveAbsoluteUrl } from "@/lib/seo";
+import { SiteAnalytics } from "@/components/site-analytics";
 import "./globals.css";
 
 const beVietnamPro = Be_Vietnam_Pro({
@@ -87,6 +88,7 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteSchema) }}
         />
         {children}
+        <SiteAnalytics />
       </body>
     </html>
   );

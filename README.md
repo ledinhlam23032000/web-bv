@@ -17,6 +17,7 @@
 - Sơ đồ trang và phạm vi nội dung: [docs/SITE-MAP.md](./docs/SITE-MAP.md)
 - Hướng dẫn chạy máy cá nhân làm máy chủ tạm: [docs/PERSONAL-PC-SERVER.md](./docs/PERSONAL-PC-SERVER.md)
 - Ghi chú triển khai: [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md)
+- Theo dõi lượt xem và tương tác: [docs/ANALYTICS.md](./docs/ANALYTICS.md)
 
 ## Kiến trúc hiện tại
 
